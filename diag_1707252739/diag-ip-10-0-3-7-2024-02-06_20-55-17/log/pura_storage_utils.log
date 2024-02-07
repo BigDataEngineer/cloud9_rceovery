@@ -1,0 +1,4 @@
+4.1.2 2024-02-06 04:33:33,932 INFO 140167038342976 - /opt/splunk/etc/apps/python_upgrade_readiness_app/local/storage does not exist so creating it.
+4.1.2 2024-02-06 04:33:33,933 INFO 140167038342976 - /opt/splunk/etc/apps/python_upgrade_readiness_app/local/storage/pra_schedule_scan does not exist so creating it.
+4.1.2 2024-02-06 04:33:33,933 INFO 140167038342976 - /opt/splunk/etc/apps/python_upgrade_readiness_app/local/storage/pra_schedule_scan/pra_schedule_scan__GOEL-LICENSE.json does not exist so creating it.
+4.1.2 2024-02-06 08:10:57,018 INFO 140627846072128 - /opt/splunk/etc/apps/python_upgrade_readiness_app/local/storage/pra_schedule_scan/pra_schedule_scan__GOEL-DS-LM-MC.json does not exist so creating it.

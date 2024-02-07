@@ -1,0 +1,182 @@
+02-06-2024 20:20:51.885 INFO  dispatchRunner [29684 MainThread] - Search process mode: preforked (reused process) (build b985591d12fd).
+02-06-2024 20:20:51.885 INFO  dispatchRunner [29684 MainThread] - registering build time modules, count=1
+02-06-2024 20:20:51.886 INFO  dispatchRunner [29684 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:20:51.886 INFO  BundlesSetup [29684 MainThread] - Setup stats for /opt/splunk/etc: wallclock_elapsed_msec=24, cpu_time_used=0.0126211, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:20:51.892 INFO  UserManagerPro [29684 MainThread] - Load authentication: forcing roles="admin, can_delete, power, user"
+02-06-2024 20:20:51.892 INFO  UserManager [30615 RunDispatch] - Setting user context: admin
+02-06-2024 20:20:51.892 INFO  UserManager [30615 RunDispatch] - Done setting user context: NULL -> admin
+02-06-2024 20:20:51.892 INFO  dispatchRunner [30615 RunDispatch] - search context: user="admin", app="search", bs-pathname="/opt/splunk/etc"
+02-06-2024 20:20:51.893 INFO  SearchParser [30615 RunDispatch] - PARSING: search index=infra source=*cisco_ironport_web.log* url="*.exe*" OR url="*.bat*"
+02-06-2024 20:20:51.893 INFO  dispatchRunner [30615 RunDispatch] - Search running in non-clustered mode
+02-06-2024 20:20:51.893 INFO  dispatchRunner [30615 RunDispatch] - SearchHeadInitSearchMs=0
+02-06-2024 20:20:51.893 INFO  dispatchRunner [30615 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=false).
+02-06-2024 20:20:51.893 INFO  SearchOrchestrator [30615 RunDispatch] - SearchOrchestrator getting constructed
+02-06-2024 20:20:51.893 INFO  SearchOrchestrator [30615 RunDispatch] -  Initialized the SRI
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Initializing feature flags from config. feature_seed=2900771014
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:20:51.893 INFO  SearchFeatureFlags [30615 RunDispatch] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:20:51.893 INFO  SearchOrchestrator [30615 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2","search:read_final_results_from_timeliner"],"disabledFeatures":["search:search_retry","search:search_retry_realtime","parallelreduce:autoAppliedPercentage","subsearch:enableConcurrentPipelineProcessing","search_optimization::set_required_fields:stats","searchresults:srs2"]}
+02-06-2024 20:20:51.893 INFO  ISplunkDispatch [30615 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+02-06-2024 20:20:51.893 INFO  SearchOrchestrator [30618 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+02-06-2024 20:20:51.894 INFO  UserManager [30618 searchOrchestrator] - Setting user context: admin
+02-06-2024 20:20:51.894 INFO  UserManager [30618 searchOrchestrator] - Done setting user context: NULL -> admin
+02-06-2024 20:20:51.894 INFO  AdaptiveSearchEngineSelector [30618 searchOrchestrator] - Search execution_plan=classic
+02-06-2024 20:20:51.894 INFO  SearchOrchestrator [30618 searchOrchestrator] - Creating the search DAG.
+02-06-2024 20:20:51.894 INFO  SearchParser [30618 searchOrchestrator] - PARSING: search index=infra source=*cisco_ironport_web.log* url="*.exe*" OR url="*.bat*"
+02-06-2024 20:20:51.894 INFO  DispatchStorageManagerInfo [30618 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=ea3640750ca9f30e_tmp dispatch_dir=/opt/splunk/var/run/splunk/dispatch/ea3640750ca9f30e_tmp
+02-06-2024 20:20:51.903 INFO  SearchProcessor [30618 searchOrchestrator] - Building search filter
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:20:51.911 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  sourcetype expansions took 0 ms
+02-06-2024 20:20:51.911 INFO  UnifiedSearch [30618 searchOrchestrator] - Expanded index search = (index=infra source=*cisco_ironport_web.log* (url="*.exe*" OR url="*.bat*"))
+02-06-2024 20:20:51.911 INFO  UnifiedSearch [30618 searchOrchestrator] - base lispy: [ AND index::infra source::*cisco_ironport_web.log* [ OR bat* exe* url::*.bat* url::*.exe* ] ]
+02-06-2024 20:20:51.912 INFO  UnifiedSearch [30618 searchOrchestrator] - No indexes to search
+02-06-2024 20:20:51.912 INFO  UnifiedSearch [30618 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:51.912 INFO  DispatchThread [30618 searchOrchestrator] - BatchMode: allowBatchMode: 0, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):1, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+02-06-2024 20:20:51.912 INFO  DispatchThread [30618 searchOrchestrator] - Setup timeliner partialCommits=1
+02-06-2024 20:20:51.912 INFO  DispatchThread [30618 searchOrchestrator] - required fields list to add to remote search = _bkt,_cd,_si,host,index,linecount,source,sourcetype,splunk_server
+02-06-2024 20:20:51.912 INFO  SearchParser [30618 searchOrchestrator] - PARSING: fields keepcolorder=t "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server"
+02-06-2024 20:20:51.912 INFO  DispatchCommandProcessor [30618 searchOrchestrator] - summaryHash=1982fdb2fb220e77 summaryId=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_1982fdb2fb220e77 remoteSearch=litsearch (index=infra source=*cisco_ironport_web.log* (url="*.exe*" OR url="*.bat*")) | fields  keepcolorder=t "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server"
+02-06-2024 20:20:51.912 INFO  DispatchCommandProcessor [30618 searchOrchestrator] - summaryHash=NS1e5bf00444fa1e3e summaryId=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_NS1e5bf00444fa1e3e remoteSearch=litsearch (index=infra source=*cisco_ironport_web.log* (url="*.exe*" OR url="*.bat*")) | fields keepcolorder=t "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server"
+02-06-2024 20:20:51.912 INFO  DispatchThread [30618 searchOrchestrator] - Getting summary ID for summaryHash=NS1e5bf00444fa1e3e
+02-06-2024 20:20:51.912 INFO  SearchParser [30618 searchOrchestrator] - PARSING: search index=infra source=*cisco_ironport_web.log* url="*.exe*" OR url="*.bat*"
+02-06-2024 20:20:51.913 INFO  UnifiedSearch [30618 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:51.913 INFO  AstOptimizer [30618 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000502727
+02-06-2024 20:20:51.913 INFO  AstVisitorFactory [30618 searchOrchestrator] - Not building visitor : replace_datamodel_stats_cmds_with_tstats
+02-06-2024 20:20:51.913 INFO  SearchParser [30618 searchOrchestrator] - PARSING: | search (index=infra source=*cisco_ironport_web.log* (url="*.exe*" OR url="*.bat*"))
+02-06-2024 20:20:51.913 INFO  FederatedInfo [30618 searchOrchestrator] - No federated search providers defined.
+02-06-2024 20:20:51.913 INFO  ReplaceTableWithFieldsVisitor [30618 searchOrchestrator] - search_optimization::replace_table_with_fields disabled due to VERBOSE Mode search
+02-06-2024 20:20:51.913 INFO  AstVisitorFactory [30618 searchOrchestrator] - Not building visitor : replace_table_with_fields
+02-06-2024 20:20:51.913 INFO  ProjElim [30618 searchOrchestrator] - Black listed processors=[addinfo]
+02-06-2024 20:20:51.913 INFO  ReplaceWithTstatsVisitorBase [30618 searchOrchestrator] - Cannot build ReplaceWithTstatsVisitorBase as we need to generate a timeline (info._buckets = true)
+02-06-2024 20:20:51.913 INFO  AstVisitorFactory [30618 searchOrchestrator] - Not building visitor : replace_stats_cmds_with_tstats
+02-06-2024 20:20:51.913 INFO  ReplaceWithTstatsVisitorBase [30618 searchOrchestrator] - Cannot build ReplaceWithTstatsVisitorBase as we need to generate a timeline (info._buckets = true)
+02-06-2024 20:20:51.913 INFO  AstVisitorFactory [30618 searchOrchestrator] - Not building visitor : replace_chart_cmds_with_tstats
+02-06-2024 20:20:51.913 INFO  AstOptimizer [30618 searchOrchestrator] - SrchOptMetrics optimization=0.000373063
+02-06-2024 20:20:51.914 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Optimized Search =| search (index=infra source=*cisco_ironport_web.log* (url="*.bat*" OR url="*.exe*"))
+02-06-2024 20:20:51.914 INFO  ScopedTimer [30618 searchOrchestrator] - search.optimize 0.001253512
+02-06-2024 20:20:51.914 INFO  FederatedProviderVisitor [30618 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+02-06-2024 20:20:51.914 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Number of involved federated deployments is 0.
+02-06-2024 20:20:51.915 INFO  PhaseToPipelineVisitor [30618 searchOrchestrator] - Phase Search = | search (index=infra source=*cisco_ironport_web.log* (url="*.bat*" OR url="*.exe*"))
+02-06-2024 20:20:51.915 INFO  SearchParser [30618 searchOrchestrator] - PARSING: | search (index=infra source=*cisco_ironport_web.log* (url="*.bat*" OR url="*.exe*"))
+02-06-2024 20:20:51.922 INFO  SearchProcessor [30618 searchOrchestrator] - Building search filter
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:20:51.930 INFO  SearchEvaluatorBasedExpander [30618 searchOrchestrator] -  sourcetype expansions took 0 ms
+02-06-2024 20:20:51.930 INFO  UnifiedSearch [30618 searchOrchestrator] - Expanded index search = (index=infra source=*cisco_ironport_web.log* (url="*.bat*" OR url="*.exe*"))
+02-06-2024 20:20:51.931 INFO  UnifiedSearch [30618 searchOrchestrator] - base lispy: [ AND index::infra source::*cisco_ironport_web.log* [ OR bat* exe* url::*.bat* url::*.exe* ] ]
+02-06-2024 20:20:51.931 INFO  UnifiedSearch [30618 searchOrchestrator] - No indexes to search
+02-06-2024 20:20:51.931 INFO  UnifiedSearch [30618 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:51.931 INFO  PhaseToPipelineVisitor [30618 searchOrchestrator] - Phase Search = 
+02-06-2024 20:20:51.931 INFO  SearchPipeline [30618 searchOrchestrator] - ReportSearch=0 AllowBatchMode=0
+02-06-2024 20:20:51.931 INFO  SearchPhaseParserControl [30618 searchOrchestrator] - Adding SimpleResultsCombiner to merge remote input into correct time order.
+02-06-2024 20:20:51.931 INFO  SearchParser [30618 searchOrchestrator] - PARSING: simpleresultcombiner max=0
+02-06-2024 20:20:51.931 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Storing only 1000 events per timeline buckets due to limits.conf max_events_per_bucket setting.
+02-06-2024 20:20:51.931 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Timeline information will be computed remotely
+02-06-2024 20:20:51.931 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - No need for RTWindowProcessor
+02-06-2024 20:20:51.931 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Adding timeliner to final phase
+02-06-2024 20:20:51.931 INFO  SearchParser [30618 searchOrchestrator] - PARSING: | timeliner remote=1 partial_commits=1 max_events_per_bucket=1000 fieldstats_update_maxperiod=60 bucket=300
+02-06-2024 20:20:51.932 INFO  TimelineCreator [30618 searchOrchestrator] - Creating timeline with remote=1 partialCommits=1 commitFreq=0 syncKSFreq=0 maxSyncKSPeriodTime=60000 bucket=300 latestTime=1707250851.000000 earliestTime=1707163200.000000
+02-06-2024 20:20:51.932 INFO  SimpleResultsCombiner [30618 searchOrchestrator] - Base tmp dir removed.
+02-06-2024 20:20:51.932 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - required fields list to add to different pipelines = _bkt,_cd,_si,host,index,linecount,source,sourcetype,splunk_server
+02-06-2024 20:20:51.932 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Remote Timeliner= | remotetl nb=300 et=1707163200.000000 lt=1707250851.000000 remove=true max_count=1000 max_prefetch=100
+02-06-2024 20:20:51.932 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Fileds=fields keepcolorder=t "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server" | remotetl nb=300 et=1707163200.000000 lt=1707250851.000000 remove=true max_count=1000 max_prefetch=100
+02-06-2024 20:20:51.932 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - REMOTE TIMELINER ADDED
+02-06-2024 20:20:51.932 INFO  SearchParser [30618 searchOrchestrator] - PARSING: fields keepcolorder=t "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server" | remotetl nb=300 et=1707163200.000000 lt=1707250851.000000 remove=true max_count=1000 max_prefetch=100
+02-06-2024 20:20:51.932 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Search Phases created.
+02-06-2024 20:20:51.933 INFO  SearchOrchestrator [30618 searchOrchestrator] - Preview is enabled for Search Head only. (preview_algorithm=SEARCH_HEAD)
+02-06-2024 20:20:51.933 INFO  UserManager [30618 searchOrchestrator] - Setting user context: admin
+02-06-2024 20:20:51.933 INFO  UserManager [30618 searchOrchestrator] - Done setting user context: admin -> admin
+02-06-2024 20:20:51.933 INFO  UserManager [30618 searchOrchestrator] - Unwound user context: admin -> admin
+02-06-2024 20:20:51.933 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Stream search: litsearch (index=infra source=*cisco_ironport_web.log* (url="*.bat*" OR url="*.exe*")) | fields  keepcolorder=t "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=1707163200.000000 lt=1707250851.000000 remove=true max_count=1000 max_prefetch=100
+02-06-2024 20:20:51.933 INFO  ExternalResultProvider [30618 searchOrchestrator] - No external result providers are configured
+02-06-2024 20:20:51.933 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+02-06-2024 20:20:51.933 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+02-06-2024 20:20:51.933 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Default search group:*
+02-06-2024 20:20:51.933 INFO  SearchTargeter [30618 searchOrchestrator] - Index list is not available for GOEL-Indexer1 targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:20:51.933 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Connecting to peer GOEL-Indexer1 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:20:51.933 INFO  SearchTargeter [30618 searchOrchestrator] - Index list is not available for GOEL-Indexer2 targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:20:51.933 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Connecting to peer GOEL-Indexer2 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:20:51.933 INFO  SearchTargeter [30618 searchOrchestrator] - Index list is not available for GOEL-Indexer3 targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:20:51.933 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Connecting to peer GOEL-Indexer3 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:20:51.933 INFO  SearchTargeter [30618 searchOrchestrator] - Index list is not available for GOEL-SearchHead targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:20:51.933 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Connecting to peer GOEL-SearchHead connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:20:51.935 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer1 in 0.002 seconds
+02-06-2024 20:20:51.936 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer2 in 0.002 seconds
+02-06-2024 20:20:51.938 INFO  DistributedSearchResultCollectionManager [30618 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer3 in 0.002 seconds
+02-06-2024 20:20:51.938 INFO  UserManager [30623 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:20:51.938 INFO  UserManager [30623 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:20:51.938 INFO  UserManager [30624 localCollectorThread] - Setting user context: admin
+02-06-2024 20:20:51.938 INFO  UserManager [30624 localCollectorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:20:51.938 INFO  SearchParser [30624 localCollectorThread] - PARSING: litsearch (index=infra source=*cisco_ironport_web.log* (url="*.bat*" OR url="*.exe*")) | fields  keepcolorder=t "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=1707163200.000000 lt=1707250851.000000 remove=true max_count=1000 max_prefetch=100
+02-06-2024 20:20:51.938 INFO  SearchPhaseGenerator [30618 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.005155580 seconds.
+02-06-2024 20:20:51.938 INFO  SearchOrchestrator [30618 searchOrchestrator] - Starting the status control thread.
+02-06-2024 20:20:51.938 INFO  SearchOrchestrator [30618 searchOrchestrator] - Starting phase=1
+02-06-2024 20:20:51.938 INFO  UserManager [30620 StatusEnforcerThread] - Setting user context: admin
+02-06-2024 20:20:51.938 INFO  UserManager [30620 StatusEnforcerThread] - Done setting user context: NULL -> admin
+02-06-2024 20:20:51.938 INFO  SearchStatusEnforcer [30620 StatusEnforcerThread] - Enforcing disk quota = 10485760000
+02-06-2024 20:20:51.938 INFO  PreviewExecutor [30620 StatusEnforcerThread] - Preview Enforcing initialization done
+02-06-2024 20:20:51.939 INFO  UserManager [30625 phase_1] - Setting user context: admin
+02-06-2024 20:20:51.939 INFO  UserManager [30625 phase_1] - Done setting user context: NULL -> admin
+02-06-2024 20:20:51.939 INFO  ReducePhaseExecutor [30625 phase_1] - Starting phase_1
+02-06-2024 20:20:51.951 INFO  UnifiedSearch [30624 localCollectorThread] - No indexes to search
+02-06-2024 20:20:51.951 INFO  SearchParser [30624 localCollectorThread] - PARSING: typer | tags
+02-06-2024 20:20:51.952 INFO  FastTyper [30624 localCollectorThread] - found nodes count: comparisons=6, unique_comparisons=5, terms=4, unique_terms=4, phrases=12, unique_phrases=12, total leaves=22
+02-06-2024 20:20:51.953 INFO  UnifiedSearch [30624 localCollectorThread] - Initialization of search data structures took 3 ms
+02-06-2024 20:20:51.954 INFO  UnifiedSearch [30624 localCollectorThread] - Processed search targeting arguments
+02-06-2024 20:20:51.954 INFO  LocalCollector [30624 localCollectorThread] - Final required fields list = _bkt,_cd,_si,host,index,linecount,source,sourcetype,splunk_server,url
+02-06-2024 20:20:51.954 INFO  UserManager [30624 localCollectorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:20:51.954 INFO  UserManager [30624 localCollectorThread] - Setting user context: admin
+02-06-2024 20:20:51.954 INFO  UserManager [30624 localCollectorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:20:51.954 INFO  UserManager [30624 localCollectorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:20:51.954 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=2147483647.000000
+02-06-2024 20:20:51.978 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=2147483647.000000
+02-06-2024 20:20:51.993 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=2147483647.000000
+02-06-2024 20:20:52.116 INFO  UserManager [30623 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.121 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=1707163201.000000
+02-06-2024 20:20:52.128 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=1707163201.000000
+02-06-2024 20:20:52.129 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=1707163201.000000
+02-06-2024 20:20:52.129 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=0.000000
+02-06-2024 20:20:52.129 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=0.000000
+02-06-2024 20:20:52.129 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=0.000000
+02-06-2024 20:20:52.131 INFO  TimelineCreator [30625 phase_1] - Commit timeline at cursor=0.000000
+02-06-2024 20:20:52.131 INFO  ResultsCollationProcessor [30625 phase_1] - Writing remote_event_providers.csv to disk
+02-06-2024 20:20:52.144 INFO  Timeliner [30626 RemoteTimelineReadThread] - Stats[Collections] 2 / 100000000.00 / 18446744073709552000.00 / 36893488147419103000.00 / 680564733841877000000000000000000000000.00 / 0.00 / 0
+02-06-2024 20:20:52.156 INFO  DownloadRemoteDataTransaction [30625 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:20:52.166 INFO  ReducePhaseExecutor [30625 phase_1] - Downloading all remote search.log files took 0.011 seconds
+02-06-2024 20:20:52.166 INFO  DownloadRemoteDataTransaction [30625 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:20:52.176 INFO  ReducePhaseExecutor [30625 phase_1] - Downloading all remote search_telemetry.json files took 0.010 seconds
+02-06-2024 20:20:52.176 INFO  ReducePhaseExecutor [30625 phase_1] - Ending phase_1
+02-06-2024 20:20:52.176 INFO  UserManager [30625 phase_1] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.182 INFO  UserManager [30620 StatusEnforcerThread] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.183 INFO  DispatchManager [30618 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='admin__admin__search__search1_1707250851.5', username='admin')
+02-06-2024 20:20:52.183 INFO  UserManager [30618 searchOrchestrator] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.185 INFO  SearchStatusEnforcer [30615 RunDispatch] - SearchStatusEnforcer is already terminated
+02-06-2024 20:20:52.186 INFO  UserManager [30615 RunDispatch] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.186 INFO  LookupDataProvider [30615 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:20:52.187 INFO  dispatchRunner [29684 MainThread] - RunDispatch is done: sid=admin__admin__search__search1_1707250851.5, exit=0

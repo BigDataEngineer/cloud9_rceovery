@@ -1,0 +1,7 @@
+ls -al "/opt/splunk/var/run/splunk/dispatch"
+total 28
+drwx--x--x  5 archStudent archStudent 12288 Feb  6 20:54 .
+drwx--x--x 12 archStudent archStudent  4096 Feb  6 20:55 ..
+drwx------  5 archStudent archStudent  4096 Feb  6 19:17 scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707247020_4
+drwx------  5 archStudent archStudent  4096 Feb  6 20:17 scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707250620_1
+drwx------  2 archStudent archStudent  4096 Feb  6 03:05 scheduler__nobody_c3BsdW5rX3JhcGlkX2RpYWc__RMD57dcb8b0c8178ec5f_at_1707188700_1

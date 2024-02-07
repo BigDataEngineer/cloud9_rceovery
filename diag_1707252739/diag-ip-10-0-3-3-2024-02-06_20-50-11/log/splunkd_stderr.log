@@ -1,0 +1,63 @@
+2024-02-06 05:01:46.304 +0000 splunkd started (build b985591d12fd) pid=22033
+2024-02-06 05:28:27.661 +0000 Interrupt signal received sent by PID 3231, command="/opt/splunk/bin/splunk restart" (UID 501, same as my group)
+2024-02-06 05:28:38.152 +0000 splunkd started (build b985591d12fd) pid=3369
+2024-02-06 05:56:03.308 +0000 Interrupt signal received sent by PID 17418, command="/opt/splunk/bin/splunk restart" (UID 501, same as my group)
+2024-02-06 05:56:13.813 +0000 splunkd started (build b985591d12fd) pid=17566
+need to specify replication port
+2024-02-06 05:58:40.443 +0000 splunkd started (build b985591d12fd) pid=18584
+need to specify replication port
+2024-02-06 06:02:43.303 +0000 splunkd started (build b985591d12fd) pid=20195
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 06:02:52.943 +0000 splunkd started (build b985591d12fd) pid=20409
+2024-02-06 06:32:34.622 +0000 Interrupt signal received sent by PID 2713, command="/opt/splunk/bin/splunk restart" (UID 501, same as my group)
+2024-02-06 06:32:43.181 +0000 splunkd started (build b985591d12fd) pid=2890
+assertion_failure="0" assertion_function="void IndexConfig::setBucketPath(const Str&, const Str&, const PropertiesMap*, Pathname&, bool, bool, RemoteVolumeParams*)" assertion_file="/opt/splunk/src/pipeline/indexer/IndexConfig.cpp:2221"2024-02-06 10:39:24.175 +0000 splunkd started (build b985591d12fd) pid=30388
+
+
+Bypassing local license checks since this instance is configured with a remote license master.
+
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 10:40:10.234 +0000 splunkd started (build b985591d12fd) pid=31310
+assertion_failure="0" assertion_function="void IndexConfig::setBucketPath(const Str&, const Str&, const PropertiesMap*, Pathname&, bool, bool, RemoteVolumeParams*)" assertion_file="/opt/splunk/src/pipeline/indexer/IndexConfig.cpp:2221"2024-02-06 10:52:21.790 +0000 splunkd started (build b985591d12fd) pid=4137
+
+
+Bypassing local license checks since this instance is configured with a remote license master.
+
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 11:01:11.862 +0000 splunkd started (build b985591d12fd) pid=9090
+
+
+Bypassing local license checks since this instance is configured with a remote license master.
+
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 12:55:45.524 +0000 splunkd started (build b985591d12fd) pid=3130
+
+
+Bypassing local license checks since this instance is configured with a remote license master.
+
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 13:02:16.814 +0000 splunkd started (build b985591d12fd) pid=7079
+
+
+Bypassing local license checks since this instance is configured with a remote license master.
+
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 15:26:16.643 +0000 splunkd started (build b985591d12fd) pid=14956
+
+
+Bypassing local license checks since this instance is configured with a remote license master.
+
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 19:50:23.887 +0000 splunkd started (build b985591d12fd) pid=19050
+
+
+Bypassing local license checks since this instance is configured with a remote license master.
+
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 20:43:39.606 +0000 splunkd started (build b985591d12fd) pid=16331
+
+
+Bypassing local license checks since this instance is configured with a remote license master.
+
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 20:49:55.802 +0000 splunkd started (build b985591d12fd) pid=20006

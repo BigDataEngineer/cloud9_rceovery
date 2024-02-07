@@ -1,0 +1,31 @@
+ls -alR "/opt/splunk/var/run/splunk/dispatch/admin__admin__search__RMD5b6d4a6d66ae75c58_at_1707251069_1"
+/opt/splunk/var/run/splunk/dispatch/admin__admin__search__RMD5b6d4a6d66ae75c58_at_1707251069_1:
+total 120
+drwx------  3 archStudent archStudent  4096 Feb  6 20:24 .
+drwx--x--x 19 archStudent archStudent  4096 Feb  6 20:33 ..
+-rw-------  1 archStudent archStudent   207 Feb  6 20:24 args.txt
+-rw-------  1 archStudent archStudent     0 Feb  6 20:24 audited
+-rw-------  1 archStudent archStudent     0 Feb  6 20:24 generate_preview
+-rw-------  1 archStudent archStudent 10002 Feb  6 20:24 info.csv
+-rw-------  1 archStudent archStudent    76 Feb  6 20:24 metadata.csv
+-rw-------  1 archStudent archStudent  1249 Feb  6 20:24 peers.csv
+-rw-------  1 archStudent archStudent     2 Feb  6 20:24 pipeline_sets
+-rw-------  1 archStudent archStudent   500 Feb  6 20:24 remote_event_providers.csv
+drwx------  2 archStudent archStudent  4096 Feb  6 20:24 remote_search_telemetry
+-rw-------  1 archStudent archStudent  1112 Feb  6 20:24 request.csv
+-rw-------  1 archStudent archStudent   150 Feb  6 20:24 results.srs.zst
+-rw-------  1 archStudent archStudent    70 Feb  6 20:30 runtime.csv
+-rw-------  1 archStudent archStudent 43071 Feb  6 20:24 search.log
+-rw-------  1 archStudent archStudent  4550 Feb  6 20:24 search_telemetry.json
+-rw-------  1 archStudent archStudent   846 Feb  6 20:24 search_telemetry.log
+-rw-------  1 archStudent archStudent  2917 Feb  6 20:30 status.csv
+-rw-------  1 archStudent archStudent     0 Feb  6 20:24 tmp_cleanup_done
+-rw-------  1 archStudent archStudent   255 Feb  6 20:24 watchdog.log
+
+/opt/splunk/var/run/splunk/dispatch/admin__admin__search__RMD5b6d4a6d66ae75c58_at_1707251069_1/remote_search_telemetry:
+total 20
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:24 .
+drwx------ 3 archStudent archStudent 4096 Feb  6 20:24 ..
+-rw------- 1 archStudent archStudent 3365 Feb  6 20:24 GOEL-Indexer1.search_telemetry.json
+-rw------- 1 archStudent archStudent 3286 Feb  6 20:24 GOEL-Indexer2.search_telemetry.json
+-rw------- 1 archStudent archStudent 3284 Feb  6 20:24 GOEL-Indexer3.search_telemetry.json

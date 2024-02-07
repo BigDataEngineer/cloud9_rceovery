@@ -1,0 +1,11 @@
+ls -alR "/opt/splunk/var/run/splunk/dispatch/subsearch_scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707252565_0_1707252596.1"
+/opt/splunk/var/run/splunk/dispatch/subsearch_scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707252565_0_1707252596.1:
+total 28
+drwx------  2 archStudent archStudent 4096 Feb  6 20:50 .
+drwx--x--x 26 archStudent archStudent 4096 Feb  6 20:50 ..
+-rw-------  1 archStudent archStudent    0 Feb  6 20:50 audited
+-rw-------  1 archStudent archStudent 6241 Feb  6 20:49 info.csv
+-rw-------  1 archStudent archStudent  138 Feb  6 20:49 metadata.csv
+-rw-------  1 archStudent archStudent   72 Feb  6 20:49 remote_event_providers.csv
+-rw-------  1 archStudent archStudent 2706 Feb  6 20:49 status.csv
+-rw-------  1 archStudent archStudent    0 Feb  6 20:50 tmp_cleanup_done

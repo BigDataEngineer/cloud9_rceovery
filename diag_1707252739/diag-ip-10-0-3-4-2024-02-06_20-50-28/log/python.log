@@ -1,0 +1,39 @@
+2024-02-06 04:57:43,447 +0000 ERROR	cli_common:1400 - Generating RSA private key, 2048 bit long modulus
+........................................+++++
+.............................................+++++
+e is 65537 (0x10001)
+writing RSA key
+
+2024-02-06 04:57:43,618 +0000 ERROR	cli_common:1400 - Generating RSA private key, 2048 bit long modulus
+....................................................................................+++++
+..........................+++++
+e is 65537 (0x10001)
+writing RSA key
+
+2024-02-06 10:35:19,038 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:35:49,065 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:36:19,074 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:36:49,108 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:37:19,132 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:37:49,154 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:38:19,185 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:38:49,202 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:39:19,220 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:43:21,811 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:43:51,822 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:44:21,845 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:44:51,877 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:45:21,888 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:45:51,899 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:46:21,917 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:46:51,924 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:47:21,953 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:47:51,971 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:48:21,982 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:48:52,017 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:49:22,030 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 20:49:10,800 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089/services/properties/telemetry/general/sendSupportUsage
+2024-02-06 20:49:10,821 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 20:49:11,062 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089/services/properties/telemetry/general/sendSupportUsage
+2024-02-06 20:49:11,062 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 20:49:11,071 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles

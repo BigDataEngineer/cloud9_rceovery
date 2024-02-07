@@ -1,0 +1,319 @@
+sid,search,"splunk_server","_time","is_realtime",provenance,"api_index_et","api_index_lt","event_count","exec_time","result_count","savedsearch_name","scan_count",status,"total_run_time","api_et","api_lt","search_et","search_lt","__mv_sid","__mv_search","__mv_splunk_server","__mv__time","__mv_is_realtime","__mv_provenance","__mv_api_index_et","__mv_api_index_lt","__mv_event_count","__mv_exec_time","__mv_result_count","__mv_savedsearch_name","__mv_scan_count","__mv_status","__mv_total_run_time","__mv_api_et","__mv_api_lt","__mv_search_et","__mv_search_lt"
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5efc688fa348f1b9d_1707205104.3","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes| eval sid = 'search_props.sid' | `dmc_classify_processes`| eval x=""cpu_usage"" | stats sum(pct_memory) as mem_used sum(normalized_pct_cpu) as cpu_used by process_class| append [| rest splunk_server=local /services/server/status/resource-usage/hostwide | fields cpu_idle_pct mem mem_used | eval mem_idle_pct=round((mem-mem_used)/mem,2)*100 | fields - mem mem_used | eval cpu_system_pct=0 | eval mem_system_pct=0 | transpose | eval process_class=if(column=""cpu_idle_pct"" OR column=""mem_idle_pct"",""Idle"",""Non-Splunk processes"") | rename ""row 1"" as value | eval mem_used=if(column=""mem_idle_pct"" OR column=""mem_system_pct"",value,NULL) | eval cpu_used=if(column=""cpu_idle_pct"" OR column=""cpu_system_pct"",value,NULL) | stats first(cpu_used) as cpu_used first(mem_used) as mem_used by process_class] | eventstats sum(mem_used) as sum_mem_used sum(cpu_used) as sum_cpu_used | eval mem_used=if(process_class=""Non-Splunk processes"",100-sum_mem_used,mem_used) | eval cpu_used=if(process_class=""Non-Splunk processes"",100-sum_cpu_used,cpu_used)","GOEL-DS-LM-MC","1707205104.116071",0,splunkjs,0,0,0,1707205106,6,"manager_7998",0,completed,"0.503",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5d067427f712641b6_1707205104.4","| rest splunk_server=local /services/server/introspection/indexer | fields average_KBps splunk_server | eval average_KBps=round(average_KBps,2)."" KB/s""","GOEL-DS-LM-MC","1707205104.132513",0,splunkjs,0,0,0,1707205106,1,"manager_8088",0,completed,"0.34",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5b2ac5de67e3ce255_1707205104.5","| rest splunk_server=local /services/server/status/partitions-space | eval free = if(isnotnull(available), available, free) | stats sum(capacity) as total_capacity sum(free) as total_free","GOEL-DS-LM-MC","1707205104.168078",0,splunkjs,0,0,0,1707205106,1,"manager_8148",0,completed,"0.355",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5c623df2e3ac87fc6_1707205104.6","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes | search search_props.sid=* | stats dc(search_props.sid) AS count by search_props.type | eventstats sum(count) as Total","GOEL-DS-LM-MC","1707205104.184900",0,splunkjs,0,0,0,1707205106,0,"manager_8208",0,completed,"0.396",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5e94506026311d7b4_1707205104.7","| rest splunk_server=local /services/licenser/pools | rename title AS Pool | search [rest splunk_server=local /services/licenser/groups | search is_active=1 | eval stack_id=stack_ids | fields stack_id] | join type=outer stack_id [rest splunk_server=local /services/licenser/stacks | eval stack_id=title | eval stack_quota=quota | fields stack_id stack_quota] | stats sum(used_bytes) as used max(stack_quota) as total | eval usedGB=round(used/1024/1024/1024,2) | eval totalGB=round(total/1024/1024/1024,2)","GOEL-DS-LM-MC","1707205104.194817",0,splunkjs,0,0,0,1707205107,1,"manager_8268",0,completed,"0.514",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57acff4e291500d3a_1707205104.8","| inputlookup dmc_assets | search search_group = ""dmc_group_kv_store""","GOEL-DS-LM-MC","1707205104.232400",0,splunkjs,0,0,0,1707205106,1,"kv-store-role-search",0,completed,"0.375",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5988bb0b911b03384_1707205106.9","| rest splunk_server=local /services/server/introspection/kvstore/collectionstats | mvexpand data | spath input=data | fields splunk_server, ns, size","GOEL-DS-LM-MC","1707205106.882688",0,splunkjs,0,0,0,1707205107,53,"manager_8387",0,completed,"0.525",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5139f82c3d5c90434_1707205106.10","| `dmc_get_all_triggered_alerts(1440)`","GOEL-DS-LM-MC","1707205106.890840",0,splunkjs,0,0,0,1707205107,0,"alerts-fired-search",0,completed,"0.385",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD513267d900cba87b8_1707210292.4","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes| eval sid = 'search_props.sid' | `dmc_classify_processes`| eval x=""cpu_usage"" | stats sum(pct_memory) as mem_used sum(normalized_pct_cpu) as cpu_used by process_class| append [| rest splunk_server=local /services/server/status/resource-usage/hostwide | fields cpu_idle_pct mem mem_used | eval mem_idle_pct=round((mem-mem_used)/mem,2)*100 | fields - mem mem_used | eval cpu_system_pct=0 | eval mem_system_pct=0 | transpose | eval process_class=if(column=""cpu_idle_pct"" OR column=""mem_idle_pct"",""Idle"",""Non-Splunk processes"") | rename ""row 1"" as value | eval mem_used=if(column=""mem_idle_pct"" OR column=""mem_system_pct"",value,NULL) | eval cpu_used=if(column=""cpu_idle_pct"" OR column=""cpu_system_pct"",value,NULL) | stats first(cpu_used) as cpu_used first(mem_used) as mem_used by process_class] | eventstats sum(mem_used) as sum_mem_used sum(cpu_used) as sum_cpu_used | eval mem_used=if(process_class=""Non-Splunk processes"",100-sum_mem_used,mem_used) | eval cpu_used=if(process_class=""Non-Splunk processes"",100-sum_cpu_used,cpu_used)","GOEL-DS-LM-MC","1707210292.250046",0,splunkjs,0,0,0,1707210292,8,"manager_8034",0,completed,"0.459",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD58e5a0ddb7661c4a1_1707210292.5","| rest splunk_server=local /services/server/introspection/indexer | fields average_KBps splunk_server | eval average_KBps=round(average_KBps,2)."" KB/s""","GOEL-DS-LM-MC","1707210292.252075",0,splunkjs,0,0,0,1707210292,1,"manager_8124",0,completed,"0.332",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5c85824441f970ca4_1707210292.6","| rest splunk_server=local /services/server/status/partitions-space | eval free = if(isnotnull(available), available, free) | stats sum(capacity) as total_capacity sum(free) as total_free","GOEL-DS-LM-MC","1707210292.264966",0,splunkjs,0,0,0,1707210292,1,"manager_8184",0,completed,"0.28700000000000003",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5ca9a6d6eaf8b060e_1707210292.7","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes | search search_props.sid=* | stats dc(search_props.sid) AS count by search_props.type | eventstats sum(count) as Total","GOEL-DS-LM-MC","1707210292.285323",0,splunkjs,0,0,0,1707210292,1,"manager_8244",0,completed,"0.336",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5aebcd495e2385ab3_1707210292.8","| rest splunk_server=local /services/licenser/pools | rename title AS Pool | search [rest splunk_server=local /services/licenser/groups | search is_active=1 | eval stack_id=stack_ids | fields stack_id] | join type=outer stack_id [rest splunk_server=local /services/licenser/stacks | eval stack_id=title | eval stack_quota=quota | fields stack_id stack_quota] | stats sum(used_bytes) as used max(stack_quota) as total | eval usedGB=round(used/1024/1024/1024,2) | eval totalGB=round(total/1024/1024/1024,2)","GOEL-DS-LM-MC","1707210292.317006",0,splunkjs,0,0,0,1707210292,1,"manager_8304",0,completed,"0.40900000000000003",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57acff4e291500d3a_1707210292.9","| inputlookup dmc_assets | search search_group = ""dmc_group_kv_store""","GOEL-DS-LM-MC","1707210292.327115",0,splunkjs,0,0,0,1707210292,1,"kv-store-role-search",0,completed,"0.373",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5e4d1813134320e8e_1707210292.10","| rest splunk_server=local /services/server/introspection/kvstore/collectionstats | mvexpand data | spath input=data | fields splunk_server, ns, size","GOEL-DS-LM-MC","1707210292.490868",0,splunkjs,0,0,0,1707210292,53,"manager_8423",0,completed,"0.507",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5139f82c3d5c90434_1707210292.11","| `dmc_get_all_triggered_alerts(1440)`","GOEL-DS-LM-MC","1707210292.544265",0,splunkjs,0,0,0,1707210292,0,"alerts-fired-search",0,completed,"0.337",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5b069e4df2f1626dc_1707210386.38","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes| eval sid = 'search_props.sid' | `dmc_classify_processes`| eval x=""cpu_usage"" | stats sum(pct_memory) as mem_used sum(normalized_pct_cpu) as cpu_used by process_class| append [| rest splunk_server=local /services/server/status/resource-usage/hostwide | fields cpu_idle_pct mem mem_used | eval mem_idle_pct=round((mem-mem_used)/mem,2)*100 | fields - mem mem_used | eval cpu_system_pct=0 | eval mem_system_pct=0 | transpose | eval process_class=if(column=""cpu_idle_pct"" OR column=""mem_idle_pct"",""Idle"",""Non-Splunk processes"") | rename ""row 1"" as value | eval mem_used=if(column=""mem_idle_pct"" OR column=""mem_system_pct"",value,NULL) | eval cpu_used=if(column=""cpu_idle_pct"" OR column=""cpu_system_pct"",value,NULL) | stats first(cpu_used) as cpu_used first(mem_used) as mem_used by process_class] | eventstats sum(mem_used) as sum_mem_used sum(cpu_used) as sum_cpu_used | eval mem_used=if(process_class=""Non-Splunk processes"",100-sum_mem_used,mem_used) | eval cpu_used=if(process_class=""Non-Splunk processes"",100-sum_cpu_used,cpu_used)","GOEL-DS-LM-MC","1707210386.628375",0,splunkjs,0,0,0,1707210386,7,"manager_8076",0,completed,"0.553",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5551a02590afbe533_1707210386.39","| rest splunk_server=local /services/server/introspection/indexer | fields average_KBps splunk_server | eval average_KBps=round(average_KBps,2)."" KB/s""","GOEL-DS-LM-MC","1707210386.644851",0,splunkjs,0,0,0,1707210386,1,"manager_8166",0,completed,"0.40700000000000003",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD56c89d3f3bb4ec275_1707210386.40","| rest splunk_server=local /services/server/status/partitions-space | eval free = if(isnotnull(available), available, free) | stats sum(capacity) as total_capacity sum(free) as total_free","GOEL-DS-LM-MC","1707210386.657811",0,splunkjs,0,0,0,1707210386,1,"manager_8226",0,completed,"0.40800000000000003",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54f38a8878fcae976_1707210386.41","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes | search search_props.sid=* | stats dc(search_props.sid) AS count by search_props.type | eventstats sum(count) as Total","GOEL-DS-LM-MC","1707210386.726821",0,splunkjs,0,0,0,1707210387,0,"manager_8286",0,completed,"0.399",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5286d700a97dd7c2d_1707210386.42","| rest splunk_server=local /services/licenser/pools | rename title AS Pool | search [rest splunk_server=local /services/licenser/groups | search is_active=1 | eval stack_id=stack_ids | fields stack_id] | join type=outer stack_id [rest splunk_server=local /services/licenser/stacks | eval stack_id=title | eval stack_quota=quota | fields stack_id stack_quota] | stats sum(used_bytes) as used max(stack_quota) as total | eval usedGB=round(used/1024/1024/1024,2) | eval totalGB=round(total/1024/1024/1024,2)","GOEL-DS-LM-MC","1707210386.767326",0,splunkjs,0,0,0,1707210387,1,"manager_8346",0,completed,"0.604",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57acff4e291500d3a_1707210386.43","| inputlookup dmc_assets | search search_group = ""dmc_group_kv_store""","GOEL-DS-LM-MC","1707210386.847508",0,splunkjs,0,0,0,1707210387,1,"kv-store-role-search",0,completed,"0.323",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54bd75b62537a626f_1707210386.44","| rest splunk_server=local /services/server/introspection/kvstore/collectionstats | mvexpand data | spath input=data | fields splunk_server, ns, size","GOEL-DS-LM-MC","1707210386.865592",0,splunkjs,0,0,0,1707210387,53,"manager_8465",0,completed,"1.258",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5139f82c3d5c90434_1707210386.45","| `dmc_get_all_triggered_alerts(1440)`","GOEL-DS-LM-MC","1707210386.885771",0,splunkjs,0,0,0,1707210387,0,"alerts-fired-search",0,completed,"0.759",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search1_1707210417.72","| `dmc_get_groups`
+        | search search_group=""dmc_group_*""","GOEL-DS-LM-MC","1707210417.007517",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210417,4,search1,0,completed,"0.028",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search2_1707210418.73","| `dmc_get_groups_containing_role(*)`
+          | search search_group!=""dmc_group_*""","GOEL-DS-LM-MC","1707210418.090819",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210418,0,search2,0,canceled,"0.105",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search3_1707210418.74","| `dmc_get_instance_info(""*"")`
+        | search search_group=""*""","GOEL-DS-LM-MC","1707210418.152192",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210418,1,search3,0,canceled,"0.10400000000000001",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search9_1707210418.75","search `dmc_set_index_introspection` host=$row.host$ sourcetype=splunk_resource_usage component=PerProcess data.search_props.sid::*
+        | `dmc_rename_introspection_fields`
+        | `dmc_set_bin`
+        | stats latest(normalized_pct_cpu) AS resource_usage_dedup by _time, type, sid, pid
+        | stats sum(resource_usage_dedup) AS sum_resource_usage by _time,  type
+        | eval sum_resource_usage = round(sum_resource_usage / 100.0, 2)
+        | `dmc_timechart` Median(sum_resource_usage) AS ""Median of resource usage"" by type","GOEL-DS-LM-MC","1707210418.391856",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210418,0,search9,0,canceled,"1.1300000000000001","1707195960.000000000","1707210418.000000000","1707195960.000000000","1707210418.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57f832cab3cc3832f_1707210418.76","search `dmc_set_index_introspection` host=$row.host$ sourcetype=splunk_resource_usage component=PerProcess
+      | `dmc_rename_introspection_fields`
+      | `dmc_classify_processes`
+      | `dmc_resource_usage_by_processes_timechart(normalized_pct_cpu, Median)`","GOEL-DS-LM-MC","1707210418.395348",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210418,0,"cpu_by_process_class",0,canceled,"1.188","1707195960.000000000","1707210418.000000000","1707195960.000000000","1707210418.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search10_1707210418.77","| mstats Median(""spl.intr.resource_usage.Hostwide.data.cpu_system_pct_mrollup_avg_86400s"")  Median(""spl.intr.resource_usage.Hostwide.data.cpu_user_pct_mrollup_avg_86400s"") prestats=true WHERE ""index""=""_metrics_rollup"" by extracted_host span=1h
+          | rename extracted_host as host
+          | where host=""$row.host$""
+          | timechart eval(Median('spl.intr.resource_usage.Hostwide.data.cpu_user_pct_mrollup_avg_86400s') + Median('spl.intr.resource_usage.Hostwide.data.cpu_system_pct_mrollup_avg_86400s')) by host
+          | fields - _span","GOEL-DS-LM-MC","1707210418.567062",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210418,0,search10,0,canceled,"0.712","1704585600.000000000","1707210418.000000000","1704585600.000000000","1707210418.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5a10707a3508f5283_1707210420.78","| rest splunk_server=ip-10-0-3-7 /services/server/status/resource-usage/hostwide
+      | join type=outer splunk_server [
+          | `dmc_get_instance_roles` 
+          | fields role serverName
+          | rename serverName as splunk_server]
+      | eventstats min(eval(if(isnull(normalized_load_avg_1min), ""0"", ""1""))) as _load_avg_full_availability
+      | eval normalized_load_avg_1min = if(isnull(normalized_load_avg_1min), ""N/A"", normalized_load_avg_1min)
+      | eval core_info = if(isnull(cpu_count), ""N/A"", cpu_count)."" / "".if(isnull(virtual_cpu_count), ""N/A"", virtual_cpu_count)
+      | eval cpu_usage = 'cpu_system_pct' + 'cpu_user_pct'
+      | fields splunk_server, role, normalized_load_avg_1min, core_info, cpu_usage, cpu_count, virtual_cpu_count, cpu_system_pct, cpu_user_pct
+      | eval role = replace(role, "" $"", """")
+      | eval role = split(role, "" "")","GOEL-DS-LM-MC","1707210420.102910",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210420,0,"instance_cpu_usage",0,completed,"0.114","1707196020.000000000","1707210420.000000000","1707196020.000000000","1707210420.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD50972d7af82c3253d_1707210420.79","| rest splunk_server=ip-10-0-3-7 /services/server/status/resource-usage/splunk-processes
+      | fields normalized_pct_cpu pct_cpu process process_type search_props.mode search_props.type search_props.provenance splunk_server
+      | fillnull normalized_pct_cpu pct_cpu
+      | eval process_type_l2 = if(match(process_type, ""^search$""), 'process_type'."":"".'search_props.type', 'process_type')
+      | stats sum(normalized_pct_cpu) AS normalized_pct_cpu by process_type_l2, splunk_server
+      | chart avg(normalized_pct_cpu) AS normalized_pct_cpu over splunk_server by process_type_l2
+      | foreach * [eval <<FIELD>> = if(isnum('<<FIELD>>'), round('<<FIELD>>', 2), '<<FIELD>>')]","GOEL-DS-LM-MC","1707210420.118172",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210420,0,"system_cpu_usage",0,completed,"0.058",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search9_1707210420.80","search `dmc_set_index_introspection` host=ip-10-0-3-7 sourcetype=splunk_resource_usage component=PerProcess data.search_props.sid::*
+        | `dmc_rename_introspection_fields`
+        | `dmc_set_bin`
+        | stats latest(normalized_pct_cpu) AS resource_usage_dedup by _time, type, sid, pid
+        | stats sum(resource_usage_dedup) AS sum_resource_usage by _time,  type
+        | eval sum_resource_usage = round(sum_resource_usage / 100.0, 2)
+        | `dmc_timechart` Median(sum_resource_usage) AS ""Median of resource usage"" by type","GOEL-DS-LM-MC","1707210420.157111",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210420,0,search9,1,completed,"0.335","1707196020.000000000","1707210420.000000000","1707196020.000000000","1707210420.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search10_1707210420.81","| mstats Median(""spl.intr.resource_usage.Hostwide.data.cpu_system_pct_mrollup_avg_86400s"")  Median(""spl.intr.resource_usage.Hostwide.data.cpu_user_pct_mrollup_avg_86400s"") prestats=true WHERE ""index""=""_metrics_rollup"" by extracted_host span=1h
+          | rename extracted_host as host
+          | where host=""ip-10-0-3-7""
+          | timechart eval(Median('spl.intr.resource_usage.Hostwide.data.cpu_user_pct_mrollup_avg_86400s') + Median('spl.intr.resource_usage.Hostwide.data.cpu_system_pct_mrollup_avg_86400s')) by host
+          | fields - _span","GOEL-DS-LM-MC","1707210420.245652",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210420,0,search10,0,completed,"0.20800000000000002","1704585600.000000000","1707210420.000000000","1704585600.000000000","1707210420.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57f832cab3cc3832f_1707210420.82","search `dmc_set_index_introspection` host=ip-10-0-3-7 sourcetype=splunk_resource_usage component=PerProcess
+      | `dmc_rename_introspection_fields`
+      | `dmc_classify_processes`
+      | `dmc_resource_usage_by_processes_timechart(normalized_pct_cpu, Median)`","GOEL-DS-LM-MC","1707210420.368684",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,5307,1707210420,49,"cpu_by_process_class",5308,completed,"0.322","1707196020.000000000","1707210420.000000000","1707196020.000000000","1707210420.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search2_1707210425.83","| `dmc_get_groups_containing_role(dmc_group_indexer)`
+          | search search_group!=""dmc_group_*""","GOEL-DS-LM-MC","1707210425.144480",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210425,0,search2,0,completed,"0.04",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search3_1707210425.84","| `dmc_get_instance_info(""*"")`
+        | search search_group=""dmc_group_indexer""","GOEL-DS-LM-MC","1707210425.161360",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707210425,1,search3,0,completed,"0.031",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search1_1707210480.85","| `dmc_get_machine_info`","GOEL-DS-LM-MC","1707210480.447054",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210480,1,search1,0,completed,"0.051000000000000004",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD579940d04c047fa7c_1707210481.86","search `dmc_set_index_introspection` sourcetype=splunk_resource_usage component=IOStats host=$row.host$
+          | eval mount_point = 'data.mount_point'
+          | eval reads_ps = 'data.reads_ps'
+          | eval writes_ps = 'data.writes_ps'
+          | eval interval = 'data.interval'
+          | eval op_count = (reads_ps + writes_ps) * interval
+          | eval avg_service_ms = 'data.avg_service_ms'
+          | eval avg_wait_ms = 'data.avg_total_ms'
+          | eval cpu_pct = 'data.cpu_pct'
+          | eval network_pct = 'data.network_pct'","GOEL-DS-LM-MC","1707210481.796597",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210481,0,"io_log_base_search",0,canceled,"0.706","1707196080.000000000","1707210481.000000000","1707196080.000000000","1707210481.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search2_1707210481.87","| inputlookup dmc_assets
+| search serverName = $row.serverName$
+| stats first(serverName) as serverName, first(host) as host, first(machine) as machine
+| join type=outer serverName [
+  | rest splunk_server=$row.serverName$ /services/server/info
+  | fields serverName, numberOfCores, numberOfVirtualCores, physicalMemoryMB, os_name, cpu_arch
+]
+| `dmc_get_core_info`
+| fields machine core_info physicalMemoryMB os_name cpu_arch
+| rename machine as Machine, core_info AS ""CPU Cores (Physical / Virtual)"", physicalMemoryMB AS ""Physical Memory Capacity (MB)"", cpu_arch AS ""CPU Architecture"", os_name AS ""Operating System""","GOEL-DS-LM-MC","1707210481.811272",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210481,0,search2,0,canceled,"0.378","1707196080.000000000","1707210481.000000000","1707196080.000000000","1707210481.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__global_1707210481.89","| rest splunk_server=$row.serverName$ /services/server/info 
+| fields numberOfCores, numberOfVirtualCores, physicalMemoryMB
+| eval capacity=[rest splunk_server=$row.serverName$ /services/server/status/partitions-space | return $capacity]","GOEL-DS-LM-MC","1707210481.821649",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210482,0,global,0,canceled,"0.01",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search13_1707210481.90","| rest splunk_server=$row.serverName$ /services/server/status/partitions-space
+          | stats count by mount_point","GOEL-DS-LM-MC","1707210481.991057",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210482,0,search13,0,canceled,"0.248",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search9_1707210482.91","search `dmc_set_index_introspection` host=$row.host$ sourcetype=splunk_resource_usage component=Hostwide
+| `dmc_timechart` Median(data.normalized_load_avg_1min) AS ""load average""","GOEL-DS-LM-MC","1707210482.056991",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210482,0,search9,0,canceled,"0.633","1707196080.000000000","1707210482.000000000","1707196080.000000000","1707210482.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search10_1707210482.92","search `dmc_set_index_introspection` host=$row.host$ sourcetype=splunk_resource_usage component=Hostwide
+| `dmc_timechart` Median(data.cpu_system_pct) AS ""system"" Median(data.cpu_user_pct) AS ""user""","GOEL-DS-LM-MC","1707210482.067358",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210482,0,search10,0,canceled,"0.552","1707196080.000000000","1707210482.000000000","1707196080.000000000","1707210482.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search11_1707210482.93","search `dmc_set_index_introspection` host=$row.host$ sourcetype=splunk_resource_usage component=Hostwide
+| `dmc_timechart` latest(data.mem) AS ""capacity"" Median(data.mem_used) AS ""usage""","GOEL-DS-LM-MC","1707210482.071128",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210482,0,search11,0,canceled,"0.544","1707196080.000000000","1707210482.000000000","1707196080.000000000","1707210482.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search7_1707210483.94","| `dmc_get_instances_on_a_machine(ip-10-0-3-7)`","GOEL-DS-LM-MC","1707210483.931564",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210483,1,search7,0,completed,"0.045",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search12_1707210483.95","| `dmc_get_instances_on_a_machine(ip-10-0-3-7)`","GOEL-DS-LM-MC","1707210483.945855",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210483,1,search12,0,completed,"0.032",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search3_1707210484.96","| inputlookup dmc_assets
+| search machine=ip-10-0-3-7
+| mvcombine search_group
+| join type=outer peerURI
+  [| rest splunk_server=local /services/search/distributed/peers
+   | rename title as peerURI]
+| join type=outer peerURI [|rest splunk_server=local /services/server/info
+  | eval peerURI = ""localhost""
+  | eval status = ""Up""
+  | fields peerURI, status, version]
+| join type=outer peerURI [|rest splunk_server=local /services/server/settings
+  | eval peerURI = ""localhost""
+  | fields peerURI, mgmtHostPort]
+| join peerURI
+  [| `dmc_get_instance_roles` ]
+| eval status = if(status == ""Up"", status, ""Unreachable"")
+| makemv role
+| fields serverName, peerURI, role, version, status, mgmtHostPort
+| eval peerURI = if(peerURI == ""localhost"", ""localhost:"".mgmtHostPort, peerURI)
+| fields - mgmtHostPort
+| rename serverName as Instance, peerURI as URI, status as ""Status"", role as Role, version as ""Version""","GOEL-DS-LM-MC","1707210484.519310",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210484,1,search3,0,completed,"0.315","1707196080.000000000","1707210484.000000000","1707196080.000000000","1707210484.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search10_1707210484.97","search `dmc_set_index_introspection` host=ip-10-0-3-7 sourcetype=splunk_resource_usage component=Hostwide
+| `dmc_timechart` Median(data.cpu_system_pct) AS ""system"" Median(data.cpu_user_pct) AS ""user""","GOEL-DS-LM-MC","1707210484.538743",0,"UI:Dashboard:resource_usage_machine",0,0,888,1707210484,49,search10,889,completed,"0.6880000000000001","1707196080.000000000","1707210484.000000000","1707196080.000000000","1707210484.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search11_1707210484.99","search `dmc_set_index_introspection` host=ip-10-0-3-7 sourcetype=splunk_resource_usage component=Hostwide
+| `dmc_timechart` latest(data.mem) AS ""capacity"" Median(data.mem_used) AS ""usage""","GOEL-DS-LM-MC","1707210484.752996",0,"UI:Dashboard:resource_usage_machine",0,0,888,1707210484,49,search11,889,completed,"0.664","1707196080.000000000","1707210484.000000000","1707196080.000000000","1707210484.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD579940d04c047fa7c_1707210484.100","search `dmc_set_index_introspection` sourcetype=splunk_resource_usage component=IOStats host=ip-10-0-3-7
+          | eval mount_point = 'data.mount_point'
+          | eval reads_ps = 'data.reads_ps'
+          | eval writes_ps = 'data.writes_ps'
+          | eval interval = 'data.interval'
+          | eval op_count = (reads_ps + writes_ps) * interval
+          | eval avg_service_ms = 'data.avg_service_ms'
+          | eval avg_wait_ms = 'data.avg_total_ms'
+          | eval cpu_pct = 'data.cpu_pct'
+          | eval network_pct = 'data.network_pct'","GOEL-DS-LM-MC","1707210484.766949",0,"UI:Dashboard:resource_usage_machine",0,0,441,1707210484,441,"io_log_base_search",442,completed,"0.665","1707196080.000000000","1707210484.000000000","1707196080.000000000","1707210484.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search2_1707210484.101","| inputlookup dmc_assets
+| search serverName = ip-10-0-3-7
+| stats first(serverName) as serverName, first(host) as host, first(machine) as machine
+| join type=outer serverName [
+  | rest splunk_server=ip-10-0-3-7 /services/server/info
+  | fields serverName, numberOfCores, numberOfVirtualCores, physicalMemoryMB, os_name, cpu_arch
+]
+| `dmc_get_core_info`
+| fields machine core_info physicalMemoryMB os_name cpu_arch
+| rename machine as Machine, core_info AS ""CPU Cores (Physical / Virtual)"", physicalMemoryMB AS ""Physical Memory Capacity (MB)"", cpu_arch AS ""CPU Architecture"", os_name AS ""Operating System""","GOEL-DS-LM-MC","1707210484.787201",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210484,1,search2,0,completed,"0.17400000000000002","1707196080.000000000","1707210484.000000000","1707196080.000000000","1707210484.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD56f5aa4364b6c05b5_1707210484.102","| rest splunk_server=ip-10-0-3-7 /services/server/status/resource-usage/hostwide 
+| stats first(normalized_load_avg_1min) as load_average first(cpu_system_pct) as system, first(cpu_user_pct) as user first(mem) AS mem first(mem_used) AS mem_used by splunk_server","GOEL-DS-LM-MC","1707210484.994708",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210485,0,"hostwide_metrics_api_base",0,completed,"0.397",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__global_1707210485.103","| rest splunk_server=ip-10-0-3-7 /services/server/info 
+| fields numberOfCores, numberOfVirtualCores, physicalMemoryMB
+| eval capacity=[rest splunk_server=ip-10-0-3-7 /services/server/status/partitions-space | return $capacity]","GOEL-DS-LM-MC","1707210485.016936",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210485,0,global,0,failed,"0.011",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search8_1707210485.104","| rest splunk_server=ip-10-0-3-7 /services/server/status/partitions-space
+| join type=outer splunk_server, mount_point [
+  | rest splunk_server=ip-10-0-3-7 /services/server/status/resource-usage/iostats
+  | eval iops = round(reads_ps + writes_ps)
+  | fields splunk_server, mount_point, iops, cpu_pct]
+| eval free = if(isnotnull(available), available, free)
+| eval usage = round((capacity - free) / 1024, 2)
+| eval capacity = round(capacity / 1024, 2)
+| eval compare_usage = usage."" / "".capacity
+| eval pct_usage = round(usage / capacity * 100, 2) 
+| stats first(fs_type) as fs_type first(compare_usage) as compare_usage first(pct_usage) as pct_usage, first(iops) as iops, first(cpu_pct) as cpu_pct by mount_point
+| rename mount_point as ""Mount Point"", fs_type as ""File System Type"", compare_usage as ""Disk Usage (GB)"", capacity as ""Capacity (GB)"", pct_usage as ""Disk Usage (%)"", iops as ""I/O operations per second"", cpu_pct as ""Storage I/O Saturation(%)""","GOEL-DS-LM-MC","1707210485.864100",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210485,0,search8,0,completed,"0.027",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search13_1707210485.105","| rest splunk_server=ip-10-0-3-7 /services/server/status/partitions-space
+          | stats count by mount_point","GOEL-DS-LM-MC","1707210485.913709",0,"UI:Dashboard:resource_usage_machine",0,0,0,1707210485,0,search13,0,completed,"0.017",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD52b0397c6d1a7bdad_1707210718.114","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes| eval sid = 'search_props.sid' | `dmc_classify_processes`| eval x=""cpu_usage"" | stats sum(pct_memory) as mem_used sum(normalized_pct_cpu) as cpu_used by process_class| append [| rest splunk_server=local /services/server/status/resource-usage/hostwide | fields cpu_idle_pct mem mem_used | eval mem_idle_pct=round((mem-mem_used)/mem,2)*100 | fields - mem mem_used | eval cpu_system_pct=0 | eval mem_system_pct=0 | transpose | eval process_class=if(column=""cpu_idle_pct"" OR column=""mem_idle_pct"",""Idle"",""Non-Splunk processes"") | rename ""row 1"" as value | eval mem_used=if(column=""mem_idle_pct"" OR column=""mem_system_pct"",value,NULL) | eval cpu_used=if(column=""cpu_idle_pct"" OR column=""cpu_system_pct"",value,NULL) | stats first(cpu_used) as cpu_used first(mem_used) as mem_used by process_class] | eventstats sum(mem_used) as sum_mem_used sum(cpu_used) as sum_cpu_used | eval mem_used=if(process_class=""Non-Splunk processes"",100-sum_mem_used,mem_used) | eval cpu_used=if(process_class=""Non-Splunk processes"",100-sum_cpu_used,cpu_used)","GOEL-DS-LM-MC","1707210718.664755",0,splunkjs,0,0,0,1707210718,7,"manager_8063",0,completed,"0.199",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5ed51ea4125926c8e_1707210719.115","| rest splunk_server=local /services/server/introspection/indexer | fields average_KBps splunk_server | eval average_KBps=round(average_KBps,2)."" KB/s""","GOEL-DS-LM-MC","1707210719.232022",0,splunkjs,0,0,0,1707210719,1,"manager_8153",0,completed,"0.017",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD52f9b63f0958ea986_1707210719.116","| rest splunk_server=local /services/server/status/partitions-space | eval free = if(isnotnull(available), available, free) | stats sum(capacity) as total_capacity sum(free) as total_free","GOEL-DS-LM-MC","1707210719.257661",0,splunkjs,0,0,0,1707210719,1,"manager_8213",0,completed,"0.215",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5d6c68188c96aa18f_1707210719.117","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes | search search_props.sid=* | stats dc(search_props.sid) AS count by search_props.type | eventstats sum(count) as Total","GOEL-DS-LM-MC","1707210719.289836",0,splunkjs,0,0,0,1707210719,0,"manager_8273",0,completed,"0.06",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5ba4eb901384c9e99_1707210719.118","| rest splunk_server=local /services/licenser/pools | rename title AS Pool | search [rest splunk_server=local /services/licenser/groups | search is_active=1 | eval stack_id=stack_ids | fields stack_id] | join type=outer stack_id [rest splunk_server=local /services/licenser/stacks | eval stack_id=title | eval stack_quota=quota | fields stack_id stack_quota] | stats sum(used_bytes) as used max(stack_quota) as total | eval usedGB=round(used/1024/1024/1024,2) | eval totalGB=round(total/1024/1024/1024,2)","GOEL-DS-LM-MC","1707210719.310384",0,splunkjs,0,0,0,1707210719,1,"manager_8333",0,completed,"0.28500000000000003",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57acff4e291500d3a_1707210719.119","| inputlookup dmc_assets | search search_group = ""dmc_group_kv_store""","GOEL-DS-LM-MC","1707210719.336814",0,splunkjs,0,0,0,1707210719,1,"kv-store-role-search",0,completed,"0.188",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD56e8cc205e612e46c_1707210719.120","| rest splunk_server=local /services/server/introspection/kvstore/collectionstats | mvexpand data | spath input=data | fields splunk_server, ns, size","GOEL-DS-LM-MC","1707210719.354157",0,splunkjs,0,0,0,1707210719,53,"manager_8452",0,completed,"0.5660000000000001",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5139f82c3d5c90434_1707210719.121","| `dmc_get_all_triggered_alerts(1440)`","GOEL-DS-LM-MC","1707210719.663723",0,splunkjs,0,0,0,1707210719,0,"alerts-fired-search",0,completed,"0.28200000000000003",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5efc688fa348f1b9d_1707211018.1","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes| eval sid = 'search_props.sid' | `dmc_classify_processes`| eval x=""cpu_usage"" | stats sum(pct_memory) as mem_used sum(normalized_pct_cpu) as cpu_used by process_class| append [| rest splunk_server=local /services/server/status/resource-usage/hostwide | fields cpu_idle_pct mem mem_used | eval mem_idle_pct=round((mem-mem_used)/mem,2)*100 | fields - mem mem_used | eval cpu_system_pct=0 | eval mem_system_pct=0 | transpose | eval process_class=if(column=""cpu_idle_pct"" OR column=""mem_idle_pct"",""Idle"",""Non-Splunk processes"") | rename ""row 1"" as value | eval mem_used=if(column=""mem_idle_pct"" OR column=""mem_system_pct"",value,NULL) | eval cpu_used=if(column=""cpu_idle_pct"" OR column=""cpu_system_pct"",value,NULL) | stats first(cpu_used) as cpu_used first(mem_used) as mem_used by process_class] | eventstats sum(mem_used) as sum_mem_used sum(cpu_used) as sum_cpu_used | eval mem_used=if(process_class=""Non-Splunk processes"",100-sum_mem_used,mem_used) | eval cpu_used=if(process_class=""Non-Splunk processes"",100-sum_cpu_used,cpu_used)","GOEL-DS-LM-MC","1707211018.452747",0,splunkjs,0,0,0,1707211018,7,"manager_7998",0,completed,"0.53",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5d067427f712641b6_1707211018.2","| rest splunk_server=local /services/server/introspection/indexer | fields average_KBps splunk_server | eval average_KBps=round(average_KBps,2)."" KB/s""","GOEL-DS-LM-MC","1707211018.458505",0,splunkjs,0,0,0,1707211018,1,"manager_8088",0,completed,"0.371",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5b2ac5de67e3ce255_1707211018.3","| rest splunk_server=local /services/server/status/partitions-space | eval free = if(isnotnull(available), available, free) | stats sum(capacity) as total_capacity sum(free) as total_free","GOEL-DS-LM-MC","1707211018.467112",0,splunkjs,0,0,0,1707211018,0,"manager_8148",0,completed,"0.368",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5c623df2e3ac87fc6_1707211018.4","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes | search search_props.sid=* | stats dc(search_props.sid) AS count by search_props.type | eventstats sum(count) as Total","GOEL-DS-LM-MC","1707211018.541118",0,splunkjs,0,0,0,1707211018,0,"manager_8208",0,completed,"0.397",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5e94506026311d7b4_1707211018.5","| rest splunk_server=local /services/licenser/pools | rename title AS Pool | search [rest splunk_server=local /services/licenser/groups | search is_active=1 | eval stack_id=stack_ids | fields stack_id] | join type=outer stack_id [rest splunk_server=local /services/licenser/stacks | eval stack_id=title | eval stack_quota=quota | fields stack_id stack_quota] | stats sum(used_bytes) as used max(stack_quota) as total | eval usedGB=round(used/1024/1024/1024,2) | eval totalGB=round(total/1024/1024/1024,2)","GOEL-DS-LM-MC","1707211018.571393",0,splunkjs,0,0,0,1707211018,1,"manager_8268",0,completed,"0.5640000000000001",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57acff4e291500d3a_1707211018.6","| inputlookup dmc_assets | search search_group = ""dmc_group_kv_store""","GOEL-DS-LM-MC","1707211018.584972",0,splunkjs,0,0,0,1707211018,1,"kv-store-role-search",0,completed,"0.352",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5139f82c3d5c90434_1707211018.7","| `dmc_get_all_triggered_alerts(1440)`","GOEL-DS-LM-MC","1707211018.701810",0,splunkjs,0,0,0,1707211019,0,"alerts-fired-search",0,completed,"0.801",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5988bb0b911b03384_1707211018.8","| rest splunk_server=local /services/server/introspection/kvstore/collectionstats | mvexpand data | spath input=data | fields splunk_server, ns, size","GOEL-DS-LM-MC","1707211018.705497",0,splunkjs,0,0,0,1707211019,53,"manager_8387",0,completed,"0.804",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD577d95189630f7550_1707211096.39","| rest splunk_server=local /services/server/introspection/indexer | fields average_KBps splunk_server | eval average_KBps=round(average_KBps,2)."" KB/s""","GOEL-DS-LM-MC","1707211096.880656",0,splunkjs,0,0,0,1707211097,1,"manager_8196",0,completed,"0.386",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5d461c1c859e26eea_1707211096.40","| rest splunk_server=local /services/server/status/partitions-space | eval free = if(isnotnull(available), available, free) | stats sum(capacity) as total_capacity sum(free) as total_free","GOEL-DS-LM-MC","1707211096.897664",0,splunkjs,0,0,0,1707211097,0,"manager_8256",0,completed,"0.329",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5b79d18f39c2fe06a_1707211096.41","| rest splunk_server=local /services/server/status/resource-usage/splunk-processes | search search_props.sid=* | stats dc(search_props.sid) AS count by search_props.type | eventstats sum(count) as Total","GOEL-DS-LM-MC","1707211096.923231",0,splunkjs,0,0,0,1707211097,0,"manager_8316",0,completed,"0.396",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD571728280cfaf19c9_1707211096.42","| rest splunk_server=local /services/licenser/pools | rename title AS Pool | search [rest splunk_server=local /services/licenser/groups | search is_active=1 | eval stack_id=stack_ids | fields stack_id] | join type=outer stack_id [rest splunk_server=local /services/licenser/stacks | eval stack_id=title | eval stack_quota=quota | fields stack_id stack_quota] | stats sum(used_bytes) as used max(stack_quota) as total | eval usedGB=round(used/1024/1024/1024,2) | eval totalGB=round(total/1024/1024/1024,2)","GOEL-DS-LM-MC","1707211096.933622",0,splunkjs,0,0,0,1707211097,1,"manager_8376",0,completed,"0.5730000000000001",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57acff4e291500d3a_1707211097.43","| inputlookup dmc_assets | search search_group = ""dmc_group_kv_store""","GOEL-DS-LM-MC","1707211097.033790",0,splunkjs,0,0,0,1707211097,1,"kv-store-role-search",0,completed,"0.311",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5173a2bb05ffb05c9_1707211097.44","| rest splunk_server=local /services/server/introspection/kvstore/collectionstats | mvexpand data | spath input=data | fields splunk_server, ns, size","GOEL-DS-LM-MC","1707211097.123613",0,splunkjs,0,0,0,1707211097,53,"manager_8495",0,completed,"1.113",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5139f82c3d5c90434_1707211097.45","| `dmc_get_all_triggered_alerts(1440)`","GOEL-DS-LM-MC","1707211097.126268",0,splunkjs,0,0,0,1707211097,0,"alerts-fired-search",0,completed,"0.758",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search1_1707211103.73","| `dmc_get_groups`
+          | search search_group=""dmc_group_*""","GOEL-DS-LM-MC","1707211103.235060",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211103,4,search1,0,completed,"0.027",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search2_1707211104.74","| `dmc_get_groups_containing_role(*)`
+          | search search_group!=""dmc_group_*""","GOEL-DS-LM-MC","1707211104.404348",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211104,0,search2,0,canceled,"0.022",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search3_1707211104.75","| `dmc_get_instance_info(*)`
+        | search search_group=""*""","GOEL-DS-LM-MC","1707211104.487277",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211104,1,search3,0,canceled,"0.02",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search9_1707211104.76","search `dmc_set_index_introspection` sourcetype=splunk_resource_usage component=PerProcess host=$row.host$
+        | `dmc_rename_introspection_fields`
+        | `dmc_classify_processes`
+        | `dmc_resource_usage_by_processes_timechart(pct_cpu, Median)`","GOEL-DS-LM-MC","1707211104.741384",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211104,0,search9,0,canceled,"0.387","1707196680.000000000","1707211104.000000000","1707196680.000000000","1707211104.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search8_1707211104.77","search `dmc_set_index_introspection` sourcetype=splunk_resource_usage component=PerProcess host=$row.host$
+        | `dmc_rename_introspection_fields`
+        | `dmc_classify_processes`
+        | `dmc_resource_usage_by_processes_timechart(mem_used, Median)`","GOEL-DS-LM-MC","1707211104.747783",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211104,0,search8,0,canceled,"0.397","1707196680.000000000","1707211104.000000000","1707196680.000000000","1707211104.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search10_1707211107.78","| rest splunk_server=ip-10-0-3-7 /services/server/status/partitions-space
+        | stats count by mount_point","GOEL-DS-LM-MC","1707211107.318162",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211107,0,search10,0,completed,"0.031",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search4_1707211107.79","| inputlookup dmc_assets
+| search serverName = ip-10-0-3-7
+| stats first(serverName) as serverName, first(host) as host, first(machine) as machine
+| join type=outer serverName [
+  | rest splunk_server=ip-10-0-3-7 /services/server/info
+  | fields serverName, numberOfCores, numberOfVirtualCores, physicalMemoryMB, os_name, cpu_arch
+]
+| `dmc_get_core_info`
+| fields machine core_info physicalMemoryMB os_name cpu_arch
+| rename machine as Machine, core_info AS ""CPU Cores (Physical / Virtual)"", physicalMemoryMB as ""Physical Memory Capacity (MB)"", os_name as ""Operating System"", cpu_arch as ""CPU Architecture""","GOEL-DS-LM-MC","1707211107.348304",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211107,1,search4,0,completed,"0.101","1707196680.000000000","1707211107.000000000","1707196680.000000000","1707211107.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search6_1707211107.81","| rest splunk_server=ip-10-0-3-7 /services/server/status/resource-usage/splunk-processes
+        | eval sid = 'search_props.sid'
+        | `dmc_classify_processes`
+        | eval x=""cpu_usage""
+        | chart sum(pct_cpu) AS ""CPU Usage"" over x by process_class","GOEL-DS-LM-MC","1707211107.355363",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211107,0,search6,0,completed,"0.058","1707196680.000000000","1707211107.000000000","1707196680.000000000","1707211107.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search7_1707211107.82","| rest splunk_server=ip-10-0-3-7 /services/server/status/partitions-space
+        | eval free = if(isnotnull(available), available, free)
+        | eval usage = round((capacity - free) / 1024, 2)
+        | eval capacity = round(capacity / 1024, 2)
+        | eval compare_usage = usage."" / "".capacity
+        | eval pct_usage = round(usage / capacity * 100, 2)
+        | stats first(fs_type) as fs_type first(compare_usage) AS compare_usage first(pct_usage) as pct_usage by mount_point        
+        | rename mount_point as ""Mount Point"", fs_type as ""File System Type"", compare_usage as ""Disk Usage (GB)"", pct_usage as ""Disk Usage (%)""","GOEL-DS-LM-MC","1707211107.375938",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211107,0,search7,0,completed,"0.05","1707196680.000000000","1707211107.000000000","1707196680.000000000","1707211107.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search8_1707211107.83","search `dmc_set_index_introspection` sourcetype=splunk_resource_usage component=PerProcess host=ip-10-0-3-7
+        | `dmc_rename_introspection_fields`
+        | `dmc_classify_processes`
+        | `dmc_resource_usage_by_processes_timechart(mem_used, Median)`","GOEL-DS-LM-MC","1707211107.558533",0,"UI:Dashboard:resource_usage_instance",0,0,4923,1707211107,49,search8,4924,completed,"0.435","1707196680.000000000","1707211107.000000000","1707196680.000000000","1707211107.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search9_1707211107.84","search `dmc_set_index_introspection` sourcetype=splunk_resource_usage component=PerProcess host=ip-10-0-3-7
+        | `dmc_rename_introspection_fields`
+        | `dmc_classify_processes`
+        | `dmc_resource_usage_by_processes_timechart(pct_cpu, Median)`","GOEL-DS-LM-MC","1707211107.598855",0,"UI:Dashboard:resource_usage_instance",0,0,4923,1707211107,49,search9,4924,completed,"0.425","1707196680.000000000","1707211107.000000000","1707196680.000000000","1707211107.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search2_1707211112.85","| `dmc_get_groups_containing_role(dmc_group_indexer)`
+          | search search_group!=""dmc_group_*""","GOEL-DS-LM-MC","1707211112.053355",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211112,0,search2,0,completed,"0.035",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search3_1707211112.86","| `dmc_get_instance_info(*)`
+        | search search_group=""dmc_group_indexer""","GOEL-DS-LM-MC","1707211112.089544",0,"UI:Dashboard:resource_usage_instance",0,0,0,1707211112,1,search3,0,completed,"0.02",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search1_1707211122.87","| `dmc_get_groups`
+        | search search_group=""dmc_group_*""","GOEL-DS-LM-MC","1707211122.580257",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211122,4,search1,0,completed,"0.023",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search2_1707211123.88","| `dmc_get_groups_containing_role(*)`
+          | search search_group!=""dmc_group_*""","GOEL-DS-LM-MC","1707211123.747910",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211123,0,search2,0,completed,"0.027",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search3_1707211123.89","| `dmc_get_instance_info(""*"")`
+        | search search_group=""*""","GOEL-DS-LM-MC","1707211123.801798",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211123,1,search3,0,completed,"0.019",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search9_1707211124.90","search `dmc_set_index_introspection` host=$row.host$ sourcetype=splunk_resource_usage component=PerProcess data.search_props.sid::*
+        | `dmc_rename_introspection_fields`
+        | `dmc_set_bin`
+        | stats latest(normalized_pct_cpu) AS resource_usage_dedup by _time, type, sid, pid
+        | stats sum(resource_usage_dedup) AS sum_resource_usage by _time,  type
+        | eval sum_resource_usage = round(sum_resource_usage / 100.0, 2)
+        | `dmc_timechart` Median(sum_resource_usage) AS ""Median of resource usage"" by type","GOEL-DS-LM-MC","1707211124.048615",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211124,0,search9,0,canceled,"0.316","1707196680.000000000","1707211124.000000000","1707196680.000000000","1707211124.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search10_1707211124.91","| mstats Median(""spl.intr.resource_usage.Hostwide.data.cpu_system_pct_mrollup_avg_86400s"")  Median(""spl.intr.resource_usage.Hostwide.data.cpu_user_pct_mrollup_avg_86400s"") prestats=true WHERE ""index""=""_metrics_rollup"" by extracted_host span=1h
+          | rename extracted_host as host
+          | where host=""$row.host$""
+          | timechart eval(Median('spl.intr.resource_usage.Hostwide.data.cpu_user_pct_mrollup_avg_86400s') + Median('spl.intr.resource_usage.Hostwide.data.cpu_system_pct_mrollup_avg_86400s')) by host
+          | fields - _span","GOEL-DS-LM-MC","1707211124.059905",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211124,0,search10,0,canceled,"0.137","1704585600.000000000","1707211124.000000000","1704585600.000000000","1707211124.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57f832cab3cc3832f_1707211124.92","search `dmc_set_index_introspection` host=$row.host$ sourcetype=splunk_resource_usage component=PerProcess
+      | `dmc_rename_introspection_fields`
+      | `dmc_classify_processes`
+      | `dmc_resource_usage_by_processes_timechart(normalized_pct_cpu, Median)`","GOEL-DS-LM-MC","1707211124.062910",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211124,0,"cpu_by_process_class",0,canceled,"0.26","1707196680.000000000","1707211124.000000000","1707196680.000000000","1707211124.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD5a10707a3508f5283_1707211125.93","| rest splunk_server=ip-10-0-3-7 /services/server/status/resource-usage/hostwide
+      | join type=outer splunk_server [
+          | `dmc_get_instance_roles` 
+          | fields role serverName
+          | rename serverName as splunk_server]
+      | eventstats min(eval(if(isnull(normalized_load_avg_1min), ""0"", ""1""))) as _load_avg_full_availability
+      | eval normalized_load_avg_1min = if(isnull(normalized_load_avg_1min), ""N/A"", normalized_load_avg_1min)
+      | eval core_info = if(isnull(cpu_count), ""N/A"", cpu_count)."" / "".if(isnull(virtual_cpu_count), ""N/A"", virtual_cpu_count)
+      | eval cpu_usage = 'cpu_system_pct' + 'cpu_user_pct'
+      | fields splunk_server, role, normalized_load_avg_1min, core_info, cpu_usage, cpu_count, virtual_cpu_count, cpu_system_pct, cpu_user_pct
+      | eval role = replace(role, "" $"", """")
+      | eval role = split(role, "" "")","GOEL-DS-LM-MC","1707211125.924516",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211125,0,"instance_cpu_usage",0,completed,"0.055","1707196680.000000000","1707211125.000000000","1707196680.000000000","1707211125.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD50972d7af82c3253d_1707211125.94","| rest splunk_server=ip-10-0-3-7 /services/server/status/resource-usage/splunk-processes
+      | fields normalized_pct_cpu pct_cpu process process_type search_props.mode search_props.type search_props.provenance splunk_server
+      | fillnull normalized_pct_cpu pct_cpu
+      | eval process_type_l2 = if(match(process_type, ""^search$""), 'process_type'."":"".'search_props.type', 'process_type')
+      | stats sum(normalized_pct_cpu) AS normalized_pct_cpu by process_type_l2, splunk_server
+      | chart avg(normalized_pct_cpu) AS normalized_pct_cpu over splunk_server by process_type_l2
+      | foreach * [eval <<FIELD>> = if(isnum('<<FIELD>>'), round('<<FIELD>>', 2), '<<FIELD>>')]","GOEL-DS-LM-MC","1707211125.935448",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211125,0,"system_cpu_usage",0,completed,"0.027",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search9_1707211125.95","search `dmc_set_index_introspection` host=ip-10-0-3-7 sourcetype=splunk_resource_usage component=PerProcess data.search_props.sid::*
+        | `dmc_rename_introspection_fields`
+        | `dmc_set_bin`
+        | stats latest(normalized_pct_cpu) AS resource_usage_dedup by _time, type, sid, pid
+        | stats sum(resource_usage_dedup) AS sum_resource_usage by _time,  type
+        | eval sum_resource_usage = round(sum_resource_usage / 100.0, 2)
+        | `dmc_timechart` Median(sum_resource_usage) AS ""Median of resource usage"" by type","GOEL-DS-LM-MC","1707211125.950583",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211125,0,search9,1,completed,"0.298","1707196680.000000000","1707211125.000000000","1707196680.000000000","1707211125.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search10_1707211126.96","| mstats Median(""spl.intr.resource_usage.Hostwide.data.cpu_system_pct_mrollup_avg_86400s"")  Median(""spl.intr.resource_usage.Hostwide.data.cpu_user_pct_mrollup_avg_86400s"") prestats=true WHERE ""index""=""_metrics_rollup"" by extracted_host span=1h
+          | rename extracted_host as host
+          | where host=""ip-10-0-3-7""
+          | timechart eval(Median('spl.intr.resource_usage.Hostwide.data.cpu_user_pct_mrollup_avg_86400s') + Median('spl.intr.resource_usage.Hostwide.data.cpu_system_pct_mrollup_avg_86400s')) by host
+          | fields - _span","GOEL-DS-LM-MC","1707211126.049363",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211126,0,search10,0,completed,"0.14100000000000001","1704585600.000000000","1707211126.000000000","1704585600.000000000","1707211126.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD57f832cab3cc3832f_1707211126.97","search `dmc_set_index_introspection` host=ip-10-0-3-7 sourcetype=splunk_resource_usage component=PerProcess
+      | `dmc_rename_introspection_fields`
+      | `dmc_classify_processes`
+      | `dmc_resource_usage_by_processes_timechart(normalized_pct_cpu, Median)`","GOEL-DS-LM-MC","1707211126.163049",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,4923,1707211126,49,"cpu_by_process_class",4924,completed,"0.28","1707196680.000000000","1707211126.000000000","1707196680.000000000","1707211126.000000000",,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search2_1707211129.98","| `dmc_get_groups_containing_role(dmc_group_indexer)`
+          | search search_group!=""dmc_group_*""","GOEL-DS-LM-MC","1707211129.542696",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211129,0,search2,0,completed,"0.11",,,,,,,,,,,,,,,,,,,,,,,
+"admin__admin_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__search3_1707211129.99","| `dmc_get_instance_info(""*"")`
+        | search search_group=""dmc_group_indexer""","GOEL-DS-LM-MC","1707211129.562617",0,"UI:Dashboard:resource_usage_cpu_instance",0,0,0,1707211129,1,search3,0,completed,"0.088",,,,,,,,,,,,,,,,,,,,,,,

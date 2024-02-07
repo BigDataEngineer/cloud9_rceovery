@@ -1,0 +1,2 @@
+"auto_cancel","status_buckets","earliest_time","latest_time",label,preview,search,provenance,"check_risky_command","webframework.cache.hash","__mv_auto_cancel","__mv_status_buckets","__mv_earliest_time","__mv_latest_time","__mv_label","__mv_preview","__mv_search","__mv_provenance","__mv_check_risky_command","__mv_webframework.cache.hash"
+90,0,"-24h@h",now,search4,true,"search index=infra host=www* source=""/opt/log/www*/access.log"" status>399 earliest=-24h|stats count AS failures by status host","UI:Dashboard:infra",true,"java5:7c4e3c9",,,,,,,,,,

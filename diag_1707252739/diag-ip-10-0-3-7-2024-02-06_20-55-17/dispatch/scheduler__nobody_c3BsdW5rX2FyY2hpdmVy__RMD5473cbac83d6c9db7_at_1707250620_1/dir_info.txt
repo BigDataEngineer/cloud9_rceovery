@@ -1,0 +1,36 @@
+ls -alR "/opt/splunk/var/run/splunk/dispatch/scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707250620_1"
+/opt/splunk/var/run/splunk/dispatch/scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707250620_1:
+total 96
+drwx------ 5 archStudent archStudent  4096 Feb  6 20:17 .
+drwx--x--x 5 archStudent archStudent 12288 Feb  6 20:54 ..
+-rw------- 1 archStudent archStudent   247 Feb  6 20:17 args.txt
+-rw------- 1 archStudent archStudent     0 Feb  6 20:17 audited
+drwx------ 2 archStudent archStudent  4096 Feb  6 20:17 buckets
+drwx------ 2 archStudent archStudent  4096 Feb  6 20:17 events
+drwx------ 2 archStudent archStudent  4096 Feb  6 20:17 events_preview
+-rw------- 1 archStudent archStudent  5020 Feb  6 20:17 info.csv
+-rw------- 1 archStudent archStudent   135 Feb  6 20:17 metadata.csv
+-rw------- 1 archStudent archStudent   847 Feb  6 20:17 peers.csv
+-rw------- 1 archStudent archStudent     2 Feb  6 20:17 pipeline_sets
+-rw------- 1 archStudent archStudent   943 Feb  6 20:17 request.csv
+-rw------- 1 archStudent archStudent 22418 Feb  6 20:17 search.log
+-rw------- 1 archStudent archStudent  2116 Feb  6 20:17 search_telemetry.json
+-rw------- 1 archStudent archStudent   864 Feb  6 20:17 search_telemetry.log
+-rw------- 1 archStudent archStudent  1538 Feb  6 20:17 status.csv
+-rw------- 1 archStudent archStudent     0 Feb  6 20:17 tmp_cleanup_done
+-rw------- 1 archStudent archStudent   254 Feb  6 20:17 watchdog.log
+
+/opt/splunk/var/run/splunk/dispatch/scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707250620_1/buckets:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:17 .
+drwx------ 5 archStudent archStudent 4096 Feb  6 20:17 ..
+
+/opt/splunk/var/run/splunk/dispatch/scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707250620_1/events:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:17 .
+drwx------ 5 archStudent archStudent 4096 Feb  6 20:17 ..
+
+/opt/splunk/var/run/splunk/dispatch/scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707250620_1/events_preview:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:17 .
+drwx------ 5 archStudent archStudent 4096 Feb  6 20:17 ..

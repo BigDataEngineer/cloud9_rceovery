@@ -1,0 +1,136 @@
+02-06-2024 20:47:13.759 INFO  dispatchRunner [13911 MainThread] - Search process mode: preforked (reused process) (build b985591d12fd).
+02-06-2024 20:47:13.759 INFO  dispatchRunner [13911 MainThread] - registering build time modules, count=1
+02-06-2024 20:47:13.759 INFO  dispatchRunner [13911 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:47:13.759 INFO  BundlesSetup [13911 MainThread] - Setup stats for /opt/splunk/etc: wallclock_elapsed_msec=15, cpu_time_used=0.0118968, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:47:13.764 INFO  UserManagerPro [13911 MainThread] - Load authentication: forcing roles="admin, power, splunk-system-role, user"
+02-06-2024 20:47:13.765 INFO  UserManager [31019 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.765 INFO  UserManager [31019 RunDispatch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.765 INFO  dispatchRunner [31019 RunDispatch] - search context: user="splunk-system-user", app="search", bs-pathname="/opt/splunk/etc"
+02-06-2024 20:47:13.765 INFO  SearchParser [31019 RunDispatch] - PARSING: | rest services/data/indexes datatype=all f=title f=frozenTimePeriodInSecs f=maxGlobalRawDataSizeMB f=maxGlobalDataSizeMB f=remotePath f=disabled| search remotePath!="" AND disabled!=1| dedup title| fields title frozenTimePeriodInSecs maxGlobalRawDataSizeMB maxGlobalDataSizeMB
+02-06-2024 20:47:13.765 INFO  dispatchRunner [31019 RunDispatch] - Search running in non-clustered mode
+02-06-2024 20:47:13.765 INFO  dispatchRunner [31019 RunDispatch] - SearchHeadInitSearchMs=0
+02-06-2024 20:47:13.765 INFO  dispatchRunner [31019 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=false).
+02-06-2024 20:47:13.765 INFO  SearchOrchestrator [31019 RunDispatch] - SearchOrchestrator getting constructed
+02-06-2024 20:47:13.765 INFO  SearchOrchestrator [31019 RunDispatch] -  Initialized the SRI
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Initializing feature flags from config. feature_seed=3524420563
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:47:13.766 INFO  SearchFeatureFlags [31019 RunDispatch] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:47:13.766 INFO  SearchOrchestrator [31019 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2","search:read_final_results_from_timeliner"],"disabledFeatures":["search:search_retry","search:search_retry_realtime","parallelreduce:autoAppliedPercentage","subsearch:enableConcurrentPipelineProcessing","search_optimization::set_required_fields:stats","searchresults:srs2"]}
+02-06-2024 20:47:13.766 INFO  ISplunkDispatch [31019 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+02-06-2024 20:47:13.766 INFO  SearchOrchestrator [31022 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+02-06-2024 20:47:13.766 INFO  UserManager [31022 searchOrchestrator] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.766 INFO  UserManager [31022 searchOrchestrator] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.766 INFO  AdaptiveSearchEngineSelector [31022 searchOrchestrator] - Search execution_plan=classic
+02-06-2024 20:47:13.766 INFO  SearchOrchestrator [31022 searchOrchestrator] - Creating the search DAG.
+02-06-2024 20:47:13.766 INFO  SearchParser [31022 searchOrchestrator] - PARSING: | rest services/data/indexes datatype=all f=title f=frozenTimePeriodInSecs f=maxGlobalRawDataSizeMB f=maxGlobalDataSizeMB f=remotePath f=disabled| search remotePath!="" AND disabled!=1| dedup title| fields title frozenTimePeriodInSecs maxGlobalRawDataSizeMB maxGlobalDataSizeMB
+02-06-2024 20:47:13.767 INFO  DispatchStorageManagerInfo [31022 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=6ead4ea68abcfd9a_tmp dispatch_dir=/opt/splunk/var/run/splunk/dispatch/6ead4ea68abcfd9a_tmp
+02-06-2024 20:47:13.767 INFO  SearchOperator:rest [31022 searchOrchestrator] - built uri=services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled, server=https://127.0.0.1:8089
+02-06-2024 20:47:13.768 INFO  SearchParser [31022 searchOrchestrator] - PARSING: prerest timeout=60 "services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled"
+02-06-2024 20:47:13.768 INFO  SearchOperator:rest [31022 searchOrchestrator] - built uri=services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled, server=https://127.0.0.1:8089
+02-06-2024 20:47:13.768 INFO  UnifiedSearch [31022 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:47:13.768 INFO  DispatchThread [31022 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+02-06-2024 20:47:13.768 INFO  DispatchThread [31022 searchOrchestrator] - required fields list to add to remote search = *
+02-06-2024 20:47:13.768 INFO  DispatchCommandProcessor [31022 searchOrchestrator] - summaryHash=94ca7060983c82c8 summaryId=15FACF80-D444-49B1-94FA-E022DDE18934_search_nobody_94ca7060983c82c8 remoteSearch=prerest  timeout=60 "services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled"
+02-06-2024 20:47:13.768 INFO  DispatchCommandProcessor [31022 searchOrchestrator] - summaryHash=NSd12a694fdef1fc11 summaryId=15FACF80-D444-49B1-94FA-E022DDE18934_search_nobody_NSd12a694fdef1fc11 remoteSearch=prerest timeout=60 "services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled"
+02-06-2024 20:47:13.768 INFO  DispatchThread [31022 searchOrchestrator] - Getting summary ID for summaryHash=NSd12a694fdef1fc11
+02-06-2024 20:47:13.769 INFO  SearchParser [31022 searchOrchestrator] - PARSING: | rest services/data/indexes datatype=all f=title f=frozenTimePeriodInSecs f=maxGlobalRawDataSizeMB f=maxGlobalDataSizeMB f=remotePath f=disabled| search remotePath!="" AND disabled!=1| dedup title| fields title frozenTimePeriodInSecs maxGlobalRawDataSizeMB maxGlobalDataSizeMB
+02-06-2024 20:47:13.769 INFO  SearchOperator:rest [31022 searchOrchestrator] - built uri=services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled, server=https://127.0.0.1:8089
+02-06-2024 20:47:13.769 INFO  UnifiedSearch [31022 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:47:13.769 INFO  AstOptimizer [31022 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000492906
+02-06-2024 20:47:13.769 INFO  AstVisitorFactory [31022 searchOrchestrator] - Not building visitor : replace_datamodel_stats_cmds_with_tstats
+02-06-2024 20:47:13.769 INFO  SearchParser [31022 searchOrchestrator] - PARSING:  | fields + title, frozenTimePeriodInSecs, maxGlobalRawDataSizeMB, maxGlobalDataSizeMB
+02-06-2024 20:47:13.769 INFO  SearchParser [31022 searchOrchestrator] - PARSING: | dedup title
+02-06-2024 20:47:13.770 INFO  SearchParser [31022 searchOrchestrator] - PARSING: | search disabled!=1
+02-06-2024 20:47:13.770 INFO  SearchParser [31022 searchOrchestrator] - PARSING: | search remotePath!=""
+02-06-2024 20:47:13.770 INFO  SearchParser [31022 searchOrchestrator] - PARSING:  | rest services/data/indexes datatype="all" f="title" f="frozenTimePeriodInSecs" f="maxGlobalRawDataSizeMB" f="maxGlobalDataSizeMB" f="remotePath" f="disabled"
+02-06-2024 20:47:13.770 INFO  FederatedInfo [31022 searchOrchestrator] - No federated search providers defined.
+02-06-2024 20:47:13.770 INFO  ReplaceTableWithFieldsVisitor [31022 searchOrchestrator] - search_optimization::replace_table_with_fields disabled due to VERBOSE Mode search
+02-06-2024 20:47:13.770 INFO  AstVisitorFactory [31022 searchOrchestrator] - Not building visitor : replace_table_with_fields
+02-06-2024 20:47:13.770 INFO  ProjElim [31022 searchOrchestrator] - Black listed processors=[addinfo]
+02-06-2024 20:47:13.770 INFO  ReplaceWithTstatsVisitorBase [31022 searchOrchestrator] - Cannot build ReplaceWithTstatsVisitorBase as we need to generate a timeline (info._buckets = true)
+02-06-2024 20:47:13.770 INFO  AstVisitorFactory [31022 searchOrchestrator] - Not building visitor : replace_stats_cmds_with_tstats
+02-06-2024 20:47:13.770 INFO  ReplaceWithTstatsVisitorBase [31022 searchOrchestrator] - Cannot build ReplaceWithTstatsVisitorBase as we need to generate a timeline (info._buckets = true)
+02-06-2024 20:47:13.770 INFO  AstVisitorFactory [31022 searchOrchestrator] - Not building visitor : replace_chart_cmds_with_tstats
+02-06-2024 20:47:13.770 INFO  AstOptimizer [31022 searchOrchestrator] - SrchOptMetrics optimization=0.000679118
+02-06-2024 20:47:13.770 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - Optimized Search = | rest services/data/indexes datatype="all" f="title" f="frozenTimePeriodInSecs" f="maxGlobalRawDataSizeMB" f="maxGlobalDataSizeMB" f="remotePath" f="disabled"| search (disabled!=1 remotePath!="") | dedup title | fields + title, frozenTimePeriodInSecs, maxGlobalRawDataSizeMB, maxGlobalDataSizeMB
+02-06-2024 20:47:13.770 INFO  ScopedTimer [31022 searchOrchestrator] - search.optimize 0.001577807
+02-06-2024 20:47:13.770 INFO  FederatedProviderVisitor [31022 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+02-06-2024 20:47:13.770 INFO  FederatedProviderVisitor [31022 searchOrchestrator] - Command not safe for remote execution, command=rest
+02-06-2024 20:47:13.770 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - Number of involved federated deployments is 0.
+02-06-2024 20:47:13.770 INFO  PhaseNodeGenerationVisitor [31022 searchOrchestrator] - FallBackReason: Fallback to 2-phase mode because of empty split key of cmd: rest
+02-06-2024 20:47:13.771 INFO  PhaseToPipelineVisitor [31022 searchOrchestrator] - Phase Search =  | rest services/data/indexes datatype="all" f="title" f="frozenTimePeriodInSecs" f="maxGlobalRawDataSizeMB" f="maxGlobalDataSizeMB" f="remotePath" f="disabled"| search (disabled!=1 remotePath!="") | dedup title | fields + title, frozenTimePeriodInSecs, maxGlobalRawDataSizeMB, maxGlobalDataSizeMB
+02-06-2024 20:47:13.771 INFO  SearchParser [31022 searchOrchestrator] - PARSING:  | rest services/data/indexes datatype="all" f="title" f="frozenTimePeriodInSecs" f="maxGlobalRawDataSizeMB" f="maxGlobalDataSizeMB" f="remotePath" f="disabled"| search (disabled!=1 remotePath!="") | dedup title | fields + title, frozenTimePeriodInSecs, maxGlobalRawDataSizeMB, maxGlobalDataSizeMB
+02-06-2024 20:47:13.771 INFO  SearchOperator:rest [31022 searchOrchestrator] - built uri=services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled, server=https://127.0.0.1:8089
+02-06-2024 20:47:13.771 INFO  UnifiedSearch [31022 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:47:13.771 INFO  SearchPipeline [31022 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+02-06-2024 20:47:13.771 INFO  SearchParser [31022 searchOrchestrator] - PARSING: prerest timeout=60 "services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled"
+02-06-2024 20:47:13.771 INFO  SearchOperator:rest [31022 searchOrchestrator] - built uri=services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled, server=https://127.0.0.1:8089
+02-06-2024 20:47:13.771 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - Disabling timeliner since source is not an event index
+02-06-2024 20:47:13.771 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - Disabling timeliner since event search is empty
+02-06-2024 20:47:13.771 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - No need for RTWindowProcessor
+02-06-2024 20:47:13.771 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - Timeliner will not be executed
+02-06-2024 20:47:13.771 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - required fields list to add to different pipelines = *
+02-06-2024 20:47:13.771 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - Adding noop to provide result collation at search head
+02-06-2024 20:47:13.771 INFO  SearchParser [31022 searchOrchestrator] - PARSING: noop
+02-06-2024 20:47:13.771 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - Search Phases created.
+02-06-2024 20:47:13.772 INFO  SearchOrchestrator [31022 searchOrchestrator] - Preview is not enabled. (preview_algorithm=NONE)
+02-06-2024 20:47:13.772 INFO  UserManager [31022 searchOrchestrator] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.772 INFO  UserManager [31022 searchOrchestrator] - Done setting user context: splunk-system-user -> splunk-system-user
+02-06-2024 20:47:13.772 INFO  UserManager [31022 searchOrchestrator] - Unwound user context: splunk-system-user -> splunk-system-user
+02-06-2024 20:47:13.772 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Stream search: prerest  timeout=60 "services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled"
+02-06-2024 20:47:13.772 INFO  ExternalResultProvider [31022 searchOrchestrator] - No external result providers are configured
+02-06-2024 20:47:13.772 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+02-06-2024 20:47:13.772 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+02-06-2024 20:47:13.772 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Default search group:*
+02-06-2024 20:47:13.772 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Not connecting to peerName=GOEL-ClusterMaster servers=GOEL-Indexer1,GOEL-Indexer2,GOEL-Indexer3
+02-06-2024 20:47:13.772 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Connecting to peer GOEL-Indexer1 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:47:13.772 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Connecting to peer GOEL-Indexer2 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:47:13.772 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Connecting to peer GOEL-Indexer3 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:47:13.774 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer1 in 0.002 seconds
+02-06-2024 20:47:13.775 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer2 in 0.002 seconds
+02-06-2024 20:47:13.777 INFO  DistributedSearchResultCollectionManager [31022 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer3 in 0.002 seconds
+02-06-2024 20:47:13.777 INFO  UserManager [31027 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31027 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31029 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31029 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31030 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.777 INFO  SearchPhaseGenerator [31022 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.004899496 seconds.
+02-06-2024 20:47:13.777 INFO  UserManager [31030 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.777 INFO  SearchOrchestrator [31022 searchOrchestrator] - Starting the status control thread.
+02-06-2024 20:47:13.777 INFO  SearchOrchestrator [31022 searchOrchestrator] - Starting phase=1
+02-06-2024 20:47:13.777 INFO  UserManager [31024 StatusEnforcerThread] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31024 StatusEnforcerThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.777 INFO  SearchStatusEnforcer [31024 StatusEnforcerThread] - Enforcing disk quota = 10485760000
+02-06-2024 20:47:13.777 INFO  UserManager [31028 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31028 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31031 phase_1] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31031 phase_1] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.777 INFO  ReducePhaseExecutor [31031 phase_1] - Starting phase_1
+02-06-2024 20:47:13.777 INFO  UserManager [31026 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.777 INFO  UserManager [31026 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.800 INFO  UserManager [31027 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.800 INFO  UserManager [31028 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.800 INFO  UserManager [31026 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.800 INFO  UserManager [31029 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.800 INFO  UserManager [31030 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.801 INFO  ResultsCollationProcessor [31031 phase_1] - Writing remote_event_providers.csv to disk
+02-06-2024 20:47:13.802 INFO  DownloadRemoteDataTransaction [31031 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:47:13.808 INFO  ReducePhaseExecutor [31031 phase_1] - Downloading all remote search.log files took 0.006 seconds
+02-06-2024 20:47:13.808 INFO  DownloadRemoteDataTransaction [31031 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:47:13.813 INFO  ReducePhaseExecutor [31031 phase_1] - Downloading all remote search_telemetry.json files took 0.006 seconds
+02-06-2024 20:47:13.814 INFO  ReducePhaseExecutor [31031 phase_1] - Ending phase_1
+02-06-2024 20:47:13.814 INFO  UserManager [31031 phase_1] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.816 INFO  UserManager [31024 StatusEnforcerThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.817 INFO  DispatchManager [31022 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='RemoteStorageRetrieveIndexes_1707252433.144', username='splunk-system-user')
+02-06-2024 20:47:13.817 INFO  UserManager [31022 searchOrchestrator] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.817 INFO  SearchStatusEnforcer [31019 RunDispatch] - SearchStatusEnforcer is already terminated
+02-06-2024 20:47:13.817 INFO  UserManager [31019 RunDispatch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.817 INFO  LookupDataProvider [31019 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:47:13.819 INFO  dispatchRunner [13911 MainThread] - RunDispatch is done: sid=RemoteStorageRetrieveIndexes_1707252433.144, exit=0

@@ -1,0 +1,6 @@
+sid,search,"splunk_server","_time","is_realtime","event_count","exec_time","result_count","scan_count",status,"total_run_time","__mv_sid","__mv_search","__mv_splunk_server","__mv__time","__mv_is_realtime","__mv_event_count","__mv_exec_time","__mv_result_count","__mv_scan_count","__mv_status","__mv_total_run_time"
+"1707189420.42","| copybuckets json=""{\""vixes\"": {}, \""providers\"": {}}""","GOEL-LICENSE","1707189420.658225",0,0,1707189420,0,0,canceled,"0.321",,,,,,,,,,,
+"1707193020.50","| copybuckets json=""{\""vixes\"": {}, \""providers\"": {}}""","GOEL-LICENSE","1707193020.812712",0,0,1707193020,0,0,canceled,"0.327",,,,,,,,,,,
+"1707196620.65","| copybuckets json=""{\""vixes\"": {}, \""providers\"": {}}""","GOEL-LICENSE","1707196620.768449",0,0,1707196620,0,0,canceled,"0.315",,,,,,,,,,,
+"1707200221.3","| copybuckets json=""{\""vixes\"": {}, \""providers\"": {}}""","GOEL-LICENSE","1707200221.263897",0,0,1707200221,0,0,canceled,"0.333",,,,,,,,,,,
+"1707203820.94","| copybuckets json=""{\""vixes\"": {}, \""providers\"": {}}""","GOEL-LICENSE","1707203820.492973",0,0,1707203820,0,0,canceled,"0.325",,,,,,,,,,,

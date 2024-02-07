@@ -1,0 +1,14 @@
+ls -alR "/opt/splunk/var/run/splunk/dispatch/remote_GOEL-DS-LM-MC_1707251104.11"
+/opt/splunk/var/run/splunk/dispatch/remote_GOEL-DS-LM-MC_1707251104.11:
+total 60
+drwx------  2 archStudent archStudent  4096 Feb  6 20:25 .
+drwx--x--x 19 archStudent archStudent  4096 Feb  6 20:33 ..
+-rw-------  1 archStudent archStudent   346 Feb  6 20:25 args.txt
+-rw-------  1 archStudent archStudent  4168 Feb  6 20:25 info.csv
+-rw-------  1 archStudent archStudent     2 Feb  6 20:25 pipeline_sets
+-rw-------  1 archStudent archStudent   791 Feb  6 20:25 remote_metrics.json
+-rw-------  1 archStudent archStudent     8 Feb  6 20:25 remote_status.csv
+-rw-------  1 archStudent archStudent 14285 Feb  6 20:25 search.log
+-rw-------  1 archStudent archStudent  1685 Feb  6 20:25 search_telemetry.json
+-rw-------  1 archStudent archStudent   717 Feb  6 20:25 search_telemetry.log
+-rw-------  1 archStudent archStudent   255 Feb  6 20:25 watchdog.log

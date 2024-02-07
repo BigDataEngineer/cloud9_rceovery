@@ -1,0 +1,12 @@
+CERT:     /opt/splunkforwarder/etc/auth/server.pem
+CERT:     /opt/splunkforwarder/etc/auth/cacert.pem
+EXCLUDE:  /opt/splunkforwarder/etc/auth/ca.srl
+EXCLUDE:  /opt/splunkforwarder/etc/auth/splunk.secret
+EXCLUDE:  /opt/splunkforwarder/etc/auth/prev_release
+EXCLUDE:  /opt/splunkforwarder/etc/auth/cacert.pem.default
+EXCLUDE:  /opt/splunkforwarder/etc/auth/scripts
+CERT:     /opt/splunkforwarder/etc/auth/appsCA.pem
+EXCLUDE:  /opt/splunkforwarder/etc/auth/crl
+CERT:     /opt/splunkforwarder/etc/auth/ca.pem
+EXCLUDE:  /opt/splunkforwarder/etc/auth/ca.pem.default
+CERT:     /opt/splunkforwarder/etc/auth/cloudCA.pem

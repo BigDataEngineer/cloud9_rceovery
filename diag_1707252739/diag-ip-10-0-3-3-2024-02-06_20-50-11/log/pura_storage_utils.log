@@ -1,0 +1,3 @@
+4.1.2 2024-02-06 08:51:02,863 INFO 140207344199488 - /opt/splunk/etc/apps/python_upgrade_readiness_app/local/storage does not exist so creating it.
+4.1.2 2024-02-06 08:51:02,863 INFO 140207344199488 - /opt/splunk/etc/apps/python_upgrade_readiness_app/local/storage/pra_schedule_scan does not exist so creating it.
+4.1.2 2024-02-06 08:51:02,864 INFO 140207344199488 - /opt/splunk/etc/apps/python_upgrade_readiness_app/local/storage/pra_schedule_scan/pra_schedule_scan__GOEL-Indexer2.json does not exist so creating it.

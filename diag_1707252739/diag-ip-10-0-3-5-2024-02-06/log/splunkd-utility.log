@@ -1,0 +1,98 @@
+02-06-2024 03:32:47.853 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 03:32:47.853 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 03:32:47.853 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 03:32:48.467 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 03:32:48.467 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 03:32:48.467 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 03:32:48.469 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 08:24:46.303 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 08:24:46.304 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 08:24:46.304 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 08:24:46.865 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 08:24:46.866 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 08:24:46.866 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 08:24:46.867 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 08:29:17.302 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 08:29:17.303 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 08:29:17.303 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 08:29:17.818 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 08:29:17.818 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 08:29:17.819 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 08:29:17.820 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 08:44:15.142 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 08:44:15.143 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 08:44:15.143 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 08:44:15.677 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 08:44:15.677 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 08:44:15.677 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 08:44:15.679 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 08:54:23.582 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 08:54:23.583 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 08:54:23.583 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 08:54:24.085 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 08:54:24.085 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 08:54:24.085 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 08:54:24.087 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 08:56:17.002 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 08:56:17.002 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 08:56:17.003 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 08:56:17.602 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 08:56:17.602 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 08:56:17.602 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 08:56:17.603 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 08:56:24.389 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 08:56:24.390 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 08:56:24.390 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 08:56:24.978 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 08:56:24.978 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 08:56:24.978 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 08:56:24.979 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 08:58:56.851 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 08:58:56.852 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 08:58:56.852 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 08:58:57.440 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 08:58:57.440 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 08:58:57.440 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 08:58:57.442 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 09:03:09.927 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 09:03:09.928 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 09:03:09.928 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 09:03:10.533 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 09:03:10.533 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 09:03:10.533 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 09:03:10.535 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 11:33:27.002 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 11:33:27.003 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 11:33:27.003 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 11:33:27.591 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 11:33:27.592 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 11:33:27.592 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 11:33:27.593 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 11:35:20.455 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 11:35:20.456 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 11:35:20.456 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 11:35:21.053 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 11:35:21.053 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 11:35:21.053 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 11:35:21.054 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 12:50:22.101 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 12:50:22.102 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 12:50:22.102 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 12:50:22.696 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 12:50:22.696 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 12:50:22.696 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 12:50:22.697 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 19:54:32.019 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 19:54:32.019 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 19:54:32.019 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 19:54:32.610 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 19:54:32.610 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 19:54:32.610 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 19:54:32.611 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml
+02-06-2024 19:56:13.468 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 19:56:13.468 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 19:56:13.469 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 19:56:14.069 +0000 INFO  loader - Getting configuration data from: /opt/splunkforwarder/etc/myinstall/splunkd.xml
+02-06-2024 19:56:14.069 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunkforwarder/etc/modules
+02-06-2024 19:56:14.069 +0000 INFO  loader - loading modules from /opt/splunkforwarder/etc/modules
+02-06-2024 19:56:14.070 +0000 INFO  loader - Writing out composite configuration file: /opt/splunkforwarder/var/run/splunk/composite.xml

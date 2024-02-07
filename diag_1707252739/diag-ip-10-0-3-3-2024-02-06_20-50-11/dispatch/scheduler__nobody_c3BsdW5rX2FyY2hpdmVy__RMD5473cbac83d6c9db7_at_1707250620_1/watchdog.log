@@ -1,0 +1,2 @@
+02-06-2024 20:17:01.063 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 20:17:01.064 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=2071. Threads monitoring is enabled with response timeout set to 8000 ms.

@@ -1,0 +1,10 @@
+--id=1707251105.22
+--maxbuckets=300
+--ttl=600
+--maxout=500000
+--maxtime=8640000
+--lookups=1
+--reduce_freq=10
+--user=admin
+--pro
+--roles=admin:can_delete:power:user

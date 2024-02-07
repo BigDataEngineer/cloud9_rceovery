@@ -1,0 +1,111 @@
+02-06-2024 20:43:27.885 INFO  dispatchRunner [19050 MainThread] - Search process mode: preforked (reused process) (build b985591d12fd).
+02-06-2024 20:43:27.885 INFO  dispatchRunner [19050 MainThread] - Feature flag post-args={"v":1,"enabledFeatures":["stats:allow_stats_v2"],"disabledFeatures":["searchresults:srs2"]}
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Initializing feature flags from config. feature_seed=46947589
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:43:27.885 INFO  SearchFeatureFlags [19050 MainThread] - Overlaying SearchFeatureFlags from jsonNode={"v":1,"enabledFeatures":["stats:allow_stats_v2"],"disabledFeatures":["searchresults:srs2"]}
+02-06-2024 20:43:27.885 INFO  dispatchRunner [19050 MainThread] - registering build time modules, count=1
+02-06-2024 20:43:27.885 INFO  dispatchRunner [19050 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:43:27.886 INFO  BundlesSetup [19050 MainThread] - Setup stats for /opt/splunk/var/run/searchpeers/GOEL-SearchHead-1707251292: wallclock_elapsed_msec=14, cpu_time_used=0.0148286, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:43:27.893 INFO  UserManagerPro [19050 MainThread] - Load authentication: forcing roles="admin, can_delete, power, user"
+02-06-2024 20:43:27.893 INFO  UserManager [16139 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:43:27.893 INFO  UserManager [16139 RunDispatch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:43:27.893 INFO  UserManager [16139 RunDispatch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:43:27.893 INFO  UserManager [16139 RunDispatch] - Setting user context: admin
+02-06-2024 20:43:27.893 INFO  UserManager [16139 RunDispatch] - Done setting user context: NULL -> admin
+02-06-2024 20:43:27.894 INFO  dispatchRunner [16139 RunDispatch] - search context: user="admin", app="search", bs-pathname="/opt/splunk/var/run/searchpeers/GOEL-SearchHead-1707251292"
+02-06-2024 20:43:27.894 INFO  SearchParser [16139 RunDispatch] - PARSING: litsearch (index=_* log_level=WARN bcgames bucket) | fields  keepcolorder=t "*" "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=1707248580.000000 lt=1707252207.000000 remove=true max_count=1000 max_prefetch=100
+02-06-2024 20:43:27.894 INFO  SearchParser [16139 RunDispatch] - PARSING: litsearch (index=_* log_level=WARN bcgames bucket) | fields  keepcolorder=t "*" "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=1707248580.000000 lt=1707252207.000000 remove=true max_count=1000 max_prefetch=100
+02-06-2024 20:43:27.894 INFO  UserManager [16139 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:43:27.894 INFO  UserManager [16139 RunDispatch] - Done setting user context: admin -> splunk-system-user
+02-06-2024 20:43:27.894 INFO  UserManager [16139 RunDispatch] - Setting user context: admin
+02-06-2024 20:43:27.894 INFO  UserManager [16139 RunDispatch] - Done setting user context: splunk-system-user -> admin
+02-06-2024 20:43:27.895 INFO  SearchProcessor [16139 RunDispatch] - Filtered out a metric type index '_metrics' because the command does not support it.
+02-06-2024 20:43:27.895 INFO  SearchProcessor [16139 RunDispatch] - Filtered out a metric type index '_metrics_rollup' because the command does not support it.
+02-06-2024 20:43:27.895 INFO  UserManager [16139 RunDispatch] - Unwound user context: admin -> splunk-system-user
+02-06-2024 20:43:27.895 INFO  UserManager [16139 RunDispatch] - Unwound user context: splunk-system-user -> admin
+02-06-2024 20:43:27.895 INFO  DispatchCommandProcessor [16139 RunDispatch] - Search requires the following indexes="[_audit,_configtracker,_internal,_introspection,_telemetry,_thefishbucket]"
+02-06-2024 20:43:27.895 INFO  IndexReaderIf [16139 RunDispatch] - Loading Clustering bucket manifest file=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen111.csv.gz
+02-06-2024 20:43:27.895 INFO  DatabaseDirectoryManager [16139 RunDispatch] - initDDMsFromSearchBucketManifest path=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen111.csv.gz, indexWhiteList_size=6
+02-06-2024 20:43:27.896 INFO  dispatchRunner [16139 RunDispatch] - SearchPeerInitSearchMs=2
+02-06-2024 20:43:27.896 INFO  dispatchRunner [16139 RunDispatch] - Serial search pipeline for streaming search being launched.
+02-06-2024 20:43:27.896 INFO  SearchParser [16139 RunDispatch] - PARSING: litsearch (index=_* log_level=WARN bcgames bucket) | fields  keepcolorder=t "*" "_bkt" "_cd" "_si" "host" "index" "linecount" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=1707248580.000000 lt=1707252207.000000 remove=true max_count=1000 max_prefetch=100
+02-06-2024 20:43:27.906 INFO  SearchProcessor [16139 RunDispatch] - Filtered out a metric type index '_metrics' because the command does not support it.
+02-06-2024 20:43:27.906 INFO  SearchProcessor [16139 RunDispatch] - Filtered out a metric type index '_metrics_rollup' because the command does not support it.
+02-06-2024 20:43:27.907 INFO  SearchParser [16139 RunDispatch] - PARSING: typer | tags
+02-06-2024 20:43:27.908 INFO  FastTyper [16139 RunDispatch] - found nodes count: comparisons=6, unique_comparisons=5, terms=4, unique_terms=4, phrases=12, unique_phrases=12, total leaves=22
+02-06-2024 20:43:27.909 INFO  UserManager [16139 RunDispatch] - Setting user context: admin
+02-06-2024 20:43:27.909 INFO  UserManager [16139 RunDispatch] - Done setting user context: admin -> admin
+02-06-2024 20:43:27.909 INFO  FastSearchFilter [16139 RunDispatch] - Finished initializing IndexScopedFilter - trivial=0, nTerms=3, oTerms=0, host=0, source=0, sourcetype=0, linecount=0 exactCustomCmp=0
+02-06-2024 20:43:27.909 INFO  UserManager [16139 RunDispatch] - Unwound user context: admin -> admin
+02-06-2024 20:43:27.909 INFO  IndexScopedSearch [16139 RunDispatch] -  IndexScopedSearch is called for index = _audit, et = 1707248580.000000000, lt = 1707252207.000000000, index_et = -9223372036854775808.000000000, index_lt = 9223372036854775807.999999000, noRead = FALSE
+02-06-2024 20:43:27.909 INFO  IndexScopedSearch [16139 RunDispatch] - ct=1707252207.000000 et=1707248580.000000 lt=1707252207.000000 dbsize=6
+02-06-2024 20:43:27.909 INFO  UserManager [16139 RunDispatch] - Setting user context: admin
+02-06-2024 20:43:27.909 INFO  UserManager [16139 RunDispatch] - Done setting user context: admin -> admin
+02-06-2024 20:43:27.909 INFO  FastSearchFilter [16139 RunDispatch] - Finished initializing IndexScopedFilter - trivial=0, nTerms=3, oTerms=0, host=0, source=0, sourcetype=0, linecount=0 exactCustomCmp=0
+02-06-2024 20:43:27.909 INFO  UserManager [16139 RunDispatch] - Unwound user context: admin -> admin
+02-06-2024 20:43:27.909 INFO  IndexScopedSearch [16139 RunDispatch] -  IndexScopedSearch is called for index = _configtracker, et = 1707248580.000000000, lt = 1707252207.000000000, index_et = -9223372036854775808.000000000, index_lt = 9223372036854775807.999999000, noRead = FALSE
+02-06-2024 20:43:27.910 INFO  IndexScopedSearch [16139 RunDispatch] - ct=1707252207.000000 et=1707248580.000000 lt=1707252207.000000 dbsize=2
+02-06-2024 20:43:27.910 INFO  UserManager [16139 RunDispatch] - Setting user context: admin
+02-06-2024 20:43:27.910 INFO  UserManager [16139 RunDispatch] - Done setting user context: admin -> admin
+02-06-2024 20:43:27.910 INFO  FastSearchFilter [16139 RunDispatch] - Finished initializing IndexScopedFilter - trivial=0, nTerms=3, oTerms=0, host=0, source=0, sourcetype=0, linecount=0 exactCustomCmp=0
+02-06-2024 20:43:27.910 INFO  UserManager [16139 RunDispatch] - Unwound user context: admin -> admin
+02-06-2024 20:43:27.910 INFO  IndexScopedSearch [16139 RunDispatch] -  IndexScopedSearch is called for index = _internal, et = 1707248580.000000000, lt = 1707252207.000000000, index_et = -9223372036854775808.000000000, index_lt = 9223372036854775807.999999000, noRead = FALSE
+02-06-2024 20:43:27.910 INFO  IndexScopedSearch [16139 RunDispatch] - ct=1707252207.000000 et=1707248580.000000 lt=1707252207.000000 dbsize=7
+02-06-2024 20:43:27.910 INFO  UserManager [16139 RunDispatch] - Setting user context: admin
+02-06-2024 20:43:27.910 INFO  UserManager [16139 RunDispatch] - Done setting user context: admin -> admin
+02-06-2024 20:43:27.911 INFO  FastSearchFilter [16139 RunDispatch] - Finished initializing IndexScopedFilter - trivial=0, nTerms=3, oTerms=0, host=0, source=0, sourcetype=0, linecount=0 exactCustomCmp=0
+02-06-2024 20:43:27.911 INFO  UserManager [16139 RunDispatch] - Unwound user context: admin -> admin
+02-06-2024 20:43:27.911 INFO  IndexScopedSearch [16139 RunDispatch] -  IndexScopedSearch is called for index = _introspection, et = 1707248580.000000000, lt = 1707252207.000000000, index_et = -9223372036854775808.000000000, index_lt = 9223372036854775807.999999000, noRead = FALSE
+02-06-2024 20:43:27.911 INFO  IndexScopedSearch [16139 RunDispatch] - ct=1707252207.000000 et=1707248580.000000 lt=1707252207.000000 dbsize=2
+02-06-2024 20:43:27.911 INFO  UserManager [16139 RunDispatch] - Setting user context: admin
+02-06-2024 20:43:27.911 INFO  UserManager [16139 RunDispatch] - Done setting user context: admin -> admin
+02-06-2024 20:43:27.911 INFO  FastSearchFilter [16139 RunDispatch] - Finished initializing IndexScopedFilter - trivial=0, nTerms=3, oTerms=0, host=0, source=0, sourcetype=0, linecount=0 exactCustomCmp=0
+02-06-2024 20:43:27.911 INFO  UserManager [16139 RunDispatch] - Unwound user context: admin -> admin
+02-06-2024 20:43:27.911 INFO  IndexScopedSearch [16139 RunDispatch] -  IndexScopedSearch is called for index = _telemetry, et = 1707248580.000000000, lt = 1707252207.000000000, index_et = -9223372036854775808.000000000, index_lt = 9223372036854775807.999999000, noRead = FALSE
+02-06-2024 20:43:27.912 INFO  IndexScopedSearch [16139 RunDispatch] - ct=1707252207.000000 et=1707248580.000000 lt=1707252207.000000 dbsize=2
+02-06-2024 20:43:27.912 INFO  UserManager [16139 RunDispatch] - Setting user context: admin
+02-06-2024 20:43:27.912 INFO  UserManager [16139 RunDispatch] - Done setting user context: admin -> admin
+02-06-2024 20:43:27.912 INFO  FastSearchFilter [16139 RunDispatch] - Finished initializing IndexScopedFilter - trivial=0, nTerms=3, oTerms=0, host=0, source=0, sourcetype=0, linecount=0 exactCustomCmp=0
+02-06-2024 20:43:27.912 INFO  UserManager [16139 RunDispatch] - Unwound user context: admin -> admin
+02-06-2024 20:43:27.912 INFO  IndexScopedSearch [16139 RunDispatch] -  IndexScopedSearch is called for index = _thefishbucket, et = 1707248580.000000000, lt = 1707252207.000000000, index_et = -9223372036854775808.000000000, index_lt = 9223372036854775807.999999000, noRead = FALSE
+02-06-2024 20:43:27.912 INFO  IndexScopedSearch [16139 RunDispatch] - ct=1707252207.000000 et=1707248580.000000 lt=1707252207.000000 dbsize=0
+02-06-2024 20:43:27.912 INFO  UnifiedSearch [16139 RunDispatch] - Initialization of search data structures took 6 ms
+02-06-2024 20:43:27.912 INFO  UnifiedSearch [16139 RunDispatch] - Processed search targeting arguments
+02-06-2024 20:43:27.937 INFO  SearchPipelineExecutor [16139 RunDispatch] - Number of StreamSearch pipelines launched=1
+02-06-2024 20:43:27.937 INFO  SearchPipelineExecutor [16142 StreamSearch] - StreamSearch pipeline=0 is started in its own thread
+02-06-2024 20:43:27.937 INFO  UserManager [16142 StreamSearch] - Setting user context: admin
+02-06-2024 20:43:27.937 INFO  SearchPipelineExecutor [16139 RunDispatch] - Starting to transmit serialized search results.
+02-06-2024 20:43:27.937 INFO  UserManager [16142 StreamSearch] - Done setting user context: NULL -> admin
+02-06-2024 20:43:27.939 INFO  SearchPipelineExecutor [16144 NormSerializeExecutorThread] - NormSerializeExecutorThread pipeline=0 is started in its own thread.
+02-06-2024 20:43:27.943 INFO  Timeliner [16142 StreamSearch] - Emitted 5 full events to info._remotetl_events
+02-06-2024 20:43:27.943 WARN  SRSSerializer [16144 NormSerializeExecutorThread] - writing 0 cols! field list=0
+02-06-2024 20:43:27.952 INFO  Timeliner [16142 StreamSearch] - Emitted 33 full events to info._remotetl_events
+02-06-2024 20:43:27.952 WARN  SRSSerializer [16144 NormSerializeExecutorThread] - writing 0 cols! field list=0
+02-06-2024 20:43:27.957 WARN  SearchOperator:kv [16142 StreamSearch] - buildRegexList provided empty conf key, ignoring.
+02-06-2024 20:43:27.958 INFO  Timeliner [16142 StreamSearch] - Emitted 60 full events to info._remotetl_events
+02-06-2024 20:43:27.958 WARN  SRSSerializer [16144 NormSerializeExecutorThread] - writing 0 cols! field list=0
+02-06-2024 20:43:27.958 INFO  SearchPipelineExecutor [16142 StreamSearch] - Finished streaming: results.count=0
+02-06-2024 20:43:27.958 INFO  UserManager [16142 StreamSearch] - Unwound user context: admin -> NULL
+02-06-2024 20:43:27.958 INFO  SearchPipelineExecutor [16142 StreamSearch] - StreamSearch pipleine=0 is finished.
+02-06-2024 20:43:27.959 WARN  SRSSerializer [16144 NormSerializeExecutorThread] - writing 0 cols! field list=0
+02-06-2024 20:43:27.960 WARN  SRSSerializer [16144 NormSerializeExecutorThread] - writing 0 cols! field list=0
+02-06-2024 20:43:27.960 INFO  SearchPipelineExecutor [16144 NormSerializeExecutorThread] - NormSerializeExecutorThread pipeline=0 is finished.
+02-06-2024 20:43:27.960 INFO  SearchPipelineExecutor [16139 RunDispatch] - Done transmitting serialized search results, total bytes transmitted 169515.
+02-06-2024 20:43:27.960 INFO  dispatchRunner [16139 RunDispatch] - Done with streaming search.
+02-06-2024 20:43:27.960 INFO  SearchOperator:kv [16139 RunDispatch] - Extractor stats: name=_autoKvStats, probes=3, total_time_ms=0, max_time_ms=0
+02-06-2024 20:43:27.960 INFO  SearchOperator:kv [16139 RunDispatch] - Extractor stats: name=(?i)^(?:[^ ]* ){2}(?:[+\-]\d+ )?(?P<log_level>[^ ]*)\s+(?P<component>[^ ]+) (?:\[(?P<thread_id>\d+)\s)?(?:(?P<thread_name>[^\]]+)\]\s)?- (?P<event_message>.+), probes=4, total_time_ms=0, max_time_ms=0
+02-06-2024 20:43:27.960 WARN  SearchOperator:kv [16139 RunDispatch] - Exceeded the maximum number of field extractions configured in limits.conf / [kv] / limit=100. Skipped extraction of fields="app,avg_age,bundleId,conf,eps,ev,event,group,hot_buckets,interval_sec,kb,kbps,max,max_age,path_crc32,series,setting,stanza,timestamp"
+02-06-2024 20:43:27.960 INFO  ISearchOperator [16139 RunDispatch] - 0x7f0f42c93000 PREAD_HISTOGRAM: usec_1_8=459 usec_8_64=1 usec_64_512=1 usec_512_4096=0 usec_4096_32768=0 usec_32768_262144=0 usec_262144_INF=0 
+02-06-2024 20:43:27.961 INFO  ISearchOperator [16139 RunDispatch] - 0x7f0f42c93800 PREAD_HISTOGRAM: usec_1_8=167 usec_8_64=0 usec_64_512=0 usec_512_4096=0 usec_4096_32768=0 usec_32768_262144=0 usec_262144_INF=0 
+02-06-2024 20:43:27.961 INFO  SearchPipelineExecutor [16139 RunDispatch] - Streamed Search Index Orchestrator has been shutdown.
+02-06-2024 20:43:27.962 INFO  UserManager [16139 RunDispatch] - Unwound user context: admin -> NULL
+02-06-2024 20:43:27.962 INFO  LookupDataProvider [16139 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:43:27.962 INFO  dispatchRunner [19050 MainThread] - RunDispatch is done: sid=remote_GOEL-SearchHead_1707252207.38, exit=0

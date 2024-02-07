@@ -1,0 +1,412 @@
+02-06-2024 20:49:56.730 INFO  dispatchRunner [22168 MainThread] - Search process mode: preforked (first search in process) (build b985591d12fd).
+02-06-2024 20:49:56.730 INFO  dispatchRunner [22168 MainThread] - initing LicenseMgr in search process: nonPro=0
+02-06-2024 20:49:56.730 INFO  LMStackMgr [22168 MainThread] - Initializing CleMgr...
+02-06-2024 20:49:56.730 INFO  LicenseMgr [22168 MainThread] - Initing LicenseMgr
+02-06-2024 20:49:56.730 INFO  LMConfig [22168 MainThread] - serverName=GOEL-Indexer3 guid=A4B2739E-EC56-4B6D-9A88-3AA302EAA608
+02-06-2024 20:49:56.736 INFO  LMConfig [22168 MainThread] - connection_timeout=30
+02-06-2024 20:49:56.737 INFO  LMConfig [22168 MainThread] - send_timeout=30
+02-06-2024 20:49:56.737 INFO  LMConfig [22168 MainThread] - receive_timeout=30
+02-06-2024 20:49:56.737 INFO  LMConfig [22168 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:49:56.737 INFO  LMConfig [22168 MainThread] - squash_threshold=2000
+02-06-2024 20:49:56.737 INFO  LMConfig [22168 MainThread] - strict_pool_quota=1
+02-06-2024 20:49:56.737 INFO  LMConfig [22168 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 20:49:56.737 INFO  LMConfig [22168 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:49:56.737 INFO  LMConfig [22168 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:49:56.737 INFO  LicenseMgr [22168 MainThread] - Initing LicenseMgr runContext_splunkd=false
+02-06-2024 20:49:56.737 INFO  LMStackMgr [22168 MainThread] - closing stack mgr
+02-06-2024 20:49:56.737 INFO  LMSlaveInfo [22168 MainThread] - all slaves cleared
+02-06-2024 20:49:56.737 INFO  LMStackMgr [22168 MainThread] - partial init only since node has remote master=https://10.0.3.7:8089
+02-06-2024 20:49:56.740 INFO  LicenseMgr [22168 MainThread] - StackMgr init complete...
+02-06-2024 20:49:56.740 INFO  LMTracker [22168 MainThread] - Setting default product type='enterprise'
+02-06-2024 20:49:56.740 INFO  LMTracker [22168 MainThread] - this is not splunkd, will perform partial init
+02-06-2024 20:49:56.740 INFO  LicenseMgr [22168 MainThread] - Tracker init complete...
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'licenses'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'pools'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'stacks'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'groups'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'slaves'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'peers'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'localslave'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'localpeer'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'licensermessages'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'scriptedwarning'
+02-06-2024 20:49:56.766 INFO  AdminManagerDispatch [22168 MainThread] - added factory for admin handler: 'licenseusage'
+02-06-2024 20:49:56.766 INFO  LicenseMgr [22168 MainThread] - Initing LicenseMgr
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - serverName=GOEL-Indexer3 guid=A4B2739E-EC56-4B6D-9A88-3AA302EAA608
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - connection_timeout=30
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - send_timeout=30
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - receive_timeout=30
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - squash_threshold=2000
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - strict_pool_quota=1
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:49:56.766 INFO  LMConfig [22168 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:49:56.767 INFO  dispatchRunner [22168 MainThread] - registering build time modules, count=1
+02-06-2024 20:49:56.767 INFO  dispatchRunner [22168 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:49:56.767 INFO  dispatchRunner [22168 MainThread] - Getting search configuration data from: /opt/splunk/etc/modules/parsing/config.xml
+02-06-2024 20:49:56.768 WARN  SSLOptions [22168 MainThread] - server.conf/[kvstore]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:49:56.776 INFO  BundlesSetup [22168 MainThread] - Setup stats for /opt/splunk/etc: wallclock_elapsed_msec=34, cpu_time_used=0.0135475, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:49:56.796 INFO  UserManagerPro [22168 MainThread] - Load authentication: forcing roles="admin, power, splunk-system-role, user"
+02-06-2024 20:49:56.796 INFO  PipelineComponent [22168 MainThread] - Ingestion pipeline sets have been configured to use pipeline set policy=round_robin for multiple pipeline sets.
+02-06-2024 20:49:56.797 INFO  UserManager [22934 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.797 INFO  UserManager [22934 RunDispatch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.798 INFO  dispatchRunner [22934 RunDispatch] - search context: user="splunk-system-user", app="splunk_monitoring_console", bs-pathname="/opt/splunk/etc"
+02-06-2024 20:49:56.807 WARN  IndexConfig [22934 RunDispatch] - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:49:56.807 WARN  IndexConfig [22934 RunDispatch] - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:49:56.807 WARN  IndexConfig [22934 RunDispatch] - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:49:56.807 WARN  IndexConfig [22934 RunDispatch] - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:49:56.809 INFO  SearchParser [22934 RunDispatch] - PARSING: | `dmc_get_local_instance_asset` \n| rename search_groups AS search_group \n| inputlookup append=true dmc_assets \n| stats last(*) AS * by peerURI, search_group \n| fields peerURI serverName host machine search_group
+02-06-2024 20:49:56.812 INFO  SearchParser [22934 RunDispatch] - AFTER EXPANDING MACROS: | rest splunk_server=local /services/server/info \n| eval peerURI="localhost" \n| eval server_roles="indexer,search_head,license_master,kv_store" \n| makemv delim="," server_roles \n| mvexpand server_roles \n| eval computed_search_groups="dmc_group_".server_roles \n| stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName \n| join type=outer peerURI [ \n| rest splunk_server=local /services/search/distributed/groups \n| fields title member \n| where isnotnull(mvfind(member, "localhost:localhost")) \n| eval peerURI="localhost" \n| rename title AS search_groups \n| fields peerURI search_groups \n| mvcombine delim=" " search_groups] \n| makemv delim=" " search_groups \n| eval search_groups = if(isnotnull(search_groups),search_groups,computed_search_groups) \n| fields - computed_search_groups \n| mvexpand search_groups \n| rename search_groups AS search_group \n| inputlookup append=true dmc_assets \n| stats last(*) AS * by peerURI, search_group \n| fields peerURI serverName host machine search_group
+02-06-2024 20:49:56.812 INFO  StatsContext [22934 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.812 INFO  StatsContext [22934 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.812 INFO  SearchParser [22934 RunDispatch] - PARSING:   | rest splunk_server=local /services/search/distributed/groups  | fields title member  | where isnotnull(mvfind(member, "localhost:localhost"))  | eval peerURI="localhost"  | rename title AS search_groups  | fields peerURI search_groups  | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.812 INFO  StatsContext [22934 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.812 INFO  StatsContext [22934 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.812 INFO  SearchParser [22934 RunDispatch] - PARSING: | `dmc_get_local_instance_asset` \n| rename search_groups AS search_group \n| inputlookup append=true dmc_assets \n| stats last(*) AS * by peerURI, search_group \n| fields peerURI serverName host machine search_group
+02-06-2024 20:49:56.812 INFO  SearchParser [22934 RunDispatch] - AFTER EXPANDING MACROS: | rest splunk_server=local /services/server/info \n| eval peerURI="localhost" \n| eval server_roles="indexer,search_head,license_master,kv_store" \n| makemv delim="," server_roles \n| mvexpand server_roles \n| eval computed_search_groups="dmc_group_".server_roles \n| stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName \n| join type=outer peerURI [ \n| rest splunk_server=local /services/search/distributed/groups \n| fields title member \n| where isnotnull(mvfind(member, "localhost:localhost")) \n| eval peerURI="localhost" \n| rename title AS search_groups \n| fields peerURI search_groups \n| mvcombine delim=" " search_groups] \n| makemv delim=" " search_groups \n| eval search_groups = if(isnotnull(search_groups),search_groups,computed_search_groups) \n| fields - computed_search_groups \n| mvexpand search_groups \n| rename search_groups AS search_group \n| inputlookup append=true dmc_assets \n| stats last(*) AS * by peerURI, search_group \n| fields peerURI serverName host machine search_group
+02-06-2024 20:49:56.812 INFO  StatsContext [22934 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.812 INFO  StatsContext [22934 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.812 INFO  SearchParser [22934 RunDispatch] - PARSING:   | rest splunk_server=local /services/search/distributed/groups  | fields title member  | where isnotnull(mvfind(member, "localhost:localhost"))  | eval peerURI="localhost"  | rename title AS search_groups  | fields peerURI search_groups  | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.812 INFO  StatsContext [22934 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.812 INFO  StatsContext [22934 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.812 WARN  DispatchCommandProcessor [22934 RunDispatch] - Could not find a set of indexes to search; defaulting to all
+02-06-2024 20:49:56.812 INFO  IndexReaderIf [22934 RunDispatch] - Loading Clustering bucket manifest file=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen0.csv.gz
+02-06-2024 20:49:56.812 INFO  DatabaseDirectoryManager [22934 RunDispatch] - initDDMsFromSearchBucketManifest path=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen0.csv.gz, indexWhiteList_size=1
+02-06-2024 20:49:56.813 INFO  CMBucketId [22934 RunDispatch] - CMIndexId: New indexName=_telemetry inserted, mapping to id=1
+02-06-2024 20:49:56.813 INFO  CMBucketId [22934 RunDispatch] - CMIndexId: New indexName=_audit inserted, mapping to id=2
+02-06-2024 20:49:56.813 INFO  CMBucketId [22934 RunDispatch] - CMIndexId: New indexName=_internal inserted, mapping to id=3
+02-06-2024 20:49:56.813 INFO  dispatchRunner [22934 RunDispatch] - SearchHeadInitSearchMs=16
+02-06-2024 20:49:56.813 INFO  dispatchRunner [22934 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=false).
+02-06-2024 20:49:56.813 INFO  SearchOrchestrator [22934 RunDispatch] - SearchOrchestrator getting constructed
+02-06-2024 20:49:56.813 INFO  SearchOrchestrator [22934 RunDispatch] -  Initialized the SRI
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Initializing feature flags from config. feature_seed=3603988116
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:49:56.814 INFO  SearchFeatureFlags [22934 RunDispatch] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:49:56.814 INFO  SearchOrchestrator [22934 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2","search:read_final_results_from_timeliner"],"disabledFeatures":["search:search_retry","search:search_retry_realtime","parallelreduce:autoAppliedPercentage","subsearch:enableConcurrentPipelineProcessing","search_optimization::set_required_fields:stats","searchresults:srs2"]}
+02-06-2024 20:49:56.814 INFO  ISplunkDispatch [22934 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+02-06-2024 20:49:56.818 INFO  SearchOrchestrator [22941 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+02-06-2024 20:49:56.818 INFO  UserManager [22941 searchOrchestrator] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.818 INFO  UserManager [22941 searchOrchestrator] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.818 INFO  AdaptiveSearchEngineSelector [22941 searchOrchestrator] - Search execution_plan=classic
+02-06-2024 20:49:56.818 INFO  SearchOrchestrator [22941 searchOrchestrator] - Creating the search DAG.
+02-06-2024 20:49:56.818 INFO  SearchParser [22941 searchOrchestrator] - PARSING: | `dmc_get_local_instance_asset` \n| rename search_groups AS search_group \n| inputlookup append=true dmc_assets \n| stats last(*) AS * by peerURI, search_group \n| fields peerURI serverName host machine search_group
+02-06-2024 20:49:56.818 INFO  SearchParser [22941 searchOrchestrator] - AFTER EXPANDING MACROS: | rest splunk_server=local /services/server/info \n| eval peerURI="localhost" \n| eval server_roles="indexer,search_head,license_master,kv_store" \n| makemv delim="," server_roles \n| mvexpand server_roles \n| eval computed_search_groups="dmc_group_".server_roles \n| stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName \n| join type=outer peerURI [ \n| rest splunk_server=local /services/search/distributed/groups \n| fields title member \n| where isnotnull(mvfind(member, "localhost:localhost")) \n| eval peerURI="localhost" \n| rename title AS search_groups \n| fields peerURI search_groups \n| mvcombine delim=" " search_groups] \n| makemv delim=" " search_groups \n| eval search_groups = if(isnotnull(search_groups),search_groups,computed_search_groups) \n| fields - computed_search_groups \n| mvexpand search_groups \n| rename search_groups AS search_group \n| inputlookup append=true dmc_assets \n| stats last(*) AS * by peerURI, search_group \n| fields peerURI serverName host machine search_group
+02-06-2024 20:49:56.818 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.818 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.818 INFO  SearchParser [22941 searchOrchestrator] - PARSING:   | rest splunk_server=local /services/search/distributed/groups  | fields title member  | where isnotnull(mvfind(member, "localhost:localhost"))  | eval peerURI="localhost"  | rename title AS search_groups  | fields peerURI search_groups  | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.818 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.818 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.819 INFO  DispatchStorageManagerInfo [22941 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=08581b6c129044c3_tmp dispatch_dir=/opt/splunk/var/run/splunk/dispatch/08581b6c129044c3_tmp
+02-06-2024 20:49:56.819 INFO  SearchOperator:rest [22941 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.820 INFO  SearchParser [22941 searchOrchestrator] - PARSING: prerest splunk_server="GOEL-Indexer3" timeout=60 "/services/server/info?count=0"
+02-06-2024 20:49:56.820 INFO  SearchOperator:rest [22941 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.820 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsV2 (stats) args: first(peerURI), AS, peerURI, first(host), AS, host, first(host_fqdn), AS, machine, values(computed_search_groups), AS, computed_search_groups, by, serverName
+02-06-2024 20:49:56.820 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:49:56.820 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=peerURI, alias=peerURI
+02-06-2024 20:49:56.820 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=host, alias=host
+02-06-2024 20:49:56.820 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=host_fqdn, alias=machine
+02-06-2024 20:49:56.820 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function values for key=computed_search_groups, alias=computed_search_groups
+02-06-2024 20:49:56.820 INFO  StatsContext [22941 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:49:56.822 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsV2 (stats) args: last(*), AS, *, by, peerURI, search_group
+02-06-2024 20:49:56.822 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:49:56.822 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function last for key=*, alias=*
+02-06-2024 20:49:56.822 INFO  StatsContext [22941 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:49:56.822 INFO  DispatchThread [22941 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+02-06-2024 20:49:56.822 INFO  DispatchThread [22941 searchOrchestrator] - required fields list to add to remote search = *
+02-06-2024 20:49:56.822 INFO  DispatchCommandProcessor [22941 searchOrchestrator] - summaryHash=bbe75120cdaa4ddd summaryId=A4B2739E-EC56-4B6D-9A88-3AA302EAA608_splunk_monitoring_console_nobody_bbe75120cdaa4ddd remoteSearch=prerest  splunk_server="GOEL-Indexer3" timeout=60 "/services/server/info?count=0"
+02-06-2024 20:49:56.822 INFO  DispatchCommandProcessor [22941 searchOrchestrator] - summaryHash=NS389110b60e0fc70b summaryId=A4B2739E-EC56-4B6D-9A88-3AA302EAA608_splunk_monitoring_console_nobody_NS389110b60e0fc70b remoteSearch=prerest splunk_server="GOEL-Indexer3" timeout=60 "/services/server/info?count=0"
+02-06-2024 20:49:56.822 INFO  DispatchThread [22941 searchOrchestrator] - Getting summary ID for summaryHash=NS389110b60e0fc70b
+02-06-2024 20:49:56.826 INFO  DispatchThread [22941 searchOrchestrator] - Did not find a usable summary_id, setting info._summary_mode=none, not modifying input summary_id=A4B2739E-EC56-4B6D-9A88-3AA302EAA608_splunk_monitoring_console_nobody_NS389110b60e0fc70b
+02-06-2024 20:49:56.827 INFO  SearchParser [22941 searchOrchestrator] - PARSING: | `dmc_get_local_instance_asset` \n| rename search_groups AS search_group \n| inputlookup append=true dmc_assets \n| stats last(*) AS * by peerURI, search_group \n| fields peerURI serverName host machine search_group
+02-06-2024 20:49:56.827 INFO  SearchParser [22941 searchOrchestrator] - AFTER EXPANDING MACROS: | rest splunk_server=local /services/server/info \n| eval peerURI="localhost" \n| eval server_roles="indexer,search_head,license_master,kv_store" \n| makemv delim="," server_roles \n| mvexpand server_roles \n| eval computed_search_groups="dmc_group_".server_roles \n| stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName \n| join type=outer peerURI [ \n| rest splunk_server=local /services/search/distributed/groups \n| fields title member \n| where isnotnull(mvfind(member, "localhost:localhost")) \n| eval peerURI="localhost" \n| rename title AS search_groups \n| fields peerURI search_groups \n| mvcombine delim=" " search_groups] \n| makemv delim=" " search_groups \n| eval search_groups = if(isnotnull(search_groups),search_groups,computed_search_groups) \n| fields - computed_search_groups \n| mvexpand search_groups \n| rename search_groups AS search_group \n| inputlookup append=true dmc_assets \n| stats last(*) AS * by peerURI, search_group \n| fields peerURI serverName host machine search_group
+02-06-2024 20:49:56.827 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.827 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.827 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.827 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.827 INFO  SearchOperator:rest [22941 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.827 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsV2 (stats) args: first(peerURI), AS, peerURI, first(host), AS, host, first(host_fqdn), AS, machine, values(computed_search_groups), AS, computed_search_groups, by, serverName
+02-06-2024 20:49:56.827 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:49:56.827 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=peerURI, alias=peerURI
+02-06-2024 20:49:56.827 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=host, alias=host
+02-06-2024 20:49:56.827 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=host_fqdn, alias=machine
+02-06-2024 20:49:56.827 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function values for key=computed_search_groups, alias=computed_search_groups
+02-06-2024 20:49:56.827 INFO  StatsContext [22941 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:49:56.827 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsV2 (stats) args: last(*), AS, *, by, peerURI, search_group
+02-06-2024 20:49:56.827 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:49:56.827 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function last for key=*, alias=*
+02-06-2024 20:49:56.827 INFO  StatsContext [22941 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:49:56.827 INFO  SearchParser [22941 searchOrchestrator] - PARSING:   | rest splunk_server=local /services/search/distributed/groups  | fields title member  | where isnotnull(mvfind(member, "localhost:localhost"))  | eval peerURI="localhost"  | rename title AS search_groups  | fields peerURI search_groups  | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.827 INFO  SearchOperator:rest [22941 searchOrchestrator] - built uri=/services/search/distributed/groups?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.828 INFO  AstOptimizer [22941 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000721271
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.828 INFO  SearchParser [22941 searchOrchestrator] - PARSING:  | rest /services/server/info splunk_server=local | eval peerURI="localhost" | eval server_roles="indexer,search_head,license_master,kv_store" | makemv delim="," server_roles | mvexpand server_roles | eval computed_search_groups=("dmc_group_" . server_roles) | stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName | join type=outer peerURI [ | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups] | makemv delim=" " search_groups | eval search_groups=if(isnotnull(search_groups),search_groups,computed_search_groups) | fields - computed_search_groups | mvexpand search_groups | rename search_groups as search_group| inputlookup dmc_assets append=1 | stats last(*) AS * by peerURI, search_group | fields + peerURI, serverName, host, machine, search_group
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.828 INFO  SearchParser [22941 searchOrchestrator] - PARSING:  | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.828 INFO  SearchParser [22941 searchOrchestrator] - PARSING:  | rest /services/server/info splunk_server=local | eval peerURI="localhost" | eval server_roles="indexer,search_head,license_master,kv_store" | makemv delim="," server_roles | mvexpand server_roles | eval computed_search_groups=("dmc_group_" . server_roles) | stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName | join type=outer peerURI [ | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups] | makemv delim=" " search_groups | eval search_groups=if(isnotnull(search_groups),search_groups,computed_search_groups) | fields - computed_search_groups | mvexpand search_groups | rename search_groups as search_group| inputlookup dmc_assets append=1 | stats last(*) AS * by peerURI, search_group | fields + peerURI, serverName, host, machine, search_group
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.828 INFO  SearchOperator:rest [22941 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.828 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsV2 (stats) args: first(peerURI), AS, peerURI, first(host), AS, host, first(host_fqdn), AS, machine, values(computed_search_groups), AS, computed_search_groups, by, serverName
+02-06-2024 20:49:56.828 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:49:56.828 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=peerURI, alias=peerURI
+02-06-2024 20:49:56.828 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=host, alias=host
+02-06-2024 20:49:56.828 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=host_fqdn, alias=machine
+02-06-2024 20:49:56.828 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function values for key=computed_search_groups, alias=computed_search_groups
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:49:56.828 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsV2 (stats) args: last(*), AS, *, by, peerURI, search_group
+02-06-2024 20:49:56.828 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:49:56.828 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function last for key=*, alias=*
+02-06-2024 20:49:56.828 INFO  StatsContext [22941 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:49:56.829 INFO  SearchParser [22941 searchOrchestrator] - PARSING:  | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.829 INFO  SearchOperator:rest [22941 searchOrchestrator] - built uri=/services/search/distributed/groups?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.829 INFO  AstOptimizer [22941 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000476163
+02-06-2024 20:49:56.829 INFO  FederatedInfo [22941 searchOrchestrator] - No federated search providers defined.
+02-06-2024 20:49:56.829 INFO  AstOptimizer [22941 searchOrchestrator] - Will only run the following branching command specific optimizations=[replace_append_with_union merge_union]
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.829 INFO  AstOptimizer [22941 searchOrchestrator] - Branch optimization had no effect
+02-06-2024 20:49:56.829 INFO  AstOptimizer [22941 searchOrchestrator] - SrchOptMetrics optimization=0.001647924
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.829 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.830 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.830 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.830 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - Optimized Search = | rest /services/server/info splunk_server=local | eval peerURI="localhost" | eval server_roles="indexer,search_head,license_master,kv_store" | makemv delim="," server_roles | mvexpand server_roles | eval computed_search_groups=("dmc_group_" . server_roles) | stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName | join type=outer peerURI [ | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups] | makemv delim=" " search_groups | eval search_groups=if(isnotnull(search_groups),search_groups,computed_search_groups) | fields - computed_search_groups | mvexpand search_groups | rename search_groups as search_group| inputlookup dmc_assets append=1 | stats last(*) AS * by peerURI, search_group | fields + peerURI, serverName, host, machine, search_group
+02-06-2024 20:49:56.830 INFO  ScopedTimer [22941 searchOrchestrator] - search.optimize 0.002840181
+02-06-2024 20:49:56.830 INFO  FederatedProviderVisitor [22941 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+02-06-2024 20:49:56.830 INFO  FederatedProviderVisitor [22941 searchOrchestrator] - Command not safe for remote execution, command=rest
+02-06-2024 20:49:56.855 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - Number of involved federated deployments is 0.
+02-06-2024 20:49:56.856 INFO  ParallelReducePolicy [22941 searchOrchestrator] - Current Search Head doesn't have any usable peers to use.
+02-06-2024 20:49:56.856 INFO  PhaseNodeGenerationVisitor [22941 searchOrchestrator] - FallBackReason: Fallback to 2-phase mode because of empty split key of cmd: rest
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.856 INFO  PhaseToPipelineVisitor [22941 searchOrchestrator] - Phase Search =  | rest /services/server/info splunk_server=local | eval peerURI="localhost" | eval server_roles="indexer,search_head,license_master,kv_store" | makemv delim="," server_roles | mvexpand server_roles | eval computed_search_groups=("dmc_group_" . server_roles) | stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName | join type=outer peerURI [ | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups] | makemv delim=" " search_groups | eval search_groups=if(isnotnull(search_groups),search_groups,computed_search_groups) | fields - computed_search_groups | mvexpand search_groups | rename search_groups as search_group| inputlookup dmc_assets append=1 | stats last(*) AS * by peerURI, search_group | fields + peerURI, serverName, host, machine, search_group
+02-06-2024 20:49:56.856 INFO  SearchParser [22941 searchOrchestrator] - PARSING:  | rest /services/server/info splunk_server=local | eval peerURI="localhost" | eval server_roles="indexer,search_head,license_master,kv_store" | makemv delim="," server_roles | mvexpand server_roles | eval computed_search_groups=("dmc_group_" . server_roles) | stats first(peerURI) AS peerURI first(host) AS host first(host_fqdn) AS machine values(computed_search_groups) AS computed_search_groups by serverName | join type=outer peerURI [ | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups] | makemv delim=" " search_groups | eval search_groups=if(isnotnull(search_groups),search_groups,computed_search_groups) | fields - computed_search_groups | mvexpand search_groups | rename search_groups as search_group| inputlookup dmc_assets append=1 | stats last(*) AS * by peerURI, search_group | fields + peerURI, serverName, host, machine, search_group
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.856 INFO  SearchParser [22941 searchOrchestrator] - PARSING:  | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:49:56.856 INFO  SearchOperator:rest [22941 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.856 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsV2 (stats) args: first(peerURI), AS, peerURI, first(host), AS, host, first(host_fqdn), AS, machine, values(computed_search_groups), AS, computed_search_groups, by, serverName
+02-06-2024 20:49:56.856 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:49:56.856 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=peerURI, alias=peerURI
+02-06-2024 20:49:56.856 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=host, alias=host
+02-06-2024 20:49:56.856 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function first for key=host_fqdn, alias=machine
+02-06-2024 20:49:56.856 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function values for key=computed_search_groups, alias=computed_search_groups
+02-06-2024 20:49:56.856 INFO  StatsContext [22941 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:49:56.856 INFO  DispatchStorageManagerInfo [22941 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=subsearch_scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707252565_0_1707252596.1 dispatch_dir=/opt/splunk/var/run/splunk/dispatch/subsearch_scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707252565_0_1707252596.1
+02-06-2024 20:49:56.858 INFO  HealthReporter [22941 searchOrchestrator] - Loaded latency_tracker_log_interval with value=30 from stanza=health_reporter
+02-06-2024 20:49:56.858 INFO  HealthReporter [22941 searchOrchestrator] - Loaded aggregate_ingestion_latency_health with value=1 from stanza=health_reporter
+02-06-2024 20:49:56.858 INFO  HealthReporter [22941 searchOrchestrator] - aggregate_ingestion_latency_health with value=1 from stanza=health_reporter will enable the aggregation of ingestion latency health reporter.
+02-06-2024 20:49:56.858 INFO  HealthReporter [22941 searchOrchestrator] - Loaded ingestion_latency_send_interval_max with value=86400 from stanza=health_reporter
+02-06-2024 20:49:56.858 INFO  HealthReporter [22941 searchOrchestrator] - Loaded ingestion_latency_send_interval with value=30 from stanza=health_reporter
+02-06-2024 20:49:56.858 INFO  SearchOrchestrator [22941 searchOrchestrator] - SearchOrchestrator getting constructed
+02-06-2024 20:49:56.858 INFO  SearchOrchestrator [22941 searchOrchestrator] -  Initialized the SRI
+02-06-2024 20:49:56.859 INFO  ISplunkDispatch [22941 searchOrchestrator] - Not running in splunkd. Bundle replication not triggered.
+02-06-2024 20:49:56.860 INFO  SearchOrchestrator [22943 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+02-06-2024 20:49:56.860 INFO  UserManager [22943 searchOrchestrator] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.860 INFO  UserManager [22943 searchOrchestrator] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.860 INFO  SearchOrchestrator [22943 searchOrchestrator] - Creating the search DAG.
+02-06-2024 20:49:56.860 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.860 INFO  DispatchStorageManagerInfo [22943 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=4505ce1d546b9d1e_tmp dispatch_dir=/opt/splunk/var/run/splunk/dispatch/4505ce1d546b9d1e_tmp
+02-06-2024 20:49:56.861 INFO  SearchOperator:rest [22943 searchOrchestrator] - built uri=/services/search/distributed/groups?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.861 INFO  SearchParser [22943 searchOrchestrator] - PARSING: prerest splunk_server="GOEL-Indexer3" timeout=60 "/services/search/distributed/groups?count=0"
+02-06-2024 20:49:56.861 INFO  SearchOperator:rest [22943 searchOrchestrator] - built uri=/services/search/distributed/groups?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.861 INFO  DispatchThread [22943 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+02-06-2024 20:49:56.861 INFO  DispatchThread [22943 searchOrchestrator] - required fields list to add to remote search = *
+02-06-2024 20:49:56.861 INFO  DispatchCommandProcessor [22943 searchOrchestrator] - summaryHash=5f148c5b9f997465 summaryId=A4B2739E-EC56-4B6D-9A88-3AA302EAA608_splunk_monitoring_console_nobody_5f148c5b9f997465 remoteSearch=prerest  splunk_server="GOEL-Indexer3" timeout=60 "/services/search/distributed/groups?count=0"
+02-06-2024 20:49:56.861 INFO  DispatchCommandProcessor [22943 searchOrchestrator] - summaryHash=NS6701b0d5742e23bc summaryId=A4B2739E-EC56-4B6D-9A88-3AA302EAA608_splunk_monitoring_console_nobody_NS6701b0d5742e23bc remoteSearch=prerest splunk_server="GOEL-Indexer3" timeout=60 "/services/search/distributed/groups?count=0"
+02-06-2024 20:49:56.861 INFO  DispatchThread [22943 searchOrchestrator] - Getting summary ID for summaryHash=NS6701b0d5742e23bc
+02-06-2024 20:49:56.861 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | rest /services/search/distributed/groups splunk_server=local | fields + title, member | where isnotnull(mvfind(member,"localhost:localhost")) | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.862 INFO  SearchOperator:rest [22943 searchOrchestrator] - built uri=/services/search/distributed/groups?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.862 INFO  AstOptimizer [22943 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000079364
+02-06-2024 20:49:56.862 INFO  SearchParser [22943 searchOrchestrator] - PARSING: | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.862 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | fields + peerURI, search_groups
+02-06-2024 20:49:56.862 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | rename title as search_groups
+02-06-2024 20:49:56.862 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | eval peerURI="localhost"
+02-06-2024 20:49:56.862 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | fields + title, member
+02-06-2024 20:49:56.862 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | where isnotnull(mvfind(member,"localhost:localhost"))
+02-06-2024 20:49:56.862 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | rest /services/search/distributed/groups splunk_server=local
+02-06-2024 20:49:56.862 INFO  FederatedInfo [22943 searchOrchestrator] - No federated search providers defined.
+02-06-2024 20:49:56.862 INFO  ProjElim [22943 searchOrchestrator] - Black listed processors=[addinfo]
+02-06-2024 20:49:56.865 INFO  AstVisitorFactory [22943 searchOrchestrator] - Not building visitor : replace_stats_cmds_with_tstats
+02-06-2024 20:49:56.865 INFO  AstVisitorFactory [22943 searchOrchestrator] - Not building visitor : replace_chart_cmds_with_tstats
+02-06-2024 20:49:56.865 INFO  AstOptimizer [22943 searchOrchestrator] - SrchOptMetrics optimization=0.003051727
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - Optimized Search = | rest /services/search/distributed/groups splunk_server=local | where isnotnull(mvfind(member,"localhost:localhost")) | fields + title, member | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.865 INFO  ScopedTimer [22943 searchOrchestrator] - search.optimize 0.003294447
+02-06-2024 20:49:56.865 INFO  FederatedProviderVisitor [22943 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+02-06-2024 20:49:56.865 INFO  FederatedProviderVisitor [22943 searchOrchestrator] - Command not safe for remote execution, command=rest
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - Number of involved federated deployments is 0.
+02-06-2024 20:49:56.865 INFO  ParallelReducePolicy [22943 searchOrchestrator] - Current Search Head doesn't have any usable peers to use.
+02-06-2024 20:49:56.865 INFO  PhaseToPipelineVisitor [22943 searchOrchestrator] - Phase Search =  | rest /services/search/distributed/groups splunk_server=local | where isnotnull(mvfind(member,"localhost:localhost")) | fields + title, member | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.865 INFO  SearchParser [22943 searchOrchestrator] - PARSING:  | rest /services/search/distributed/groups splunk_server=local | where isnotnull(mvfind(member,"localhost:localhost")) | fields + title, member | eval peerURI="localhost" | rename title as search_groups | fields + peerURI, search_groups | mvcombine delim=" " search_groups
+02-06-2024 20:49:56.865 INFO  SearchOperator:rest [22943 searchOrchestrator] - built uri=/services/search/distributed/groups?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.865 INFO  SearchPipeline [22943 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+02-06-2024 20:49:56.865 INFO  SearchParser [22943 searchOrchestrator] - PARSING: prerest splunk_server="GOEL-Indexer3" timeout=60 "/services/search/distributed/groups?count=0"
+02-06-2024 20:49:56.865 INFO  SearchOperator:rest [22943 searchOrchestrator] - built uri=/services/search/distributed/groups?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - Disabling timeliner since source is not an event index
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - Disabling timeliner since event search is empty
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - No need for RTWindowProcessor
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - Timeliner will not be executed
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - required fields list to add to different pipelines = *
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - Result collation will occur at proc=mvcombine
+02-06-2024 20:49:56.865 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - Search Phases created.
+02-06-2024 20:49:56.866 INFO  SearchOrchestrator [22943 searchOrchestrator] - Preview is not enabled. (preview_algorithm=NONE)
+02-06-2024 20:49:56.867 INFO  UserManager [22943 searchOrchestrator] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.867 INFO  UserManager [22943 searchOrchestrator] - Done setting user context: splunk-system-user -> splunk-system-user
+02-06-2024 20:49:56.867 INFO  UserManager [22943 searchOrchestrator] - Unwound user context: splunk-system-user -> splunk-system-user
+02-06-2024 20:49:56.867 INFO  DistributedSearchResultCollectionManager [22943 searchOrchestrator] - Stream search: prerest  splunk_server="GOEL-Indexer3" timeout=60 "/services/search/distributed/groups?count=0"
+02-06-2024 20:49:56.867 INFO  ExternalResultProvider [22943 searchOrchestrator] - No external result providers are configured
+02-06-2024 20:49:56.867 INFO  DistributedSearchResultCollectionManager [22943 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+02-06-2024 20:49:56.867 INFO  DistributedSearchResultCollectionManager [22943 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+02-06-2024 20:49:56.867 INFO  DistributedSearchResultCollectionManager [22943 searchOrchestrator] - Default search group:*
+02-06-2024 20:49:56.867 INFO  SearchTargeter [22943 searchOrchestrator] - should contact peer:GOEL-Indexer3 regex=GOEL-Indexer3 1
+02-06-2024 20:49:56.867 INFO  DistributedSearchResultCollectionManager [22943 searchOrchestrator] - Connecting to peer GOEL-Indexer3 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:49:56.868 INFO  SearchPhaseGenerator [22943 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.001650718 seconds.
+02-06-2024 20:49:56.868 INFO  UserManager [22949 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22949 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  SearchOrchestrator [22943 searchOrchestrator] - Starting the status control thread.
+02-06-2024 20:49:56.868 INFO  SearchOrchestrator [22943 searchOrchestrator] - Starting phase=1
+02-06-2024 20:49:56.868 INFO  UserManager [22945 StatusEnforcerThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22945 StatusEnforcerThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  SearchStatusEnforcer [22945 StatusEnforcerThread] - Enforcing disk quota = 10485760000
+02-06-2024 20:49:56.868 INFO  UserManager [22948 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22948 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22951 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22951 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22952 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22952 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22950 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22953 phase_1] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22950 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22954 localCollectorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22954 localCollectorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22953 phase_1] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  ReducePhaseExecutor [22953 phase_1] - Starting phase_1
+02-06-2024 20:49:56.868 INFO  SearchParser [22954 localCollectorThread] - PARSING: prerest  splunk_server="GOEL-Indexer3" timeout=60 "/services/search/distributed/groups?count=0"
+02-06-2024 20:49:56.868 INFO  SearchOperator:rest [22954 localCollectorThread] - built uri=/services/search/distributed/groups?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.868 INFO  LocalCollector [22954 localCollectorThread] - Final required fields list = *
+02-06-2024 20:49:56.868 INFO  UserManager [22954 localCollectorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.868 INFO  UserManager [22954 localCollectorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.868 INFO  UserManager [22954 localCollectorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.868 INFO  SearchOperator:rest [22954 localCollectorThread] - in RestProcessor::execute
+02-06-2024 20:49:56.868 INFO  ProxyConfig [22954 localCollectorThread] - Failed to initialize http_proxy from server.conf for splunkd. Please make sure that the http_proxy property is set as http_proxy=http://host:port in case HTTP proxying needs to be enabled.
+02-06-2024 20:49:56.868 INFO  ProxyConfig [22954 localCollectorThread] - Failed to initialize https_proxy from server.conf for splunkd. Please make sure that the https_proxy property is set as https_proxy=http://host:port in case HTTP proxying needs to be enabled.
+02-06-2024 20:49:56.868 INFO  ProxyConfig [22954 localCollectorThread] - Failed to initialize the proxy_rules setting from server.conf for splunkd. Please provide a valid set of proxy_rules in case HTTP proxying needs to be enabled.
+02-06-2024 20:49:56.868 INFO  ProxyConfig [22954 localCollectorThread] - Failed to initialize the no_proxy setting from server.conf for splunkd. Please provide a valid set of no_proxy rules in case HTTP proxying needs to be enabled.
+02-06-2024 20:49:56.870 WARN  SSLOptions [22954 localCollectorThread] - <internal>.conf/[<internal>]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:49:56.873 WARN  SSLOptions [22954 localCollectorThread] - <internal>.conf/[<internal>]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:49:56.875 INFO  UserManager [22954 localCollectorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.875 INFO  UserManager [22949 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.875 INFO  UserManager [22948 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.875 INFO  UserManager [22951 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.875 INFO  UserManager [22952 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.875 INFO  UserManager [22950 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.875 INFO  ResultsCollationProcessor [22953 phase_1] - Writing remote_event_providers.csv to disk
+02-06-2024 20:49:56.877 INFO  ReducePhaseExecutor [22953 phase_1] - Not downloading remote search.log files. Reason: No remote event providers.
+02-06-2024 20:49:56.877 INFO  ReducePhaseExecutor [22953 phase_1] - Not downloading remote search_telemetry.json files. Reason: No remote event providers.
+02-06-2024 20:49:56.877 INFO  ReducePhaseExecutor [22953 phase_1] - Ending phase_1
+02-06-2024 20:49:56.877 INFO  UserManager [22953 phase_1] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.879 INFO  UserManager [22945 StatusEnforcerThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.880 INFO  DispatchManager [22943 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='subsearch_scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707252565_0_1707252596.1', username='splunk-system-user')
+02-06-2024 20:49:56.880 INFO  UserManager [22943 searchOrchestrator] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.880 INFO  SearchStatusEnforcer [22941 searchOrchestrator] - SearchStatusEnforcer is already terminated
+02-06-2024 20:49:56.881 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsV2 (stats) args: last(*), AS, *, by, peerURI, search_group
+02-06-2024 20:49:56.881 INFO  StatsProcessorV2 [22941 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:49:56.881 INFO  StatsAggregations [22941 searchOrchestrator] - Instantiating Stats function last for key=*, alias=*
+02-06-2024 20:49:56.881 INFO  StatsContext [22941 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:49:56.881 INFO  SearchPipeline [22941 searchOrchestrator] - ReportSearch=1 AllowBatchMode=0
+02-06-2024 20:49:56.881 INFO  SearchParser [22941 searchOrchestrator] - PARSING: prerest splunk_server="GOEL-Indexer3" timeout=60 "/services/server/info?count=0"
+02-06-2024 20:49:56.881 INFO  SearchOperator:rest [22941 searchOrchestrator] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.881 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - Disabling timeliner since source is not an event index
+02-06-2024 20:49:56.881 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - Disabling timeliner since event search is empty
+02-06-2024 20:49:56.881 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - No need for RTWindowProcessor
+02-06-2024 20:49:56.881 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - Timeliner will not be executed
+02-06-2024 20:49:56.881 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - required fields list to add to different pipelines = *
+02-06-2024 20:49:56.881 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - Adding noop to provide result collation at search head
+02-06-2024 20:49:56.881 INFO  SearchParser [22941 searchOrchestrator] - PARSING: noop
+02-06-2024 20:49:56.881 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - Search Phases created.
+02-06-2024 20:49:56.882 INFO  SearchOrchestrator [22941 searchOrchestrator] - Preview is not enabled. (preview_algorithm=NONE)
+02-06-2024 20:49:56.882 INFO  UserManager [22941 searchOrchestrator] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.882 INFO  UserManager [22941 searchOrchestrator] - Done setting user context: splunk-system-user -> splunk-system-user
+02-06-2024 20:49:56.882 INFO  UserManager [22941 searchOrchestrator] - Unwound user context: splunk-system-user -> splunk-system-user
+02-06-2024 20:49:56.882 INFO  DistributedSearchResultCollectionManager [22941 searchOrchestrator] - Stream search: prerest  splunk_server="GOEL-Indexer3" timeout=60 "/services/server/info?count=0"
+02-06-2024 20:49:56.882 INFO  ExternalResultProvider [22941 searchOrchestrator] - No external result providers are configured
+02-06-2024 20:49:56.882 INFO  DistributedSearchResultCollectionManager [22941 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+02-06-2024 20:49:56.882 INFO  DistributedSearchResultCollectionManager [22941 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+02-06-2024 20:49:56.882 INFO  DistributedSearchResultCollectionManager [22941 searchOrchestrator] - Default search group:*
+02-06-2024 20:49:56.882 INFO  SearchTargeter [22941 searchOrchestrator] - should contact peer:GOEL-Indexer3 regex=GOEL-Indexer3 1
+02-06-2024 20:49:56.882 INFO  DistributedSearchResultCollectionManager [22941 searchOrchestrator] - Connecting to peer GOEL-Indexer3 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:49:56.882 INFO  SearchPhaseGenerator [22941 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.000339807 seconds.
+02-06-2024 20:49:56.882 INFO  UserManager [22976 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.882 INFO  UserManager [22976 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.882 INFO  UserManager [22977 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.882 INFO  UserManager [22977 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.883 INFO  SearchOrchestrator [22941 searchOrchestrator] - Starting the status control thread.
+02-06-2024 20:49:56.883 INFO  SearchOrchestrator [22941 searchOrchestrator] - Starting phase=1
+02-06-2024 20:49:56.883 INFO  UserManager [22978 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22972 StatusEnforcerThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22972 StatusEnforcerThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.883 INFO  SearchStatusEnforcer [22972 StatusEnforcerThread] - Enforcing disk quota = 10485760000
+02-06-2024 20:49:56.883 INFO  UserManager [22979 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22979 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22975 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22975 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22978 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22980 localCollectorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22980 localCollectorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22981 phase_1] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22981 phase_1] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.883 INFO  SearchParser [22980 localCollectorThread] - PARSING: prerest  splunk_server="GOEL-Indexer3" timeout=60 "/services/server/info?count=0"
+02-06-2024 20:49:56.883 INFO  ReducePhaseExecutor [22981 phase_1] - Starting phase_1
+02-06-2024 20:49:56.883 INFO  SearchOperator:rest [22980 localCollectorThread] - built uri=/services/server/info?count=0, server=https://127.0.0.1:8089
+02-06-2024 20:49:56.883 INFO  LocalCollector [22980 localCollectorThread] - Final required fields list = *
+02-06-2024 20:49:56.883 INFO  UserManager [22980 localCollectorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.883 INFO  UserManager [22980 localCollectorThread] - Setting user context: splunk-system-user
+02-06-2024 20:49:56.883 INFO  UserManager [22980 localCollectorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:49:56.883 INFO  SearchOperator:rest [22980 localCollectorThread] - in RestProcessor::execute
+02-06-2024 20:49:56.905 INFO  UserManager [22980 localCollectorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.905 INFO  UserManager [22976 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.905 INFO  UserManager [22977 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.905 INFO  UserManager [22979 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.905 INFO  UserManager [22975 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.905 INFO  UserManager [22978 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.906 INFO  ResultsCollationProcessor [22981 phase_1] - Writing remote_event_providers.csv to disk
+02-06-2024 20:49:56.907 INFO  SearchOperator:inputcsv [22981 phase_1] - SearchMessage orig_component=SearchOperator:inputcsv sid=scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707252565_0 message_key=INPUT_CSV:LOOKUP_READ__%s message=Successfully read lookup file '/opt/splunk/etc/apps/splunk_monitoring_console/lookups/assets.csv'.
+02-06-2024 20:49:56.910 INFO  ReducePhaseExecutor [22981 phase_1] - Not downloading remote search.log files.  Reason: Remote log download is currently disabled.
+02-06-2024 20:49:56.910 INFO  ReducePhaseExecutor [22981 phase_1] - Not downloading remote search_telemetry.json files. Reason: No remote event providers.
+02-06-2024 20:49:56.910 INFO  ReducePhaseExecutor [22981 phase_1] - Ending phase_1
+02-06-2024 20:49:56.910 INFO  UserManager [22981 phase_1] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.917 INFO  SearchStatusEnforcer [22972 StatusEnforcerThread] - Triggered listener notification on state=onResults condition=1
+02-06-2024 20:49:56.917 INFO  UserManager [22972 StatusEnforcerThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.918 INFO  DispatchStorageManager [22941 searchOrchestrator] - Remote storage disabled for search artifacts.
+02-06-2024 20:49:56.918 INFO  DispatchManager [22941 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707252565_0', username='splunk-system-user')
+02-06-2024 20:49:56.918 INFO  UserManager [22941 searchOrchestrator] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.918 INFO  SearchStatusEnforcer [22934 RunDispatch] - SearchStatusEnforcer is already terminated
+02-06-2024 20:49:56.918 INFO  UserManager [22934 RunDispatch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:49:56.918 INFO  LookupDataProvider [22934 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:49:56.926 INFO  dispatchRunner [22168 MainThread] - RunDispatch is done: sid=scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707252565_0, exit=0

@@ -1,0 +1,169 @@
+02-06-2024 19:17:00.096 INFO  dispatchRunner [16269 MainThread] - Search process mode: preforked (first search in process) (build b985591d12fd).
+02-06-2024 19:17:00.096 INFO  dispatchRunner [16269 MainThread] - initing LicenseMgr in search process: nonPro=0
+02-06-2024 19:17:00.096 INFO  LMStackMgr [16269 MainThread] - Initializing CleMgr...
+02-06-2024 19:17:00.096 INFO  LicenseMgr [16269 MainThread] - Initing LicenseMgr
+02-06-2024 19:17:00.096 INFO  LMConfig [16269 MainThread] - serverName=GOEL-Indexer3 guid=A4B2739E-EC56-4B6D-9A88-3AA302EAA608
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - connection_timeout=30
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - send_timeout=30
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - receive_timeout=30
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - squash_threshold=2000
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - strict_pool_quota=1
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 19:17:00.100 INFO  LMConfig [16269 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 19:17:00.100 INFO  LicenseMgr [16269 MainThread] - Initing LicenseMgr runContext_splunkd=false
+02-06-2024 19:17:00.100 INFO  LMStackMgr [16269 MainThread] - closing stack mgr
+02-06-2024 19:17:00.100 INFO  LMSlaveInfo [16269 MainThread] - all slaves cleared
+02-06-2024 19:17:00.100 INFO  LMStackMgr [16269 MainThread] - partial init only since node has remote master=https://10.0.3.7:8089
+02-06-2024 19:17:00.100 INFO  LicenseMgr [16269 MainThread] - StackMgr init complete...
+02-06-2024 19:17:00.100 INFO  LMTracker [16269 MainThread] - Setting default product type='enterprise'
+02-06-2024 19:17:00.100 INFO  LMTracker [16269 MainThread] - this is not splunkd, will perform partial init
+02-06-2024 19:17:00.100 INFO  LicenseMgr [16269 MainThread] - Tracker init complete...
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'licenses'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'pools'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'stacks'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'groups'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'slaves'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'peers'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'localslave'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'localpeer'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'licensermessages'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'scriptedwarning'
+02-06-2024 19:17:00.113 INFO  AdminManagerDispatch [16269 MainThread] - added factory for admin handler: 'licenseusage'
+02-06-2024 19:17:00.114 INFO  LicenseMgr [16269 MainThread] - Initing LicenseMgr
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - serverName=GOEL-Indexer3 guid=A4B2739E-EC56-4B6D-9A88-3AA302EAA608
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - connection_timeout=30
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - send_timeout=30
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - receive_timeout=30
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - squash_threshold=2000
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - strict_pool_quota=1
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 19:17:00.114 INFO  LMConfig [16269 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 19:17:00.118 INFO  dispatchRunner [16269 MainThread] - registering build time modules, count=1
+02-06-2024 19:17:00.118 INFO  dispatchRunner [16269 MainThread] - registering search time components of build time module name=vix
+02-06-2024 19:17:00.118 INFO  dispatchRunner [16269 MainThread] - Getting search configuration data from: /opt/splunk/etc/modules/parsing/config.xml
+02-06-2024 19:17:00.119 WARN  SSLOptions [16269 MainThread] - server.conf/[kvstore]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 19:17:00.120 INFO  BundlesSetup [16269 MainThread] - Setup stats for /opt/splunk/etc: wallclock_elapsed_msec=18, cpu_time_used=0.0135477, shared_services_generation=2, shared_services_population=1
+02-06-2024 19:17:00.137 INFO  UserManagerPro [16269 MainThread] - Load authentication: forcing roles="admin, power, splunk-system-role, user"
+02-06-2024 19:17:00.138 INFO  PipelineComponent [16269 MainThread] - Ingestion pipeline sets have been configured to use pipeline set policy=round_robin for multiple pipeline sets.
+02-06-2024 19:17:00.139 INFO  UserManager [4431 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.139 INFO  UserManager [4431 RunDispatch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.139 INFO  dispatchRunner [4431 RunDispatch] - search context: user="splunk-system-user", app="splunk_archiver", bs-pathname="/opt/splunk/etc"
+02-06-2024 19:17:00.151 WARN  IndexConfig [4431 RunDispatch] - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=bcgames; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 19:17:00.151 WARN  IndexConfig [4431 RunDispatch] - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=bcgames maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 19:17:00.151 WARN  IndexConfig [4431 RunDispatch] - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 19:17:00.151 WARN  IndexConfig [4431 RunDispatch] - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 19:17:00.152 WARN  IndexConfig [4431 RunDispatch] - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 19:17:00.152 WARN  IndexConfig [4431 RunDispatch] - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 19:17:00.153 INFO  SearchParser [4431 RunDispatch] - PARSING: | archivebuckets
+02-06-2024 19:17:00.155 INFO  SearchParser [4431 RunDispatch] - PARSING: | archivebuckets
+02-06-2024 19:17:00.155 WARN  DispatchCommandProcessor [4431 RunDispatch] - Could not find a set of indexes to search; defaulting to all
+02-06-2024 19:17:00.155 INFO  IndexReaderIf [4431 RunDispatch] - Loading Clustering bucket manifest file=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen0.csv.gz
+02-06-2024 19:17:00.155 INFO  DatabaseDirectoryManager [4431 RunDispatch] - initDDMsFromSearchBucketManifest path=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen0.csv.gz, indexWhiteList_size=1
+02-06-2024 19:17:00.156 INFO  CMBucketId [4431 RunDispatch] - CMIndexId: New indexName=_telemetry inserted, mapping to id=1
+02-06-2024 19:17:00.156 INFO  CMBucketId [4431 RunDispatch] - CMIndexId: New indexName=_audit inserted, mapping to id=2
+02-06-2024 19:17:00.156 INFO  CMBucketId [4431 RunDispatch] - CMIndexId: New indexName=_internal inserted, mapping to id=3
+02-06-2024 19:17:00.156 INFO  dispatchRunner [4431 RunDispatch] - SearchHeadInitSearchMs=17
+02-06-2024 19:17:00.156 INFO  dispatchRunner [4431 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=false).
+02-06-2024 19:17:00.157 INFO  SearchOrchestrator [4431 RunDispatch] - SearchOrchestrator getting constructed
+02-06-2024 19:17:00.157 INFO  SearchOrchestrator [4431 RunDispatch] -  Initialized the SRI
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Initializing feature flags from config. feature_seed=2662482496
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=search:search_retry:false
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 19:17:00.158 INFO  SearchFeatureFlags [4431 RunDispatch] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 19:17:00.158 INFO  SearchOrchestrator [4431 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2","search:read_final_results_from_timeliner"],"disabledFeatures":["search:search_retry","search:search_retry_realtime","parallelreduce:autoAppliedPercentage","subsearch:enableConcurrentPipelineProcessing","search_optimization::set_required_fields:stats","searchresults:srs2"]}
+02-06-2024 19:17:00.158 INFO  ISplunkDispatch [4431 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+02-06-2024 19:17:00.165 INFO  SearchOrchestrator [4439 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+02-06-2024 19:17:00.165 INFO  UserManager [4439 searchOrchestrator] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.165 INFO  UserManager [4439 searchOrchestrator] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.166 INFO  AdaptiveSearchEngineSelector [4439 searchOrchestrator] - Search execution_plan=classic
+02-06-2024 19:17:00.166 INFO  SearchOrchestrator [4439 searchOrchestrator] - Creating the search DAG.
+02-06-2024 19:17:00.166 INFO  SearchParser [4439 searchOrchestrator] - PARSING: | archivebuckets
+02-06-2024 19:17:00.166 INFO  DispatchStorageManagerInfo [4439 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=00205ebca31f65ef_tmp dispatch_dir=/opt/splunk/var/run/splunk/dispatch/00205ebca31f65ef_tmp
+02-06-2024 19:17:00.171 INFO  script [4439 searchOrchestrator] - found script file=/opt/splunk/etc/apps/splunk_archiver/bin/archivebuckets.py
+02-06-2024 19:17:00.171 INFO  script [4439 searchOrchestrator] - stderr for script archivebuckets will be added to search.log
+02-06-2024 19:17:00.171 INFO  DispatchThread [4439 searchOrchestrator] - BatchMode: allowBatchMode: 0, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):1, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):1
+02-06-2024 19:17:00.171 INFO  DispatchThread [4439 searchOrchestrator] - Setup timeliner partialCommits=0
+02-06-2024 19:17:00.171 INFO  DispatchThread [4439 searchOrchestrator] - Disabling usage of summaries for non-reporting search
+02-06-2024 19:17:00.171 INFO  DispatchThread [4439 searchOrchestrator] - required fields list to add to remote search = *,_bkt,_cd,_si,host,index,linecount,source,sourcetype,splunk_server
+02-06-2024 19:17:00.171 INFO  DispatchCommandProcessor [4439 searchOrchestrator] - summaryHash=NS3d9d854163f8f07a summaryId=A4B2739E-EC56-4B6D-9A88-3AA302EAA608_splunk_archiver_nobody_NS3d9d854163f8f07a remoteSearch=
+02-06-2024 19:17:00.172 INFO  SearchParser [4439 searchOrchestrator] - PARSING: | archivebuckets
+02-06-2024 19:17:00.172 INFO  script [4439 searchOrchestrator] - found script file=/opt/splunk/etc/apps/splunk_archiver/bin/archivebuckets.py
+02-06-2024 19:17:00.172 INFO  script [4439 searchOrchestrator] - stderr for script archivebuckets will be added to search.log
+02-06-2024 19:17:00.172 INFO  AstOptimizer [4439 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000132759
+02-06-2024 19:17:00.172 INFO  SearchParser [4439 searchOrchestrator] - PARSING: | archivebuckets
+02-06-2024 19:17:00.173 INFO  FederatedInfo [4439 searchOrchestrator] - No federated search providers defined.
+02-06-2024 19:17:00.173 INFO  ProjElim [4439 searchOrchestrator] - Black listed processors=[addinfo]
+02-06-2024 19:17:00.188 INFO  AstOptimizer [4439 searchOrchestrator] - SrchOptMetrics optimization=0.016481870
+02-06-2024 19:17:00.189 INFO  SearchPhaseGenerator [4439 searchOrchestrator] - Optimized Search =| archivebuckets
+02-06-2024 19:17:00.189 INFO  ScopedTimer [4439 searchOrchestrator] - search.optimize 0.016842592
+02-06-2024 19:17:00.189 INFO  FederatedProviderVisitor [4439 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+02-06-2024 19:17:00.232 INFO  SearchPhaseGenerator [4439 searchOrchestrator] - Number of involved federated deployments is 0.
+02-06-2024 19:17:00.233 INFO  ParallelReducePolicy [4439 searchOrchestrator] - Current Search Head doesn't have any usable peers to use.
+02-06-2024 19:17:00.233 INFO  PhaseNodeGenerationVisitor [4439 searchOrchestrator] - FallBackReason: Fallback to 2-phase mode because of empty split key of cmd: archivebuckets
+02-06-2024 19:17:00.233 INFO  PhaseToPipelineVisitor [4439 searchOrchestrator] - Phase Search = | archivebuckets
+02-06-2024 19:17:00.233 INFO  SearchParser [4439 searchOrchestrator] - PARSING: | archivebuckets
+02-06-2024 19:17:00.233 INFO  script [4439 searchOrchestrator] - found script file=/opt/splunk/etc/apps/splunk_archiver/bin/archivebuckets.py
+02-06-2024 19:17:00.233 INFO  script [4439 searchOrchestrator] - stderr for script archivebuckets will be added to search.log
+02-06-2024 19:17:00.233 INFO  SearchPipeline [4439 searchOrchestrator] - ReportSearch=0 AllowBatchMode=0
+02-06-2024 19:17:00.233 INFO  SearchPhaseGenerator [4439 searchOrchestrator] - No need for RTWindowProcessor
+02-06-2024 19:17:00.233 INFO  SearchPhaseGenerator [4439 searchOrchestrator] - Adding timeliner to final phase
+02-06-2024 19:17:00.233 INFO  SearchParser [4439 searchOrchestrator] - PARSING: | timeliner remote=0 partial_commits=0 max_events_per_bucket=500000 fieldstats_update_maxperiod=60 bucket=0
+02-06-2024 19:17:00.233 INFO  TimelineCreator [4439 searchOrchestrator] - Creating timeline with remote=0 partialCommits=0 commitFreq=0 syncKSFreq=0 maxSyncKSPeriodTime=60000 bucket=0 latestTime=1707247020.000000 earliestTime=2147483647.000000
+02-06-2024 19:17:00.233 INFO  SearchPhaseGenerator [4439 searchOrchestrator] - required fields list to add to different pipelines = *,_bkt,_cd,_si,host,index,linecount,source,sourcetype,splunk_server
+02-06-2024 19:17:00.233 INFO  SearchPhaseGenerator [4439 searchOrchestrator] - Search Phases created.
+02-06-2024 19:17:00.236 INFO  SearchOrchestrator [4439 searchOrchestrator] - Preview is not enabled. (preview_algorithm=NONE)
+02-06-2024 19:17:00.236 INFO  UserManager [4439 searchOrchestrator] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4439 searchOrchestrator] - Done setting user context: splunk-system-user -> splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4439 searchOrchestrator] - Unwound user context: splunk-system-user -> splunk-system-user
+02-06-2024 19:17:00.236 INFO  DistributedSearchResultCollectionManager [4439 searchOrchestrator] - Stream search: 
+02-06-2024 19:17:00.236 INFO  UserManager [4447 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4447 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4447 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:00.236 INFO  UserManager [4445 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4445 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4445 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:00.236 INFO  UserManager [4448 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4448 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4448 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:00.236 INFO  UserManager [4446 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4446 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4446 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:00.236 INFO  UserManager [4444 SearchResultExecutorThread] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4444 SearchResultExecutorThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.236 INFO  UserManager [4444 SearchResultExecutorThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:00.236 INFO  SearchPhaseGenerator [4439 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.000913257 seconds.
+02-06-2024 19:17:00.237 INFO  SearchOrchestrator [4439 searchOrchestrator] - Starting the status control thread.
+02-06-2024 19:17:00.237 INFO  SearchOrchestrator [4439 searchOrchestrator] - Starting phase=1
+02-06-2024 19:17:00.237 INFO  UserManager [4442 StatusEnforcerThread] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.237 INFO  UserManager [4442 StatusEnforcerThread] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.237 INFO  SearchStatusEnforcer [4442 StatusEnforcerThread] - Enforcing disk quota = 10485760000
+02-06-2024 19:17:00.237 INFO  UserManager [4449 phase_1] - Setting user context: splunk-system-user
+02-06-2024 19:17:00.237 INFO  UserManager [4449 phase_1] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 19:17:00.237 INFO  ReducePhaseExecutor [4449 phase_1] - Starting phase_1
+02-06-2024 19:17:01.577 INFO  ReducePhaseExecutor [4449 phase_1] - Ending phase_1
+02-06-2024 19:17:01.577 INFO  UserManager [4449 phase_1] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:01.579 INFO  ProxyConfig [4442 StatusEnforcerThread] - Failed to initialize http_proxy from server.conf for splunkd. Please make sure that the http_proxy property is set as http_proxy=http://host:port in case HTTP proxying needs to be enabled.
+02-06-2024 19:17:01.579 INFO  ProxyConfig [4442 StatusEnforcerThread] - Failed to initialize https_proxy from server.conf for splunkd. Please make sure that the https_proxy property is set as https_proxy=http://host:port in case HTTP proxying needs to be enabled.
+02-06-2024 19:17:01.579 INFO  ProxyConfig [4442 StatusEnforcerThread] - Failed to initialize the proxy_rules setting from server.conf for splunkd. Please provide a valid set of proxy_rules in case HTTP proxying needs to be enabled.
+02-06-2024 19:17:01.579 INFO  ProxyConfig [4442 StatusEnforcerThread] - Failed to initialize the no_proxy setting from server.conf for splunkd. Please provide a valid set of no_proxy rules in case HTTP proxying needs to be enabled.
+02-06-2024 19:17:01.581 WARN  SSLOptions [4442 StatusEnforcerThread] - <internal>.conf/[<internal>]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 19:17:01.593 WARN  SSLOptions [4442 StatusEnforcerThread] - <internal>.conf/[<internal>]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 19:17:01.603 INFO  SearchStatusEnforcer [4442 StatusEnforcerThread] - Triggered listener notification on state=onResults condition=1
+02-06-2024 19:17:01.603 INFO  UserManager [4442 StatusEnforcerThread] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:01.604 INFO  DispatchStorageManager [4439 searchOrchestrator] - Remote storage disabled for search artifacts.
+02-06-2024 19:17:01.604 INFO  DispatchManager [4439 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707247020_4', username='splunk-system-user')
+02-06-2024 19:17:01.604 INFO  UserManager [4439 searchOrchestrator] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:01.604 INFO  SearchStatusEnforcer [4431 RunDispatch] - SearchStatusEnforcer is already terminated
+02-06-2024 19:17:01.604 INFO  UserManager [4431 RunDispatch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 19:17:01.604 INFO  LookupDataProvider [4431 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 19:17:01.607 INFO  dispatchRunner [16269 MainThread] - RunDispatch is done: sid=scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707247020_4, exit=0

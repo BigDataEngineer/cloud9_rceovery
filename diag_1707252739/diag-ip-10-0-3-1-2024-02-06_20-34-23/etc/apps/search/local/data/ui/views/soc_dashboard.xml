@@ -1,0 +1,13 @@
+<dashboard version="1.1">
+  <label>SOC Dashboard</label>
+  <row>
+    <panel>
+      <title>Failed Logins by User – Last 60 minutes</title>
+      <table>
+        <title>SOC Failed Logins report</title>
+        <search ref="SOC Failed Logins report"></search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>

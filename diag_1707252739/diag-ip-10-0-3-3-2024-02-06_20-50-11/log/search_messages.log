@@ -1,0 +1,1 @@
+02-06-2024 05:02:54.326 +0000 ERROR SearchMessages - orig_component="SearchOperator:inputcsv" app="splunk_monitoring_console" sid="scheduler__nobody_c3BsdW5rX21vbml0b3JpbmdfY29uc29sZQ__RMD54740dfff07b17ef1_at_1707195713_0" message_key="INPUT_CSV:INVALID_LOOKUP_TABLE_TYPE" message=The lookup table 'dmc_assets' requires a .csv or KV store lookup definition.

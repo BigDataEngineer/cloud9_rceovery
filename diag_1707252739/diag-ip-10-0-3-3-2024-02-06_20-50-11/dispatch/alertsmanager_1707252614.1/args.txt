@@ -1,0 +1,10 @@
+--id=alertsmanager_1707252614.1
+--maxbuckets=0
+--ttl=300
+--maxout=50000
+--maxtime=8640000
+--lookups=1
+--reduce_freq=10
+--user=splunk-system-user
+--pro
+--roles=admin:power:splunk-system-role:user

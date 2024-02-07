@@ -1,0 +1,323 @@
+02-06-2024 20:24:29.376 INFO  dispatchRunner [29684 MainThread] - Search process mode: preforked (first search in process) (build b985591d12fd).
+02-06-2024 20:24:29.376 INFO  dispatchRunner [29684 MainThread] - initing LicenseMgr in search process: nonPro=0
+02-06-2024 20:24:29.377 INFO  LMStackMgr [29684 MainThread] - Initializing CleMgr...
+02-06-2024 20:24:29.377 INFO  LicenseMgr [29684 MainThread] - Initing LicenseMgr
+02-06-2024 20:24:29.377 INFO  LMConfig [29684 MainThread] - serverName=GOEL-SearchHead guid=51367ECF-193E-4082-849C-4DF59054FDA5
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - connection_timeout=30
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - send_timeout=30
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - receive_timeout=30
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - squash_threshold=2000
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - strict_pool_quota=1
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:24:29.379 INFO  LMConfig [29684 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:24:29.379 INFO  LicenseMgr [29684 MainThread] - Initing LicenseMgr runContext_splunkd=false
+02-06-2024 20:24:29.379 INFO  LMStackMgr [29684 MainThread] - closing stack mgr
+02-06-2024 20:24:29.379 INFO  LMSlaveInfo [29684 MainThread] - all slaves cleared
+02-06-2024 20:24:29.379 INFO  LMStackMgr [29684 MainThread] - Initalized license_warnings_update_interval=auto
+02-06-2024 20:24:29.379 INFO  LMStackMgr [29684 MainThread] - License Manager supports Conditional Licensing Enforcement. For baked in CLE policies, window_period=60 days, max_violations=45, for stack size below 107374182400 bytes
+02-06-2024 20:24:29.379 INFO  LMLicense [29684 MainThread] - Applying default enforcement policy for free
+02-06-2024 20:24:29.379 INFO  LMStackMgr [29684 MainThread] - Added policy WinSz=30 Warnings=3 MaxSize=0 isDefault=1 features= for free
+02-06-2024 20:24:29.379 INFO  LMLicense [29684 MainThread] - Applying default enforcement policy for forwarder
+02-06-2024 20:24:29.379 INFO  LMStackMgr [29684 MainThread] - Added policy WinSz=30 Warnings=5 MaxSize=0 isDefault=1 features= for forwarder
+02-06-2024 20:24:29.380 INFO  LMStack [29684 MainThread] - Added type=download-trial license, from file=enttrial.lic, to stack=download-trial of group=Trial
+02-06-2024 20:24:29.380 INFO  LMLicense [29684 MainThread] - Applying default enforcement policy for download-trial
+02-06-2024 20:24:29.380 INFO  LMStackMgr [29684 MainThread] - created stack='download-trial'
+02-06-2024 20:24:29.380 INFO  LMStackMgr [29684 MainThread] - Added policy WinSz=30 Warnings=5 MaxSize=0 isDefault=1 features= for download-trial
+02-06-2024 20:24:29.380 INFO  LMStackMgr [29684 MainThread] - have to auto-set active stack group='Trial' reason='invalid/missing group id' gidStr='' oldGid=Invalid
+02-06-2024 20:24:29.380 INFO  LMStackMgr [29684 MainThread] - added pool auto_generated_pool_download-trial to stack download-trial
+02-06-2024 20:24:29.380 INFO  LMStackMgr [29684 MainThread] - added pool auto_generated_pool_forwarder to stack forwarder
+02-06-2024 20:24:29.380 INFO  LMStackMgr [29684 MainThread] - added pool auto_generated_pool_free to stack free
+02-06-2024 20:24:29.380 INFO  LMStackMgr [29684 MainThread] - Initialized hideQuotaWarning = "0"
+02-06-2024 20:24:29.380 INFO  LMStackMgr [29684 MainThread] - init completed [51367ECF-193E-4082-849C-4DF59054FDA5,Trial,runContext_splunkd=false]
+02-06-2024 20:24:29.380 INFO  LicenseMgr [29684 MainThread] - StackMgr init complete...
+02-06-2024 20:24:29.380 INFO  LMTracker [29684 MainThread] - Setting default product type='enterprise'
+02-06-2024 20:24:29.380 INFO  LMTracker [29684 MainThread] - this is not splunkd, will perform partial init
+02-06-2024 20:24:29.380 INFO  LicenseMgr [29684 MainThread] - Tracker init complete...
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'licenses'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'pools'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'stacks'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'groups'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'slaves'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'peers'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'localslave'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'localpeer'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'licensermessages'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'scriptedwarning'
+02-06-2024 20:24:29.387 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'licenseusage'
+02-06-2024 20:24:29.387 INFO  LicenseMgr [29684 MainThread] - Initing LicenseMgr
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - serverName=GOEL-SearchHead guid=51367ECF-193E-4082-849C-4DF59054FDA5
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - connection_timeout=30
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - send_timeout=30
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - receive_timeout=30
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - squash_threshold=2000
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - strict_pool_quota=1
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:24:29.387 INFO  LMConfig [29684 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:24:29.388 INFO  dispatchRunner [29684 MainThread] - registering build time modules, count=1
+02-06-2024 20:24:29.388 INFO  dispatchRunner [29684 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:24:29.388 INFO  dispatchRunner [29684 MainThread] - Getting search configuration data from: /opt/splunk/etc/modules/parsing/config.xml
+02-06-2024 20:24:29.388 WARN  SSLOptions [29684 MainThread] - server.conf/[kvstore]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:24:29.389 INFO  BundlesSetup [29684 MainThread] - Setup stats for /opt/splunk/etc: wallclock_elapsed_msec=9, cpu_time_used=0.00943828, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:24:29.399 INFO  UserManagerPro [29684 MainThread] - Load authentication: forcing roles="admin, can_delete, power, user"
+02-06-2024 20:24:29.399 INFO  PipelineComponent [29684 MainThread] - Ingestion pipeline sets have been configured to use pipeline set policy=round_robin for multiple pipeline sets.
+02-06-2024 20:24:29.400 INFO  UserManager [20871 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:24:29.400 INFO  UserManager [20871 RunDispatch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:24:29.401 INFO  UserManager [20871 RunDispatch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:24:29.401 INFO  UserManager [20871 RunDispatch] - Setting user context: admin
+02-06-2024 20:24:29.401 INFO  UserManager [20871 RunDispatch] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.401 INFO  dispatchRunner [20871 RunDispatch] - search context: user="admin", app="search", bs-pathname="/opt/splunk/etc"
+02-06-2024 20:24:29.408 INFO  SearchParser [20871 RunDispatch] - PARSING: search source=*/var/log/secure* index=soc failed earliest=-60m |stats count by user,src_ip
+02-06-2024 20:24:29.408 INFO  StatsContext [20871 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.408 INFO  StatsContext [20871 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.408 INFO  dispatchRunner [20871 RunDispatch] - Search running in non-clustered mode
+02-06-2024 20:24:29.408 INFO  dispatchRunner [20871 RunDispatch] - SearchHeadInitSearchMs=7
+02-06-2024 20:24:29.408 INFO  dispatchRunner [20871 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=false).
+02-06-2024 20:24:29.408 INFO  SearchOrchestrator [20871 RunDispatch] - SearchOrchestrator getting constructed
+02-06-2024 20:24:29.408 INFO  SearchOrchestrator [20871 RunDispatch] -  Initialized the SRI
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Initializing feature flags from config. feature_seed=730118919
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:24:29.409 INFO  SearchFeatureFlags [20871 RunDispatch] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:24:29.409 INFO  SearchOrchestrator [20871 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2","search:read_final_results_from_timeliner"],"disabledFeatures":["search:search_retry","search:search_retry_realtime","parallelreduce:autoAppliedPercentage","subsearch:enableConcurrentPipelineProcessing","search_optimization::set_required_fields:stats","searchresults:srs2"]}
+02-06-2024 20:24:29.409 INFO  ISplunkDispatch [20871 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+02-06-2024 20:24:29.413 INFO  SearchOrchestrator [20878 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+02-06-2024 20:24:29.413 INFO  UserManager [20878 searchOrchestrator] - Setting user context: admin
+02-06-2024 20:24:29.413 INFO  UserManager [20878 searchOrchestrator] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.413 INFO  AdaptiveSearchEngineSelector [20878 searchOrchestrator] - Search execution_plan=classic
+02-06-2024 20:24:29.413 INFO  SearchOrchestrator [20878 searchOrchestrator] - Creating the search DAG.
+02-06-2024 20:24:29.413 INFO  SearchParser [20878 searchOrchestrator] - PARSING: search source=*/var/log/secure* index=soc failed earliest=-60m |stats count by user,src_ip
+02-06-2024 20:24:29.413 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.413 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.413 INFO  DispatchStorageManagerInfo [20878 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=28ad4add3109b85c_tmp dispatch_dir=/opt/splunk/var/run/splunk/dispatch/28ad4add3109b85c_tmp
+02-06-2024 20:24:29.451 INFO  SearchProcessor [20878 searchOrchestrator] - Building search filter
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:24:29.477 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  sourcetype expansions took 0 ms
+02-06-2024 20:24:29.477 INFO  UnifiedSearch [20878 searchOrchestrator] - Expanded index search = (source=*/var/log/secure* index=soc failed earliest=-60m)
+02-06-2024 20:24:29.477 INFO  UnifiedSearch [20878 searchOrchestrator] - base lispy: [ AND failed index::soc source::*/var/log/secure* [ OR 60m earliest::-60m ] ]
+02-06-2024 20:24:29.477 INFO  UnifiedSearch [20878 searchOrchestrator] - No indexes to search
+02-06-2024 20:24:29.478 INFO  UnifiedSearch [20878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:24:29.478 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsV2 (stats) args: count, by, user, src_ip
+02-06-2024 20:24:29.478 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:24:29.478 INFO  StatsAggregations [20878 searchOrchestrator] - Instantiating Stats function group_count for key=, alias=count
+02-06-2024 20:24:29.478 INFO  StatsContext [20878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:24:29.478 INFO  SearchParser [20878 searchOrchestrator] - PARSING: prestats count by src_ip user
+02-06-2024 20:24:29.478 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.478 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.478 INFO  SearchParser [20878 searchOrchestrator] - PARSING: addinfo type=count label=prereport_events
+02-06-2024 20:24:29.478 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsV2 (stats) args: count, by, src_ip, user
+02-06-2024 20:24:29.478 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:24:29.478 INFO  StatsAggregations [20878 searchOrchestrator] - Instantiating Stats function group_count for key=, alias=count
+02-06-2024 20:24:29.478 INFO  StatsContext [20878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:24:29.478 INFO  DispatchThread [20878 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+02-06-2024 20:24:29.478 INFO  DispatchThread [20878 searchOrchestrator] - required fields list to add to remote search = prestats_reserved_*,psrsvd_*,src_ip,user
+02-06-2024 20:24:29.478 INFO  SearchParser [20878 searchOrchestrator] - PARSING: fields keepcolorder=t "prestats_reserved_*" "psrsvd_*" "src_ip" "user"
+02-06-2024 20:24:29.478 INFO  DispatchCommandProcessor [20878 searchOrchestrator] - summaryHash=08b7c2f24e7e56f7 summaryId=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_08b7c2f24e7e56f7 remoteSearch=litsearch (source=*/var/log/secure* index=soc failed earliest=-60m) | addinfo  type=count label=prereport_events | fields  keepcolorder=t "prestats_reserved_*" "psrsvd_*" "src_ip" "user" | prestats  count by src_ip user
+02-06-2024 20:24:29.478 INFO  DispatchCommandProcessor [20878 searchOrchestrator] - summaryHash=NS88efae35f5af2ca5 summaryId=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_NS88efae35f5af2ca5 remoteSearch=litsearch (source=*/var/log/secure* index=soc failed earliest=-60m) | addinfo type=count label=prereport_events | fields keepcolorder=t "prestats_reserved_*" "psrsvd_*" "src_ip" "user" | prestats count by src_ip user
+02-06-2024 20:24:29.478 INFO  DispatchThread [20878 searchOrchestrator] - Getting summary ID for summaryHash=NS88efae35f5af2ca5
+02-06-2024 20:24:29.481 INFO  DispatchThread [20878 searchOrchestrator] - Did not find a usable summary_id, setting info._summary_mode=none, not modifying input summary_id=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_NS88efae35f5af2ca5
+02-06-2024 20:24:29.482 INFO  SearchParser [20878 searchOrchestrator] - PARSING: search source=*/var/log/secure* index=soc failed earliest=-60m |stats count by user,src_ip
+02-06-2024 20:24:29.482 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.482 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.482 INFO  UnifiedSearch [20878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:24:29.482 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsV2 (stats) args: count, by, user, src_ip
+02-06-2024 20:24:29.482 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:24:29.482 INFO  StatsAggregations [20878 searchOrchestrator] - Instantiating Stats function group_count for key=, alias=count
+02-06-2024 20:24:29.482 INFO  StatsContext [20878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:24:29.483 INFO  AstOptimizer [20878 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000561147
+02-06-2024 20:24:29.483 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.483 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.483 INFO  SearchParser [20878 searchOrchestrator] - PARSING: | stats count by user,src_ip
+02-06-2024 20:24:29.483 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.483 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.483 INFO  SearchParser [20878 searchOrchestrator] - PARSING: | search (source=*/var/log/secure* index=soc failed earliest=-60m)
+02-06-2024 20:24:29.483 INFO  FederatedInfo [20878 searchOrchestrator] - No federated search providers defined.
+02-06-2024 20:24:29.483 INFO  ProjElim [20878 searchOrchestrator] - Black listed processors=[addinfo]
+02-06-2024 20:24:29.490 INFO  SearchProcessor [20878 searchOrchestrator] - Building search filter
+02-06-2024 20:24:29.490 INFO  ReplaceWithTstatsVisitorBase [20878 searchOrchestrator] - access_query= | search (earliest=-60m index=soc source=*/var/log/secure* failed) AND "src_ip"=*  AND "user"=* 
+02-06-2024 20:24:29.490 INFO  SearchParser [20878 searchOrchestrator] - PARSING:  | search (earliest=-60m index=soc source=*/var/log/secure* failed) AND "src_ip"=*  AND "user"=* 
+02-06-2024 20:24:29.497 INFO  SearchProcessor [20878 searchOrchestrator] - Building search filter
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:24:29.505 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  sourcetype expansions took 0 ms
+02-06-2024 20:24:29.505 INFO  UnifiedSearch [20878 searchOrchestrator] - Expanded index search = (index=soc source=*/var/log/secure* failed "src_ip"=* "user"=* _time>=1707247469.000)
+02-06-2024 20:24:29.505 INFO  UnifiedSearch [20878 searchOrchestrator] - base lispy: [ AND failed index::soc source::*/var/log/secure* ]
+02-06-2024 20:24:29.506 INFO  UnifiedSearch [20878 searchOrchestrator] - No indexes to search
+02-06-2024 20:24:29.506 INFO  UnifiedSearch [20878 searchOrchestrator] - Initialization of search data structures took 1 ms
+02-06-2024 20:24:29.506 INFO  UnifiedSearch [20878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:24:29.506 INFO  ReplaceWithTstatsVisitorBase [20878 searchOrchestrator] - expansion=(index=soc source=*/var/log/secure* failed "src_ip"=* "user"=* _time>=1707247469.000)
+02-06-2024 20:24:29.506 INFO  SearchParser [20878 searchOrchestrator] - PARSING:  | search (index=soc source=*/var/log/secure* failed "src_ip"=* "user"=* _time>=1707247469.000)
+02-06-2024 20:24:29.506 INFO  UnifiedSearch [20878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:24:29.507 WARN  ReplaceWithTstatsVisitorBase [20878 searchOrchestrator] - srchFilter contains incompatible terms/fields. Ignoring optimization. srchFilter=
+02-06-2024 20:24:29.507 INFO  AstOptimizer [20878 searchOrchestrator] - SrchOptMetrics optimization=0.024246792
+02-06-2024 20:24:29.507 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.507 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.507 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - Optimized Search =| search (earliest=-60m index=soc source=*/var/log/secure* failed) | stats count by user,src_ip
+02-06-2024 20:24:29.507 INFO  ScopedTimer [20878 searchOrchestrator] - search.optimize 0.025301771
+02-06-2024 20:24:29.507 INFO  FederatedProviderVisitor [20878 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+02-06-2024 20:24:29.508 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - Number of involved federated deployments is 0.
+02-06-2024 20:24:29.508 INFO  PhaseToPipelineVisitor [20878 searchOrchestrator] - Phase Search = | search (earliest=-60m index=soc source=*/var/log/secure* failed)
+02-06-2024 20:24:29.508 INFO  SearchParser [20878 searchOrchestrator] - PARSING: | search (earliest=-60m index=soc source=*/var/log/secure* failed)
+02-06-2024 20:24:29.515 INFO  SearchProcessor [20878 searchOrchestrator] - Building search filter
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:24:29.522 INFO  SearchEvaluatorBasedExpander [20878 searchOrchestrator] -  sourcetype expansions took 0 ms
+02-06-2024 20:24:29.522 INFO  UnifiedSearch [20878 searchOrchestrator] - Expanded index search = (index=soc source=*/var/log/secure* failed _time>=1707247469.000)
+02-06-2024 20:24:29.523 INFO  UnifiedSearch [20878 searchOrchestrator] - base lispy: [ AND failed index::soc source::*/var/log/secure* ]
+02-06-2024 20:24:29.523 INFO  UnifiedSearch [20878 searchOrchestrator] - No indexes to search
+02-06-2024 20:24:29.523 INFO  UnifiedSearch [20878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:24:29.523 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.523 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.523 INFO  PhaseToPipelineVisitor [20878 searchOrchestrator] - Phase Search = | stats count by user,src_ip
+02-06-2024 20:24:29.523 INFO  SearchParser [20878 searchOrchestrator] - PARSING: | stats count by user,src_ip
+02-06-2024 20:24:29.523 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.523 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.523 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsV2 (stats) args: count, by, user, src_ip
+02-06-2024 20:24:29.523 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:24:29.523 INFO  StatsAggregations [20878 searchOrchestrator] - Instantiating Stats function group_count for key=, alias=count
+02-06-2024 20:24:29.523 INFO  StatsContext [20878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:24:29.523 INFO  SearchPipeline [20878 searchOrchestrator] - ReportSearch=1 AllowBatchMode=1
+02-06-2024 20:24:29.523 INFO  SearchParser [20878 searchOrchestrator] - PARSING: addinfo type=count label=prereport_events track_fieldmeta_events=true
+02-06-2024 20:24:29.523 INFO  SearchParser [20878 searchOrchestrator] - PARSING: prestats count by src_ip user
+02-06-2024 20:24:29.523 INFO  StatsContext [20878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.523 INFO  StatsContext [20878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.523 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsV2 (stats) args: count, by, src_ip, user
+02-06-2024 20:24:29.523 INFO  StatsProcessorV2 [20878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:24:29.523 INFO  StatsAggregations [20878 searchOrchestrator] - Instantiating Stats function group_count for key=, alias=count
+02-06-2024 20:24:29.523 INFO  StatsContext [20878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:24:29.523 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - No need for RTWindowProcessor
+02-06-2024 20:24:29.523 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - Timeliner will not be executed
+02-06-2024 20:24:29.523 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - required fields list to add to different pipelines = prestats_reserved_*,psrsvd_*,src_ip,user
+02-06-2024 20:24:29.523 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - Remote Timeliner=
+02-06-2024 20:24:29.523 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - Fileds=fields keepcolorder=t "prestats_reserved_*" "psrsvd_*" "src_ip" "user"
+02-06-2024 20:24:29.523 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - REMOTE TIMELINER ADDED
+02-06-2024 20:24:29.523 INFO  SearchParser [20878 searchOrchestrator] - PARSING: fields keepcolorder=t "prestats_reserved_*" "psrsvd_*" "src_ip" "user"
+02-06-2024 20:24:29.523 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - Result collation will occur at proc=stats
+02-06-2024 20:24:29.523 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - Search Phases created.
+02-06-2024 20:24:29.525 INFO  SearchOrchestrator [20878 searchOrchestrator] - Preview is enabled for Search Head only. (preview_algorithm=SEARCH_HEAD)
+02-06-2024 20:24:29.526 INFO  UserManager [20878 searchOrchestrator] - Setting user context: admin
+02-06-2024 20:24:29.526 INFO  UserManager [20878 searchOrchestrator] - Done setting user context: admin -> admin
+02-06-2024 20:24:29.526 INFO  UserManager [20878 searchOrchestrator] - Unwound user context: admin -> admin
+02-06-2024 20:24:29.526 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Stream search: litsearch (index=soc source=*/var/log/secure* failed _time>=1707247469.000) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "prestats_reserved_*" "psrsvd_*" "src_ip" "user" | prestats  count by src_ip user
+02-06-2024 20:24:29.526 INFO  ExternalResultProvider [20878 searchOrchestrator] - No external result providers are configured
+02-06-2024 20:24:29.526 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+02-06-2024 20:24:29.526 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+02-06-2024 20:24:29.526 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Default search group:*
+02-06-2024 20:24:29.526 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Connecting to peer GOEL-Indexer1 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:24:29.526 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Connecting to peer GOEL-Indexer2 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:24:29.526 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Connecting to peer GOEL-Indexer3 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:24:29.526 INFO  SearchTargeter [20878 searchOrchestrator] - Index list is not available for GOEL-SearchHead targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:24:29.526 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Connecting to peer GOEL-SearchHead connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:24:29.526 INFO  ProxyConfig [20878 searchOrchestrator] - Failed to initialize http_proxy from server.conf for splunkd. Please make sure that the http_proxy property is set as http_proxy=http://host:port in case HTTP proxying needs to be enabled.
+02-06-2024 20:24:29.526 INFO  ProxyConfig [20878 searchOrchestrator] - Failed to initialize https_proxy from server.conf for splunkd. Please make sure that the https_proxy property is set as https_proxy=http://host:port in case HTTP proxying needs to be enabled.
+02-06-2024 20:24:29.526 INFO  ProxyConfig [20878 searchOrchestrator] - Failed to initialize the proxy_rules setting from server.conf for splunkd. Please provide a valid set of proxy_rules in case HTTP proxying needs to be enabled.
+02-06-2024 20:24:29.526 INFO  ProxyConfig [20878 searchOrchestrator] - Failed to initialize the no_proxy setting from server.conf for splunkd. Please provide a valid set of no_proxy rules in case HTTP proxying needs to be enabled.
+02-06-2024 20:24:29.527 WARN  SSLOptions [20878 searchOrchestrator] - <internal>.conf/[<internal>]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:24:29.531 WARN  SSLOptions [20878 searchOrchestrator] - <internal>.conf/[<internal>]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:24:29.531 INFO  ServerConfig [20878 searchOrchestrator] - Using REMOTE_SERVER_NAME=GOEL-SearchHead
+02-06-2024 20:24:29.531 INFO  KeyManagerLocalhost [20878 searchOrchestrator] - Checking for localhost key pair
+02-06-2024 20:24:29.531 INFO  KeyManagerLocalhost [20878 searchOrchestrator] - Public key already exists: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+02-06-2024 20:24:29.531 INFO  KeyManagerLocalhost [20878 searchOrchestrator] - Reading public key for localhost: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+02-06-2024 20:24:29.531 INFO  KeyManagerLocalhost [20878 searchOrchestrator] - Finished reading public key for localhost: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+02-06-2024 20:24:29.531 INFO  KeyManagerLocalhost [20878 searchOrchestrator] - Reading private key for localhost: /opt/splunk/etc/auth/distServerKeys/private.pem
+02-06-2024 20:24:29.531 INFO  KeyManagerLocalhost [20878 searchOrchestrator] - Finished reading private key for localhost: /opt/splunk/etc/auth/distServerKeys/private.pem
+02-06-2024 20:24:29.532 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer1 in 0.007 seconds
+02-06-2024 20:24:29.534 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer2 in 0.002 seconds
+02-06-2024 20:24:29.535 INFO  DistributedSearchResultCollectionManager [20878 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer3 in 0.002 seconds
+02-06-2024 20:24:29.536 INFO  UserManager [20885 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:24:29.536 INFO  UserManager [20885 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.536 INFO  UserManager [20887 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:24:29.536 INFO  UserManager [20887 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.536 INFO  UserManager [20888 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:24:29.536 INFO  UserManager [20888 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.536 INFO  UserManager [20889 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:24:29.536 INFO  UserManager [20889 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.536 INFO  UserManager [20886 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:24:29.536 INFO  UserManager [20886 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.536 INFO  UserManager [20890 localCollectorThread] - Setting user context: admin
+02-06-2024 20:24:29.536 INFO  UserManager [20890 localCollectorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.536 INFO  SearchParser [20890 localCollectorThread] - PARSING: litsearch (index=soc source=*/var/log/secure* failed _time>=1707247469.000) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "prestats_reserved_*" "psrsvd_*" "src_ip" "user" | prestats  count by src_ip user
+02-06-2024 20:24:29.536 INFO  SearchPhaseGenerator [20878 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.011576093 seconds.
+02-06-2024 20:24:29.536 INFO  SearchOrchestrator [20878 searchOrchestrator] - Starting the status control thread.
+02-06-2024 20:24:29.536 INFO  SearchOrchestrator [20878 searchOrchestrator] - Starting phase=1
+02-06-2024 20:24:29.536 INFO  StatsContext [20890 localCollectorThread] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:24:29.536 INFO  StatsContext [20890 localCollectorThread] -  Setting max memory usage to 209715200
+02-06-2024 20:24:29.537 INFO  UserManager [20881 StatusEnforcerThread] - Setting user context: admin
+02-06-2024 20:24:29.537 INFO  UserManager [20881 StatusEnforcerThread] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.537 INFO  SearchStatusEnforcer [20881 StatusEnforcerThread] - Enforcing disk quota = 10485760000
+02-06-2024 20:24:29.537 INFO  PreviewExecutor [20881 StatusEnforcerThread] - Preview Enforcing initialization done
+02-06-2024 20:24:29.538 INFO  UserManager [20891 phase_1] - Setting user context: admin
+02-06-2024 20:24:29.538 INFO  UserManager [20891 phase_1] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.538 INFO  ReducePhaseExecutor [20891 phase_1] - Starting phase_1
+02-06-2024 20:24:29.550 INFO  UnifiedSearch [20890 localCollectorThread] - No indexes to search
+02-06-2024 20:24:29.550 INFO  SearchParser [20890 localCollectorThread] - PARSING: typer | tags
+02-06-2024 20:24:29.555 INFO  FastTyper [20890 localCollectorThread] - found nodes count: comparisons=6, unique_comparisons=5, terms=4, unique_terms=4, phrases=12, unique_phrases=12, total leaves=22
+02-06-2024 20:24:29.556 INFO  BatchSearch [20890 localCollectorThread] - Using Batch Search
+02-06-2024 20:24:29.557 INFO  UnifiedSearch [20890 localCollectorThread] - Initialization of search data structures took 7 ms
+02-06-2024 20:24:29.557 INFO  UnifiedSearch [20890 localCollectorThread] - Processed search targeting arguments
+02-06-2024 20:24:29.557 INFO  StatsProcessorV2 [20890 localCollectorThread] - StatsV2 (stats) args: count, by, src_ip, user
+02-06-2024 20:24:29.557 INFO  StatsProcessorV2 [20890 localCollectorThread] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:24:29.557 INFO  StatsAggregations [20890 localCollectorThread] - Instantiating Stats function group_count for key=, alias=count
+02-06-2024 20:24:29.557 INFO  StatsContext [20890 localCollectorThread] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:24:29.557 INFO  LocalCollector [20890 localCollectorThread] - Final required fields list = _raw,_time,index,prestats_reserved_*,psrsvd_*,source,src_ip,user
+02-06-2024 20:24:29.557 INFO  UserManager [20890 localCollectorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.557 INFO  UserManager [20890 localCollectorThread] - Setting user context: admin
+02-06-2024 20:24:29.557 INFO  UserManager [20890 localCollectorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:24:29.557 INFO  UserManager [20890 localCollectorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.699 INFO  CMBucketId [20889 SearchResultExecutorThread] - CMIndexId: New indexName=soc inserted, mapping to id=1
+02-06-2024 20:24:29.712 INFO  UserManager [20887 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.712 INFO  UserManager [20885 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.712 INFO  UserManager [20888 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.712 INFO  UserManager [20886 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.713 INFO  UserManager [20889 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.713 INFO  ResultsCollationProcessor [20891 phase_1] - Writing remote_event_providers.csv to disk
+02-06-2024 20:24:29.715 INFO  ReducePhaseExecutor [20891 phase_1] - Not downloading remote search.log files.  Reason: Remote log download is currently disabled.
+02-06-2024 20:24:29.715 INFO  DownloadRemoteDataTransaction [20891 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:24:29.721 INFO  ReducePhaseExecutor [20891 phase_1] - Downloading all remote search_telemetry.json files took 0.006 seconds
+02-06-2024 20:24:29.721 INFO  ReducePhaseExecutor [20891 phase_1] - Ending phase_1
+02-06-2024 20:24:29.721 INFO  UserManager [20891 phase_1] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.724 INFO  UserManager [20881 StatusEnforcerThread] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.725 INFO  DispatchStorageManager [20878 searchOrchestrator] - Remote storage disabled for search artifacts.
+02-06-2024 20:24:29.725 INFO  DispatchManager [20878 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='admin__admin__search__RMD5b6d4a6d66ae75c58_at_1707251069_1', username='admin')
+02-06-2024 20:24:29.725 INFO  UserManager [20878 searchOrchestrator] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.726 INFO  SearchStatusEnforcer [20871 RunDispatch] - SearchStatusEnforcer is already terminated
+02-06-2024 20:24:29.726 INFO  UserManager [20871 RunDispatch] - Unwound user context: admin -> NULL
+02-06-2024 20:24:29.726 INFO  LookupDataProvider [20871 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:24:29.729 INFO  dispatchRunner [29684 MainThread] - RunDispatch is done: sid=admin__admin__search__RMD5b6d4a6d66ae75c58_at_1707251069_1, exit=0

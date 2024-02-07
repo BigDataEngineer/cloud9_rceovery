@@ -1,0 +1,116 @@
+ls -alR "/opt/splunk/var/run/splunk/dispatch/1707251016.17"
+/opt/splunk/var/run/splunk/dispatch/1707251016.17:
+total 144
+drwx------  7 archStudent archStudent  4096 Feb  6 20:23 .
+drwx--x--x 19 archStudent archStudent  4096 Feb  6 20:33 ..
+-rw-------  1 archStudent archStudent   171 Feb  6 20:23 args.txt
+-rw-------  1 archStudent archStudent     0 Feb  6 20:23 audited
+drwx------  2 archStudent archStudent  4096 Feb  6 20:23 buckets
+-rw-------  1 archStudent archStudent   560 Feb  6 20:23 custom_prop.csv
+drwx------  2 archStudent archStudent  4096 Feb  6 20:23 events
+drwx------  2 archStudent archStudent  4096 Feb  6 20:23 events_preview
+-rw-------  1 archStudent archStudent     0 Feb  6 20:23 generate_preview
+-rw-------  1 archStudent archStudent 10472 Feb  6 20:23 info.csv
+-rw-------  1 archStudent archStudent    76 Feb  6 20:23 metadata.csv
+-rw-------  1 archStudent archStudent  1249 Feb  6 20:23 peers.csv
+-rw-------  1 archStudent archStudent     2 Feb  6 20:23 pipeline_sets
+-rw-------  1 archStudent archStudent   365 Feb  6 20:23 remote_event_providers.csv
+drwx------  2 archStudent archStudent  4096 Feb  6 20:23 remote_logs
+drwx------  2 archStudent archStudent  4096 Feb  6 20:23 remote_search_telemetry
+-rw-------  1 archStudent archStudent  1362 Feb  6 20:23 request.csv
+-rw-------  1 archStudent archStudent   135 Feb  6 20:23 results.srs.zst
+-rw-------  1 archStudent archStudent    70 Feb  6 20:33 runtime.csv
+-rw-------  1 archStudent archStudent 44505 Feb  6 20:23 search.log
+-rw-------  1 archStudent archStudent  4849 Feb  6 20:23 search_telemetry.json
+-rw-------  1 archStudent archStudent   801 Feb  6 20:23 search_telemetry.log
+-rw-------  1 archStudent archStudent  3569 Feb  6 20:33 status.csv
+-rw-------  1 archStudent archStudent   957 Feb  6 20:23 timeline.csv
+-rw-------  1 archStudent archStudent     0 Feb  6 20:23 tmp_cleanup_done
+-rw-------  1 archStudent archStudent   255 Feb  6 20:23 watchdog.log
+
+/opt/splunk/var/run/splunk/dispatch/1707251016.17/buckets:
+total 140
+drwx------ 2 archStudent archStudent  4096 Feb  6 20:23 .
+drwx------ 7 archStudent archStudent  4096 Feb  6 20:23 ..
+-rw------- 1 archStudent archStudent 10527 Feb  6 20:23 0.000_0.000.csv
+-rw------- 1 archStudent archStudent  2409 Feb  6 20:23 1707163200.000_1707166800.000.csv
+-rw------- 1 archStudent archStudent  2499 Feb  6 20:23 1707166800.000_1707170400.000.csv
+-rw------- 1 archStudent archStudent  3369 Feb  6 20:23 1707170400.000_1707174000.000.csv
+-rw------- 1 archStudent archStudent  2708 Feb  6 20:23 1707174000.000_1707177600.000.csv
+-rw------- 1 archStudent archStudent  2481 Feb  6 20:23 1707177600.000_1707181200.000.csv
+-rw------- 1 archStudent archStudent  3151 Feb  6 20:23 1707181200.000_1707184800.000.csv
+-rw------- 1 archStudent archStudent  3222 Feb  6 20:23 1707184800.000_1707188400.000.csv
+-rw------- 1 archStudent archStudent  3158 Feb  6 20:23 1707188400.000_1707192000.000.csv
+-rw------- 1 archStudent archStudent  2864 Feb  6 20:23 1707192000.000_1707195600.000.csv
+-rw------- 1 archStudent archStudent  2604 Feb  6 20:23 1707195600.000_1707199200.000.csv
+-rw------- 1 archStudent archStudent  1982 Feb  6 20:23 1707199200.000_1707202800.000.csv
+-rw------- 1 archStudent archStudent  1975 Feb  6 20:23 1707202800.000_1707206400.000.csv
+-rw------- 1 archStudent archStudent  1859 Feb  6 20:23 1707206400.000_1707210000.000.csv
+-rw------- 1 archStudent archStudent  2162 Feb  6 20:23 1707210000.000_1707213600.000.csv
+-rw------- 1 archStudent archStudent  2734 Feb  6 20:23 1707213600.000_1707217200.000.csv
+-rw------- 1 archStudent archStudent  1906 Feb  6 20:23 1707217200.000_1707220800.000.csv
+-rw------- 1 archStudent archStudent  2642 Feb  6 20:23 1707220800.000_1707224400.000.csv
+-rw------- 1 archStudent archStudent  2293 Feb  6 20:23 1707224400.000_1707228000.000.csv
+-rw------- 1 archStudent archStudent  2153 Feb  6 20:23 1707228000.000_1707231600.000.csv
+-rw------- 1 archStudent archStudent  2164 Feb  6 20:23 1707231600.000_1707235200.000.csv
+-rw------- 1 archStudent archStudent  2817 Feb  6 20:23 1707235200.000_1707238800.000.csv
+-rw------- 1 archStudent archStudent  2893 Feb  6 20:23 1707238800.000_1707242400.000.csv
+-rw------- 1 archStudent archStudent  1831 Feb  6 20:23 1707242400.000_1707246000.000.csv
+-rw------- 1 archStudent archStudent  2701 Feb  6 20:23 1707246000.000_1707249600.000.csv
+-rw------- 1 archStudent archStudent  1127 Feb  6 20:23 1707249600.000_1707253200.000.csv
+-rw------- 1 archStudent archStudent 19119 Feb  6 20:23 histogram.csv
+
+/opt/splunk/var/run/splunk/dispatch/1707251016.17/events:
+total 124
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:23 .
+drwx------ 7 archStudent archStudent 4096 Feb  6 20:23 ..
+-rw------- 1 archStudent archStudent 1891 Feb  6 20:23 1707164617.000_1707166800.000_9.srs.zst
+-rw------- 1 archStudent archStudent 1968 Feb  6 20:23 1707166800.000_1707170400.000_10.srs.zst
+-rw------- 1 archStudent archStudent 2700 Feb  6 20:23 1707170400.000_1707174000.000_18.srs.zst
+-rw------- 1 archStudent archStudent 1967 Feb  6 20:23 1707174000.000_1707177600.000_10.srs.zst
+-rw------- 1 archStudent archStudent 1937 Feb  6 20:23 1707177600.000_1707181200.000_9.srs.zst
+-rw------- 1 archStudent archStudent  947 Feb  6 20:23 1707181200.000_1707181887.000_2.srs.zst
+-rw------- 1 archStudent archStudent 1086 Feb  6 20:23 1707181887.000_1707182371.000_3.srs.zst
+-rw------- 1 archStudent archStudent 2034 Feb  6 20:23 1707182371.000_1707184800.000_10.srs.zst
+-rw------- 1 archStudent archStudent 2494 Feb  6 20:23 1707184800.000_1707188400.000_16.srs.zst
+-rw------- 1 archStudent archStudent 1600 Feb  6 20:23 1707188400.000_1707189712.000_6.srs.zst
+-rw------- 1 archStudent archStudent 2066 Feb  6 20:23 1707189712.000_1707192000.000_10.srs.zst
+-rw------- 1 archStudent archStudent 2080 Feb  6 20:23 1707192000.000_1707195600.000_13.srs.zst
+-rw------- 1 archStudent archStudent 2009 Feb  6 20:23 1707195600.000_1707199200.000_11.srs.zst
+-rw------- 1 archStudent archStudent 1499 Feb  6 20:23 1707199200.000_1707202800.000_6.srs.zst
+-rw------- 1 archStudent archStudent 1487 Feb  6 20:23 1707202800.000_1707206400.000_5.srs.zst
+-rw------- 1 archStudent archStudent 1414 Feb  6 20:23 1707206400.000_1707210000.000_4.srs.zst
+-rw------- 1 archStudent archStudent 1738 Feb  6 20:23 1707210000.000_1707213600.000_6.srs.zst
+-rw------- 1 archStudent archStudent 2139 Feb  6 20:23 1707213600.000_1707217200.000_12.srs.zst
+-rw------- 1 archStudent archStudent 1353 Feb  6 20:23 1707217200.000_1707220800.000_6.srs.zst
+-rw------- 1 archStudent archStudent 1995 Feb  6 20:23 1707220800.000_1707224400.000_12.srs.zst
+-rw------- 1 archStudent archStudent 1779 Feb  6 20:23 1707224400.000_1707228000.000_8.srs.zst
+-rw------- 1 archStudent archStudent 1583 Feb  6 20:23 1707228000.000_1707231600.000_7.srs.zst
+-rw------- 1 archStudent archStudent 1655 Feb  6 20:23 1707231600.000_1707235200.000_7.srs.zst
+-rw------- 1 archStudent archStudent 2256 Feb  6 20:23 1707235200.000_1707238800.000_14.srs.zst
+-rw------- 1 archStudent archStudent 2335 Feb  6 20:23 1707238800.000_1707242400.000_12.srs.zst
+-rw------- 1 archStudent archStudent 1488 Feb  6 20:23 1707244343.000_1707246000.000_5.srs.zst
+-rw------- 1 archStudent archStudent 1888 Feb  6 20:23 1707246000.000_1707248676.000_9.srs.zst
+-rw------- 1 archStudent archStudent 1197 Feb  6 20:23 1707248676.000_1707249600.000_5.srs.zst
+-rw------- 1 archStudent archStudent  709 Feb  6 20:23 1707249600.000_1707253200.000_1.srs.zst
+
+/opt/splunk/var/run/splunk/dispatch/1707251016.17/events_preview:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:23 .
+drwx------ 7 archStudent archStudent 4096 Feb  6 20:23 ..
+
+/opt/splunk/var/run/splunk/dispatch/1707251016.17/remote_logs:
+total 68
+drwx------ 2 archStudent archStudent  4096 Feb  6 20:23 .
+drwx------ 7 archStudent archStudent  4096 Feb  6 20:23 ..
+-rw------- 1 archStudent archStudent 19126 Feb  6 20:23 GOEL-Indexer1.search.log
+-rw------- 1 archStudent archStudent 19119 Feb  6 20:23 GOEL-Indexer2.search.log
+-rw------- 1 archStudent archStudent 19120 Feb  6 20:23 GOEL-Indexer3.search.log
+
+/opt/splunk/var/run/splunk/dispatch/1707251016.17/remote_search_telemetry:
+total 20
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:23 .
+drwx------ 7 archStudent archStudent 4096 Feb  6 20:23 ..
+-rw------- 1 archStudent archStudent 3486 Feb  6 20:23 GOEL-Indexer1.search_telemetry.json
+-rw------- 1 archStudent archStudent 3475 Feb  6 20:23 GOEL-Indexer2.search_telemetry.json
+-rw------- 1 archStudent archStudent 3479 Feb  6 20:23 GOEL-Indexer3.search_telemetry.json

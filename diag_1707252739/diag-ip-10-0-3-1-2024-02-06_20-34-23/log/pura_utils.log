@@ -1,0 +1,134 @@
+4.1.2 2024-02-06 04:00:03,715 INFO 140499820803904 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 04:00:03,715 INFO 140499820803904 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 04:00:03,904 INFO 140499820803904 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 04:00:03,948 ERROR 140499820803904 - 'Message' object is not iterable
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/pura_utils.py", line 943, in get_host_details
+    content = dict(item)
+TypeError: 'Message' object is not iterable
+4.1.2 2024-02-06 04:00:04,052 INFO 140499820803904 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 04:00:04,053 INFO 140499820803904 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 04:00:04,308 INFO 140499820803904 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 04:05:07,238 INFO 139762305652544 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 04:05:07,238 INFO 139762305652544 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 04:05:07,377 INFO 139762305652544 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 04:05:07,421 ERROR 139762305652544 - 'Message' object is not iterable
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/pura_utils.py", line 943, in get_host_details
+    content = dict(item)
+TypeError: 'Message' object is not iterable
+4.1.2 2024-02-06 04:13:17,961 INFO 139897868142400 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 04:13:17,961 INFO 139897868142400 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 04:13:18,101 INFO 139897868142400 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 04:13:18,145 ERROR 139897868142400 - 'Message' object is not iterable
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/pura_utils.py", line 943, in get_host_details
+    content = dict(item)
+TypeError: 'Message' object is not iterable
+4.1.2 2024-02-06 04:22:47,026 INFO 140204010067776 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 04:22:47,026 INFO 140204010067776 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 04:22:47,181 INFO 140204010067776 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 04:22:47,229 ERROR 140204010067776 - 'Message' object is not iterable
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/pura_utils.py", line 943, in get_host_details
+    content = dict(item)
+TypeError: 'Message' object is not iterable
+4.1.2 2024-02-06 04:55:40,283 INFO 139896241891136 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 04:55:40,283 INFO 139896241891136 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 04:55:40,440 INFO 139896241891136 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 04:55:40,485 ERROR 139896241891136 - 'Message' object is not iterable
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/pura_utils.py", line 943, in get_host_details
+    content = dict(item)
+TypeError: 'Message' object is not iterable
+4.1.2 2024-02-06 04:58:20,070 INFO 139633213421376 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 04:58:20,071 INFO 139633213421376 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 04:58:20,209 INFO 139633213421376 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 04:58:20,257 ERROR 139633213421376 - 'Message' object is not iterable
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/pura_utils.py", line 943, in get_host_details
+    content = dict(item)
+TypeError: 'Message' object is not iterable
+4.1.2 2024-02-06 07:00:01,419 INFO 140572651001664 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 07:00:01,420 INFO 140572651001664 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 07:00:01,788 INFO 140572651001664 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 07:00:01,820 INFO 139639567025984 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 07:00:01,820 INFO 139639567025984 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 07:00:02,096 INFO 139639567025984 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 07:00:02,742 INFO 139639567025984 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 07:00:02,742 INFO 139639567025984 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 07:00:02,778 INFO 140572651001664 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 07:00:02,778 INFO 140572651001664 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 07:00:02,961 INFO 139639567025984 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 07:00:02,981 INFO 140572651001664 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:12:09,438 INFO 139861837018944 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:12:09,439 INFO 139861837018944 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:12:09,671 INFO 139861837018944 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:23:07,038 INFO 139834497017664 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:23:07,038 INFO 139834497017664 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:23:07,293 INFO 139834497017664 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:39:21,930 INFO 140077373331264 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:39:21,930 INFO 140077373331264 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:39:22,158 INFO 140077373331264 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:40:14,508 INFO 140452960999232 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:40:14,508 INFO 140452960999232 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:40:14,572 INFO 140452960999232 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:51:59,838 INFO 140458009790272 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:51:59,839 INFO 140458009790272 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:51:59,987 INFO 140458009790272 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:13:18,329 INFO 139915489412928 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:13:18,329 INFO 139915489412928 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:13:18,567 INFO 139915489412928 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:39:13,695 INFO 140531288438592 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:39:13,695 INFO 140531288438592 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:39:13,824 INFO 140531288438592 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:47:18,688 INFO 139631551645504 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:47:18,689 INFO 139631551645504 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:47:18,889 INFO 139631551645504 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:55:57,039 INFO 140422707013440 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:55:57,039 INFO 140422707013440 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:55:57,127 INFO 140422707013440 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:55:57,715 ERROR 140422707013440 - 'Message' object is not iterable
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/pura_utils.py", line 943, in get_host_details
+    content = dict(item)
+TypeError: 'Message' object is not iterable
+4.1.2 2024-02-06 12:57:52,397 INFO 140377429972800 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:57:52,397 INFO 140377429972800 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:57:52,611 INFO 140377429972800 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:00:02,371 INFO 139940530595648 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:00:02,371 INFO 139940530595648 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:00:02,644 INFO 139940530595648 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:00:03,554 INFO 139940530595648 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:00:03,554 INFO 139940530595648 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:00:03,654 INFO 139940530595648 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:13:34,649 INFO 140050233407296 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:13:34,649 INFO 140050233407296 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:13:34,881 INFO 140050233407296 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:15:45,394 INFO 140011586262848 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:15:45,395 INFO 140011586262848 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:15:45,633 INFO 140011586262848 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:26:50,868 INFO 140004673267520 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:26:50,868 INFO 140004673267520 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:26:51,022 INFO 140004673267520 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:30:45,902 INFO 139994510968640 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:30:45,902 INFO 139994510968640 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:30:46,149 INFO 139994510968640 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:39:14,831 INFO 139901627176768 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:39:14,831 INFO 139901627176768 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:39:15,108 INFO 139901627176768 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 19:00:01,543 INFO 140131028678464 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 19:00:01,544 INFO 140131028678464 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 19:00:01,618 INFO 139822005126976 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 19:00:01,618 INFO 139822005126976 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 19:00:01,897 INFO 140131028678464 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 19:00:01,943 INFO 139822005126976 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 19:00:02,680 INFO 140131028678464 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 19:00:02,683 INFO 140131028678464 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 19:00:02,770 INFO 139822005126976 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 19:00:02,770 INFO 139822005126976 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 19:00:02,987 INFO 140131028678464 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 19:00:03,014 INFO 139822005126976 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 20:10:01,814 INFO 140374134638400 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 20:10:01,814 INFO 140374134638400 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 20:10:01,977 INFO 140374134638400 - Calling path: | rest services/server/info | sort splunk_server using oneshot 

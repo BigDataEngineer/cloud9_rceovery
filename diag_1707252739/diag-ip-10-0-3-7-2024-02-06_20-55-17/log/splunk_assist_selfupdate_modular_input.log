@@ -1,0 +1,446 @@
+2024-02-06 03:13:50,599 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [17247] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:13:50,613 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [17247] Supervisor metadata found, platform=linux
+2024-02-06 03:13:50,717 INFO [assist::selfupdate_modular_input.py] [selfupdate_modular_input] [_apply_update] [17247] Supervisor update required, etag="4e67fcc1613170b1f752abf21d5043ab", url=https://beam.scs.splunk.com/assistsup/v0.0.276-3b93f5b1-20240103t153859/linux/amd64/assistsup.tar.gz
+2024-02-06 03:13:50,823 INFO [assist::selfupdate_modular_input.py] [download] [run] [17247] Download command started
+2024-02-06 03:13:51,550 INFO [assist::selfupdate_modular_input.py] [logging] [log_process_output] [17247] Download will extract, file=/opt/splunk/var/splunk_assist/supervisor/updates/d2be20639de1cea87f6ff075c5e73439bcb78597199dfcd90be9992a46ca4d39/assistsup.tar
+2024-02-06 03:13:51,550 INFO [assist::selfupdate_modular_input.py] [download] [run] [17247] Download command complete, return_code=0
+2024-02-06 03:13:51,550 INFO [assist::selfupdate_modular_input.py] [config] [_set_app_config] [17247] Updating local node config, key=etag, value="4e67fcc1613170b1f752abf21d5043ab"
+2024-02-06 03:13:51,565 INFO [assist::selfupdate_modular_input.py] [config] [_set_app_config] [17247] Updating local node config, key=local_path, value=/opt/splunk/var/splunk_assist/supervisor/updates/d2be20639de1cea87f6ff075c5e73439bcb78597199dfcd90be9992a46ca4d39/assistsup.tar
+2024-02-06 03:18:50,279 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19890] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:18:50,325 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19890] Supervisor metadata found, platform=linux
+2024-02-06 03:23:49,828 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23138] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:23:49,859 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23138] Supervisor metadata found, platform=linux
+2024-02-06 03:28:49,946 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16374] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:28:49,978 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16374] Supervisor metadata found, platform=linux
+2024-02-06 03:33:49,739 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [18805] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:33:49,763 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [18805] Supervisor metadata found, platform=linux
+2024-02-06 03:38:50,289 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21209] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:38:50,335 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21209] Supervisor metadata found, platform=linux
+2024-02-06 03:43:49,793 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23669] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:43:49,820 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23669] Supervisor metadata found, platform=linux
+2024-02-06 03:48:50,088 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [26087] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:48:50,122 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [26087] Supervisor metadata found, platform=linux
+2024-02-06 03:53:49,993 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28544] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:53:50,006 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28544] Supervisor metadata found, platform=linux
+2024-02-06 03:58:49,861 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31730] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 03:58:49,876 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31730] Supervisor metadata found, platform=linux
+2024-02-06 04:03:49,803 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1858] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:03:49,835 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1858] Supervisor metadata found, platform=linux
+2024-02-06 04:08:50,203 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [4278] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:08:50,257 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [4278] Supervisor metadata found, platform=linux
+2024-02-06 04:13:49,646 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [6734] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:13:49,675 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [6734] Supervisor metadata found, platform=linux
+2024-02-06 04:18:49,811 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [9256] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:18:49,844 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [9256] Supervisor metadata found, platform=linux
+2024-02-06 04:23:49,795 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [11823] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:23:49,831 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [11823] Supervisor metadata found, platform=linux
+2024-02-06 04:28:49,871 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [14337] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:28:49,904 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [14337] Supervisor metadata found, platform=linux
+2024-02-06 04:33:49,666 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [17089] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:33:49,703 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [17089] Supervisor metadata found, platform=linux
+2024-02-06 04:38:50,069 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19504] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:38:50,086 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19504] Supervisor metadata found, platform=linux
+2024-02-06 04:43:49,486 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21953] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:43:49,535 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21953] Supervisor metadata found, platform=linux
+2024-02-06 04:48:49,743 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [24418] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:48:49,782 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [24418] Supervisor metadata found, platform=linux
+2024-02-06 04:53:49,727 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [26844] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:53:49,757 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [26844] Supervisor metadata found, platform=linux
+2024-02-06 04:58:49,927 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [29334] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 04:58:49,954 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [29334] Supervisor metadata found, platform=linux
+2024-02-06 05:03:49,678 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31755] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:03:49,703 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31755] Supervisor metadata found, platform=linux
+2024-02-06 05:08:50,212 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1728] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:08:50,268 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1728] Supervisor metadata found, platform=linux
+2024-02-06 05:13:49,739 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [4194] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:13:49,767 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [4194] Supervisor metadata found, platform=linux
+2024-02-06 05:18:49,881 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [6733] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:18:49,892 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [6733] Supervisor metadata found, platform=linux
+2024-02-06 05:23:49,849 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [9165] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:23:49,859 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [9165] Supervisor metadata found, platform=linux
+2024-02-06 05:28:49,711 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [11619] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:28:49,754 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [11619] Supervisor metadata found, platform=linux
+2024-02-06 05:33:49,597 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [14060] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:33:49,631 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [14060] Supervisor metadata found, platform=linux
+2024-02-06 05:38:50,007 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16659] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:38:50,033 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16659] Supervisor metadata found, platform=linux
+2024-02-06 05:43:49,584 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19145] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:43:49,615 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19145] Supervisor metadata found, platform=linux
+2024-02-06 05:48:49,646 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21569] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:48:49,670 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21569] Supervisor metadata found, platform=linux
+2024-02-06 05:53:49,549 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23973] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:53:49,585 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23973] Supervisor metadata found, platform=linux
+2024-02-06 05:58:49,703 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [26379] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 05:58:49,744 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [26379] Supervisor metadata found, platform=linux
+2024-02-06 06:03:49,507 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28799] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:03:49,533 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28799] Supervisor metadata found, platform=linux
+2024-02-06 06:08:50,086 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31214] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:08:50,124 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31214] Supervisor metadata found, platform=linux
+2024-02-06 06:09:37,733 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31964] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:09:37,771 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31964] Supervisor metadata found, platform=linux
+2024-02-06 06:14:35,025 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [2263] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:14:35,043 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [2263] Supervisor metadata found, platform=linux
+2024-02-06 06:19:34,809 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [4766] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:19:34,835 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [4766] Supervisor metadata found, platform=linux
+2024-02-06 06:24:34,640 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7980] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:24:34,666 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7980] Supervisor metadata found, platform=linux
+2024-02-06 06:29:34,729 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10516] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:29:34,758 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10516] Supervisor metadata found, platform=linux
+2024-02-06 06:34:34,742 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [13737] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:34:34,778 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [13737] Supervisor metadata found, platform=linux
+2024-02-06 06:39:34,912 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16221] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:39:34,942 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16221] Supervisor metadata found, platform=linux
+2024-02-06 06:44:34,614 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [18680] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:44:34,655 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [18680] Supervisor metadata found, platform=linux
+2024-02-06 06:49:34,862 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21105] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:49:34,892 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21105] Supervisor metadata found, platform=linux
+2024-02-06 06:54:34,641 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23510] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:54:34,672 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23510] Supervisor metadata found, platform=linux
+2024-02-06 06:59:34,739 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [25935] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 06:59:34,781 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [25935] Supervisor metadata found, platform=linux
+2024-02-06 07:04:34,697 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28625] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:04:34,724 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28625] Supervisor metadata found, platform=linux
+2024-02-06 07:09:35,203 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31045] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:09:35,247 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31045] Supervisor metadata found, platform=linux
+2024-02-06 07:14:34,679 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1230] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:14:34,709 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1230] Supervisor metadata found, platform=linux
+2024-02-06 07:19:34,759 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [3778] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:19:34,790 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [3778] Supervisor metadata found, platform=linux
+2024-02-06 07:24:34,604 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [6656] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:24:34,637 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [6656] Supervisor metadata found, platform=linux
+2024-02-06 07:29:34,876 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [9122] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:29:34,911 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [9122] Supervisor metadata found, platform=linux
+2024-02-06 07:34:34,778 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [11640] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:34:34,813 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [11640] Supervisor metadata found, platform=linux
+2024-02-06 07:36:48,305 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [13013] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:36:48,343 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [13013] Supervisor metadata found, platform=linux
+2024-02-06 07:41:45,695 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16312] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:41:45,707 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16312] Supervisor metadata found, platform=linux
+2024-02-06 07:46:45,468 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [18730] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:46:45,496 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [18730] Supervisor metadata found, platform=linux
+2024-02-06 07:51:45,272 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21165] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:51:45,305 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21165] Supervisor metadata found, platform=linux
+2024-02-06 07:56:45,455 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23592] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 07:56:45,494 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23592] Supervisor metadata found, platform=linux
+2024-02-06 08:01:45,280 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [26225] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:01:45,324 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [26225] Supervisor metadata found, platform=linux
+2024-02-06 08:06:45,949 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28667] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:06:45,992 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28667] Supervisor metadata found, platform=linux
+2024-02-06 08:11:45,429 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31360] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:11:45,469 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31360] Supervisor metadata found, platform=linux
+2024-02-06 08:16:45,492 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1292] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:16:45,524 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1292] Supervisor metadata found, platform=linux
+2024-02-06 08:21:45,243 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [4024] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:21:45,282 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [4024] Supervisor metadata found, platform=linux
+2024-02-06 08:22:17,785 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [4539] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:22:17,826 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [4539] Supervisor metadata found, platform=linux
+2024-02-06 08:23:32,402 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [5794] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:23:32,457 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [5794] Supervisor metadata found, platform=linux
+2024-02-06 08:28:29,156 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [8397] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:28:29,179 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [8397] Supervisor metadata found, platform=linux
+2024-02-06 08:33:29,157 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10636] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:33:29,179 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10636] Supervisor metadata found, platform=linux
+2024-02-06 08:38:28,884 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [12832] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:38:28,918 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [12832] Supervisor metadata found, platform=linux
+2024-02-06 08:43:29,012 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [14963] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:43:29,036 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [14963] Supervisor metadata found, platform=linux
+2024-02-06 08:48:28,914 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [17131] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:48:28,954 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [17131] Supervisor metadata found, platform=linux
+2024-02-06 08:53:29,378 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19347] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:53:29,420 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19347] Supervisor metadata found, platform=linux
+2024-02-06 08:54:32,712 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [20154] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:54:32,742 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [20154] Supervisor metadata found, platform=linux
+2024-02-06 08:59:29,903 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [22657] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 08:59:29,932 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [22657] Supervisor metadata found, platform=linux
+2024-02-06 09:04:29,726 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [24869] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:04:29,756 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [24869] Supervisor metadata found, platform=linux
+2024-02-06 09:09:29,622 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [29231] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:09:29,652 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [29231] Supervisor metadata found, platform=linux
+2024-02-06 09:13:49,422 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31741] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:13:49,467 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31741] Supervisor metadata found, platform=linux
+2024-02-06 09:16:52,710 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1239] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:16:52,755 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1239] Supervisor metadata found, platform=linux
+2024-02-06 09:21:49,851 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [5663] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:21:49,887 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [5663] Supervisor metadata found, platform=linux
+2024-02-06 09:26:49,626 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7834] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:26:49,658 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7834] Supervisor metadata found, platform=linux
+2024-02-06 09:31:49,358 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10075] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:31:49,399 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10075] Supervisor metadata found, platform=linux
+2024-02-06 09:36:49,724 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [12259] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:36:49,759 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [12259] Supervisor metadata found, platform=linux
+2024-02-06 09:41:49,587 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [14438] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:41:49,621 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [14438] Supervisor metadata found, platform=linux
+2024-02-06 09:46:50,089 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16610] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:46:50,118 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16610] Supervisor metadata found, platform=linux
+2024-02-06 09:51:49,519 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [18868] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:51:49,580 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [18868] Supervisor metadata found, platform=linux
+2024-02-06 09:56:49,737 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21039] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 09:56:49,767 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21039] Supervisor metadata found, platform=linux
+2024-02-06 10:01:49,640 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23224] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:01:49,684 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23224] Supervisor metadata found, platform=linux
+2024-02-06 10:06:49,725 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [25396] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:06:49,752 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [25396] Supervisor metadata found, platform=linux
+2024-02-06 10:11:49,554 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [27610] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:11:49,601 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [27610] Supervisor metadata found, platform=linux
+2024-02-06 10:16:50,367 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [29882] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:16:50,413 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [29882] Supervisor metadata found, platform=linux
+2024-02-06 10:21:49,545 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [32245] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:21:49,596 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [32245] Supervisor metadata found, platform=linux
+2024-02-06 10:26:49,678 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [2176] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:26:49,705 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [2176] Supervisor metadata found, platform=linux
+2024-02-06 10:31:49,898 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [4365] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:31:49,921 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [4365] Supervisor metadata found, platform=linux
+2024-02-06 10:36:49,680 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [6574] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:36:49,720 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [6574] Supervisor metadata found, platform=linux
+2024-02-06 10:41:49,450 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [8757] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:41:49,478 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [8757] Supervisor metadata found, platform=linux
+2024-02-06 10:46:50,175 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10938] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:46:50,198 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10938] Supervisor metadata found, platform=linux
+2024-02-06 10:51:49,432 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [13200] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:51:49,461 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [13200] Supervisor metadata found, platform=linux
+2024-02-06 10:56:49,715 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [15382] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 10:56:49,770 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [15382] Supervisor metadata found, platform=linux
+2024-02-06 11:01:49,516 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [17602] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:01:49,543 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [17602] Supervisor metadata found, platform=linux
+2024-02-06 11:06:49,710 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19774] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:06:49,741 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19774] Supervisor metadata found, platform=linux
+2024-02-06 11:11:49,577 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21941] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:11:49,615 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21941] Supervisor metadata found, platform=linux
+2024-02-06 11:16:50,323 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [24065] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:16:50,375 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [24065] Supervisor metadata found, platform=linux
+2024-02-06 11:21:49,592 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [26417] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:21:49,627 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [26417] Supervisor metadata found, platform=linux
+2024-02-06 11:26:49,658 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28633] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:26:49,684 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28633] Supervisor metadata found, platform=linux
+2024-02-06 11:32:05,579 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31224] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:32:05,616 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31224] Supervisor metadata found, platform=linux
+2024-02-06 11:37:02,475 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1271] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:37:02,486 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1271] Supervisor metadata found, platform=linux
+2024-02-06 11:42:02,635 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [3465] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:42:02,680 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [3465] Supervisor metadata found, platform=linux
+2024-02-06 11:47:02,342 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [5590] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:47:02,380 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [5590] Supervisor metadata found, platform=linux
+2024-02-06 11:52:02,540 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7806] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:52:02,553 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7806] Supervisor metadata found, platform=linux
+2024-02-06 11:57:02,566 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10044] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 11:57:02,576 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10044] Supervisor metadata found, platform=linux
+2024-02-06 12:02:03,058 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [12246] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:02:03,087 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [12246] Supervisor metadata found, platform=linux
+2024-02-06 12:07:02,257 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [14510] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:07:02,307 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [14510] Supervisor metadata found, platform=linux
+2024-02-06 12:12:02,578 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16764] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:12:02,604 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16764] Supervisor metadata found, platform=linux
+2024-02-06 12:17:02,387 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [18968] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:17:02,435 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [18968] Supervisor metadata found, platform=linux
+2024-02-06 12:22:03,080 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21268] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:22:03,107 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21268] Supervisor metadata found, platform=linux
+2024-02-06 12:27:02,166 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23513] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:27:02,191 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23513] Supervisor metadata found, platform=linux
+2024-02-06 12:32:02,916 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [25693] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:32:02,968 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [25693] Supervisor metadata found, platform=linux
+2024-02-06 12:37:02,406 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28025] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:37:02,442 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28025] Supervisor metadata found, platform=linux
+2024-02-06 12:42:02,574 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [30198] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:42:02,582 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [30198] Supervisor metadata found, platform=linux
+2024-02-06 12:47:02,584 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [32621] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:47:02,597 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [32621] Supervisor metadata found, platform=linux
+2024-02-06 12:48:22,363 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1022] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:48:22,424 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1022] Supervisor metadata found, platform=linux
+2024-02-06 12:53:19,538 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [3606] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:53:19,569 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [3606] Supervisor metadata found, platform=linux
+2024-02-06 12:58:19,425 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [5775] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 12:58:19,449 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [5775] Supervisor metadata found, platform=linux
+2024-02-06 13:03:19,202 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7956] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:03:19,234 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7956] Supervisor metadata found, platform=linux
+2024-02-06 13:08:19,481 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10193] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:08:19,514 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10193] Supervisor metadata found, platform=linux
+2024-02-06 13:13:19,189 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [12367] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:13:19,217 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [12367] Supervisor metadata found, platform=linux
+2024-02-06 13:18:19,628 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [14633] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:18:19,663 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [14633] Supervisor metadata found, platform=linux
+2024-02-06 13:23:19,306 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16889] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:23:19,347 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16889] Supervisor metadata found, platform=linux
+2024-02-06 13:28:19,398 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19064] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:28:19,435 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19064] Supervisor metadata found, platform=linux
+2024-02-06 13:33:19,438 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21237] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:33:19,473 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21237] Supervisor metadata found, platform=linux
+2024-02-06 13:38:19,278 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23408] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:38:19,324 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23408] Supervisor metadata found, platform=linux
+2024-02-06 13:43:19,275 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [25588] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:43:19,304 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [25588] Supervisor metadata found, platform=linux
+2024-02-06 13:48:20,231 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [27748] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:48:20,265 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [27748] Supervisor metadata found, platform=linux
+2024-02-06 13:53:19,275 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [30014] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:53:19,308 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [30014] Supervisor metadata found, platform=linux
+2024-02-06 13:58:19,579 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [32181] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 13:58:19,621 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [32181] Supervisor metadata found, platform=linux
+2024-02-06 14:03:19,260 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [2116] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:03:19,295 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [2116] Supervisor metadata found, platform=linux
+2024-02-06 14:08:19,468 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [4297] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:08:19,490 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [4297] Supervisor metadata found, platform=linux
+2024-02-06 14:13:19,245 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [6505] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:13:19,292 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [6505] Supervisor metadata found, platform=linux
+2024-02-06 14:18:19,632 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [8731] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:18:19,675 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [8731] Supervisor metadata found, platform=linux
+2024-02-06 14:23:19,346 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [11042] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:23:19,390 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [11042] Supervisor metadata found, platform=linux
+2024-02-06 14:28:19,281 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [13225] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:28:19,313 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [13225] Supervisor metadata found, platform=linux
+2024-02-06 14:33:19,258 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [15408] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:33:19,296 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [15408] Supervisor metadata found, platform=linux
+2024-02-06 14:38:19,398 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [17581] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:38:19,429 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [17581] Supervisor metadata found, platform=linux
+2024-02-06 14:43:19,224 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19790] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:43:19,256 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19790] Supervisor metadata found, platform=linux
+2024-02-06 14:48:20,188 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21914] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:48:20,227 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21914] Supervisor metadata found, platform=linux
+2024-02-06 14:53:19,246 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [24178] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:53:19,282 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [24178] Supervisor metadata found, platform=linux
+2024-02-06 14:58:19,355 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [26352] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 14:58:19,389 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [26352] Supervisor metadata found, platform=linux
+2024-02-06 15:03:19,193 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28578] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:03:19,226 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28578] Supervisor metadata found, platform=linux
+2024-02-06 15:08:19,468 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [30753] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:08:19,501 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [30753] Supervisor metadata found, platform=linux
+2024-02-06 15:13:19,083 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [455] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:13:19,108 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [455] Supervisor metadata found, platform=linux
+2024-02-06 15:18:19,534 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [2901] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:18:19,576 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [2901] Supervisor metadata found, platform=linux
+2024-02-06 15:23:19,222 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [5182] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:23:19,253 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [5182] Supervisor metadata found, platform=linux
+2024-02-06 15:28:19,302 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7371] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:28:19,333 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7371] Supervisor metadata found, platform=linux
+2024-02-06 15:29:35,682 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [8239] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:29:35,731 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [8239] Supervisor metadata found, platform=linux
+2024-02-06 15:34:32,081 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10805] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:34:32,092 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10805] Supervisor metadata found, platform=linux
+2024-02-06 15:39:32,259 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [12985] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:39:32,270 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [12985] Supervisor metadata found, platform=linux
+2024-02-06 15:44:32,087 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [15162] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:44:32,098 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [15162] Supervisor metadata found, platform=linux
+2024-02-06 15:49:32,316 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [17427] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:49:32,338 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [17427] Supervisor metadata found, platform=linux
+2024-02-06 15:54:32,139 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19593] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:54:32,148 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19593] Supervisor metadata found, platform=linux
+2024-02-06 15:59:32,894 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21809] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 15:59:32,925 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21809] Supervisor metadata found, platform=linux
+2024-02-06 16:04:32,143 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [24209] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:04:32,154 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [24209] Supervisor metadata found, platform=linux
+2024-02-06 16:09:32,228 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [26395] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:09:32,238 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [26395] Supervisor metadata found, platform=linux
+2024-02-06 16:14:32,079 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28716] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:14:32,089 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28716] Supervisor metadata found, platform=linux
+2024-02-06 16:19:32,265 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [30975] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:19:32,275 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [30975] Supervisor metadata found, platform=linux
+2024-02-06 16:24:32,094 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [822] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:24:32,105 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [822] Supervisor metadata found, platform=linux
+2024-02-06 16:29:32,695 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [3043] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:29:32,724 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [3043] Supervisor metadata found, platform=linux
+2024-02-06 16:34:31,980 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [5310] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:34:31,991 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [5310] Supervisor metadata found, platform=linux
+2024-02-06 16:39:32,197 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7478] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:39:32,206 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7478] Supervisor metadata found, platform=linux
+2024-02-06 16:44:32,007 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [9909] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:44:32,019 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [9909] Supervisor metadata found, platform=linux
+2024-02-06 16:49:32,190 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [12158] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:49:32,200 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [12158] Supervisor metadata found, platform=linux
+2024-02-06 16:54:32,025 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [14338] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:54:32,037 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [14338] Supervisor metadata found, platform=linux
+2024-02-06 16:59:32,835 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16508] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 16:59:32,864 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16508] Supervisor metadata found, platform=linux
+2024-02-06 17:04:32,046 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [18783] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:04:32,056 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [18783] Supervisor metadata found, platform=linux
+2024-02-06 17:09:32,224 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [20957] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:09:32,235 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [20957] Supervisor metadata found, platform=linux
+2024-02-06 17:14:32,021 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23170] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:14:32,030 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23170] Supervisor metadata found, platform=linux
+2024-02-06 17:19:32,265 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [25395] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:19:32,276 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [25395] Supervisor metadata found, platform=linux
+2024-02-06 17:24:32,035 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [27568] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:24:32,046 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [27568] Supervisor metadata found, platform=linux
+2024-02-06 17:29:33,251 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [29745] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:29:33,284 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [29745] Supervisor metadata found, platform=linux
+2024-02-06 17:34:32,748 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [32010] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:34:32,756 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [32010] Supervisor metadata found, platform=linux
+2024-02-06 17:39:32,327 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1733] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:39:32,338 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1733] Supervisor metadata found, platform=linux
+2024-02-06 17:44:32,180 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [3959] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:44:32,189 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [3959] Supervisor metadata found, platform=linux
+2024-02-06 17:49:32,271 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [6085] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:49:32,282 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [6085] Supervisor metadata found, platform=linux
+2024-02-06 17:54:32,110 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [8343] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:54:32,121 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [8343] Supervisor metadata found, platform=linux
+2024-02-06 17:59:32,941 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10681] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 17:59:32,984 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10681] Supervisor metadata found, platform=linux
+2024-02-06 18:04:32,164 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [12965] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:04:32,175 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [12965] Supervisor metadata found, platform=linux
+2024-02-06 18:09:32,274 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [15183] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:09:32,285 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [15183] Supervisor metadata found, platform=linux
+2024-02-06 18:14:32,112 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [17361] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:14:32,134 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [17361] Supervisor metadata found, platform=linux
+2024-02-06 18:19:32,270 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19578] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:19:32,281 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19578] Supervisor metadata found, platform=linux
+2024-02-06 18:24:32,151 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21760] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:24:32,162 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21760] Supervisor metadata found, platform=linux
+2024-02-06 18:29:33,197 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [23942] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:29:33,231 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [23942] Supervisor metadata found, platform=linux
+2024-02-06 18:34:32,147 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [26249] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:34:32,156 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [26249] Supervisor metadata found, platform=linux
+2024-02-06 18:39:32,322 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28423] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:39:32,332 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28423] Supervisor metadata found, platform=linux
+2024-02-06 18:44:32,094 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [30592] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:44:32,115 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [30592] Supervisor metadata found, platform=linux
+2024-02-06 18:49:32,346 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [32716] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:49:32,356 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [32716] Supervisor metadata found, platform=linux
+2024-02-06 18:54:32,167 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [2461] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:54:32,203 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [2461] Supervisor metadata found, platform=linux
+2024-02-06 18:59:32,644 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [4631] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 18:59:32,672 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [4631] Supervisor metadata found, platform=linux
+2024-02-06 19:04:32,143 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7169] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:04:32,154 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7169] Supervisor metadata found, platform=linux
+2024-02-06 19:09:32,328 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [9550] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:09:32,341 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [9550] Supervisor metadata found, platform=linux
+2024-02-06 19:14:32,074 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [11769] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:14:32,084 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [11769] Supervisor metadata found, platform=linux
+2024-02-06 19:19:32,315 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [13999] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:19:32,323 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [13999] Supervisor metadata found, platform=linux
+2024-02-06 19:24:32,141 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [16209] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:24:32,150 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [16209] Supervisor metadata found, platform=linux
+2024-02-06 19:29:32,910 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [18390] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:29:32,944 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [18390] Supervisor metadata found, platform=linux
+2024-02-06 19:34:32,145 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [20647] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:34:32,156 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [20647] Supervisor metadata found, platform=linux
+2024-02-06 19:39:32,178 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [22822] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:39:32,189 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [22822] Supervisor metadata found, platform=linux
+2024-02-06 19:44:32,145 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [25003] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:44:32,156 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [25003] Supervisor metadata found, platform=linux
+2024-02-06 19:49:32,216 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [27163] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:49:32,226 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [27163] Supervisor metadata found, platform=linux
+2024-02-06 19:52:53,235 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [28892] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:52:53,295 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [28892] Supervisor metadata found, platform=linux
+2024-02-06 19:57:50,352 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [31397] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 19:57:50,388 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [31397] Supervisor metadata found, platform=linux
+2024-02-06 20:02:50,064 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [1140] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:02:50,105 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [1140] Supervisor metadata found, platform=linux
+2024-02-06 20:07:50,139 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [3335] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:07:50,179 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [3335] Supervisor metadata found, platform=linux
+2024-02-06 20:12:50,041 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [5511] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:12:50,079 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [5511] Supervisor metadata found, platform=linux
+2024-02-06 20:17:50,044 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [7825] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:17:50,072 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [7825] Supervisor metadata found, platform=linux
+2024-02-06 20:22:50,710 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [10135] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:22:50,740 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [10135] Supervisor metadata found, platform=linux
+2024-02-06 20:27:23,858 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [12561] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:27:23,907 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [12561] Supervisor metadata found, platform=linux
+2024-02-06 20:32:20,966 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [15079] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:32:20,976 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [15079] Supervisor metadata found, platform=linux
+2024-02-06 20:37:21,280 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [17391] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:37:21,313 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [17391] Supervisor metadata found, platform=linux
+2024-02-06 20:42:20,572 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [19609] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:42:20,602 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [19609] Supervisor metadata found, platform=linux
+2024-02-06 20:47:20,873 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [21732] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:47:20,907 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [21732] Supervisor metadata found, platform=linux
+2024-02-06 20:48:34,418 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [22533] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:48:34,469 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [22533] Supervisor metadata found, platform=linux
+2024-02-06 20:53:31,493 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [find] [25039] Supervisor metadata query, url=https://beam.scs.splunk.com/supervisors/package.json, status_code=200
+2024-02-06 20:53:31,510 INFO [assist::selfupdate_modular_input.py] [supervisor_meta] [_metadata_from_response] [25039] Supervisor metadata found, platform=linux

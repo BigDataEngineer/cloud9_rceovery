@@ -1,0 +1,5 @@
+name,uri,sid,done,mtime,remoteTLLocal
+GOEL-Indexer1,"https://10.0.3.2:8089",remote_GOEL-SearchHead_1707251134.25,1,1707251135.102053,0
+GOEL-Indexer2,"https://10.0.3.3:8089",remote_GOEL-SearchHead_1707251134.25,1,1707251135.102210,0
+GOEL-Indexer3,"https://10.0.3.4:8089",remote_GOEL-SearchHead_1707251134.25,1,1707251135.102399,0
+GOEL-SearchHead,"?","",0,0.000000,0

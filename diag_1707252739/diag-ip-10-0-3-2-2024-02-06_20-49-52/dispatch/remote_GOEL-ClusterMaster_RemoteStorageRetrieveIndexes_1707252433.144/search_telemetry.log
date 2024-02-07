@@ -1,0 +1,3 @@
+02-06-2024 20:47:13.797 +0000 INFO  SearchTelemetrySingleton - /opt/splunk/var/run/splunk/dispatch/remote_GOEL-ClusterMaster_RemoteStorageRetrieveIndexes_1707252433.144/search_telemetry.json already exists, will not overwrite.
+02-06-2024 20:47:13.797 +0000 INFO  SearchTelemetrySingleton - Writing search telemetry to search_telemetry.json
+02-06-2024 20:47:13.798 +0000 INFO  SearchTelemetrySingleton - Copying search telemetry to var/run/splunk/search_telemetry is disabled for search peer

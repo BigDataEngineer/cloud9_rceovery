@@ -1,0 +1,253 @@
+2024-02-06 04:37:30,779 +0000 ERROR	cli_common:1400 - Generating RSA private key, 2048 bit long modulus
+................+++++
+...........................................+++++
+e is 65537 (0x10001)
+writing RSA key
+
+2024-02-06 04:37:30,876 +0000 ERROR	cli_common:1400 - Generating RSA private key, 2048 bit long modulus
+.........+++++
+..................+++++
+e is 65537 (0x10001)
+writing RSA key
+
+2024-02-06 04:37:47,945 +0000 INFO	__init__:174 - Using default logging config file: /opt/splunk/etc/log.cfg
+2024-02-06 04:37:47,947 +0000 INFO	__init__:212 - Setting logger=splunk level=INFO
+2024-02-06 04:37:47,947 +0000 INFO	__init__:212 - Setting logger=splunk.appserver level=INFO
+2024-02-06 04:37:47,947 +0000 INFO	__init__:212 - Setting logger=splunk.appserver.controllers level=INFO
+2024-02-06 04:37:47,947 +0000 INFO	__init__:212 - Setting logger=splunk.appserver.controllers.proxy level=INFO
+2024-02-06 04:37:47,947 +0000 INFO	__init__:212 - Setting logger=splunk.appserver.lib level=WARN
+2024-02-06 04:37:47,947 +0000 INFO	__init__:212 - Setting logger=splunk.pdfgen level=INFO
+2024-02-06 04:37:47,947 +0000 INFO	__init__:212 - Setting logger=splunk.archiver_restoration level=INFO
+2024-02-06 04:37:48,650 +0000 INFO	lists:59 - List controller loaded: EntitiesListGenerator
+2024-02-06 04:37:48,651 +0000 INFO	lists:65 - Setting lists/entities
+2024-02-06 04:37:48,651 +0000 INFO	lists:59 - List controller loaded: JobsListGenerator
+2024-02-06 04:37:48,651 +0000 INFO	lists:65 - Setting lists/jobs
+2024-02-06 04:37:48,662 +0000 INFO	root:355 - Proxied mode ip_address=127.0.0.1 port=8065 exposed_port=8000:
+2024-02-06 04:37:48,774 +0000 INFO	root:617 - overriding JSON MIME type with 'text/plain; charset=UTF-8'
+2024-02-06 04:37:48,790 +0000 ERROR	startup:114 - Unable to read in product version information; isSessionKeyDefined=False error=[HTTP 401] Client is not authenticated
+2024-02-06 04:37:48,793 +0000 INFO	startup:146 - Splunk appserver version=UNKNOWN_VERSION build=000 isFree=False isTrial=True productType=splunk instanceType=UNKNOWN
+2024-02-06 04:37:48,793 +0000 INFO	root:647 - splunkdConnectionTimeout=30
+2024-02-06 04:37:48,794 +0000 INFO	root:165 - ENGINE: Listening for SIGTERM.
+2024-02-06 04:37:48,794 +0000 INFO	root:165 - ENGINE: Listening for SIGHUP.
+2024-02-06 04:37:48,794 +0000 INFO	root:165 - ENGINE: Listening for SIGUSR1.
+2024-02-06 04:37:48,795 +0000 INFO	root:720 - CONFIG: DISPATCH_TIME_FORMAT (str): %s.%Q
+2024-02-06 04:37:48,795 +0000 INFO	root:720 - CONFIG: SSOMode (str): strict
+2024-02-06 04:37:48,795 +0000 INFO	root:720 - CONFIG: acceptFrom (str): *
+2024-02-06 04:37:48,795 +0000 INFO	root:720 - CONFIG: activeLicenseGroup (NoneType): None
+2024-02-06 04:37:48,795 +0000 INFO	root:720 - CONFIG: activeLicenseSubgroup (str): UNKNOWN_LICENSE_SUBGROUP
+2024-02-06 04:37:48,795 +0000 INFO	root:720 - CONFIG: addOns (dict): {}
+2024-02-06 04:37:48,795 +0000 INFO	root:720 - CONFIG: allowSslCompression (bool): False
+2024-02-06 04:37:48,796 +0000 INFO	root:720 - CONFIG: allowSslRenegotiation (bool): True
+2024-02-06 04:37:48,796 +0000 INFO	root:720 - CONFIG: allowSsoWithoutChangingServerConf (int): 0
+2024-02-06 04:37:48,796 +0000 INFO	root:720 - CONFIG: allow_insecure_libraries_toggle (bool): True
+2024-02-06 04:37:48,796 +0000 INFO	root:720 - CONFIG: allowableTemplatePaths (str): 
+2024-02-06 04:37:48,796 +0000 INFO	root:720 - CONFIG: appNavReportsLimit (int): 500
+2024-02-06 04:37:48,796 +0000 INFO	root:720 - CONFIG: appServerPorts (int): 8065
+2024-02-06 04:37:48,796 +0000 INFO	root:720 - CONFIG: appServerProcessLogStderr (bool): False
+2024-02-06 04:37:48,796 +0000 INFO	root:720 - CONFIG: build_number (str): 000
+2024-02-06 04:37:48,797 +0000 INFO	root:720 - CONFIG: busyKeepAliveIdleTimeout (int): 12
+2024-02-06 04:37:48,797 +0000 INFO	root:720 - CONFIG: cacheBytesLimit (int): 4194304
+2024-02-06 04:37:48,797 +0000 INFO	root:720 - CONFIG: cacheEntriesLimit (int): 16384
+2024-02-06 04:37:48,797 +0000 INFO	root:720 - CONFIG: certBasedUserAuthPivOidList (str): 1.3.6.1.4.1.311.20.2.3, Microsoft Universal Principal Name
+2024-02-06 04:37:48,797 +0000 INFO	root:720 - CONFIG: choropleth_shape_limit (int): 10000
+2024-02-06 04:37:48,797 +0000 INFO	root:720 - CONFIG: cipherSuite (str): ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256
+2024-02-06 04:37:48,797 +0000 INFO	root:720 - CONFIG: cookieSameSite (str): not_specified
+2024-02-06 04:37:48,797 +0000 INFO	root:720 - CONFIG: cpu_arch (str): UNKNOWN_CPU_ARCH
+2024-02-06 04:37:48,798 +0000 INFO	root:720 - CONFIG: crossOriginSharingHeaders (str): 
+2024-02-06 04:37:48,798 +0000 INFO	root:720 - CONFIG: crossOriginSharingPolicy (str): 
+2024-02-06 04:37:48,798 +0000 INFO	root:720 - CONFIG: customFavicon (str): 
+2024-02-06 04:37:48,798 +0000 INFO	root:720 - CONFIG: dashboard_html_allow_embeddable_content (bool): False
+2024-02-06 04:37:48,798 +0000 INFO	root:720 - CONFIG: dashboard_html_allow_iframes (bool): True
+2024-02-06 04:37:48,798 +0000 INFO	root:720 - CONFIG: dashboard_html_allow_inline_styles (bool): True
+2024-02-06 04:37:48,798 +0000 INFO	root:720 - CONFIG: dashboard_html_wrap_embed (bool): True
+2024-02-06 04:37:48,798 +0000 INFO	root:720 - CONFIG: dashboards_csp_allowed_domains (str): *.api.splkmobile.com
+2024-02-06 04:37:48,799 +0000 INFO	root:720 - CONFIG: dedicatedIoThreads (int): 0
+2024-02-06 04:37:48,799 +0000 INFO	root:720 - CONFIG: docsCheckerBaseURL (str): https://quickdraw.splunk.com/help
+2024-02-06 04:37:48,799 +0000 INFO	root:720 - CONFIG: ecdhCurves (str): prime256v1, secp384r1, secp521r1
+2024-02-06 04:37:48,799 +0000 INFO	root:720 - CONFIG: embed_footer (str): splunk>
+2024-02-06 04:37:48,799 +0000 INFO	root:720 - CONFIG: embed_uri (str): 
+2024-02-06 04:37:48,800 +0000 INFO	root:720 - CONFIG: enableSearchJobXslt (bool): True
+2024-02-06 04:37:48,800 +0000 INFO	root:720 - CONFIG: enableSplunkWebClientNetloc (bool): False
+2024-02-06 04:37:48,800 +0000 INFO	root:720 - CONFIG: enableSplunkWebSSL (bool): False
+2024-02-06 04:37:48,800 +0000 INFO	root:720 - CONFIG: enableWebDebug (bool): False
+2024-02-06 04:37:48,800 +0000 INFO	root:720 - CONFIG: enable_autocomplete_login (bool): False
+2024-02-06 04:37:48,800 +0000 INFO	root:720 - CONFIG: enable_gzip (bool): True
+2024-02-06 04:37:48,801 +0000 INFO	root:720 - CONFIG: enable_insecure_login (bool): False
+2024-02-06 04:37:48,801 +0000 INFO	root:720 - CONFIG: enable_insecure_pdfgen (bool): False
+2024-02-06 04:37:48,801 +0000 INFO	root:720 - CONFIG: enable_pivot_adhoc_acceleration (bool): True
+2024-02-06 04:37:48,801 +0000 INFO	root:720 - CONFIG: enable_proxy_write (bool): True
+2024-02-06 04:37:48,801 +0000 INFO	root:720 - CONFIG: enable_risky_command_check (bool): True
+2024-02-06 04:37:48,801 +0000 INFO	root:720 - CONFIG: enable_risky_command_check_dashboard (bool): True
+2024-02-06 04:37:48,801 +0000 INFO	root:720 - CONFIG: enable_secure_entity_move (bool): True
+2024-02-06 04:37:48,801 +0000 INFO	root:720 - CONFIG: enable_splunk_dashboard_app_feature (bool): True
+2024-02-06 04:37:48,802 +0000 INFO	root:720 - CONFIG: enabled_decomposers (str): plot
+2024-02-06 04:37:48,802 +0000 INFO	root:720 - CONFIG: enforce_dashboards_csp (bool): True
+2024-02-06 04:37:48,802 +0000 INFO	root:720 - CONFIG: engine.autoreload.on (bool): False
+2024-02-06 04:37:48,802 +0000 INFO	root:720 - CONFIG: error_page.default (method): <bound method ErrorController.handle_error of <splunk.appserver.mrsparkle.controllers.error.ErrorController object at 0x7f74ca20f810>>
+2024-02-06 04:37:48,802 +0000 INFO	root:720 - CONFIG: etc_path (str): /opt/splunk/etc
+2024-02-06 04:37:48,802 +0000 INFO	root:720 - CONFIG: firstTimeLoginMessage (str): 
+2024-02-06 04:37:48,802 +0000 INFO	root:720 - CONFIG: firstTimeLoginMessageOption (str): default
+2024-02-06 04:37:48,802 +0000 INFO	root:720 - CONFIG: flash_major_version (int): 9
+2024-02-06 04:37:48,803 +0000 INFO	root:720 - CONFIG: flash_minor_version (int): 0
+2024-02-06 04:37:48,803 +0000 INFO	root:720 - CONFIG: flash_revision_version (int): 124
+2024-02-06 04:37:48,803 +0000 INFO	root:720 - CONFIG: forceHttp10 (str): auto
+2024-02-06 04:37:48,803 +0000 INFO	root:720 - CONFIG: guid (NoneType): None
+2024-02-06 04:37:48,803 +0000 INFO	root:720 - CONFIG: httpport (int): 8065
+2024-02-06 04:37:48,803 +0000 INFO	root:720 - CONFIG: includeSubDomains (bool): False
+2024-02-06 04:37:48,803 +0000 INFO	root:720 - CONFIG: install_type (str): UNKNOWN_INSTALL_TYPE
+2024-02-06 04:37:48,803 +0000 INFO	root:720 - CONFIG: instance_type (str): UNKNOWN
+2024-02-06 04:37:48,804 +0000 INFO	root:720 - CONFIG: is_forwarder_license (bool): False
+2024-02-06 04:37:48,804 +0000 INFO	root:720 - CONFIG: is_free_license (bool): False
+2024-02-06 04:37:48,804 +0000 INFO	root:720 - CONFIG: is_trial_license (bool): True
+2024-02-06 04:37:48,804 +0000 INFO	root:720 - CONFIG: job_default_auto_cancel (int): 62
+2024-02-06 04:37:48,804 +0000 INFO	root:720 - CONFIG: job_max_polling_interval (int): 1000
+2024-02-06 04:37:48,804 +0000 INFO	root:720 - CONFIG: job_min_polling_interval (int): 100
+2024-02-06 04:37:48,804 +0000 INFO	root:720 - CONFIG: js_logger_mode (str): None
+2024-02-06 04:37:48,805 +0000 INFO	root:720 - CONFIG: js_logger_mode_server_end_point (str): util/log/js
+2024-02-06 04:37:48,805 +0000 INFO	root:720 - CONFIG: js_logger_mode_server_max_buffer (int): 100
+2024-02-06 04:37:48,805 +0000 INFO	root:720 - CONFIG: js_logger_mode_server_poll_buffer (int): 1000
+2024-02-06 04:37:48,805 +0000 INFO	root:720 - CONFIG: jschart_results_limit (int): 10000
+2024-02-06 04:37:48,805 +0000 INFO	root:720 - CONFIG: jschart_series_limit (int): 100
+2024-02-06 04:37:48,805 +0000 INFO	root:720 - CONFIG: jschart_test_mode (bool): False
+2024-02-06 04:37:48,805 +0000 INFO	root:720 - CONFIG: jschart_truncation_limit.chrome (int): 50000
+2024-02-06 04:37:48,805 +0000 INFO	root:720 - CONFIG: jschart_truncation_limit.firefox (int): 50000
+2024-02-06 04:37:48,806 +0000 INFO	root:720 - CONFIG: jschart_truncation_limit.ie11 (int): 50000
+2024-02-06 04:37:48,806 +0000 INFO	root:720 - CONFIG: jschart_truncation_limit.safari (int): 50000
+2024-02-06 04:37:48,806 +0000 INFO	root:720 - CONFIG: keepAliveIdleTimeout (int): 7200
+2024-02-06 04:37:48,806 +0000 INFO	root:720 - CONFIG: license_desc (str): UNKNOWN_LICENSE_DESCRIPTION
+2024-02-06 04:37:48,806 +0000 INFO	root:720 - CONFIG: license_labels (list): []
+2024-02-06 04:37:48,806 +0000 INFO	root:720 - CONFIG: license_state (str): OK
+2024-02-06 04:37:48,806 +0000 INFO	root:720 - CONFIG: listenOnIPv6 (bool): False
+2024-02-06 04:37:48,806 +0000 INFO	root:720 - CONFIG: log.access_maxfiles (int): 5
+2024-02-06 04:37:48,807 +0000 INFO	root:720 - CONFIG: log.access_maxsize (int): 25000000
+2024-02-06 04:37:48,807 +0000 INFO	root:720 - CONFIG: log.error_maxfiles (int): 5
+2024-02-06 04:37:48,807 +0000 INFO	root:720 - CONFIG: log.error_maxsize (int): 25000000
+2024-02-06 04:37:48,807 +0000 INFO	root:720 - CONFIG: log.screen (bool): True
+2024-02-06 04:37:48,807 +0000 INFO	root:720 - CONFIG: loginBackgroundImageOption (str): default
+2024-02-06 04:37:48,807 +0000 INFO	root:720 - CONFIG: loginCustomBackgroundImage (str): 
+2024-02-06 04:37:48,807 +0000 INFO	root:720 - CONFIG: loginCustomLogo (str): 
+2024-02-06 04:37:48,807 +0000 INFO	root:720 - CONFIG: loginDocumentTitleOption (str): default
+2024-02-06 04:37:48,808 +0000 INFO	root:720 - CONFIG: loginDocumentTitleText (str): 
+2024-02-06 04:37:48,808 +0000 INFO	root:720 - CONFIG: loginFooterOption (str): default
+2024-02-06 04:37:48,808 +0000 INFO	root:720 - CONFIG: loginFooterText (str): 
+2024-02-06 04:37:48,808 +0000 INFO	root:720 - CONFIG: loginPasswordHint (str): 
+2024-02-06 04:37:48,808 +0000 INFO	root:720 - CONFIG: login_content (str): 
+2024-02-06 04:37:48,809 +0000 INFO	root:720 - CONFIG: mako_cache_path (str): /opt/splunk/var/run/splunk/mako_cache
+2024-02-06 04:37:48,809 +0000 INFO	root:720 - CONFIG: master_guid (NoneType): None
+2024-02-06 04:37:48,809 +0000 INFO	root:720 - CONFIG: maxSockets (int): 0
+2024-02-06 04:37:48,809 +0000 INFO	root:720 - CONFIG: maxThreads (int): 0
+2024-02-06 04:37:48,809 +0000 INFO	root:720 - CONFIG: max_view_cache_size (int): 1000
+2024-02-06 04:37:48,809 +0000 INFO	root:720 - CONFIG: mgmtHostPort (str): 127.0.0.1:8089
+2024-02-06 04:37:48,810 +0000 INFO	root:720 - CONFIG: minify_css (bool): True
+2024-02-06 04:37:48,810 +0000 INFO	root:720 - CONFIG: minify_js (bool): True
+2024-02-06 04:37:48,810 +0000 INFO	root:720 - CONFIG: module_dir (str): share/splunk/search_mrsparkle/modules
+2024-02-06 04:37:48,810 +0000 INFO	root:720 - CONFIG: mrsparkle_path (str): /opt/splunk/share/search/mrsparkle
+2024-02-06 04:37:48,810 +0000 INFO	root:720 - CONFIG: os_name (str): UNKNOWN_OS_NAME
+2024-02-06 04:37:48,810 +0000 INFO	root:720 - CONFIG: override_JSON_MIME_type_with_text_plain (bool): True
+2024-02-06 04:37:48,810 +0000 INFO	root:720 - CONFIG: pdfgen_is_available (int): 1
+2024-02-06 04:37:48,810 +0000 INFO	root:720 - CONFIG: pivot_adhoc_acceleration_mode (str): Elastic
+2024-02-06 04:37:48,811 +0000 INFO	root:720 - CONFIG: preload (bool): False
+2024-02-06 04:37:48,811 +0000 INFO	root:720 - CONFIG: privKeyPath (str): $SPLUNK_HOME/etc/auth/splunkweb/privkey.pem
+2024-02-06 04:37:48,811 +0000 INFO	root:720 - CONFIG: productMenuLabel (str): My Splunk
+2024-02-06 04:37:48,811 +0000 INFO	root:720 - CONFIG: productMenuUriPrefix (str): https://splunkcommunities.force.com
+2024-02-06 04:37:48,811 +0000 INFO	root:720 - CONFIG: product_type (str): splunk
+2024-02-06 04:37:48,811 +0000 INFO	root:720 - CONFIG: remoteGroupsMatchExact (int): 0
+2024-02-06 04:37:48,811 +0000 INFO	root:720 - CONFIG: remoteGroupsQuoted (bool): False
+2024-02-06 04:37:48,811 +0000 INFO	root:720 - CONFIG: remoteUser (str): REMOTE-USER
+2024-02-06 04:37:48,812 +0000 INFO	root:720 - CONFIG: remoteUserMatchExact (int): 0
+2024-02-06 04:37:48,812 +0000 INFO	root:720 - CONFIG: request.show_tracebacks (bool): True
+2024-02-06 04:37:48,812 +0000 INFO	root:720 - CONFIG: response.timeout (int): 7200
+2024-02-06 04:37:48,812 +0000 INFO	root:720 - CONFIG: root_endpoint (str): /
+2024-02-06 04:37:48,812 +0000 INFO	root:720 - CONFIG: rss_endpoint (str): /rss
+2024-02-06 04:37:48,812 +0000 INFO	root:720 - CONFIG: sendStrictTransportSecurityHeader (bool): False
+2024-02-06 04:37:48,812 +0000 INFO	root:720 - CONFIG: server.max_request_body_size (int): 524288000
+2024-02-06 04:37:48,812 +0000 INFO	root:720 - CONFIG: server.socket_host (str): 127.0.0.1
+2024-02-06 04:37:48,813 +0000 INFO	root:720 - CONFIG: server.socket_port (int): 8065
+2024-02-06 04:37:48,813 +0000 INFO	root:720 - CONFIG: server.thread_pool (int): 50
+2024-02-06 04:37:48,813 +0000 INFO	root:720 - CONFIG: serverCert (str): $SPLUNK_HOME/etc/auth/splunkweb/cert.pem
+2024-02-06 04:37:48,813 +0000 INFO	root:720 - CONFIG: serverName (str): 
+2024-02-06 04:37:48,813 +0000 INFO	root:720 - CONFIG: showProductMenu (bool): False
+2024-02-06 04:37:48,813 +0000 INFO	root:720 - CONFIG: showUserMenuProfile (bool): False
+2024-02-06 04:37:48,813 +0000 INFO	root:720 - CONFIG: show_app_context (bool): True
+2024-02-06 04:37:48,813 +0000 INFO	root:720 - CONFIG: simple_error_page (bool): False
+2024-02-06 04:37:48,814 +0000 INFO	root:720 - CONFIG: simplexml_dashboard_create_version (str): 1.1
+2024-02-06 04:37:48,814 +0000 INFO	root:720 - CONFIG: site_packages_path (str): /opt/splunk/lib/python3.7/site-packages
+2024-02-06 04:37:48,814 +0000 INFO	root:720 - CONFIG: splunk_dashboard_app_name (str): splunk-dashboard-studio
+2024-02-06 04:37:48,814 +0000 INFO	root:720 - CONFIG: splunkdConnectionTimeout (int): 30
+2024-02-06 04:37:48,814 +0000 INFO	root:720 - CONFIG: splunkdTrustedIP (NoneType): None
+2024-02-06 04:37:48,814 +0000 INFO	root:720 - CONFIG: sslVersions (str): tls1.2
+2024-02-06 04:37:48,814 +0000 INFO	root:720 - CONFIG: start_time (float): 1707194268.79339
+2024-02-06 04:37:48,814 +0000 INFO	root:720 - CONFIG: startwebserver (int): 1
+2024-02-06 04:37:48,815 +0000 INFO	root:720 - CONFIG: staticAssetId (str): 000
+2024-02-06 04:37:48,815 +0000 INFO	root:720 - CONFIG: staticCompressionLevel (int): 9
+2024-02-06 04:37:48,815 +0000 INFO	root:720 - CONFIG: static_dir (str): share/splunk/search_mrsparkle/exposed
+2024-02-06 04:37:48,815 +0000 INFO	root:720 - CONFIG: static_endpoint (str): /static
+2024-02-06 04:37:48,815 +0000 INFO	root:720 - CONFIG: staticdir (str): /opt/splunk/share/splunk/search_mrsparkle/exposed
+2024-02-06 04:37:48,815 +0000 INFO	root:720 - CONFIG: template_dir (str): share/splunk/search_mrsparkle/templates
+2024-02-06 04:37:48,815 +0000 INFO	root:720 - CONFIG: tools.csrfcookie.name (str): splunkweb_csrf_token_8000
+2024-02-06 04:37:48,815 +0000 INFO	root:720 - CONFIG: tools.csrfcookie.port (str): 8000
+2024-02-06 04:37:48,816 +0000 INFO	root:720 - CONFIG: tools.decode.on (bool): True
+2024-02-06 04:37:48,816 +0000 INFO	root:720 - CONFIG: tools.encode.encoding (str): utf-8
+2024-02-06 04:37:48,816 +0000 INFO	root:720 - CONFIG: tools.encode.on (bool): True
+2024-02-06 04:37:48,816 +0000 INFO	root:720 - CONFIG: tools.encode.text_only (bool): False
+2024-02-06 04:37:48,816 +0000 INFO	root:720 - CONFIG: tools.hook_injection_tool.on (bool): True
+2024-02-06 04:37:48,816 +0000 INFO	root:720 - CONFIG: tools.log_headers.on (bool): True
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.log_tracebacks.on (bool): True
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.response_headers.headers (list): [('Server', 'Splunk')]
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.response_headers.on (bool): True
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.forceSecure (bool): False
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.httponly (bool): True
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.name (str): session_id_8000
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.on (bool): True
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.restart_persist (bool): True
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.secure (bool): False
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.storage_path (str): /opt/splunk/var/run/splunk
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.storage_type (str): file
+2024-02-06 04:37:48,817 +0000 INFO	root:720 - CONFIG: tools.sessions.timeout (int): 60
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: tools.trailing_slash.on (bool): True
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: trap_module_exceptions (bool): True
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: trustedIP (str): 127.0.0.1
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: ui_inactivity_timeout (int): 60
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: updateCheckerBaseURL (str): https://quickdraw.splunk.com/js/
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: use_future_expires (bool): True
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: userRegistrationURL (str): https://www.splunk.com/page/sign_up
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: verifyCookiesWorkDuringLogin (bool): True
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: version_label (str): UNKNOWN_VERSION
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: version_number (str): UNKNOWN_VERSION
+2024-02-06 04:37:48,818 +0000 INFO	root:720 - CONFIG: x_frame_options_sameorigin (bool): True
+2024-02-06 04:37:48,819 +0000 INFO	root:165 - ENGINE: Bus STARTING
+2024-02-06 04:37:48,928 +0000 INFO	root:165 - ENGINE: Serving on http://127.0.0.1:8065
+2024-02-06 04:37:48,928 +0000 INFO	root:165 - ENGINE: Bus STARTED
+2024-02-06 04:37:48,982 +0000 INFO	root:165 - ENGINE: Started monitor thread 'Monitor'.
+2024-02-06 04:45:36,520 +0000 INFO	root:165 - ENGINE: Caught signal SIGTERM.
+2024-02-06 04:45:36,520 +0000 INFO	root:165 - ENGINE: Bus STOPPING
+2024-02-06 04:45:36,523 +0000 INFO	root:165 - ENGINE: HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8065)) shut down
+2024-02-06 04:45:36,523 +0000 INFO	root:165 - ENGINE: Stopped thread 'Monitor'.
+2024-02-06 04:45:36,523 +0000 INFO	root:165 - ENGINE: Bus STOPPED
+2024-02-06 04:45:36,523 +0000 INFO	root:165 - ENGINE: Bus EXITING
+2024-02-06 04:45:36,524 +0000 INFO	root:165 - ENGINE: Bus EXITED
+2024-02-06 04:45:36,559 +0000 INFO	root:165 - ENGINE: Waiting for child threads to terminate...
+2024-02-06 04:45:36,560 +0000 INFO	root:165 - ENGINE: Waiting for thread Thread-1.
+2024-02-06 10:35:30,777 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:36:00,788 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:36:30,817 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:37:00,852 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:43:33,425 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:44:03,443 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:44:33,478 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:45:03,499 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:45:33,533 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:46:03,565 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:46:33,579 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:47:03,590 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:47:33,609 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:48:03,644 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:48:33,651 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:49:03,664 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 10:49:33,697 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 12:55:20,650 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 20:49:30,494 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089/services/properties/telemetry/general/sendSupportUsage
+2024-02-06 20:49:30,513 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 20:49:30,611 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089/services/properties/telemetry/general/sendSupportUsage
+2024-02-06 20:49:30,622 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles
+2024-02-06 20:49:30,678 +0000 ERROR	__init__:600 - Socket error communicating with splunkd (error=[Errno 111] Connection refused), path = https://127.0.0.1:8089//services/server/roles

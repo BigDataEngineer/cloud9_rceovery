@@ -1,0 +1,8 @@
+4.1.2 2024-02-06 04:00:02,309 INFO 140233823450944 - Starting to get apps
+4.1.2 2024-02-06 04:00:04,164 ERROR 140233823450944 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/jura_scan_apps.py", line 47, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=session_key, method="GET")
+  File "/opt/splunk/lib/python3.7/site-packages/splunk/rest/__init__.py", line 661, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment

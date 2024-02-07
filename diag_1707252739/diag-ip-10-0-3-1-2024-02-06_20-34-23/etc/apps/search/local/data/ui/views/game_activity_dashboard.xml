@@ -1,0 +1,22 @@
+<dashboard version="1.1">
+  <label>Game Activity Dashboard</label>
+  <row>
+    <panel>
+      <title>AttackVessel usage - All Time</title>
+      <table>
+        <search>
+          <query>index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml|stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel</query>
+          <earliest>0</earliest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">20</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>

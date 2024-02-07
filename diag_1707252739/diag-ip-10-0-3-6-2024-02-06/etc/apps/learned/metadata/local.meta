@@ -1,0 +1,49 @@
+[props/dfm_stderr-too_small]
+owner = nobody
+version = 9.0.7
+modtime = 1707191382.066053000
+
+[props/first_install-too_small]
+owner = nobody
+version = 9.0.7
+modtime = 1707191382.124006000
+
+[props/dfm_stdout-too_small]
+owner = nobody
+version = 9.0.7
+modtime = 1707209035.655513000
+
+[props/cloud-init]
+owner = nobody
+version = 9.0.7
+modtime = 1707209035.924653000
+
+[sourcetypes/%2Fvar%2Flog%2Fcloud-init.log_Tue_Feb__6_08%3A43%3A55_2024_826270639]
+owner = nobody
+version = 9.0.7
+modtime = 1707209036.027342000
+
+[props/dracut]
+owner = nobody
+version = 9.0.7
+modtime = 1707209041.491141000
+
+[sourcetypes/%2Fvar%2Flog%2Fdracut.log_Tue_Feb__6_08%3A44%3A01_2024_1849264522]
+owner = nobody
+version = 9.0.7
+modtime = 1707209041.613081000
+
+[sourcetypes/%2Fvar%2Flog%2Fdracut.log_Tue_Feb__6_08%3A44%3A01_2024_913568346]
+owner = nobody
+version = 9.0.7
+modtime = 1707209041.825046000
+
+[props/cloud-init-2]
+owner = nobody
+version = 9.0.7
+modtime = 1707209668.244244000
+
+[sourcetypes/%2Fvar%2Flog%2Fcloud-init.log_Tue_Feb__6_08%3A54%3A28_2024_1665994011]
+owner = nobody
+version = 9.0.7
+modtime = 1707209668.349978000

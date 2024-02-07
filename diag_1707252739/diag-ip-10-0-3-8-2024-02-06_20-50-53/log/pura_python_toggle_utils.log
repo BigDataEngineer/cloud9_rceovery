@@ -1,0 +1,25 @@
+4.1.2 2024-02-06 07:00:03,308 INFO 140486666569536 - Initiating contact with splunk
+4.1.2 2024-02-06 07:00:03,308 INFO 140486666569536 - Connecting to splunk please wait
+4.1.2 2024-02-06 07:00:03,353 INFO 140690253674304 - Initiating contact with splunk
+4.1.2 2024-02-06 07:00:03,354 INFO 140690253674304 - Connecting to splunk please wait
+4.1.2 2024-02-06 07:00:03,590 INFO 140486666569536 - Initiating contact with splunk
+4.1.2 2024-02-06 07:00:03,590 INFO 140486666569536 - Connecting to splunk please wait
+4.1.2 2024-02-06 07:00:03,594 INFO 140690253674304 - Initiating contact with splunk
+4.1.2 2024-02-06 07:00:03,594 INFO 140690253674304 - Connecting to splunk please wait
+4.1.2 2024-02-06 07:00:03,630 INFO 140690253674304 - Pushed event to target
+4.1.2 2024-02-06 07:00:03,640 INFO 140486666569536 - Pushed event to target
+4.1.2 2024-02-06 16:00:04,262 INFO 140381905200960 - Initiating contact with splunk
+4.1.2 2024-02-06 16:00:04,263 INFO 140381905200960 - Connecting to splunk please wait
+4.1.2 2024-02-06 16:00:04,391 INFO 140381905200960 - Initiating contact with splunk
+4.1.2 2024-02-06 16:00:04,391 INFO 140381905200960 - Connecting to splunk please wait
+4.1.2 2024-02-06 16:00:04,401 INFO 140381905200960 - Pushed event to target
+4.1.2 2024-02-06 19:00:02,929 INFO 140401711683392 - Initiating contact with splunk
+4.1.2 2024-02-06 19:00:02,933 INFO 140401711683392 - Connecting to splunk please wait
+4.1.2 2024-02-06 19:00:03,033 INFO 140509209544512 - Initiating contact with splunk
+4.1.2 2024-02-06 19:00:03,033 INFO 140509209544512 - Connecting to splunk please wait
+4.1.2 2024-02-06 19:00:03,219 INFO 140401711683392 - Initiating contact with splunk
+4.1.2 2024-02-06 19:00:03,220 INFO 140401711683392 - Connecting to splunk please wait
+4.1.2 2024-02-06 19:00:03,245 INFO 140401711683392 - Pushed event to target
+4.1.2 2024-02-06 19:00:03,349 INFO 140509209544512 - Initiating contact with splunk
+4.1.2 2024-02-06 19:00:03,349 INFO 140509209544512 - Connecting to splunk please wait
+4.1.2 2024-02-06 19:00:03,379 INFO 140509209544512 - Pushed event to target

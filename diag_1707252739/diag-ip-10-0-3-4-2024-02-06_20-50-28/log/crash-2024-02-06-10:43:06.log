@@ -1,0 +1,102 @@
+[build b985591d12fd] 2024-02-06 10:43:06
+Received fatal signal 6 (Aborted) on PID 31818.
+ Cause:
+   Signal sent by PID 31818 running under UID 501.
+ Crashing thread: BundleExecutorWorker-0
+ Registers:
+    RIP:  [0x00007F97ABD703B7] gsignal + 55 (libc.so.6 + 0x363B7)
+    RDI:  [0x0000000000007C4A]
+    RSI:  [0x000000000000064A]
+    RBP:  [0x00007F9784FFCEF0]
+    RSP:  [0x00007F9784FFCD98]
+    RAX:  [0x0000000000000000]
+    RBX:  [0x00005568340E7DF8]
+    RCX:  [0x00007F97ABD703B7]
+    RDX:  [0x0000000000000006]
+    R8:  [0x0000000000000000]
+    R9:  [0x00007F97ABD872FD]
+    R10:  [0x0000000000000008]
+    R11:  [0x0000000000000202]
+    R12:  [0x0000556833FFF1A8]
+    R13:  [0x00005568340E92E8]
+    R14:  [0x00000000000008AD]
+    R15:  [0x00007F9784FFCF80]
+    EFL:  [0x0000000000000202]
+    TRAPNO:  [0x0000000000000000]
+    ERR:  [0x0000000000000000]
+    CSGSFS:  [0x002B000000000033]
+    OLDMASK:  [0x0000000000000000]
+
+ OS: Linux
+ Arch: x86-64
+
+ Backtrace (PIC build):
+  [0x00007F97ABD703B7] gsignal + 55 (libc.so.6 + 0x363B7)
+  [0x00007F97ABD71AA8] abort + 328 (libc.so.6 + 0x37AA8)
+  [0x0000556831107319] ? (splunkd + 0x1A6E319)
+  [0x000055683189024B] _ZN11IndexConfig13setBucketPathERK3StrS2_PK13PropertiesMapR8PathnamebbP18RemoteVolumeParams + 1883 (splunkd + 0x21F724B)
+  [0x00005568318917D2] _ZN11IndexConfig19initPolicy_internalERK3StrRK13PropertiesMapRNSt7__cxx114listIS0_SaIS0_EEE + 3682 (splunkd + 0x21F87D2)
+  [0x000055683189213D] _ZN11IndexConfig10initPolicyERK3StrRK13PropertiesMapRNSt7__cxx114listIS0_SaIS0_EEE + 61 (splunkd + 0x21F913D)
+  [0x0000556831897175] _ZN11IndexConfig4loadERNSt7__cxx114listI3StrSaIS2_EEERKS2_R13PropertiesMapP13PropertyPages + 3285 (splunkd + 0x21FE175)
+  [0x0000556831898433] _ZN11IndexConfig4loadB5cxx11EP13PropertyPages + 179 (splunkd + 0x21FF433)
+  [0x0000556832A14D29] _ZN15BundleValidator18validateIndexPagesEP13PropertyPagesR11IndexConfigR9StrVector + 57 (splunkd + 0x337BD29)
+  [0x0000556832A150B0] _ZN15BundleValidator21verifySupersetIndexesER9StrVector + 704 (splunkd + 0x337C0B0)
+  [0x0000556832A15C4E] _ZN15BundleValidator8validateER9StrVector + 46 (splunkd + 0x337CC4E)
+  [0x00005568327B2702] _ZN19CMBundleReceiverMgr14validateBundleERK8PathnameR9StrVector + 338 (splunkd + 0x3119702)
+  [0x00005568327B8517] _ZN19CMBundleReceiverMgr14downloadBundleERK12CMBundleTypebR8PathnameR3StrS6_ + 823 (splunkd + 0x311F517)
+  [0x000055683277C822] _ZN17BundleValidateJob3runEm + 434 (splunkd + 0x30E3822)
+  [0x0000556831487604] _ZN6Worker4mainEv + 148 (splunkd + 0x1DEE604)
+  [0x000055683252F60E] _ZN6Thread37_callMainAndDiscardTerminateExceptionEv + 14 (splunkd + 0x2E9660E)
+  [0x0000556832530552] _ZN6Thread8callMainEPv + 178 (splunkd + 0x2E97552)
+  [0x00007F97AC76DE75] ? (libpthread.so.0 + 0x7E75)
+  [0x00007F97ABE389BD] clone + 109 (libc.so.6 + 0xFE9BD)
+ Linux / ip-10-0-3-4 / 4.14.238-125.422.amzn1.x86_64 / #1 SMP Tue Jul 20 20:51:46 UTC 2021 / x86_64
+ Last few lines of stderr (may contain info on assertion failure, but also could be old):
+    2024-02-06 06:32:49.446 +0000 Interrupt signal received sent by PID 4376, command="/opt/splunk/bin/splunk restart" (UID 501, same as my group)
+    2024-02-06 06:32:59.998 +0000 splunkd started (build b985591d12fd) pid=4548
+    assertion_failure="0" assertion_function="void IndexConfig::setBucketPath(const Str&, const Str&, const PropertiesMap*, Pathname&, bool, bool, RemoteVolumeParams*)" assertion_file="/opt/splunk/src/pipeline/indexer/IndexConfig.cpp:2221"2024-02-06 10:39:36.421 +0000 splunkd started (build b985591d12fd) pid=31818
+    assertion_failure="0" assertion_function="void IndexConfig::setBucketPath(const Str&, const Str&, const PropertiesMap*, Pathname&, bool, bool, RemoteVolumeParams*)" assertion_file="/opt/splunk/src/pipeline/indexer/IndexConfig.cpp:2221"
+
+ /etc/os-release: NAME="Amazon Linux AMI"
+ glibc version: 2.17
+ glibc release: stable
+Last errno: 2
+Threads running: 78
+Runtime: 209.998911s
+argv: [splunkd -p 8089 start]
+Regex JIT enabled
+
+RE2 regex engine enabled
+
+using CLOCK_MONOTONIC
+Thread: "BundleExecutorWorker-0", did_join=0, ready_to_run=Y, main_thread=N, token=140288748156672
+MutexByte: MutexByte-waiting={none}
+TPool Worker: _isExecutorWorker=Y, _id=0
+Running TJob: name=BucketValidateJob
+
+
+x86 CPUID registers:
+         0: 0000000D 756E6547 6C65746E 49656E69
+         1: 00050657 01040800 FFFA3203 1F8BFBFF
+         2: 76036301 00F0B5FF 00000000 00C30000
+         3: 00000000 00000000 00000000 00000000
+         4: 04004121 01C0003F 0000003F 00000000
+         5: 00000000 00000000 00000000 00000000
+         6: 00000006 00000000 00000001 00000000
+         7: 00000000 D19F47AB 00000018 00000000
+         8: 00000000 00000000 00000000 00000000
+         9: 00000000 00000000 00000000 00000000
+         A: 00000000 00000000 00000000 00000000
+         B: 00000001 00000002 00000100 00000001
+         C: 00000000 00000000 00000000 00000000
+         D: 000002FF 00000A88 00000A88 00000000
+  80000000: 80000008 00000000 00000000 00000000
+  80000001: 00000000 00000000 00000121 2C100800
+  80000002: 65746E49 2952286C 6F655820 2952286E
+  80000003: 616C5020 756E6974 3238206D 4C433537
+  80000004: 55504320 33204020 4730302E 00007A48
+  80000005: 00000000 00000000 00000000 00000000
+  80000006: 00000000 00000000 01006040 00000000
+  80000007: 00000000 00000000 00000000 00000100
+  80000008: 0000302E 00000000 00000000 00000000
+terminating...

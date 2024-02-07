@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployResponse restartSplunkd="true" restartSplunkWeb="false" stateOnClient="enabled" issueReload="false" repositoryLocation="$SPLUNK_HOME/etc/apps" endpoint="$deploymentServerUri$/services/streams/deployment?name=$tenantName$:$serverClassName$:$appName$">
+  <serverClass name="UnivFwder1">
+    <app name="Splunk_TA_nix" checksum="17770453946191245093" localArchive="/opt/splunkforwarder/var/run/UnivFwder1/Splunk_TA_nix-1707209666.bundle" installed="true"/>
+    <app name="UF1" checksum="4088380836956410718" localArchive="/opt/splunkforwarder/var/run/UnivFwder1/UF1-1707209666.bundle" installed="true"/>
+  </serverClass>
+</deployResponse>

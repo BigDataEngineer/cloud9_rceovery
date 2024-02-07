@@ -1,0 +1,323 @@
+02-06-2024 20:29:47.658 INFO  dispatchRunner [29684 MainThread] - Search process mode: preforked (first search in process) (build b985591d12fd).
+02-06-2024 20:29:47.658 INFO  dispatchRunner [29684 MainThread] - initing LicenseMgr in search process: nonPro=0
+02-06-2024 20:29:47.658 INFO  LMStackMgr [29684 MainThread] - Initializing CleMgr...
+02-06-2024 20:29:47.658 INFO  LicenseMgr [29684 MainThread] - Initing LicenseMgr
+02-06-2024 20:29:47.658 INFO  LMConfig [29684 MainThread] - serverName=GOEL-SearchHead guid=51367ECF-193E-4082-849C-4DF59054FDA5
+02-06-2024 20:29:47.661 INFO  LMConfig [29684 MainThread] - connection_timeout=30
+02-06-2024 20:29:47.662 INFO  LMConfig [29684 MainThread] - send_timeout=30
+02-06-2024 20:29:47.662 INFO  LMConfig [29684 MainThread] - receive_timeout=30
+02-06-2024 20:29:47.662 INFO  LMConfig [29684 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:29:47.662 INFO  LMConfig [29684 MainThread] - squash_threshold=2000
+02-06-2024 20:29:47.662 INFO  LMConfig [29684 MainThread] - strict_pool_quota=1
+02-06-2024 20:29:47.662 INFO  LMConfig [29684 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 20:29:47.662 INFO  LMConfig [29684 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:29:47.662 INFO  LMConfig [29684 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:29:47.662 INFO  LicenseMgr [29684 MainThread] - Initing LicenseMgr runContext_splunkd=false
+02-06-2024 20:29:47.662 INFO  LMStackMgr [29684 MainThread] - closing stack mgr
+02-06-2024 20:29:47.662 INFO  LMSlaveInfo [29684 MainThread] - all slaves cleared
+02-06-2024 20:29:47.662 INFO  LMStackMgr [29684 MainThread] - Initalized license_warnings_update_interval=auto
+02-06-2024 20:29:47.662 INFO  LMStackMgr [29684 MainThread] - License Manager supports Conditional Licensing Enforcement. For baked in CLE policies, window_period=60 days, max_violations=45, for stack size below 107374182400 bytes
+02-06-2024 20:29:47.662 INFO  LMLicense [29684 MainThread] - Applying default enforcement policy for free
+02-06-2024 20:29:47.662 INFO  LMStackMgr [29684 MainThread] - Added policy WinSz=30 Warnings=3 MaxSize=0 isDefault=1 features= for free
+02-06-2024 20:29:47.662 INFO  LMLicense [29684 MainThread] - Applying default enforcement policy for forwarder
+02-06-2024 20:29:47.662 INFO  LMStackMgr [29684 MainThread] - Added policy WinSz=30 Warnings=5 MaxSize=0 isDefault=1 features= for forwarder
+02-06-2024 20:29:47.663 INFO  LMStack [29684 MainThread] - Added type=download-trial license, from file=enttrial.lic, to stack=download-trial of group=Trial
+02-06-2024 20:29:47.663 INFO  LMLicense [29684 MainThread] - Applying default enforcement policy for download-trial
+02-06-2024 20:29:47.663 INFO  LMStackMgr [29684 MainThread] - created stack='download-trial'
+02-06-2024 20:29:47.663 INFO  LMStackMgr [29684 MainThread] - Added policy WinSz=30 Warnings=5 MaxSize=0 isDefault=1 features= for download-trial
+02-06-2024 20:29:47.663 INFO  LMStackMgr [29684 MainThread] - have to auto-set active stack group='Trial' reason='invalid/missing group id' gidStr='' oldGid=Invalid
+02-06-2024 20:29:47.663 INFO  LMStackMgr [29684 MainThread] - added pool auto_generated_pool_download-trial to stack download-trial
+02-06-2024 20:29:47.663 INFO  LMStackMgr [29684 MainThread] - added pool auto_generated_pool_forwarder to stack forwarder
+02-06-2024 20:29:47.663 INFO  LMStackMgr [29684 MainThread] - added pool auto_generated_pool_free to stack free
+02-06-2024 20:29:47.663 INFO  LMStackMgr [29684 MainThread] - Initialized hideQuotaWarning = "0"
+02-06-2024 20:29:47.663 INFO  LMStackMgr [29684 MainThread] - init completed [51367ECF-193E-4082-849C-4DF59054FDA5,Trial,runContext_splunkd=false]
+02-06-2024 20:29:47.663 INFO  LicenseMgr [29684 MainThread] - StackMgr init complete...
+02-06-2024 20:29:47.663 INFO  LMTracker [29684 MainThread] - Setting default product type='enterprise'
+02-06-2024 20:29:47.663 INFO  LMTracker [29684 MainThread] - this is not splunkd, will perform partial init
+02-06-2024 20:29:47.664 INFO  LicenseMgr [29684 MainThread] - Tracker init complete...
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'licenses'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'pools'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'stacks'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'groups'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'slaves'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'peers'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'localslave'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'localpeer'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'licensermessages'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'scriptedwarning'
+02-06-2024 20:29:47.677 INFO  AdminManagerDispatch [29684 MainThread] - added factory for admin handler: 'licenseusage'
+02-06-2024 20:29:47.677 INFO  LicenseMgr [29684 MainThread] - Initing LicenseMgr
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - serverName=GOEL-SearchHead guid=51367ECF-193E-4082-849C-4DF59054FDA5
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - connection_timeout=30
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - send_timeout=30
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - receive_timeout=30
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - squash_threshold=2000
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - strict_pool_quota=1
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:29:47.677 INFO  LMConfig [29684 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:29:47.678 INFO  dispatchRunner [29684 MainThread] - registering build time modules, count=1
+02-06-2024 20:29:47.678 INFO  dispatchRunner [29684 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:29:47.678 INFO  dispatchRunner [29684 MainThread] - Getting search configuration data from: /opt/splunk/etc/modules/parsing/config.xml
+02-06-2024 20:29:47.679 WARN  SSLOptions [29684 MainThread] - server.conf/[kvstore]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:29:47.681 INFO  BundlesSetup [29684 MainThread] - Setup stats for /opt/splunk/etc: wallclock_elapsed_msec=23, cpu_time_used=0.0128361, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:29:47.711 INFO  UserManagerPro [29684 MainThread] - Load authentication: forcing roles="admin, can_delete, power, user"
+02-06-2024 20:29:47.712 INFO  PipelineComponent [29684 MainThread] - Ingestion pipeline sets have been configured to use pipeline set policy=round_robin for multiple pipeline sets.
+02-06-2024 20:29:47.713 INFO  UserManager [24871 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:29:47.713 INFO  UserManager [24871 RunDispatch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:29:47.713 INFO  UserManager [24871 RunDispatch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:29:47.713 INFO  UserManager [24871 RunDispatch] - Setting user context: admin
+02-06-2024 20:29:47.713 INFO  UserManager [24871 RunDispatch] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.714 INFO  dispatchRunner [24871 RunDispatch] - search context: user="admin", app="search", bs-pathname="/opt/splunk/etc"
+02-06-2024 20:29:47.725 INFO  SearchParser [24871 RunDispatch] - PARSING: search index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml|stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel
+02-06-2024 20:29:47.725 INFO  StatsContext [24871 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.725 INFO  StatsContext [24871 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.725 INFO  dispatchRunner [24871 RunDispatch] - Search running in non-clustered mode
+02-06-2024 20:29:47.725 INFO  dispatchRunner [24871 RunDispatch] - SearchHeadInitSearchMs=12
+02-06-2024 20:29:47.725 INFO  dispatchRunner [24871 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=false).
+02-06-2024 20:29:47.725 INFO  SearchOrchestrator [24871 RunDispatch] - SearchOrchestrator getting constructed
+02-06-2024 20:29:47.725 INFO  SearchOrchestrator [24871 RunDispatch] -  Initialized the SRI
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Initializing feature flags from config. feature_seed=915580423
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:29:47.726 INFO  SearchFeatureFlags [24871 RunDispatch] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:29:47.726 INFO  SearchOrchestrator [24871 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2","search:read_final_results_from_timeliner"],"disabledFeatures":["search:search_retry","search:search_retry_realtime","parallelreduce:autoAppliedPercentage","subsearch:enableConcurrentPipelineProcessing","search_optimization::set_required_fields:stats","searchresults:srs2"]}
+02-06-2024 20:29:47.726 INFO  ISplunkDispatch [24871 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+02-06-2024 20:29:47.726 INFO  SearchOrchestrator [24878 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+02-06-2024 20:29:47.726 INFO  UserManager [24878 searchOrchestrator] - Setting user context: admin
+02-06-2024 20:29:47.726 INFO  UserManager [24878 searchOrchestrator] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.727 INFO  AdaptiveSearchEngineSelector [24878 searchOrchestrator] - Search execution_plan=classic
+02-06-2024 20:29:47.727 INFO  SearchOrchestrator [24878 searchOrchestrator] - Creating the search DAG.
+02-06-2024 20:29:47.727 INFO  SearchParser [24878 searchOrchestrator] - PARSING: search index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml|stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel
+02-06-2024 20:29:47.727 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.727 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.729 INFO  DispatchStorageManagerInfo [24878 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=00b3181145453498_tmp dispatch_dir=/opt/splunk/var/run/splunk/dispatch/00b3181145453498_tmp
+02-06-2024 20:29:47.787 INFO  SearchProcessor [24878 searchOrchestrator] - Building search filter
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:29:47.827 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:29:47.831 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  sourcetype expansions took 4 ms
+02-06-2024 20:29:47.832 INFO  UnifiedSearch [24878 searchOrchestrator] - Expanded index search = (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml)
+02-06-2024 20:29:47.832 INFO  UnifiedSearch [24878 searchOrchestrator] - base lispy: [ AND index::bcgames source::*dreamcrusher.xml* sourcetype::dreamcrusher_xml ]
+02-06-2024 20:29:47.832 INFO  UnifiedSearch [24878 searchOrchestrator] - No indexes to search
+02-06-2024 20:29:47.833 INFO  UnifiedSearch [24878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:29:47.833 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsV2 (stats) args: sum(Infiltrators), AS, sum_Infiltrators, by, AttackVessel
+02-06-2024 20:29:47.833 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:29:47.833 INFO  StatsAggregations [24878 searchOrchestrator] - Instantiating Stats function sum for key=Infiltrators, alias=sum_Infiltrators
+02-06-2024 20:29:47.833 INFO  StatsContext [24878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:29:47.833 INFO  SearchParser [24878 searchOrchestrator] - PARSING: prestats sum(Infiltrators) by AttackVessel
+02-06-2024 20:29:47.833 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.833 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.833 INFO  SearchParser [24878 searchOrchestrator] - PARSING: addinfo type=count label=prereport_events
+02-06-2024 20:29:47.833 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsV2 (stats) args: sum(Infiltrators), by, AttackVessel
+02-06-2024 20:29:47.833 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:29:47.833 INFO  StatsAggregations [24878 searchOrchestrator] - Instantiating Stats function sum for key=Infiltrators, alias=sum(Infiltrators)
+02-06-2024 20:29:47.833 INFO  StatsContext [24878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:29:47.833 INFO  DispatchThread [24878 searchOrchestrator] - BatchMode: allowBatchMode: 1, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):0, reqTimeOrder(0):0, summarize(0):0, statefulStreaming(0):0
+02-06-2024 20:29:47.833 INFO  DispatchThread [24878 searchOrchestrator] - required fields list to add to remote search = AttackVessel,Infiltrators,prestats_reserved_*,psrsvd_*
+02-06-2024 20:29:47.833 INFO  SearchParser [24878 searchOrchestrator] - PARSING: fields keepcolorder=t "AttackVessel" "Infiltrators" "prestats_reserved_*" "psrsvd_*"
+02-06-2024 20:29:47.833 INFO  DispatchCommandProcessor [24878 searchOrchestrator] - summaryHash=e43ad0c0154613f4 summaryId=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_e43ad0c0154613f4 remoteSearch=litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events | fields  keepcolorder=t "AttackVessel" "Infiltrators" "prestats_reserved_*" "psrsvd_*" | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:29:47.833 INFO  DispatchCommandProcessor [24878 searchOrchestrator] - summaryHash=NS0b0fe3533de16c69 summaryId=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_NS0b0fe3533de16c69 remoteSearch=litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo type=count label=prereport_events | fields keepcolorder=t "AttackVessel" "Infiltrators" "prestats_reserved_*" "psrsvd_*" | prestats sum(Infiltrators) by AttackVessel
+02-06-2024 20:29:47.833 INFO  DispatchThread [24878 searchOrchestrator] - Getting summary ID for summaryHash=NS0b0fe3533de16c69
+02-06-2024 20:29:47.841 INFO  DispatchThread [24878 searchOrchestrator] - Did not find a usable summary_id, setting info._summary_mode=none, not modifying input summary_id=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_NS0b0fe3533de16c69
+02-06-2024 20:29:47.841 INFO  SearchParser [24878 searchOrchestrator] - PARSING: search index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml|stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel
+02-06-2024 20:29:47.841 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.841 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.842 INFO  UnifiedSearch [24878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:29:47.842 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsV2 (stats) args: sum(Infiltrators), AS, sum_Infiltrators, by, AttackVessel
+02-06-2024 20:29:47.842 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:29:47.842 INFO  StatsAggregations [24878 searchOrchestrator] - Instantiating Stats function sum for key=Infiltrators, alias=sum_Infiltrators
+02-06-2024 20:29:47.842 INFO  StatsContext [24878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:29:47.842 INFO  AstOptimizer [24878 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.000845141
+02-06-2024 20:29:47.842 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.842 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.842 INFO  SearchParser [24878 searchOrchestrator] - PARSING: | stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel
+02-06-2024 20:29:47.842 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.842 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.843 INFO  SearchParser [24878 searchOrchestrator] - PARSING: | search (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml)
+02-06-2024 20:29:47.844 INFO  FederatedInfo [24878 searchOrchestrator] - No federated search providers defined.
+02-06-2024 20:29:47.844 INFO  ProjElim [24878 searchOrchestrator] - Black listed processors=[addinfo]
+02-06-2024 20:29:47.852 INFO  SearchProcessor [24878 searchOrchestrator] - Building search filter
+02-06-2024 20:29:47.852 INFO  ReplaceWithTstatsVisitorBase [24878 searchOrchestrator] - access_query= | search (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) AND "AttackVessel"=*  AND "Infiltrators"=* 
+02-06-2024 20:29:47.852 INFO  SearchParser [24878 searchOrchestrator] - PARSING:  | search (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) AND "AttackVessel"=*  AND "Infiltrators"=* 
+02-06-2024 20:29:47.861 INFO  SearchProcessor [24878 searchOrchestrator] - Building search filter
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:29:47.874 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:29:47.878 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  sourcetype expansions took 4 ms
+02-06-2024 20:29:47.878 INFO  UnifiedSearch [24878 searchOrchestrator] - Expanded index search = (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml "AttackVessel"=* "Infiltrators"=*)
+02-06-2024 20:29:47.879 INFO  UnifiedSearch [24878 searchOrchestrator] - base lispy: [ AND index::bcgames source::*dreamcrusher.xml* sourcetype::dreamcrusher_xml ]
+02-06-2024 20:29:47.879 INFO  UnifiedSearch [24878 searchOrchestrator] - No indexes to search
+02-06-2024 20:29:47.879 INFO  UnifiedSearch [24878 searchOrchestrator] - Initialization of search data structures took 1 ms
+02-06-2024 20:29:47.880 INFO  UnifiedSearch [24878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:29:47.880 INFO  ReplaceWithTstatsVisitorBase [24878 searchOrchestrator] - expansion=(index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml "AttackVessel"=* "Infiltrators"=*)
+02-06-2024 20:29:47.880 INFO  SearchParser [24878 searchOrchestrator] - PARSING:  | search (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml "AttackVessel"=* "Infiltrators"=*)
+02-06-2024 20:29:47.880 INFO  UnifiedSearch [24878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:29:47.881 WARN  ReplaceWithTstatsVisitorBase [24878 searchOrchestrator] - srchFilter contains incompatible terms/fields. Ignoring optimization. srchFilter=
+02-06-2024 20:29:47.881 INFO  AstOptimizer [24878 searchOrchestrator] - SrchOptMetrics optimization=0.038643162
+02-06-2024 20:29:47.881 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.881 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.881 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - Optimized Search =| search (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel
+02-06-2024 20:29:47.881 INFO  ScopedTimer [24878 searchOrchestrator] - search.optimize 0.040172992
+02-06-2024 20:29:47.881 INFO  FederatedProviderVisitor [24878 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+02-06-2024 20:29:47.882 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - Number of involved federated deployments is 0.
+02-06-2024 20:29:47.883 INFO  PhaseToPipelineVisitor [24878 searchOrchestrator] - Phase Search = | search (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml)
+02-06-2024 20:29:47.883 INFO  SearchParser [24878 searchOrchestrator] - PARSING: | search (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml)
+02-06-2024 20:29:47.892 INFO  SearchProcessor [24878 searchOrchestrator] - Building search filter
+02-06-2024 20:29:47.902 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:29:47.902 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:29:47.902 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:29:47.903 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:29:47.903 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:29:47.903 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:29:47.903 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:29:47.903 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:29:47.903 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:29:47.903 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:29:47.903 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:29:47.907 INFO  SearchEvaluatorBasedExpander [24878 searchOrchestrator] -  sourcetype expansions took 4 ms
+02-06-2024 20:29:47.907 INFO  UnifiedSearch [24878 searchOrchestrator] - Expanded index search = (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml)
+02-06-2024 20:29:47.907 INFO  UnifiedSearch [24878 searchOrchestrator] - base lispy: [ AND index::bcgames source::*dreamcrusher.xml* sourcetype::dreamcrusher_xml ]
+02-06-2024 20:29:47.908 INFO  UnifiedSearch [24878 searchOrchestrator] - No indexes to search
+02-06-2024 20:29:47.908 INFO  UnifiedSearch [24878 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:29:47.908 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.908 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.908 INFO  PhaseToPipelineVisitor [24878 searchOrchestrator] - Phase Search = | stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel
+02-06-2024 20:29:47.908 INFO  SearchParser [24878 searchOrchestrator] - PARSING: | stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel
+02-06-2024 20:29:47.908 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.908 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.908 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsV2 (stats) args: sum(Infiltrators), AS, sum_Infiltrators, by, AttackVessel
+02-06-2024 20:29:47.908 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:29:47.908 INFO  StatsAggregations [24878 searchOrchestrator] - Instantiating Stats function sum for key=Infiltrators, alias=sum_Infiltrators
+02-06-2024 20:29:47.908 INFO  StatsContext [24878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:29:47.908 INFO  SearchPipeline [24878 searchOrchestrator] - ReportSearch=1 AllowBatchMode=1
+02-06-2024 20:29:47.908 INFO  SearchParser [24878 searchOrchestrator] - PARSING: addinfo type=count label=prereport_events track_fieldmeta_events=true
+02-06-2024 20:29:47.908 INFO  SearchParser [24878 searchOrchestrator] - PARSING: prestats sum(Infiltrators) by AttackVessel
+02-06-2024 20:29:47.908 INFO  StatsContext [24878 searchOrchestrator] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.908 INFO  StatsContext [24878 searchOrchestrator] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.908 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsV2 (stats) args: sum(Infiltrators), by, AttackVessel
+02-06-2024 20:29:47.908 INFO  StatsProcessorV2 [24878 searchOrchestrator] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:29:47.908 INFO  StatsAggregations [24878 searchOrchestrator] - Instantiating Stats function sum for key=Infiltrators, alias=sum(Infiltrators)
+02-06-2024 20:29:47.908 INFO  StatsContext [24878 searchOrchestrator] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:29:47.908 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - No need for RTWindowProcessor
+02-06-2024 20:29:47.908 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - Timeliner will not be executed
+02-06-2024 20:29:47.908 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - required fields list to add to different pipelines = AttackVessel,Infiltrators,prestats_reserved_*,psrsvd_*
+02-06-2024 20:29:47.908 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - Remote Timeliner=
+02-06-2024 20:29:47.908 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - Fileds=fields keepcolorder=t "AttackVessel" "Infiltrators" "prestats_reserved_*" "psrsvd_*"
+02-06-2024 20:29:47.908 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - REMOTE TIMELINER ADDED
+02-06-2024 20:29:47.908 INFO  SearchParser [24878 searchOrchestrator] - PARSING: fields keepcolorder=t "AttackVessel" "Infiltrators" "prestats_reserved_*" "psrsvd_*"
+02-06-2024 20:29:47.908 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - Result collation will occur at proc=stats
+02-06-2024 20:29:47.908 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - Search Phases created.
+02-06-2024 20:29:47.911 INFO  SearchOrchestrator [24878 searchOrchestrator] - Preview is enabled for Search Head only. (preview_algorithm=SEARCH_HEAD)
+02-06-2024 20:29:47.913 INFO  UserManager [24878 searchOrchestrator] - Setting user context: admin
+02-06-2024 20:29:47.913 INFO  UserManager [24878 searchOrchestrator] - Done setting user context: admin -> admin
+02-06-2024 20:29:47.913 INFO  UserManager [24878 searchOrchestrator] - Unwound user context: admin -> admin
+02-06-2024 20:29:47.913 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Stream search: litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "AttackVessel" "Infiltrators" "prestats_reserved_*" "psrsvd_*" | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:29:47.913 INFO  ExternalResultProvider [24878 searchOrchestrator] - No external result providers are configured
+02-06-2024 20:29:47.913 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+02-06-2024 20:29:47.913 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+02-06-2024 20:29:47.913 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Default search group:*
+02-06-2024 20:29:47.913 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Connecting to peer GOEL-Indexer1 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:29:47.913 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Connecting to peer GOEL-Indexer2 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:29:47.913 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Connecting to peer GOEL-Indexer3 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:29:47.913 INFO  SearchTargeter [24878 searchOrchestrator] - Index list is not available for GOEL-SearchHead targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:29:47.913 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Connecting to peer GOEL-SearchHead connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:29:47.913 INFO  ProxyConfig [24878 searchOrchestrator] - Failed to initialize http_proxy from server.conf for splunkd. Please make sure that the http_proxy property is set as http_proxy=http://host:port in case HTTP proxying needs to be enabled.
+02-06-2024 20:29:47.913 INFO  ProxyConfig [24878 searchOrchestrator] - Failed to initialize https_proxy from server.conf for splunkd. Please make sure that the https_proxy property is set as https_proxy=http://host:port in case HTTP proxying needs to be enabled.
+02-06-2024 20:29:47.913 INFO  ProxyConfig [24878 searchOrchestrator] - Failed to initialize the proxy_rules setting from server.conf for splunkd. Please provide a valid set of proxy_rules in case HTTP proxying needs to be enabled.
+02-06-2024 20:29:47.913 INFO  ProxyConfig [24878 searchOrchestrator] - Failed to initialize the no_proxy setting from server.conf for splunkd. Please provide a valid set of no_proxy rules in case HTTP proxying needs to be enabled.
+02-06-2024 20:29:47.915 WARN  SSLOptions [24878 searchOrchestrator] - <internal>.conf/[<internal>]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:29:47.921 WARN  SSLOptions [24878 searchOrchestrator] - <internal>.conf/[<internal>]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:29:47.921 INFO  ServerConfig [24878 searchOrchestrator] - Using REMOTE_SERVER_NAME=GOEL-SearchHead
+02-06-2024 20:29:47.921 INFO  KeyManagerLocalhost [24878 searchOrchestrator] - Checking for localhost key pair
+02-06-2024 20:29:47.921 INFO  KeyManagerLocalhost [24878 searchOrchestrator] - Public key already exists: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+02-06-2024 20:29:47.921 INFO  KeyManagerLocalhost [24878 searchOrchestrator] - Reading public key for localhost: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+02-06-2024 20:29:47.921 INFO  KeyManagerLocalhost [24878 searchOrchestrator] - Finished reading public key for localhost: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+02-06-2024 20:29:47.921 INFO  KeyManagerLocalhost [24878 searchOrchestrator] - Reading private key for localhost: /opt/splunk/etc/auth/distServerKeys/private.pem
+02-06-2024 20:29:47.922 INFO  KeyManagerLocalhost [24878 searchOrchestrator] - Finished reading private key for localhost: /opt/splunk/etc/auth/distServerKeys/private.pem
+02-06-2024 20:29:47.924 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer1 in 0.011 seconds
+02-06-2024 20:29:47.926 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer2 in 0.003 seconds
+02-06-2024 20:29:47.929 INFO  DistributedSearchResultCollectionManager [24878 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer3 in 0.003 seconds
+02-06-2024 20:29:47.933 INFO  SearchPhaseGenerator [24878 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.021823385 seconds.
+02-06-2024 20:29:47.933 INFO  SearchOrchestrator [24878 searchOrchestrator] - Starting the status control thread.
+02-06-2024 20:29:47.933 INFO  SearchOrchestrator [24878 searchOrchestrator] - Starting phase=1
+02-06-2024 20:29:47.933 INFO  UserManager [24881 StatusEnforcerThread] - Setting user context: admin
+02-06-2024 20:29:47.933 INFO  UserManager [24881 StatusEnforcerThread] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.933 INFO  SearchStatusEnforcer [24881 StatusEnforcerThread] - Enforcing disk quota = 10485760000
+02-06-2024 20:29:47.933 INFO  UserManager [24891 phase_1] - Setting user context: admin
+02-06-2024 20:29:47.933 INFO  UserManager [24891 phase_1] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.933 INFO  ReducePhaseExecutor [24891 phase_1] - Starting phase_1
+02-06-2024 20:29:47.933 INFO  PreviewExecutor [24881 StatusEnforcerThread] - Preview Enforcing initialization done
+02-06-2024 20:29:47.933 INFO  UserManager [24889 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:29:47.933 INFO  UserManager [24889 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.933 INFO  UserManager [24888 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:29:47.933 INFO  UserManager [24888 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.933 INFO  UserManager [24885 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:29:47.933 INFO  UserManager [24885 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.934 INFO  UserManager [24890 localCollectorThread] - Setting user context: admin
+02-06-2024 20:29:47.934 INFO  UserManager [24890 localCollectorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.934 INFO  SearchParser [24890 localCollectorThread] - PARSING: litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "AttackVessel" "Infiltrators" "prestats_reserved_*" "psrsvd_*" | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:29:47.934 INFO  StatsContext [24890 localCollectorThread] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:29:47.934 INFO  StatsContext [24890 localCollectorThread] -  Setting max memory usage to 209715200
+02-06-2024 20:29:47.935 INFO  UserManager [24886 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:29:47.935 INFO  UserManager [24886 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.942 INFO  UserManager [24887 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:29:47.943 INFO  UserManager [24887 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.950 INFO  UnifiedSearch [24890 localCollectorThread] - No indexes to search
+02-06-2024 20:29:47.950 INFO  SearchParser [24890 localCollectorThread] - PARSING: typer | tags
+02-06-2024 20:29:47.959 INFO  FastTyper [24890 localCollectorThread] - found nodes count: comparisons=6, unique_comparisons=5, terms=4, unique_terms=4, phrases=12, unique_phrases=12, total leaves=22
+02-06-2024 20:29:47.960 INFO  BatchSearch [24890 localCollectorThread] - Using Batch Search
+02-06-2024 20:29:47.961 INFO  UnifiedSearch [24890 localCollectorThread] - Initialization of search data structures took 11 ms
+02-06-2024 20:29:47.961 INFO  UnifiedSearch [24890 localCollectorThread] - Processed search targeting arguments
+02-06-2024 20:29:47.961 INFO  StatsProcessorV2 [24890 localCollectorThread] - StatsV2 (stats) args: sum(Infiltrators), by, AttackVessel
+02-06-2024 20:29:47.961 INFO  StatsProcessorV2 [24890 localCollectorThread] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:29:47.961 INFO  StatsAggregations [24890 localCollectorThread] - Instantiating Stats function sum for key=Infiltrators, alias=sum(Infiltrators)
+02-06-2024 20:29:47.961 INFO  StatsContext [24890 localCollectorThread] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:29:47.961 INFO  LocalCollector [24890 localCollectorThread] - Final required fields list = AttackVessel,Infiltrators,index,prestats_reserved_*,psrsvd_*,source,sourcetype
+02-06-2024 20:29:47.961 INFO  UserManager [24890 localCollectorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:29:47.961 INFO  UserManager [24890 localCollectorThread] - Setting user context: admin
+02-06-2024 20:29:47.961 INFO  UserManager [24890 localCollectorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:29:47.961 INFO  UserManager [24890 localCollectorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.109 INFO  UserManager [24887 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.109 INFO  UserManager [24885 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.109 INFO  UserManager [24888 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.109 INFO  UserManager [24886 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.109 INFO  UserManager [24889 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.109 INFO  ResultsCollationProcessor [24891 phase_1] - Writing remote_event_providers.csv to disk
+02-06-2024 20:29:48.115 INFO  DownloadRemoteDataTransaction [24891 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:29:48.126 INFO  ReducePhaseExecutor [24891 phase_1] - Downloading all remote search.log files took 0.012 seconds
+02-06-2024 20:29:48.126 INFO  DownloadRemoteDataTransaction [24891 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:29:48.135 INFO  ReducePhaseExecutor [24891 phase_1] - Downloading all remote search_telemetry.json files took 0.010 seconds
+02-06-2024 20:29:48.136 INFO  ReducePhaseExecutor [24891 phase_1] - Ending phase_1
+02-06-2024 20:29:48.136 INFO  UserManager [24891 phase_1] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.141 INFO  UserManager [24881 StatusEnforcerThread] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.142 INFO  DispatchStorageManager [24878 searchOrchestrator] - Remote storage disabled for search artifacts.
+02-06-2024 20:29:48.142 INFO  DispatchManager [24878 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='admin__admin__search__search1_1707251387.28', username='admin')
+02-06-2024 20:29:48.142 INFO  UserManager [24878 searchOrchestrator] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.144 INFO  SearchStatusEnforcer [24871 RunDispatch] - SearchStatusEnforcer is already terminated
+02-06-2024 20:29:48.145 INFO  UserManager [24871 RunDispatch] - Unwound user context: admin -> NULL
+02-06-2024 20:29:48.145 INFO  LookupDataProvider [24871 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:29:48.146 INFO  dispatchRunner [29684 MainThread] - RunDispatch is done: sid=admin__admin__search__search1_1707251387.28, exit=0

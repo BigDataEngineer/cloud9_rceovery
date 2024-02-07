@@ -1,0 +1,70 @@
+02-06-2024 20:45:11.863 INFO  dispatchRunner [18274 MainThread] - Search process mode: preforked (reused process) (build b985591d12fd).
+02-06-2024 20:45:11.863 INFO  dispatchRunner [18274 MainThread] - Feature flag post-args={"v":1,"enabledFeatures":["stats:allow_stats_v2"],"disabledFeatures":["searchresults:srs2"]}
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Initializing feature flags from config. feature_seed=46947589
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:45:11.863 INFO  SearchFeatureFlags [18274 MainThread] - Overlaying SearchFeatureFlags from jsonNode={"v":1,"enabledFeatures":["stats:allow_stats_v2"],"disabledFeatures":["searchresults:srs2"]}
+02-06-2024 20:45:11.863 INFO  dispatchRunner [18274 MainThread] - registering build time modules, count=1
+02-06-2024 20:45:11.863 INFO  dispatchRunner [18274 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:45:11.863 INFO  BundlesSetup [18274 MainThread] - Setup stats for /opt/splunk/var/run/searchpeers/GOEL-SearchHead-1707251292: wallclock_elapsed_msec=14, cpu_time_used=0.0147709, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:45:11.871 INFO  UserManagerPro [18274 MainThread] - Load authentication: forcing roles="admin, can_delete, power, user"
+02-06-2024 20:45:11.872 INFO  UserManager [20036 RunDispatch] - Setting user context: admin
+02-06-2024 20:45:11.872 INFO  UserManager [20036 RunDispatch] - Done setting user context: NULL -> admin
+02-06-2024 20:45:11.872 INFO  dispatchRunner [20036 RunDispatch] - search context: user="admin", app="search", bs-pathname="/opt/splunk/var/run/searchpeers/GOEL-SearchHead-1707251292"
+02-06-2024 20:45:11.872 INFO  SearchParser [20036 RunDispatch] - PARSING: litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "*" "AttackVessel" "Infiltrators" "_bkt" "_cd" "_si" "host" "index" "linecount" "prestats_reserved_*" "psrsvd_*" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=2147483647.000000 lt=0.000000 max_count=1000 max_prefetch=100 | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:45:11.872 INFO  StatsContext [20036 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:45:11.872 INFO  StatsContext [20036 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:45:11.872 INFO  SearchParser [20036 RunDispatch] - PARSING: litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "*" "AttackVessel" "Infiltrators" "_bkt" "_cd" "_si" "host" "index" "linecount" "prestats_reserved_*" "psrsvd_*" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=2147483647.000000 lt=0.000000 max_count=1000 max_prefetch=100 | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:45:11.872 INFO  StatsContext [20036 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:45:11.872 INFO  StatsContext [20036 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:45:11.872 INFO  UserManager [20036 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:45:11.872 INFO  UserManager [20036 RunDispatch] - Done setting user context: admin -> splunk-system-user
+02-06-2024 20:45:11.872 INFO  UserManager [20036 RunDispatch] - Setting user context: admin
+02-06-2024 20:45:11.872 INFO  UserManager [20036 RunDispatch] - Done setting user context: splunk-system-user -> admin
+02-06-2024 20:45:11.874 INFO  UserManager [20036 RunDispatch] - Unwound user context: admin -> splunk-system-user
+02-06-2024 20:45:11.874 INFO  UserManager [20036 RunDispatch] - Unwound user context: splunk-system-user -> admin
+02-06-2024 20:45:11.874 INFO  DispatchCommandProcessor [20036 RunDispatch] - Search requires the following indexes="[bcgames]"
+02-06-2024 20:45:11.874 INFO  IndexReaderIf [20036 RunDispatch] - Loading Clustering bucket manifest file=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen120.csv.gz
+02-06-2024 20:45:11.874 INFO  DatabaseDirectoryManager [20036 RunDispatch] - initDDMsFromSearchBucketManifest path=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen120.csv.gz, indexWhiteList_size=1
+02-06-2024 20:45:11.874 INFO  dispatchRunner [20036 RunDispatch] - SearchPeerInitSearchMs=2
+02-06-2024 20:45:11.874 INFO  dispatchRunner [20036 RunDispatch] - Serial search pipeline for streaming search being launched.
+02-06-2024 20:45:11.874 INFO  SearchParser [20036 RunDispatch] - PARSING: litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "*" "AttackVessel" "Infiltrators" "_bkt" "_cd" "_si" "host" "index" "linecount" "prestats_reserved_*" "psrsvd_*" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=2147483647.000000 lt=0.000000 max_count=1000 max_prefetch=100 | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:45:11.874 INFO  StatsContext [20036 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:45:11.874 INFO  StatsContext [20036 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:45:11.887 INFO  SearchParser [20036 RunDispatch] - PARSING: typer | tags
+02-06-2024 20:45:11.888 INFO  FastTyper [20036 RunDispatch] - found nodes count: comparisons=6, unique_comparisons=5, terms=4, unique_terms=4, phrases=12, unique_phrases=12, total leaves=22
+02-06-2024 20:45:11.889 INFO  UserManager [20036 RunDispatch] - Setting user context: admin
+02-06-2024 20:45:11.889 INFO  UserManager [20036 RunDispatch] - Done setting user context: admin -> admin
+02-06-2024 20:45:11.889 INFO  FastSearchFilter [20036 RunDispatch] - Finished initializing IndexScopedFilter - trivial=0, nTerms=0, oTerms=0, host=0, source=1, sourcetype=1, linecount=0 exactCustomCmp=0
+02-06-2024 20:45:11.889 INFO  UserManager [20036 RunDispatch] - Unwound user context: admin -> admin
+02-06-2024 20:45:11.889 INFO  IndexScopedSearch [20036 RunDispatch] -  IndexScopedSearch is called for index = bcgames, et = 0.000000000, lt = 2147483647.000000000, index_et = -9223372036854775808.000000000, index_lt = 9223372036854775807.999999000, noRead = FALSE
+02-06-2024 20:45:11.889 INFO  IndexScopedSearch [20036 RunDispatch] - ct=2147483647.000000 et=0.000000 lt=2147483647.000000 dbsize=0
+02-06-2024 20:45:11.890 INFO  UnifiedSearch [20036 RunDispatch] - Initialization of search data structures took 3 ms
+02-06-2024 20:45:11.890 INFO  UnifiedSearch [20036 RunDispatch] - Processed search targeting arguments
+02-06-2024 20:45:11.890 INFO  StatsProcessorV2 [20036 RunDispatch] - StatsV2 (stats) args: sum(Infiltrators), by, AttackVessel
+02-06-2024 20:45:11.890 INFO  StatsProcessorV2 [20036 RunDispatch] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:45:11.890 INFO  StatsAggregations [20036 RunDispatch] - Instantiating Stats function sum for key=Infiltrators, alias=sum(Infiltrators)
+02-06-2024 20:45:11.890 INFO  StatsContext [20036 RunDispatch] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:45:11.895 INFO  SearchPipelineExecutor [20036 RunDispatch] - Number of StreamSearch pipelines launched=1
+02-06-2024 20:45:11.895 INFO  SearchPipelineExecutor [20036 RunDispatch] - Starting to transmit serialized search results.
+02-06-2024 20:45:11.895 INFO  SearchPipelineExecutor [20039 StreamSearch] - StreamSearch pipeline=0 is started in its own thread
+02-06-2024 20:45:11.895 INFO  UserManager [20039 StreamSearch] - Setting user context: admin
+02-06-2024 20:45:11.895 INFO  UserManager [20039 StreamSearch] - Done setting user context: NULL -> admin
+02-06-2024 20:45:11.895 INFO  SearchPipelineExecutor [20039 StreamSearch] - Finished streaming: results.count=0
+02-06-2024 20:45:11.895 INFO  UserManager [20039 StreamSearch] - Unwound user context: admin -> NULL
+02-06-2024 20:45:11.895 INFO  SearchPipelineExecutor [20039 StreamSearch] - StreamSearch pipleine=0 is finished.
+02-06-2024 20:45:11.895 INFO  SearchPipelineExecutor [20041 NormSerializeExecutorThread] - NormSerializeExecutorThread pipeline=0 is started in its own thread.
+02-06-2024 20:45:11.896 INFO  SearchPipelineExecutor [20041 NormSerializeExecutorThread] - NormSerializeExecutorThread pipeline=0 is finished.
+02-06-2024 20:45:11.896 INFO  SearchPipelineExecutor [20036 RunDispatch] - Done transmitting serialized search results, total bytes transmitted 7960.
+02-06-2024 20:45:11.896 INFO  dispatchRunner [20036 RunDispatch] - Done with streaming search.
+02-06-2024 20:45:11.896 INFO  SearchPipelineExecutor [20036 RunDispatch] - Streamed Search Index Orchestrator has been shutdown.
+02-06-2024 20:45:11.897 INFO  UserManager [20036 RunDispatch] - Unwound user context: admin -> NULL
+02-06-2024 20:45:11.897 INFO  LookupDataProvider [20036 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:45:11.897 INFO  dispatchRunner [18274 MainThread] - RunDispatch is done: sid=remote_GOEL-SearchHead_1707252311.43, exit=0

@@ -1,0 +1,66 @@
+<dashboard version="1.1">
+  <label>INFRA</label>
+  <row>
+    <panel>
+      <title>Suspect Events Summary – Last 24 hours</title>
+      <event>
+        <search>
+          <query>index=infra source=*cisco_ironport_web.log* url="*.exe*" OR url="*.bat*"</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">20</option>
+        <option name="list.drilldown">none</option>
+        <option name="list.wrap">1</option>
+        <option name="maxLines">5</option>
+        <option name="raw.drilldown">full</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">0</option>
+        <option name="table.drilldown">all</option>
+        <option name="table.sortDirection">asc</option>
+        <option name="table.wrap">1</option>
+        <option name="type">list</option>
+      </event>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Suspect Events Summary by User – Last 24 hours</title>
+        <search>
+          <query>index=infra source=*cisco_ironport_web.log* url="*.exe*" OR url="*.bat*" earliest=-24h|stats count by user</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <event>
+        <title>Rejected Email Transactions – Last 24 hours</title>
+        <search>
+          <query>index=infra source=*cisco_ironport_mail.log*  earliest=-24h| transaction MID DCID ICID|search REJECT</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="list.drilldown">none</option>
+      </event>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>Web Server Errors – Last 24 hours</title>
+        <search>
+          <query>index=infra host=www* source="/opt/log/www*/access.log" status&gt;399 earliest=-24h|stats count AS failures by status host</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>

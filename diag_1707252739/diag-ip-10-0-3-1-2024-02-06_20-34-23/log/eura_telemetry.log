@@ -1,0 +1,20 @@
+4.1.2 2024-02-06 07:00:02,921 INFO 140572651001664 - schedule_scan_endpoint value [] 
+4.1.2 2024-02-06 07:00:02,934 INFO 140572651001664 - Telemetry data uploaded on : Tue Feb  6 07:00:02 2024
+4.1.2 2024-02-06 07:00:02,947 INFO 140572651001664 - Telemetry data uploaded on : Tue Feb  6 07:00:02 2024
+4.1.2 2024-02-06 07:00:02,959 INFO 140572651001664 - Telemetry data uploaded on : Tue Feb  6 07:00:02 2024
+4.1.2 2024-02-06 07:00:02,980 INFO 140572651001664 - Telemetry data uploaded on : Tue Feb  6 07:00:02 2024
+4.1.2 2024-02-06 07:00:02,980 INFO 140572651001664 - Writing scan summary
+4.1.2 2024-02-06 07:00:02,980 INFO 140572651001664 - Scan summary written.
+4.1.2 2024-02-06 07:00:02,981 INFO 140572651001664 - Adding splunk9X scan summary to logs.
+4.1.2 2024-02-06 07:00:02,981 INFO 140572651001664 - Writing data to audit file.
+4.1.2 2024-02-06 07:00:02,993 INFO 140572651001664 - Successfully written to audit file.
+4.1.2 2024-02-06 19:00:02,879 INFO 140131028678464 - schedule_scan_endpoint value [] 
+4.1.2 2024-02-06 19:00:02,918 INFO 140131028678464 - Telemetry data uploaded on : Tue Feb  6 19:00:02 2024
+4.1.2 2024-02-06 19:00:02,937 INFO 140131028678464 - Telemetry data uploaded on : Tue Feb  6 19:00:02 2024
+4.1.2 2024-02-06 19:00:02,965 INFO 140131028678464 - Telemetry data uploaded on : Tue Feb  6 19:00:02 2024
+4.1.2 2024-02-06 19:00:02,984 INFO 140131028678464 - Telemetry data uploaded on : Tue Feb  6 19:00:02 2024
+4.1.2 2024-02-06 19:00:02,985 INFO 140131028678464 - Writing scan summary
+4.1.2 2024-02-06 19:00:02,985 INFO 140131028678464 - Scan summary written.
+4.1.2 2024-02-06 19:00:02,986 INFO 140131028678464 - Adding splunk9X scan summary to logs.
+4.1.2 2024-02-06 19:00:02,986 INFO 140131028678464 - Writing data to audit file.
+4.1.2 2024-02-06 19:00:03,015 INFO 140131028678464 - Successfully written to audit file.

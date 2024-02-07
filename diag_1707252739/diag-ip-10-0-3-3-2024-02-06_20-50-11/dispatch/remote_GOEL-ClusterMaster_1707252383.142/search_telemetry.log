@@ -1,0 +1,5 @@
+02-06-2024 20:46:23.381 +0000 INFO  SearchTelemetrySingleton - record_search_telemetry=1
+02-06-2024 20:46:23.385 +0000 INFO  SearchTelemetrySingleton - Loaded config settings: telemetry file limit = 500, event size limit = 1000000, component size limit = 10000
+02-06-2024 20:46:23.397 +0000 INFO  SearchTelemetrySingleton - /opt/splunk/var/run/splunk/dispatch/remote_GOEL-ClusterMaster_1707252383.142/search_telemetry.json already exists, will not overwrite.
+02-06-2024 20:46:23.398 +0000 INFO  SearchTelemetrySingleton - Writing search telemetry to search_telemetry.json
+02-06-2024 20:46:23.398 +0000 INFO  SearchTelemetrySingleton - Copying search telemetry to var/run/splunk/search_telemetry is disabled for search peer

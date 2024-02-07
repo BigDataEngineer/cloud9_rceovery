@@ -1,0 +1,4 @@
+name,uri,guid,status,version,license,product,build,"rtsearch_enabled","generation_id",site,"master_uri",groups,"searchable_indexes",type,"valid_conn","cluster_id"
+"GOEL-SearchHead","https://10.0.3.1:8089","51367ECF-193E-4082-849C-4DF59054FDA5",0,"9.0.7",652e14a14c522a664f785a69a7692669,pro,b985591d12fd,1,0,default,"?","","_audit,_configtracker,_internal,_introspection,_metrics,_metrics_rollup,_telemetry,_thefishbucket,history,main,summary",index,,
+"GOEL-ClusterMaster","https://10.0.3.8:8089","15FACF80-D444-49B1-94FA-E022DDE18934",0,"9.0.7",1fc6863232636a5f411966812e3e5c29,pro,b985591d12fd,1,0,default,"?","","_audit,_configtracker,_internal,_introspection,_metrics,_metrics_rollup,_telemetry,_thefishbucket,history,main,summary",index,,
+"GOEL-DS-LM-MC","?","567E8353-EE88-4727-B620-DAEF32CFEF2B",0,"","","","",1,0,default,"?","","",index,,

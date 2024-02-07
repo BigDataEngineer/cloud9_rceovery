@@ -1,0 +1,12 @@
+4.1.2 2024-02-06 08:07:00,528 INFO 140415502911296 - Could not find synced splunkbase apps so using the constant file
+4.1.2 2024-02-06 08:07:00,528 INFO 140415502911296 - splunkbase_path- /opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/splunkbaseapps.csv
+4.1.2 2024-02-06 08:07:00,639 INFO 140415502911296 - Initial call to splunkbase API
+4.1.2 2024-02-06 08:07:53,034 INFO 140415502911296 - HEAD request response: 504
+4.1.2 2024-02-06 08:07:53,034 INFO 140415502911296 - Fetching apps limit- 100 and offset- 0
+4.1.2 2024-02-06 08:07:54,027 ERROR 140415502911296 - Could not get the apps status code: 503 content: no healthy upstream
+4.1.2 2024-02-06 16:07:00,548 INFO 140544839022400 - Could not find synced splunkbase apps so using the constant file
+4.1.2 2024-02-06 16:07:00,548 INFO 140544839022400 - splunkbase_path- /opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/splunkbaseapps.csv
+4.1.2 2024-02-06 16:07:00,657 INFO 140544839022400 - Initial call to splunkbase API
+4.1.2 2024-02-06 16:07:52,866 INFO 140544839022400 - HEAD request response: 504
+4.1.2 2024-02-06 16:07:52,866 INFO 140544839022400 - Fetching apps limit- 100 and offset- 0
+4.1.2 2024-02-06 16:07:53,825 ERROR 140544839022400 - Could not get the apps status code: 503 content: no healthy upstream

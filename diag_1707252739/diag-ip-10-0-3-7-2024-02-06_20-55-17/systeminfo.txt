@@ -1,0 +1,1121 @@
+diag launched by: archStudent
+
+SPLUNK_HOME: /opt/splunk
+SPLUNK_ETC: not redirected
+
+********** Splunk Version **********
+
+Splunk 9.0.7 (build b985591d12fd)
+
+
+********** Uname **********
+
+('Linux', 'ip-10-0-3-7', '4.14.238-125.422.amzn1.x86_64', '#1 SMP Tue Jul 20 20:51:46 UTC 2021', 'x86_64', 'x86_64')
+
+
+********** splunkd binary format **********
+
+('64bit', '')
+
+********** Linux distribution info **********
+
+running: lsb_release -a
+[Errno 2] No such file or directory: 'lsb_release': 'lsb_release'
+
+********** Installed File Correctness (splunk validate files)  **********
+
+running: /opt/splunk/bin/splunk validate files
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+Could not open '/opt/splunk/etc/deployment-apps/README': No such file or directory
+
+Command returned NOT-OK code.
+
+********** Network Config  **********
+
+eth0      Link encap:Ethernet  HWaddr 06:E9:6E:F2:54:6B  
+          inet addr:10.0.3.7  Bcast:10.0.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::4e9:6eff:fef2:546b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:1313436 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1372248 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:994450253 (948.3 MiB)  TX bytes:4056598005 (3.7 GiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2588079 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2588079 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:1169892553 (1.0 GiB)  TX bytes:1169892553 (1.0 GiB)
+
+********** Process Listing (ps)  **********
+
+running: ps aux
+501      22277  5.9  3.8 477588 147444 ?       Sl   20:48   0:24 splunkd -p 8089 restart
+501      22281  0.0  0.4 132172 15748 ?        Ss   20:48   0:00 [splunkd pid=22277] splunkd -p 8089 restart [process-runner]
+501      22465  0.7  3.0 630980 117492 ?       SLl  20:48   0:03 mongod --dbpath=/opt/splunk/var/lib/splunk/kvstore/mongo --storageEngine=wiredTiger --wiredTigerCacheSizeGB=0.450000 --port=8191 --timeStampFormat=iso8601-utc --oplogSize=200 --keyFile=/opt/splunk/var/lib/splunk/kvstore/mongo/splunk.key --setParameter=enableLocalhostAuthBypass=0 --setParameter=oplogFetcherSteadyStateMaxFetcherRestarts=0 --replSet=567E8353-EE88-4727-B620-DAEF32CFEF2B --bind_ip=0.0.0.0 --sslMode=requireSSL --sslAllowInvalidHostnames --sslPEMKeyFile=/opt/splunk/etc/auth/server.pem --sslPEMKeyPassword=xxxxxxxx --tlsDisabledProtocols=noTLS1_0,noTLS1_1 --sslCipherConfig=ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256:ECDH-ECDSA-AES256-GCM-SHA384:ECDH-ECDSA-AES128-GCM-SHA256:ECDH-ECDSA-AES128-SHA256:AES256-GCM-SHA384:AES128-GCM-SHA256:AES128-SHA256 --nounixsocket --noscripting
+501      22520  0.3  1.8 222332 70336 ?        Sl   20:48   0:01 /opt/splunk/bin/splunkd instrument-resource-usage -p 8089 --with-kvstore
+501      22591  0.2  1.5 1596188 57544 ?       Sl   20:48   0:01 /opt/splunk/bin/python3.7 -O /opt/splunk/lib/python3.7/site-packages/splunk/appserver/mrsparkle/root.py --proxied=127.0.0.1,8065,8000
+501      25851  4.0  0.8 229792 32584 pts/0    Sl+  20:55   0:00 /opt/splunk/bin/python3.7 -u /opt/splunk/lib/python3.7/site-packages/splunk/clilib/cli.py diag
+
+********** Network Status **********
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address               Foreign Address             State       PID/Program name   
+tcp        0      0 0.0.0.0:35593               0.0.0.0:*                   LISTEN      -                   
+tcp        0      0 0.0.0.0:111                 0.0.0.0:*                   LISTEN      -                   
+tcp        0      0 0.0.0.0:22                  0.0.0.0:*                   LISTEN      -                   
+tcp        0      0 0.0.0.0:8089                0.0.0.0:*                   LISTEN      22277/splunkd       
+tcp        0      0 127.0.0.1:25                0.0.0.0:*                   LISTEN      -                   
+tcp        0      0 0.0.0.0:8191                0.0.0.0:*                   LISTEN      22465/mongod        
+tcp        0      0 0.0.0.0:8000                0.0.0.0:*                   LISTEN      22277/splunkd       
+tcp        0      0 127.0.0.1:8065              0.0.0.0:*                   LISTEN      22591/python3.7     
+tcp        0      0 127.0.0.1:40900             127.0.0.1:8191              ESTABLISHED 22520/splunkd       
+tcp        0      0 127.0.0.1:40898             127.0.0.1:8191              ESTABLISHED 22520/splunkd       
+tcp        0      0 127.0.0.1:40890             127.0.0.1:8191              ESTABLISHED 22520/splunkd       
+tcp        0      0 10.0.3.7:52480              108.157.254.65:443          TIME_WAIT   -                   
+tcp        0      0 127.0.0.1:40892             127.0.0.1:8191              ESTABLISHED 22520/splunkd       
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40988             ESTABLISHED 22465/mongod        
+tcp        0      0 10.0.3.7:48158              10.0.3.4:9997               ESTABLISHED 22277/splunkd       
+tcp        0      0 10.0.3.7:53796              108.157.254.88:443          TIME_WAIT   -                   
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40966             ESTABLISHED 22465/mongod        
+tcp        0      0 127.0.0.1:40966             127.0.0.1:8191              ESTABLISHED 22277/splunkd       
+tcp        0      0 10.0.3.7:46773              54.183.142.105:443          ESTABLISHED -                   
+tcp        0      0 10.0.3.7:52562              108.157.254.65:443          TIME_WAIT   -                   
+tcp        0      0 10.0.3.7:53074              10.0.100.1:8514             ESTABLISHED -                   
+tcp        0      0 10.0.3.7:53156              10.0.3.3:9997               TIME_WAIT   -                   
+tcp        0      0 127.0.0.1:40964             127.0.0.1:8191              ESTABLISHED 22277/splunkd       
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40896             ESTABLISHED 22465/mongod        
+tcp        0      0 127.0.0.1:41028             127.0.0.1:8191              ESTABLISHED 22277/splunkd       
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40986             ESTABLISHED 22465/mongod        
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40890             ESTABLISHED 22465/mongod        
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40892             ESTABLISHED 22465/mongod        
+tcp        0    384 10.0.3.7:22                 34.205.77.73:45650          ESTABLISHED -                   
+tcp        0      0 127.0.0.1:40896             127.0.0.1:8191              ESTABLISHED 22520/splunkd       
+tcp        0      0 127.0.0.1:40988             127.0.0.1:8191              ESTABLISHED 22277/splunkd       
+tcp        0      0 127.0.0.1:8191              127.0.0.1:41028             ESTABLISHED 22465/mongod        
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40964             ESTABLISHED 22465/mongod        
+tcp        0      0 10.0.3.7:50998              108.157.254.11:443          TIME_WAIT   -                   
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40900             ESTABLISHED 22465/mongod        
+tcp        0      0 127.0.0.1:40894             127.0.0.1:8191              ESTABLISHED 22520/splunkd       
+tcp        0      0 10.0.3.7:8089               10.0.3.3:58682              ESTABLISHED 22277/splunkd       
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40894             ESTABLISHED 22465/mongod        
+tcp        0      0 127.0.0.1:40986             127.0.0.1:8191              ESTABLISHED 22277/splunkd       
+tcp        0      0 10.0.3.7:38074              10.0.3.8:8089               ESTABLISHED 22277/splunkd       
+tcp        0      0 10.0.3.7:53108              10.0.3.3:9997               TIME_WAIT   -                   
+tcp        0      0 127.0.0.1:8191              127.0.0.1:40898             ESTABLISHED 22465/mongod        
+tcp        0      0 :::111                      :::*                        LISTEN      -                   
+tcp        0      0 :::40083                    :::*                        LISTEN      -                   
+tcp        0      0 :::22                       :::*                        LISTEN      -                   
+udp        0      0 0.0.0.0:59258               0.0.0.0:*                               -                   
+udp        0      0 0.0.0.0:68                  0.0.0.0:*                               -                   
+udp        0      0 0.0.0.0:111                 0.0.0.0:*                               -                   
+udp        0      0 10.0.3.7:123                0.0.0.0:*                               -                   
+udp        0      0 127.0.0.1:123               0.0.0.0:*                               -                   
+udp        0      0 0.0.0.0:123                 0.0.0.0:*                               -                   
+udp        0      0 0.0.0.0:726                 0.0.0.0:*                               -                   
+udp        0      0 127.0.0.1:755               0.0.0.0:*                               -                   
+udp        0      0 :::111                      :::*                                    -                   
+udp        0      0 :::57596                    :::*                                    -                   
+udp        0      0 fe80::4e9:6eff:fef2:546b:546 :::*                                    -                   
+udp        0      0 :::726                      :::*                                    -                   
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node PID/Program name    Path
+unix  2      [ ACC ]     STREAM     LISTENING     10221  -                   /var/run/irqbalance1795.sock
+unix  2      [ ACC ]     STREAM     LISTENING     14897  -                   /var/lib/amazon/ssm/ipc/health
+unix  2      [ ACC ]     STREAM     LISTENING     11360  -                   /var/run/rpcbind.sock
+unix  2      [ ACC ]     STREAM     LISTENING     10935  -                   /var/run/dbus/system_bus_socket
+unix  8      [ ]         DGRAM                    1048927 -                   /dev/log
+unix  2      [ ACC ]     STREAM     LISTENING     1619   -                   @/com/ubuntu/upstart
+unix  2      [ ACC ]     SEQPACKET  LISTENING     9600   -                   @/org/kernel/udev/udevd
+unix  2      [ ACC ]     STREAM     LISTENING     11006  -                   /var/run/acpid.socket
+unix  2      [ ACC ]     STREAM     LISTENING     14898  -                   /var/lib/amazon/ssm/ipc/termination
+unix  2      [ ACC ]     STREAM     LISTENING     1992   -                   /var/run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     32858  -                   /tmp/nmh_msg_bus.sock
+unix  2      [ ACC ]     STREAM     LISTENING     1986   -                   /var/run/lvm/lvmetad.socket
+unix  3      [ ]         STREAM     CONNECTED     5767308 22277/splunkd       
+unix  2      [ ]         DGRAM                    1075702 -                   
+unix  3      [ ]         DGRAM                    1667   -                   
+unix  3      [ ]         STREAM     CONNECTED     5767307 22277/splunkd       
+unix  3      [ ]         DGRAM                    1668   -                   
+unix  2      [ ]         DGRAM                    1052462 -                   
+unix  3      [ ]         DGRAM                    5765721 22281/[splunkd pid= 
+unix  2      [ ]         DGRAM                    10829  -                   
+unix  3      [ ]         DGRAM                    5765720 22277/splunkd       
+unix  2      [ ]         DGRAM                    22240  -                   
+unix  3      [ ]         STREAM     CONNECTED     10937  -                   
+unix  3      [ ]         STREAM     CONNECTED     5765718 22277/splunkd       
+unix  3      [ ]         STREAM     CONNECTED     10943  -                   
+unix  3      [ ]         STREAM     CONNECTED     10944  -                   /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    22248  -                   
+unix  3      [ ]         STREAM     CONNECTED     10938  -                   
+unix  3      [ ]         STREAM     CONNECTED     21417  -                   
+unix  2      [ ]         DGRAM                    22244  -                   
+unix  2      [ ]         DGRAM                    11002  -                   
+unix  3      [ ]         STREAM     CONNECTED     21418  -                   
+unix  3      [ ]         STREAM     CONNECTED     5765719 22281/[splunkd pid= 
+unix  3      [ ]         STREAM     CONNECTED     5765107 22277/splunkd       
+unix  3      [ ]         STREAM     CONNECTED     4916089 -                   
+unix  3      [ ]         STREAM     CONNECTED     5765108 22277/splunkd       
+unix  2      [ ]         DGRAM                    4916085 -                   
+unix  3      [ ]         STREAM     CONNECTED     4916090 -                   
+unix  2      [ ]         DGRAM                    1075567 -                   
+unix  3      [ ]         STREAM     CONNECTED     10153  -                   
+unix  3      [ ]         STREAM     CONNECTED     10154  -                   
+unix  2      [ ]         DGRAM                    1052149 -                   
+unix  2      [ ]         DGRAM                    1349984 -                   
+
+
+********** System Ulimit **********
+
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 14855
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 14855
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+
+********** System Memory **********
+
+             total       used       free     shared    buffers     cached
+Mem:       3824380    3291132     533248         68     101676    2600100
+-/+ buffers/cache:     589356    3235024
+Swap:            0          0          0
+
+
+********** DF output **********
+
+Filesystem     1K-blocks    Used Available Use% Mounted on
+devtmpfs         1901484      68   1901416   1% /dev
+tmpfs            1912188       0   1912188   0% /dev/shm
+/dev/nvme0n1p1  20509288 5360784  15048256  27% /
+
+also df -i
+Filesystem      Inodes IUsed   IFree IUse% Mounted on
+devtmpfs        475371   459  474912    1% /dev
+tmpfs           478047     2  478045    1% /dev/shm
+/dev/nvme0n1p1 1310720 74095 1236625    6% /
+
+
+********** mount output **********
+
+proc on /proc type proc (rw,relatime)
+sysfs on /sys type sysfs (rw,relatime)
+devtmpfs on /dev type devtmpfs (rw,relatime,size=1901484k,nr_inodes=475371,mode=755)
+devpts on /dev/pts type devpts (rw,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /dev/shm type tmpfs (rw,relatime)
+/dev/nvme0n1p1 on / type ext4 (rw,noatime,data=ordered)
+devpts on /dev/pts type devpts (rw,relatime,gid=5,mode=620,ptmxmode=000)
+none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)
+
+
+********** mdstat output **********
+
+Personalities : 
+unused devices: <none>
+
+
+********** cpu info **********
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz
+stepping	: 7
+microcode	: 0x5003605
+cpu MHz		: 3614.323
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5999.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz
+stepping	: 7
+microcode	: 0x5003605
+cpu MHz		: 3612.327
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5999.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+
+
+********** auth dir listing **********
+
+ls -alR "/opt/splunk/etc/auth"
+/opt/splunk/etc/auth:
+total 84
+drwx------  8 archStudent archStudent  4096 Feb  6 03:04 .
+drwxr-xr-x 17 archStudent archStudent  4096 Feb  6 20:55 ..
+-rw-r--r--  1 archStudent archStudent 14445 Nov 14 00:02 appsCA.pem
+drwx--x---  2 archStudent archStudent  4096 Feb  6 03:04 audit
+-rw-------  1 archStudent archStudent  1265 Feb  6 03:04 cacert.pem
+-rw-r--r--  1 archStudent archStudent  1265 Nov 14 00:02 cacert.pem.default
+-rw-------  1 archStudent archStudent  3099 Feb  6 03:04 ca.pem
+-rw-r--r--  1 archStudent archStudent  3099 Nov 14 00:02 ca.pem.default
+-rw-------  1 archStudent archStudent    17 Feb  6 03:04 ca.srl
+-rw-r--r--  1 archStudent archStudent   749 Nov 14 00:02 cloudCA.pem
+drwxr-xr-x  2 archStudent archStudent  4096 Nov 14 00:30 crl
+drwx--x---  2 archStudent archStudent  4096 Feb  6 03:04 distServerKeys
+drwxr-xr-x  2 archStudent archStudent  4096 Nov 14 00:30 prev_release
+drwxr-xr-x  2 archStudent archStudent  4096 Nov 14 00:30 scripts
+-rw-------  1 archStudent archStudent  4267 Feb  6 03:04 server.pem
+-r--------  1 archStudent archStudent   254 Feb  6 03:04 splunk.secret
+drwxr-xr-x  2 archStudent archStudent  4096 Feb  6 03:04 splunkweb
+
+/opt/splunk/etc/auth/audit:
+total 16
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 8 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent 1675 Feb  6 03:04 private.pem
+-rw------- 1 archStudent archStudent  451 Feb  6 03:04 public.pem
+
+/opt/splunk/etc/auth/crl:
+total 12
+drwxr-xr-x 2 archStudent archStudent 4096 Nov 14 00:30 .
+drwx------ 8 archStudent archStudent 4096 Feb  6 03:04 ..
+-r--r--r-- 1 archStudent archStudent  597 Nov 14 00:02 README
+
+/opt/splunk/etc/auth/distServerKeys:
+total 16
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 8 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent 1675 Feb  6 03:04 private.pem
+-rw------- 1 archStudent archStudent  451 Feb  6 03:04 trusted.pem
+
+/opt/splunk/etc/auth/prev_release:
+total 16
+drwxr-xr-x 2 archStudent archStudent 4096 Nov 14 00:30 .
+drwx------ 8 archStudent archStudent 4096 Feb  6 03:04 ..
+-r--r--r-- 1 archStudent archStudent  912 Nov 14 00:02 cacert.pem.default
+-r--r--r-- 1 archStudent archStudent 1828 Nov 14 00:02 ca.pem.default
+
+/opt/splunk/etc/auth/scripts:
+total 48
+drwxr-xr-x 2 archStudent archStudent  4096 Nov 14 00:30 .
+drwx------ 8 archStudent archStudent  4096 Feb  6 03:04 ..
+-r--r--r-- 1 archStudent archStudent  2063 Nov 14 00:02 commonAuth.py
+-r--r--r-- 1 archStudent archStudent 19145 Nov 14 00:02 SAML_script_azure.py
+-r--r--r-- 1 archStudent archStudent 13862 Nov 14 00:02 SAML_script_okta.py
+
+/opt/splunk/etc/auth/splunkweb:
+total 20
+drwxr-xr-x 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 8 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent 1151 Feb  6 03:04 cert.pem
+-rw------- 1 archStudent archStudent 1679 Feb  6 03:04 privkey.pem
+-r--r--r-- 1 archStudent archStudent  254 Nov 14 00:02 README
+
+
+********** sinkhole dir listing **********
+
+ls -alR "/opt/splunk/var/spool/splunk"
+/opt/splunk/var/spool/splunk:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:55 .
+drwx--x--- 4 archStudent archStudent 4096 Feb  6 03:04 ..
+
+
+********** profiler files dir listing **********
+
+
+********** search peer bundles dir listing **********
+
+
+********** conf replication summary dir listing **********
+
+
+********** suppression files dir listing **********
+
+ls -alR "/opt/splunk/var/run/splunk/scheduler/suppression"
+/opt/splunk/var/run/splunk/scheduler/suppression:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:05 .
+drwx------ 4 archStudent archStudent 4096 Feb  6 03:05 ..
+
+
+********** kvstore **********
+
+ls -alR "/opt/splunk/var/lib/splunk/kvstore"
+/opt/splunk/var/lib/splunk/kvstore:
+total 32
+drwx------  4 archStudent archStudent  4096 Feb  6 07:24 .
+drwx------ 18 archStudent archStudent  4096 Feb  6 20:48 ..
+drwx------  3 archStudent archStudent  4096 Feb  6 07:24 dumps
+drwx------  4 archStudent archStudent 20480 Feb  6 20:54 mongo
+
+/opt/splunk/var/lib/splunk/kvstore/dumps:
+total 12
+drwx------ 3 archStudent archStudent 4096 Feb  6 07:24 .
+drwx------ 4 archStudent archStudent 4096 Feb  6 07:24 ..
+drwx------ 2 archStudent archStudent 4096 Feb  6 07:24 tmp
+
+/opt/splunk/var/lib/splunk/kvstore/dumps/tmp:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 07:24 .
+drwx------ 3 archStudent archStudent 4096 Feb  6 07:24 ..
+
+/opt/splunk/var/lib/splunk/kvstore/mongo:
+total 2700
+drwx------ 4 archStudent archStudent  20480 Feb  6 20:54 .
+drwx------ 4 archStudent archStudent   4096 Feb  6 07:24 ..
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:54 collection-0--2333502585583959451.wt
+-rw------- 1 archStudent archStudent  40960 Feb  6 20:49 collection-0--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-101--5499926101785038259.wt
+-rw------- 1 archStudent archStudent 249856 Feb  6 20:54 collection-10--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-106--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-111--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:48 collection-11--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-116--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-121--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-126--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-131--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  20480 Feb  6 20:48 collection-13--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-136--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-141--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  45056 Feb  6 20:48 collection-146--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-151--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-15--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-156--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-161--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-166--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-171--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 03:08 collection-17--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-176--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-181--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-186--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-191--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:48 collection-19--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-198--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-203--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-208--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-213--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-21--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-218--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-223--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-228--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-233--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-238--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-245--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-250--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 03:08 collection-2--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-259--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-26--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-272--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-277--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-282--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:49 collection-287--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-292--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-297--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-31--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-36--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-41--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  20480 Feb  6 20:48 collection-4--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-46--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-51--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-56--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-61--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:49 collection-6--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-66--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-71--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-76--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-81--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  20480 Feb  6 20:48 collection-8--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-86--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-91--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 collection-96--5499926101785038259.wt
+drwx------ 2 archStudent archStudent   4096 Feb  6 20:55 diagnostic.data
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-102--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-103--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-107--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-108--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-112--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-113--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-117--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-118--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-122--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:54 index-1--2333502585583959451.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-123--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 03:08 index-12--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-127--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-128--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-132--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-133--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-137--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-138--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-142--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-143--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  20480 Feb  6 20:48 index-14--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  20480 Feb  6 20:48 index-147--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  24576 Feb  6 20:48 index-148--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-152--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-153--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:49 index-1--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-157--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-158--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-162--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-163--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-16--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-167--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-168--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-172--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-173--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-177--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-178--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-182--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-183--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 03:08 index-18--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-187--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-188--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-192--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-193--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-196--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-199--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-200--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-204--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 03:08 index-20--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-205--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-209--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:49 index-210--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-214--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-215--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-219--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-220--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:54 index-2--2333502585583959451.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-224--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-22--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-225--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-229--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-230--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-234--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-23--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-235--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-239--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-240--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-243--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-246--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-247--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-251--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-252--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-255--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-257--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-260--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-261--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-264--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-266--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-268--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-270--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-273--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-274--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-27--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-278--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-279--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-283--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-284--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-28--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:48 index-288--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:48 index-289--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-293--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-294--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-298--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-299--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-32--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-33--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-3--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-37--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-38--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-42--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-43--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-47--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-48--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-52--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-53--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  20480 Feb  6 03:08 index-5--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-57--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-58--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-62--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-63--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-67--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   8192 Feb  6 20:48 index-68--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-72--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-73--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  20480 Feb  6 03:08 index-7--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-77--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-78--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-82--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-83--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-87--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-88--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-92--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-93--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  20480 Feb  6 20:48 index-9--5499926101785038259.wt
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 index-97--5499926101785038259.wt
+-rw------- 1 archStudent archStudent  12288 Feb  6 20:48 index-98--5499926101785038259.wt
+drwx------ 2 archStudent archStudent   4096 Feb  6 20:49 journal
+-rw------- 1 archStudent archStudent  53248 Feb  6 20:48 _mdb_catalog.wt
+-rw------- 1 archStudent archStudent      6 Feb  6 20:48 mongod.lock
+-rw------- 1 archStudent archStudent  36864 Feb  6 20:54 sizeStorer.wt
+-rw------- 1 archStudent archStudent     88 Feb  6 03:04 splunk.key
+-rw------- 1 archStudent archStudent    114 Feb  6 03:04 storage.bson
+-rw------- 1 archStudent archStudent     46 Feb  6 03:04 WiredTiger
+-rw------- 1 archStudent archStudent   4096 Feb  6 20:48 WiredTigerLAS.wt
+-rw------- 1 archStudent archStudent     21 Feb  6 03:04 WiredTiger.lock
+-rw------- 1 archStudent archStudent   1263 Feb  6 20:54 WiredTiger.turtle
+-rw------- 1 archStudent archStudent 610304 Feb  6 20:54 WiredTiger.wt
+
+/opt/splunk/var/lib/splunk/kvstore/mongo/diagnostic.data:
+total 7172
+drwx------ 2 archStudent archStudent    4096 Feb  6 20:55 .
+drwx------ 4 archStudent archStudent   20480 Feb  6 20:54 ..
+-rw------- 1 archStudent archStudent   83441 Feb  6 03:08 metrics.2024-02-06T03-04-59Z-00000
+-rw------- 1 archStudent archStudent 1122458 Feb  6 06:09 metrics.2024-02-06T03-08-51Z-00000
+-rw------- 1 archStudent archStudent  588290 Feb  6 07:36 metrics.2024-02-06T06-09-36Z-00000
+-rw------- 1 archStudent archStudent  342078 Feb  6 08:21 metrics.2024-02-06T07-36-47Z-00000
+-rw------- 1 archStudent archStudent   50959 Feb  6 08:23 metrics.2024-02-06T08-22-16Z-00000
+-rw------- 1 archStudent archStudent  239337 Feb  6 08:54 metrics.2024-02-06T08-23-31Z-00000
+-rw------- 1 archStudent archStudent  159978 Feb  6 09:13 metrics.2024-02-06T08-54-31Z-00000
+-rw------- 1 archStudent archStudent   58266 Feb  6 09:16 metrics.2024-02-06T09-13-48Z-00000
+-rw------- 1 archStudent archStudent  860080 Feb  6 11:31 metrics.2024-02-06T09-16-51Z-00000
+-rw------- 1 archStudent archStudent  532207 Feb  6 12:47 metrics.2024-02-06T11-32-03Z-00000
+-rw------- 1 archStudent archStudent 1049597 Feb  6 15:29 metrics.2024-02-06T12-48-21Z-00000
+-rw------- 1 archStudent archStudent 1663789 Feb  6 19:52 metrics.2024-02-06T15-29-34Z-00000
+-rw------- 1 archStudent archStudent  253710 Feb  6 20:27 metrics.2024-02-06T19-52-51Z-00000
+-rw------- 1 archStudent archStudent  174867 Feb  6 20:48 metrics.2024-02-06T20-27-22Z-00000
+-rw------- 1 archStudent archStudent   65840 Feb  6 20:53 metrics.2024-02-06T20-48-32Z-00000
+-rw------- 1 archStudent archStudent   21221 Feb  6 20:55 metrics.interim
+
+/opt/splunk/var/lib/splunk/kvstore/mongo/journal:
+total 307224
+drwx------ 2 archStudent archStudent      4096 Feb  6 20:49 .
+drwx------ 4 archStudent archStudent     20480 Feb  6 20:54 ..
+-rw------- 1 archStudent archStudent 104857600 Feb  6 20:55 WiredTigerLog.0000000015
+-rw------- 1 archStudent archStudent 104857600 Feb  6 20:48 WiredTigerPreplog.0000000001
+-rw------- 1 archStudent archStudent 104857600 Feb  6 20:48 WiredTigerPreplog.0000000002
+
+
+********** find **********
+index_files diag option set to 'light_listing', only showing contents of hot buckets.
+
+Index listing for index: _audit
+
+---for _audit, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/audit/db"
+total 40
+drwx------ 8 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  849 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 03:08 db_1707188913_1707188686_0
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 06:09 db_1707199757_1707188920_1
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 07:36 db_1707204984_1707199765_2
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:22 db_1707207716_1707204995_3
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:23 db_1707207786_1707207724_4
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for _audit, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/audit/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _audit, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/audit/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _audit, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/audit/datamodel_summary"
+/opt/splunk/var/lib/splunk/audit/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for _audit, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: _configtracker
+
+---for _configtracker, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_configtracker/db"
+total 40
+drwx------ 8 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  865 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 03:08 db_1707188903_1707188695_0
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 06:09 db_1707189636_1707189193_1
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 07:36 db_1707204900_1707204241_2
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:22 db_1707207561_1707207561_3
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:23 db_1707207776_1707207776_4
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for _configtracker, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_configtracker/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _configtracker, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_configtracker/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _configtracker, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/_configtracker/datamodel_summary"
+/opt/splunk/var/lib/splunk/_configtracker/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for _configtracker, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: _internal
+
+---for _internal, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_internaldb/db"
+total 40
+drwx------ 8 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  894 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 03:08 db_1707188915_1707188643_0
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 06:09 db_1707199756_1707188913_1
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 07:36 db_1707204987_1707199755_2
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:22 db_1707207716_1707204985_3
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:23 db_1707207790_1707207716_4
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for _internal, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_internaldb/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _internal, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_internaldb/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _internal, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/_internaldb/datamodel_summary"
+/opt/splunk/var/lib/splunk/_internaldb/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for _internal, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: _introspection
+
+---for _introspection, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_introspection/db"
+total 40
+drwx------ 8 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  916 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 03:08 db_1707188913_1707188694_0
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 06:09 db_1707199755_1707188927_1
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 07:36 db_1707204983_1707199772_2
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:22 db_1707207713_1707205002_3
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:23 db_1707207786_1707207731_4
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for _introspection, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_introspection/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _introspection, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_introspection/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _introspection, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/_introspection/datamodel_summary"
+/opt/splunk/var/lib/splunk/_introspection/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for _introspection, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: _metrics
+
+---for _metrics, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_metrics/db"
+total 120
+drwx------ 28 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------  6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw-------  1 archStudent archStudent 3479 Feb  6 20:48 .bucketManifest
+-rw-------  1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x---  3 archStudent archStudent 4096 Feb  6 03:08 db_1707188880_1707188694_2
+drwx--x---  3 archStudent archStudent 4096 Feb  6 03:08 db_1707188880_1707188725_4
+drwx--x---  3 archStudent archStudent 4096 Feb  6 03:08 db_1707188905_1707188694_0
+drwx--x---  3 archStudent archStudent 4096 Feb  6 03:08 db_1707188905_1707188694_1
+drwx--x---  3 archStudent archStudent 4096 Feb  6 03:08 db_1707188905_1707188725_3
+drwx--x---  3 archStudent archStudent 4096 Feb  6 06:09 db_1707199746_1707188915_5
+drwx--x---  3 archStudent archStudent 4096 Feb  6 06:09 db_1707199746_1707188915_8
+drwx--x---  3 archStudent archStudent 4096 Feb  6 06:09 db_1707199748_1707188915_6
+drwx--x---  3 archStudent archStudent 4096 Feb  6 06:09 db_1707199748_1707188915_7
+drwx--x---  3 archStudent archStudent 4096 Feb  6 06:09 db_1707199748_1707188915_9
+drwx--x---  3 archStudent archStudent 4096 Feb  6 07:36 db_1707204984_1707199772_10
+drwx--x---  3 archStudent archStudent 4096 Feb  6 07:36 db_1707204984_1707199772_11
+drwx--x---  3 archStudent archStudent 4096 Feb  6 07:36 db_1707204984_1707199772_12
+drwx--x---  3 archStudent archStudent 4096 Feb  6 07:36 db_1707204984_1707199772_13
+drwx--x---  3 archStudent archStudent 4096 Feb  6 07:36 db_1707204984_1707199772_14
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:22 db_1707207699_1707205002_15
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:22 db_1707207703_1707205002_18
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:22 db_1707207713_1707205002_16
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:22 db_1707207713_1707205002_17
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:22 db_1707207713_1707205033_19
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:23 db_1707207762_1707207731_20
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:23 db_1707207762_1707207731_23
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:23 db_1707207762_1707207762_24
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:23 db_1707207782_1707207731_21
+drwx--x---  3 archStudent archStudent 4096 Feb  6 08:23 db_1707207782_1707207731_22
+drwx--x---  2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for _metrics, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_metrics/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _metrics, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_metrics/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _metrics, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/_metrics/datamodel_summary"
+/opt/splunk/var/lib/splunk/_metrics/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for _metrics, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: _metrics_rollup
+
+---for _metrics_rollup, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_metrics_rollup/db"
+total 20
+drwx------ 3 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  195 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for _metrics_rollup, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_metrics_rollup/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _metrics_rollup, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_metrics_rollup/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _metrics_rollup, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/_metrics_rollup/datamodel_summary"
+/opt/splunk/var/lib/splunk/_metrics_rollup/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for _metrics_rollup, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: _telemetry
+
+---for _telemetry, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_telemetry/db"
+total 36
+drwx------ 7 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  701 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 06:09 db_1707192531_1707189529_0
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 07:36 db_1707203376_1707200374_1
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:22 db_1707205605_1707205605_2
+drwx--x--- 3 archStudent archStudent 4096 Feb  6 08:23 db_1707207787_1707207787_3
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for _telemetry, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_telemetry/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _telemetry, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/_telemetry/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for _telemetry, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/_telemetry/datamodel_summary"
+/opt/splunk/var/lib/splunk/_telemetry/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for _telemetry, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: _thefishbucket
+
+---for _thefishbucket, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/fishbucket/db"
+total 20
+drwx------ 3 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 9 archStudent archStudent 4096 Feb  6 20:54 ..
+-rw------- 1 archStudent archStudent  195 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for _thefishbucket, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/fishbucket/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 9 archStudent archStudent 4096 Feb  6 20:54 ..
+
+---for _thefishbucket, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/fishbucket/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 9 archStudent archStudent 4096 Feb  6 20:54 ..
+
+---for _thefishbucket, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/fishbucket/datamodel_summary"
+/opt/splunk/var/lib/splunk/fishbucket/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 9 archStudent archStudent 4096 Feb  6 20:54 ..
+---for _thefishbucket, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: history
+
+---for history, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/historydb/db"
+total 20
+drwx------ 3 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  195 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for history, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/historydb/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for history, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/historydb/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for history, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/historydb/datamodel_summary"
+/opt/splunk/var/lib/splunk/historydb/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for history, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: main
+
+---for main, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/defaultdb/db"
+total 20
+drwx------ 3 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  195 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for main, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/defaultdb/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for main, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/defaultdb/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for main, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/defaultdb/datamodel_summary"
+/opt/splunk/var/lib/splunk/defaultdb/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for main, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.
+
+Index listing for index: summary
+
+---for summary, listing homePath: location of hot & warm index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/summarydb/db"
+total 20
+drwx------ 3 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+-rw------- 1 archStudent archStudent  195 Feb  6 20:48 .bucketManifest
+-rw------- 1 archStudent archStudent   10 Feb  6 03:04 CreationTime
+drwx--x--- 2 archStudent archStudent 4096 Feb  6 03:04 GlobalMetaData
+
+---for summary, listing coldPath: location of cold index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/summarydb/colddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:48 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for summary, listing thawedPath: restore point for archived index buckets.
+
+ls -al "/opt/splunk/var/lib/splunk/summarydb/thaweddb"
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+
+---for summary, listing tstatsHomePath: datamodel acceleration storage (tstats).
+
+
+ls -alR "/opt/splunk/var/lib/splunk/summarydb/datamodel_summary"
+/opt/splunk/var/lib/splunk/summarydb/datamodel_summary:
+total 8
+drwx------ 2 archStudent archStudent 4096 Feb  6 03:04 .
+drwx------ 6 archStudent archStudent 4096 Feb  6 03:04 ..
+---for summary, listing summaryHomePath: report acceleration storage (TSUM).
+
+Report acceleration dir was not created.
+This is normal when none have run yet.

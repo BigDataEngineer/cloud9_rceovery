@@ -1,0 +1,4 @@
+02-06-2024 20:25:14.129 +0000 INFO  SearchTelemetry - set search status to success
+02-06-2024 20:25:14.133 +0000 INFO  SearchTelemetrySingleton - Writing search telemetry to search_telemetry.json
+02-06-2024 20:25:14.133 +0000 INFO  SearchTelemetrySingleton - Copying search_telemetry.json from dispatch dir to var/run/splunk/search_telemetry
+02-06-2024 20:25:14.134 +0000 INFO  SearchTelemetrySingleton - Done copying search_telemetry.json to /opt/splunk/var/run/splunk/search_telemetry/9fc7323052041a04_1707251113.23_search_telemetry.json

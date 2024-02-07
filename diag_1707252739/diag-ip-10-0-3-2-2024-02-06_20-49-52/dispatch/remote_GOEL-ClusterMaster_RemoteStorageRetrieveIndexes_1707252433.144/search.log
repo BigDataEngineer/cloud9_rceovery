@@ -1,0 +1,46 @@
+02-06-2024 20:47:13.779 INFO  dispatchRunner [30550 MainThread] - Search process mode: preforked (reused process) (build b985591d12fd).
+02-06-2024 20:47:13.779 INFO  dispatchRunner [30550 MainThread] - Feature flag post-args={"v":1,"enabledFeatures":["stats:allow_stats_v2"],"disabledFeatures":["searchresults:srs2"]}
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Initializing feature flags from config. feature_seed=46947589
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:47:13.779 INFO  SearchFeatureFlags [30550 MainThread] - Overlaying SearchFeatureFlags from jsonNode={"v":1,"enabledFeatures":["stats:allow_stats_v2"],"disabledFeatures":["searchresults:srs2"]}
+02-06-2024 20:47:13.780 INFO  dispatchRunner [30550 MainThread] - registering build time modules, count=1
+02-06-2024 20:47:13.780 INFO  dispatchRunner [30550 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:47:13.780 INFO  BundlesSetup [30550 MainThread] - Setup stats for /opt/splunk/var/run/searchpeers/GOEL-ClusterMaster-1707215531: wallclock_elapsed_msec=15, cpu_time_used=0.0151279, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:47:13.787 INFO  UserManagerPro [30550 MainThread] - Load authentication: forcing roles="admin, power, splunk-system-role, user"
+02-06-2024 20:47:13.787 INFO  UserManager [491 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.787 INFO  UserManager [491 RunDispatch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.788 INFO  dispatchRunner [491 RunDispatch] - search context: user="splunk-system-user", app="search", bs-pathname="/opt/splunk/var/run/searchpeers/GOEL-ClusterMaster-1707215531"
+02-06-2024 20:47:13.788 INFO  SearchParser [491 RunDispatch] - PARSING: prerest  timeout=60 "services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled"
+02-06-2024 20:47:13.788 INFO  SearchParser [491 RunDispatch] - PARSING: prerest  timeout=60 "services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled"
+02-06-2024 20:47:13.788 INFO  DispatchCommandProcessor [491 RunDispatch] - Search requires the following indexes="[]"
+02-06-2024 20:47:13.788 INFO  IndexReaderIf [491 RunDispatch] - Loading Clustering bucket manifest file=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen120.csv.gz
+02-06-2024 20:47:13.788 INFO  DatabaseDirectoryManager [491 RunDispatch] - initDDMsFromSearchBucketManifest path=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen120.csv.gz, indexWhiteList_size=0
+02-06-2024 20:47:13.788 INFO  dispatchRunner [491 RunDispatch] - SearchPeerInitSearchMs=0
+02-06-2024 20:47:13.788 INFO  dispatchRunner [491 RunDispatch] - Serial search pipeline for streaming search being launched.
+02-06-2024 20:47:13.788 INFO  SearchParser [491 RunDispatch] - PARSING: prerest  timeout=60 "services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled"
+02-06-2024 20:47:13.788 INFO  SearchOperator:rest [491 RunDispatch] - built uri=services/data/indexes?count=0&datatype=all&f=title&f=frozenTimePeriodInSecs&f=maxGlobalRawDataSizeMB&f=maxGlobalDataSizeMB&f=remotePath&f=disabled, server=https://127.0.0.1:8089
+02-06-2024 20:47:13.788 INFO  SearchPipelineExecutor [491 RunDispatch] - Number of StreamSearch pipelines launched=1
+02-06-2024 20:47:13.788 INFO  SearchPipelineExecutor [491 RunDispatch] - Starting to transmit serialized search results.
+02-06-2024 20:47:13.788 INFO  SearchPipelineExecutor [494 StreamSearch] - StreamSearch pipeline=0 is started in its own thread
+02-06-2024 20:47:13.788 INFO  UserManager [494 StreamSearch] - Setting user context: splunk-system-user
+02-06-2024 20:47:13.788 INFO  UserManager [494 StreamSearch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:47:13.788 INFO  SearchOperator:rest [494 StreamSearch] - in RestProcessor::execute
+02-06-2024 20:47:13.788 INFO  SearchPipelineExecutor [495 NormSerializeExecutorThread] - NormSerializeExecutorThread pipeline=0 is started in its own thread.
+02-06-2024 20:47:13.796 INFO  SearchPipelineExecutor [494 StreamSearch] - Finished streaming: results.count=15
+02-06-2024 20:47:13.796 INFO  UserManager [494 StreamSearch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.796 INFO  SearchPipelineExecutor [494 StreamSearch] - StreamSearch pipleine=0 is finished.
+02-06-2024 20:47:13.797 INFO  SearchPipelineExecutor [495 NormSerializeExecutorThread] - NormSerializeExecutorThread pipeline=0 is finished.
+02-06-2024 20:47:13.797 INFO  SearchPipelineExecutor [491 RunDispatch] - Done transmitting serialized search results, total bytes transmitted 8378.
+02-06-2024 20:47:13.797 INFO  dispatchRunner [491 RunDispatch] - Done with streaming search.
+02-06-2024 20:47:13.797 INFO  SearchPipelineExecutor [491 RunDispatch] - Streamed Search Index Orchestrator has been shutdown.
+02-06-2024 20:47:13.797 INFO  UserManager [491 RunDispatch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:47:13.797 INFO  LookupDataProvider [491 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:47:13.798 INFO  dispatchRunner [30550 MainThread] - RunDispatch is done: sid=remote_GOEL-ClusterMaster_RemoteStorageRetrieveIndexes_1707252433.144, exit=0

@@ -1,0 +1,14 @@
+ls -alR "/opt/splunk/var/run/splunk/dispatch/remote_GOEL-ClusterMaster_RemoteStorageRetrieveIndexes_1707252158.139"
+/opt/splunk/var/run/splunk/dispatch/remote_GOEL-ClusterMaster_RemoteStorageRetrieveIndexes_1707252158.139:
+total 60
+drwx------  2 archStudent archStudent  4096 Feb  6 20:42 .
+drwx--x--x 19 archStudent archStudent  4096 Feb  6 20:50 ..
+-rw-------  1 archStudent archStudent   381 Feb  6 20:42 args.txt
+-rw-------  1 archStudent archStudent  5155 Feb  6 20:42 info.csv
+-rw-------  1 archStudent archStudent     2 Feb  6 20:42 pipeline_sets
+-rw-------  1 archStudent archStudent   791 Feb  6 20:42 remote_metrics.json
+-rw-------  1 archStudent archStudent     8 Feb  6 20:42 remote_status.csv
+-rw-------  1 archStudent archStudent 14703 Feb  6 20:42 search.log
+-rw-------  1 archStudent archStudent  1610 Feb  6 20:42 search_telemetry.json
+-rw-------  1 archStudent archStudent   752 Feb  6 20:42 search_telemetry.log
+-rw-------  1 archStudent archStudent   255 Feb  6 20:42 watchdog.log

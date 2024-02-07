@@ -1,0 +1,10 @@
+--id=admin__admin__search__RMD5b6d4a6d66ae75c58_at_1707251069_1
+--maxbuckets=0
+--ttl=600
+--maxout=500000
+--maxtime=8640000
+--lookups=1
+--reduce_freq=10
+--user=admin
+--pro
+--roles=admin:can_delete:power:user

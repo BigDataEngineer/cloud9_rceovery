@@ -1,0 +1,26 @@
+4.1.2 2024-02-06 07:00:01,331 INFO 139769528444736 - Could not find synced splunkbase apps so using the constant file
+4.1.2 2024-02-06 07:00:01,332 INFO 139769528444736 - splunkbase_path- /opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/splunkbaseapps.csv
+4.1.2 2024-02-06 07:00:01,358 INFO 139769528444736 - Starting to get apps
+4.1.2 2024-02-06 07:00:02,344 ERROR 139769528444736 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/jura_remote_latest_report.py", line 229, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "/opt/splunk/lib/python3.7/site-packages/splunk/rest/__init__.py", line 661, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+4.1.2 2024-02-06 07:00:02,713 INFO 139769528444736 - merged_file_path = /opt/splunk/etc/apps/python_upgrade_readiness_app/local/jquery_merged/merged_report.json
+4.1.2 2024-02-06 07:00:02,713 INFO 139769528444736 - Writing local report as merged report could not be generated.
+4.1.2 2024-02-06 07:00:02,713 INFO 139769528444736 - splunk-system-user file does not exists.
+4.1.2 2024-02-06 19:00:01,334 INFO 140569553393472 - Could not find synced splunkbase apps so using the constant file
+4.1.2 2024-02-06 19:00:01,335 INFO 140569553393472 - splunkbase_path- /opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/splunkbaseapps.csv
+4.1.2 2024-02-06 19:00:01,362 INFO 140569553393472 - Starting to get apps
+4.1.2 2024-02-06 19:00:02,463 ERROR 140569553393472 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/jura_remote_latest_report.py", line 229, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "/opt/splunk/lib/python3.7/site-packages/splunk/rest/__init__.py", line 661, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/pura_app_list?type=deployment
+4.1.2 2024-02-06 19:00:02,688 INFO 140569553393472 - merged_file_path = /opt/splunk/etc/apps/python_upgrade_readiness_app/local/jquery_merged/merged_report.json
+4.1.2 2024-02-06 19:00:02,688 INFO 140569553393472 - Writing local report as merged report could not be generated.
+4.1.2 2024-02-06 19:00:02,688 INFO 140569553393472 - splunk-system-user file does not exists.

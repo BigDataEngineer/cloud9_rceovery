@@ -1,0 +1,76 @@
+splunkd is not running. [FAILED]
+Warning: Attempting to revert the SPLUNK_HOME ownership
+Warning: Executing "chown -R archStudent:archStudent /opt/splunkforwarder"
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunkforwarder/splunkforwarder-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+ [  OK  ]
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+Warning: Attempting to revert the SPLUNK_HOME ownership
+Warning: Executing "chown -R archStudent:archStudent /opt/splunkforwarder"
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunkforwarder/splunkforwarder-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+ [  OK  ]
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+Warning: Attempting to revert the SPLUNK_HOME ownership
+Warning: Executing "chown -R archStudent:archStudent /opt/splunkforwarder"
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunkforwarder/splunkforwarder-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+ [  OK  ]
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+Warning: Attempting to revert the SPLUNK_HOME ownership
+Warning: Executing "chown -R archStudent:archStudent /opt/splunkforwarder"
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunkforwarder/splunkforwarder-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+ [  OK  ]
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done

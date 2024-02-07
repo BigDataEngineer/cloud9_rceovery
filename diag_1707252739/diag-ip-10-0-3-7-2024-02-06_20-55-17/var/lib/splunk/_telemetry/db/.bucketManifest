@@ -1,0 +1,5 @@
+id,path,"raw_size","event_count","host_count","source_count","sourcetype_count","size_on_disk",modtime,"frozen_in_cluster","origin_site","tsidx_minified","journal_size","merge_source",createdate
+"_telemetry~3~567E8353-EE88-4727-B620-DAEF32CFEF2B","db_1707207787_1707207787_3",79,1,1,1,1,45056,1707207811,0,"",0,212,"",""
+"_telemetry~2~567E8353-EE88-4727-B620-DAEF32CFEF2B","db_1707205605_1707205605_2",79,1,1,1,1,45056,1707207738,0,"",0,214,"",""
+"_telemetry~1~567E8353-EE88-4727-B620-DAEF32CFEF2B","db_1707203376_1707200374_1",158,2,1,1,1,45056,1707205010,0,"",0,274,"",""
+"_telemetry~0~567E8353-EE88-4727-B620-DAEF32CFEF2B","db_1707192531_1707189529_0",158,2,1,1,1,45056,1707199779,0,"",0,275,"",""

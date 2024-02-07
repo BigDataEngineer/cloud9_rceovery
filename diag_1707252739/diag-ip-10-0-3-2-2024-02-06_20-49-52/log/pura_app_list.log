@@ -1,0 +1,9 @@
+4.1.2 2024-02-06 07:00:01,712 INFO 140567155328832 - Handling a request
+4.1.2 2024-02-06 07:00:01,713 INFO 140567155328832 - Executing function, name=get_app_list
+4.1.2 2024-02-06 07:00:01,742 ERROR 140567155328832 - No apps found for user: splunk-system-user
+4.1.2 2024-02-06 16:00:02,386 INFO 139860146341696 - Handling a request
+4.1.2 2024-02-06 16:00:02,387 INFO 139860146341696 - Executing function, name=get_app_list
+4.1.2 2024-02-06 16:00:02,410 ERROR 139860146341696 - No apps found for user: splunk-system-user
+4.1.2 2024-02-06 19:00:01,441 INFO 140149652854592 - Handling a request
+4.1.2 2024-02-06 19:00:01,458 INFO 140149652854592 - Executing function, name=get_app_list
+4.1.2 2024-02-06 19:00:01,530 ERROR 140149652854592 - No apps found for user: splunk-system-user

@@ -1,0 +1,21 @@
+ls -alR "/opt/splunk/var/run/splunk/dispatch/remote_GOEL-SearchHead_1707252223.41"
+/opt/splunk/var/run/splunk/dispatch/remote_GOEL-SearchHead_1707252223.41:
+total 72
+drwx------  3 archStudent archStudent  4096 Feb  6 20:43 .
+drwx--x--x 26 archStudent archStudent  4096 Feb  6 20:50 ..
+-rw-------  1 archStudent archStudent   327 Feb  6 20:43 args.txt
+-rw-------  1 archStudent archStudent  6048 Feb  6 20:43 info.csv
+-rw-------  1 archStudent archStudent     2 Feb  6 20:43 pipeline_sets
+drwx------  2 archStudent archStudent  4096 Feb  6 20:43 remote_events
+-rw-------  1 archStudent archStudent   803 Feb  6 20:43 remote_metrics.json
+-rw-------  1 archStudent archStudent     8 Feb  6 20:43 remote_status.csv
+-rw-------  1 archStudent archStudent 23889 Feb  6 20:43 search.log
+-rw-------  1 archStudent archStudent  3141 Feb  6 20:43 search_telemetry.json
+-rw-------  1 archStudent archStudent   719 Feb  6 20:43 search_telemetry.log
+-rw-------  1 archStudent archStudent   255 Feb  6 20:43 watchdog.log
+
+/opt/splunk/var/run/splunk/dispatch/remote_GOEL-SearchHead_1707252223.41/remote_events:
+total 16
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:43 .
+drwx------ 3 archStudent archStudent 4096 Feb  6 20:43 ..
+-rw------- 1 archStudent archStudent 4465 Feb  6 20:43 events_0_73.srs.zst

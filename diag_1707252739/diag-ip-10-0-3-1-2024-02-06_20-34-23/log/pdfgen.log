@@ -1,0 +1,35 @@
+2024-02-06 20:27:11,857 +0000 INFO	pdfgen_endpoint:575 - splunkdConnectionTimeout=30
+2024-02-06 20:27:11,882 +0000 INFO	pdfgen_endpoint:499 - pdf time-of-report=1707251231.8824077
+2024-02-06 20:27:11,889 +0000 INFO	pdfgen_endpoint:480 - pdf-init locale=en_US
+2024-02-06 20:27:11,896 +0000 INFO	pdfgen_endpoint:485 - pdf-init server_zoneinfo=### SERIALIZED TIMEZONE FORMAT 1.0;C0;Y0 NW 55 54 43;$
+2024-02-06 20:27:12,542 +0000 INFO	pdfrenderer:432 - normalize page settings; settings={'pdf.footer_enabled': True, 'pdf.header_center': 'description', 'pdf.footer_left': 'logo', 'pdf.footer_center': 'title', 'pdf.footer_right': 'timestamp,pagination', 'pdf.html_image_rendering': True, 'pdf.header_enabled': True}
+2024-02-06 20:27:12,547 +0000 INFO	pdfrenderer:432 - normalize page settings; elements={'description': ['pdf.header_center'], 'logo': ['pdf.footer_left'], 'title': ['pdf.footer_center'], 'timestamp': ['pdf.footer_right'], 'pagination': ['pdf.footer_right']}
+2024-02-06 20:27:12,720 +0000 INFO	pdfgen_table:1045 - renderTable> headerRow: ['Time', 'Event']
+2024-02-06 20:27:12,817 +0000 INFO	pdfgen_table:1045 - renderTable> headerRow: ['user', 'count']
+2024-02-06 20:27:13,064 +0000 INFO	pdfgen_table:1045 - renderTable> headerRow: ['Time', 'Event']
+2024-02-06 20:27:13,241 +0000 INFO	pdfgen_table:1045 - renderTable> headerRow: ['status', 'host', 'failures']
+2024-02-06 20:27:13,564 +0000 INFO	pdfgen_endpoint:315 - Generated pdf, filename = infra-2024-02-06.pdf
+2024-02-06 20:27:52,471 +0000 INFO	pdfgen_endpoint:575 - splunkdConnectionTimeout=30
+2024-02-06 20:27:52,494 +0000 INFO	pdfgen_endpoint:499 - pdf time-of-report=1707251272.494613
+2024-02-06 20:27:52,502 +0000 INFO	pdfgen_endpoint:480 - pdf-init locale=en_US
+2024-02-06 20:27:52,509 +0000 INFO	pdfgen_endpoint:485 - pdf-init server_zoneinfo=### SERIALIZED TIMEZONE FORMAT 1.0;C0;Y0 NW 55 54 43;$
+2024-02-06 20:27:52,583 +0000 INFO	pdfrenderer:432 - normalize page settings; settings={'pdf.footer_enabled': True, 'pdf.header_center': 'description', 'pdf.footer_left': 'logo', 'pdf.footer_center': 'title', 'pdf.footer_right': 'timestamp,pagination', 'pdf.html_image_rendering': True, 'pdf.header_enabled': True}
+2024-02-06 20:27:52,583 +0000 INFO	pdfrenderer:432 - normalize page settings; elements={'description': ['pdf.header_center'], 'logo': ['pdf.footer_left'], 'title': ['pdf.footer_center'], 'timestamp': ['pdf.footer_right'], 'pagination': ['pdf.footer_right']}
+2024-02-06 20:27:52,619 +0000 INFO	pdfgen_table:1045 - renderTable> headerRow: ['user', 'src_ip', 'count']
+2024-02-06 20:27:52,634 +0000 INFO	pdfgen_endpoint:315 - Generated pdf, filename = soc_dashboard-2024-02-06.pdf
+2024-02-06 20:29:52,751 +0000 INFO	pdfgen_endpoint:575 - splunkdConnectionTimeout=30
+2024-02-06 20:29:52,774 +0000 INFO	pdfgen_endpoint:499 - pdf time-of-report=1707251392.7745495
+2024-02-06 20:29:52,781 +0000 INFO	pdfgen_endpoint:480 - pdf-init locale=en_US
+2024-02-06 20:29:52,788 +0000 INFO	pdfgen_endpoint:485 - pdf-init server_zoneinfo=### SERIALIZED TIMEZONE FORMAT 1.0;C0;Y0 NW 55 54 43;$
+2024-02-06 20:29:52,849 +0000 INFO	pdfrenderer:432 - normalize page settings; settings={'pdf.footer_enabled': True, 'pdf.header_center': 'description', 'pdf.footer_left': 'logo', 'pdf.footer_center': 'title', 'pdf.footer_right': 'timestamp,pagination', 'pdf.html_image_rendering': True, 'pdf.header_enabled': True}
+2024-02-06 20:29:52,849 +0000 INFO	pdfrenderer:432 - normalize page settings; elements={'description': ['pdf.header_center'], 'logo': ['pdf.footer_left'], 'title': ['pdf.footer_center'], 'timestamp': ['pdf.footer_right'], 'pagination': ['pdf.footer_right']}
+2024-02-06 20:29:52,884 +0000 INFO	pdfgen_table:1045 - renderTable> headerRow: ['AttackVessel', 'sum_Infiltrators']
+2024-02-06 20:29:52,896 +0000 INFO	pdfgen_endpoint:315 - Generated pdf, filename = game_activity_dashboard-2024-02-06.pdf
+2024-02-06 20:30:58,850 +0000 INFO	pdfgen_endpoint:575 - splunkdConnectionTimeout=30
+2024-02-06 20:30:58,874 +0000 INFO	pdfgen_endpoint:499 - pdf time-of-report=1707251458.8740196
+2024-02-06 20:30:58,881 +0000 INFO	pdfgen_endpoint:480 - pdf-init locale=en_US
+2024-02-06 20:30:58,888 +0000 INFO	pdfgen_endpoint:485 - pdf-init server_zoneinfo=### SERIALIZED TIMEZONE FORMAT 1.0;C0;Y0 NW 55 54 43;$
+2024-02-06 20:30:58,950 +0000 INFO	pdfrenderer:432 - normalize page settings; settings={'pdf.footer_enabled': True, 'pdf.header_center': 'description', 'pdf.footer_left': 'logo', 'pdf.footer_center': 'title', 'pdf.footer_right': 'timestamp,pagination', 'pdf.html_image_rendering': True, 'pdf.header_enabled': True}
+2024-02-06 20:30:58,950 +0000 INFO	pdfrenderer:432 - normalize page settings; elements={'description': ['pdf.header_center'], 'logo': ['pdf.footer_left'], 'title': ['pdf.footer_center'], 'timestamp': ['pdf.footer_right'], 'pagination': ['pdf.footer_right']}
+2024-02-06 20:30:58,985 +0000 INFO	pdfgen_table:1045 - renderTable> headerRow: ['AttackVessel', 'sum_Infiltrators']
+2024-02-06 20:30:58,998 +0000 INFO	pdfgen_endpoint:315 - Generated pdf, filename = game_activity_dashboard-2024-02-06.pdf

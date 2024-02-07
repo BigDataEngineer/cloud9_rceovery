@@ -1,0 +1,21 @@
+ls -al "/opt/splunk/var/run/splunk/dispatch"
+total 76
+drwx--x--x 19 archStudent archStudent 4096 Feb  6 20:33 .
+drwx--x--x 13 archStudent archStudent 4096 Feb  6 20:34 ..
+drwx------  7 archStudent archStudent 4096 Feb  6 20:23 1707251016.17
+drwx------  7 archStudent archStudent 4096 Feb  6 20:25 1707251102.21
+drwx------  7 archStudent archStudent 4096 Feb  6 20:25 1707251105.22
+drwx------  4 archStudent archStudent 4096 Feb  6 20:25 1707251113.23
+drwx------  4 archStudent archStudent 4096 Feb  6 20:25 1707251119.24
+drwx------  7 archStudent archStudent 4096 Feb  6 20:25 1707251134.25
+drwx------  7 archStudent archStudent 4096 Feb  6 20:25 1707251142.26
+drwx------  7 archStudent archStudent 4096 Feb  6 20:31 1707251512.29
+drwx------  3 archStudent archStudent 4096 Feb  6 20:24 admin__admin__search__RMD5b6d4a6d66ae75c58_at_1707251069_1
+drwx------  7 archStudent archStudent 4096 Feb  6 20:20 admin__admin__search__search1_1707250851.5
+drwx------  4 archStudent archStudent 4096 Feb  6 20:24 admin__admin__search__search1_1707251084.20
+drwx------  4 archStudent archStudent 4096 Feb  6 20:31 admin__admin__search__search1_1707251387.28
+drwx------  4 archStudent archStudent 4096 Feb  6 20:20 admin__admin__search__search2_1707250847.2
+drwx------  7 archStudent archStudent 4096 Feb  6 20:20 admin__admin__search__search3_1707250852.6
+drwx------  4 archStudent archStudent 4096 Feb  6 20:24 admin__admin__search__search4_1707251045.18
+drwx------  2 archStudent archStudent 4096 Feb  6 20:25 remote_GOEL-DS-LM-MC_1707251104.11
+drwx------  5 archStudent archStudent 4096 Feb  6 19:17 scheduler__nobody_c3BsdW5rX2FyY2hpdmVy__RMD5473cbac83d6c9db7_at_1707247020_11

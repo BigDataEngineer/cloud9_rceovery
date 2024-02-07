@@ -1,0 +1,39 @@
+02-06-2024 05:01:54.192 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 05:01:54.192 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=22033. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 05:28:34.767 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 05:28:46.321 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 05:28:46.321 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=3369. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 05:56:10.506 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 06:03:01.148 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 06:03:01.148 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=20409. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 06:32:40.310 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 06:32:51.408 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 06:32:51.408 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=2890. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 10:39:34.045 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 10:39:34.045 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=30388. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 10:40:08.360 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 10:40:17.673 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 10:40:17.673 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=31310. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 10:52:29.316 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 10:52:29.316 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=4137. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 11:01:09.951 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 11:01:19.286 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 11:01:19.286 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=9090. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 12:55:43.613 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 12:55:53.162 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 12:55:53.163 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=3130. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 13:02:14.939 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 13:02:25.128 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 13:02:25.129 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=7079. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 15:26:14.767 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 15:26:24.075 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 15:26:24.075 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=14956. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 19:50:22.009 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 19:50:33.104 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 19:50:33.104 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=19050. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 20:43:37.731 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 20:43:48.613 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 20:43:48.613 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=16331. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 20:49:53.919 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 20:50:03.345 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 20:50:03.345 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=20006. Threads monitoring is enabled with response timeout set to 8000 ms.

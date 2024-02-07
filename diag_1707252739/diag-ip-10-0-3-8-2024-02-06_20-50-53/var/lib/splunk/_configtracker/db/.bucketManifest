@@ -1,0 +1,4 @@
+id,path,"raw_size","event_count","host_count","source_count","sourcetype_count","size_on_disk",modtime,"frozen_in_cluster","origin_site","tsidx_minified","journal_size","merge_source",createdate
+"_configtracker~2~15FACF80-D444-49B1-94FA-E022DDE18934","db_1707212191_1707212191_2",540,1,1,1,1,45056,1707212274,0,"",0,593,"",""
+"_configtracker~1~15FACF80-D444-49B1-94FA-E022DDE18934","db_1707204810_1707200221_1",1096,2,1,1,1,45056,1707204897,0,"",0,787,"",""
+"_configtracker~0~15FACF80-D444-49B1-94FA-E022DDE18934","db_1707198983_1707198939_0",4445066,173,1,1,1,1855488,1707199408,0,"",0,561360,"",""

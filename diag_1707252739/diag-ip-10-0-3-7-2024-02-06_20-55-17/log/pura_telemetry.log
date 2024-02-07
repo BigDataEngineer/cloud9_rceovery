@@ -1,0 +1,20 @@
+4.1.2 2024-02-06 04:00:04,911 INFO 140109247051584 - schedule_scan_endpoint value [] 
+4.1.2 2024-02-06 04:00:04,919 INFO 140109247051584 - Telemetry data uploaded on : Tue Feb  6 04:00:04 2024
+4.1.2 2024-02-06 04:00:04,927 INFO 140109247051584 - Telemetry data uploaded on : Tue Feb  6 04:00:04 2024
+4.1.2 2024-02-06 04:00:04,934 INFO 140109247051584 - Telemetry data uploaded on : Tue Feb  6 04:00:04 2024
+4.1.2 2024-02-06 04:00:04,942 INFO 140109247051584 - Telemetry data uploaded on : Tue Feb  6 04:00:04 2024
+4.1.2 2024-02-06 04:00:04,942 INFO 140109247051584 - Writing scan summary
+4.1.2 2024-02-06 04:00:04,942 INFO 140109247051584 - Scan summary written.
+4.1.2 2024-02-06 04:00:04,942 INFO 140109247051584 - Adding python scan summary to logs.
+4.1.2 2024-02-06 04:00:04,942 INFO 140109247051584 - Writing data to audit file.
+4.1.2 2024-02-06 04:00:04,954 INFO 140109247051584 - Successfully written to audit file.
+4.1.2 2024-02-06 16:00:04,443 INFO 139726886131520 - schedule_scan_endpoint value [] 
+4.1.2 2024-02-06 16:00:04,451 INFO 139726886131520 - Telemetry data uploaded on : Tue Feb  6 16:00:04 2024
+4.1.2 2024-02-06 16:00:04,459 INFO 139726886131520 - Telemetry data uploaded on : Tue Feb  6 16:00:04 2024
+4.1.2 2024-02-06 16:00:04,466 INFO 139726886131520 - Telemetry data uploaded on : Tue Feb  6 16:00:04 2024
+4.1.2 2024-02-06 16:00:04,473 INFO 139726886131520 - Telemetry data uploaded on : Tue Feb  6 16:00:04 2024
+4.1.2 2024-02-06 16:00:04,473 INFO 139726886131520 - Writing scan summary
+4.1.2 2024-02-06 16:00:04,474 INFO 139726886131520 - Scan summary written.
+4.1.2 2024-02-06 16:00:04,474 INFO 139726886131520 - Adding python scan summary to logs.
+4.1.2 2024-02-06 16:00:04,474 INFO 139726886131520 - Writing data to audit file.
+4.1.2 2024-02-06 16:00:04,486 INFO 139726886131520 - Successfully written to audit file.

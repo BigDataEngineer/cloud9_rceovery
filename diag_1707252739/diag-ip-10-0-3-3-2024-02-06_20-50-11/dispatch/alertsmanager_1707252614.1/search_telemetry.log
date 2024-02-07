@@ -1,0 +1,6 @@
+02-06-2024 20:50:14.980 +0000 INFO  SearchTelemetrySingleton - record_search_telemetry=1
+02-06-2024 20:50:14.986 +0000 INFO  SearchTelemetrySingleton - Loaded config settings: telemetry file limit = 500, event size limit = 1000000, component size limit = 10000
+02-06-2024 20:50:15.532 +0000 INFO  SearchTelemetry - set search status to success
+02-06-2024 20:50:15.541 +0000 INFO  SearchTelemetrySingleton - Writing search telemetry to search_telemetry.json
+02-06-2024 20:50:15.542 +0000 INFO  SearchTelemetrySingleton - Copying search_telemetry.json from dispatch dir to var/run/splunk/search_telemetry
+02-06-2024 20:50:15.544 +0000 INFO  SearchTelemetrySingleton - Done copying search_telemetry.json to /opt/splunk/var/run/splunk/search_telemetry/5e5ab8f6ae5e2599_alertsmanager_1707252614.1_search_telemetry.json

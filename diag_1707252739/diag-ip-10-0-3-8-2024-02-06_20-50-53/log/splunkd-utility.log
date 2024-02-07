@@ -1,0 +1,106 @@
+02-06-2024 05:55:29.233 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 05:55:29.233 +0000 INFO  ServerConfig - No '/opt/splunk/etc/auth/server.pem' certificate found.  Splunkd communication will not work without this.  If this is a fresh installation, this should be OK.
+02-06-2024 05:55:29.234 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 05:55:29.234 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 05:55:30.099 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 05:55:30.099 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 05:55:30.099 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 05:55:30.101 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 05:55:30.111 +0000 INFO  loader - Validated 11 indexes in 4.765 milliseconds
+02-06-2024 05:55:30.171 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 05:55:30.171 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 05:55:30.171 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 05:55:30.546 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 05:55:30.546 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 05:55:30.546 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 05:55:30.548 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 06:03:17.243 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 06:03:17.243 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 06:03:17.243 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 06:03:17.818 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 06:03:17.819 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 06:03:17.819 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 06:03:17.820 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 06:03:17.830 +0000 INFO  loader - Validated 11 indexes in 4.398 milliseconds
+02-06-2024 06:03:17.894 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 06:03:17.895 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 06:03:17.895 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 06:03:18.267 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 06:03:18.267 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 06:03:18.267 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 06:03:18.268 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 07:33:48.035 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 07:33:48.035 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 07:33:48.035 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 07:33:48.619 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 07:33:48.619 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 07:33:48.619 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 07:33:48.620 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 07:33:48.631 +0000 INFO  loader - Validated 11 indexes in 4.500 milliseconds
+02-06-2024 07:33:48.690 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 07:33:48.690 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 07:33:48.690 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 07:33:49.060 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 07:33:49.060 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 07:33:49.060 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 07:33:49.061 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 09:34:05.649 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 09:34:05.650 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 09:34:05.650 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 09:34:06.254 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 09:34:06.254 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 09:34:06.254 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 09:34:06.255 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 09:34:06.270 +0000 INFO  loader - Validated 11 indexes in 8.504 milliseconds
+02-06-2024 09:34:06.329 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 09:34:06.329 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 09:34:06.329 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 09:34:06.768 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 09:34:06.768 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 09:34:06.768 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 09:34:06.769 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 09:36:42.421 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 09:36:42.422 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 09:36:42.422 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 09:36:42.995 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 09:36:42.995 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 09:36:42.995 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 09:36:42.996 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 09:36:43.006 +0000 INFO  loader - Validated 11 indexes in 4.411 milliseconds
+02-06-2024 09:36:43.065 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 09:36:43.065 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 09:36:43.065 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 09:36:43.439 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 09:36:43.439 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 09:36:43.439 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 09:36:43.440 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 09:43:06.283 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 09:43:06.284 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 09:43:06.284 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 09:43:06.869 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 09:43:06.870 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 09:43:06.870 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 09:43:06.871 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 09:43:06.881 +0000 INFO  loader - Validated 11 indexes in 4.464 milliseconds
+02-06-2024 09:43:06.940 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 09:43:06.941 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 09:43:06.941 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 09:43:07.320 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 09:43:07.320 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 09:43:07.320 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 09:43:07.321 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 10:30:55.862 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 10:30:55.863 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 10:30:55.863 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 10:30:56.438 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 10:30:56.439 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 10:30:56.439 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 10:30:56.440 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 10:30:56.450 +0000 INFO  loader - Validated 11 indexes in 4.437 milliseconds
+02-06-2024 10:30:56.509 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 10:30:56.509 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 10:30:56.509 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 10:30:56.884 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 10:30:56.884 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 10:30:56.884 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 10:30:56.885 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml

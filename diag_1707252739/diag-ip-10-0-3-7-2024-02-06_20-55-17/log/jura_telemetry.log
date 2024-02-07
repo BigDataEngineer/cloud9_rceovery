@@ -1,0 +1,20 @@
+4.1.2 2024-02-06 07:00:02,092 INFO 140188423649088 - schedule_scan_endpoint value [] 
+4.1.2 2024-02-06 07:00:02,111 INFO 140188423649088 - Telemetry data uploaded on : Tue Feb  6 07:00:02 2024
+4.1.2 2024-02-06 07:00:02,126 INFO 140188423649088 - Telemetry data uploaded on : Tue Feb  6 07:00:02 2024
+4.1.2 2024-02-06 07:00:02,140 INFO 140188423649088 - Telemetry data uploaded on : Tue Feb  6 07:00:02 2024
+4.1.2 2024-02-06 07:00:02,154 INFO 140188423649088 - Telemetry data uploaded on : Tue Feb  6 07:00:02 2024
+4.1.2 2024-02-06 07:00:02,154 INFO 140188423649088 - Writing scan summary
+4.1.2 2024-02-06 07:00:02,155 INFO 140188423649088 - Scan summary written.
+4.1.2 2024-02-06 07:00:02,155 INFO 140188423649088 - Adding jQuery scan summary to logs.
+4.1.2 2024-02-06 07:00:02,155 INFO 140188423649088 - Writing data to audit file.
+4.1.2 2024-02-06 07:00:02,182 INFO 140188423649088 - Successfully written to audit file.
+4.1.2 2024-02-06 19:00:03,749 INFO 140220156290880 - schedule_scan_endpoint value [] 
+4.1.2 2024-02-06 19:00:03,763 INFO 140220156290880 - Telemetry data uploaded on : Tue Feb  6 19:00:03 2024
+4.1.2 2024-02-06 19:00:03,776 INFO 140220156290880 - Telemetry data uploaded on : Tue Feb  6 19:00:03 2024
+4.1.2 2024-02-06 19:00:03,789 INFO 140220156290880 - Telemetry data uploaded on : Tue Feb  6 19:00:03 2024
+4.1.2 2024-02-06 19:00:03,801 INFO 140220156290880 - Telemetry data uploaded on : Tue Feb  6 19:00:03 2024
+4.1.2 2024-02-06 19:00:03,801 INFO 140220156290880 - Writing scan summary
+4.1.2 2024-02-06 19:00:03,801 INFO 140220156290880 - Scan summary written.
+4.1.2 2024-02-06 19:00:03,802 INFO 140220156290880 - Adding jQuery scan summary to logs.
+4.1.2 2024-02-06 19:00:03,802 INFO 140220156290880 - Writing data to audit file.
+4.1.2 2024-02-06 19:00:03,815 INFO 140220156290880 - Successfully written to audit file.

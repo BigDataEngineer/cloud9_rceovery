@@ -1,0 +1,27 @@
+2024-02-06 03:49:41.068 +0000 splunkd started (build b985591d12fd) pid=23562
+2024-02-06 08:31:36.946 +0000 Interrupt signal received sent by PID 27494, command="/opt/splunkforwarder/bin/splunk restart" (UID 503, same as my group)
+2024-02-06 08:31:45.260 +0000 splunkd started (build b985591d12fd) pid=27606
+2024-02-06 08:43:48.153 +0000 Interrupt signal received sent by PID 31952, command="/opt/splunkforwarder/bin/splunk restart" (UID 503, same as my group)
+2024-02-06 08:43:54.575 +0000 splunkd started (build b985591d12fd) pid=32049
+2024-02-06 08:54:21.583 +0000 Interrupt signal received sent by PID 3447, command="/opt/splunkforwarder/bin/splunk restart" (UID 503, same as my group)
+2024-02-06 08:54:26.999 +0000 splunkd started (build b985591d12fd) pid=3541
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 08:55:44.326 +0000 splunkd started (build b985591d12fd) pid=4099
+2024-02-06 08:56:11.702 +0000 Interrupt signal received sent by PID 4326, command="/opt/splunkforwarder/bin/splunk restart" (UID 503, same as my group)
+2024-02-06 08:56:17.011 +0000 splunkd started (build b985591d12fd) pid=4419
+2024-02-06 08:59:03.051 +0000 Interrupt signal received sent by PID 5468, command="/opt/splunkforwarder/bin/splunk restart" (UID 503, same as my group)
+2024-02-06 08:59:08.379 +0000 splunkd started (build b985591d12fd) pid=5561
+2024-02-06 09:02:47.120 +0000 Interrupt signal received sent by PID 6934, command="/opt/splunkforwarder/bin/splunk restart" (UID 503, same as my group)
+2024-02-06 09:02:52.464 +0000 splunkd started (build b985591d12fd) pid=7027
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 11:32:06.831 +0000 splunkd started (build b985591d12fd) pid=28034
+2024-02-06 11:33:29.393 +0000 Interrupt signal received sent by PID 28587, command="/opt/splunkforwarder/bin/splunk restart" (UID 503, same as my group)
+2024-02-06 11:33:38.719 +0000 splunkd started (build b985591d12fd) pid=28706
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 12:48:45.242 +0000 splunkd started (build b985591d12fd) pid=23984
+2024-02-06 15:30:00.730 +0000 Interrupt signal received sent by PID 16833, command="/opt/splunkforwarder/bin/splunk restart" (UID 503, same as my group)
+2024-02-06 15:30:06.047 +0000 splunkd started (build b985591d12fd) pid=16929
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 15:31:59.338 +0000 splunkd started (build b985591d12fd) pid=17708
+PYTHONHTTPSVERIFY is set to 0 in splunk-launch.conf disabling certificate validation for the httplib and urllib libraries shipped with the embedded Python interpreter; must be set to "1" for increased security
+2024-02-06 20:29:05.802 +0000 splunkd started (build b985591d12fd) pid=26606

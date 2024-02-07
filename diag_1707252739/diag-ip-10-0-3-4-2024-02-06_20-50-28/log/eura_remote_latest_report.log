@@ -1,0 +1,22 @@
+4.1.2 2024-02-06 07:00:01,343 INFO 140345009637184 - Starting to get apps
+4.1.2 2024-02-06 07:00:02,378 ERROR 140345009637184 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/eura_app_list?type=deployment
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/eura_remote_latest_report.py", line 104, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "/opt/splunk/lib/python3.7/site-packages/splunk/rest/__init__.py", line 661, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/eura_app_list?type=deployment
+4.1.2 2024-02-06 07:00:02,683 INFO 140345009637184 - merged_file_path = /opt/splunk/etc/apps/python_upgrade_readiness_app/local/emerald_merged/merged_report.json
+4.1.2 2024-02-06 07:00:02,683 INFO 140345009637184 - Writing local report as merged report could not be generated.
+4.1.2 2024-02-06 07:00:02,684 INFO 140345009637184 - splunk-system-user file does not exists.
+4.1.2 2024-02-06 19:00:01,117 INFO 140263826343744 - Starting to get apps
+4.1.2 2024-02-06 19:00:02,022 ERROR 140263826343744 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/eura_app_list?type=deployment
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/eura_remote_latest_report.py", line 104, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "/opt/splunk/lib/python3.7/site-packages/splunk/rest/__init__.py", line 661, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/eura_app_list?type=deployment
+4.1.2 2024-02-06 19:00:02,465 INFO 140263826343744 - merged_file_path = /opt/splunk/etc/apps/python_upgrade_readiness_app/local/emerald_merged/merged_report.json
+4.1.2 2024-02-06 19:00:02,465 INFO 140263826343744 - Writing local report as merged report could not be generated.
+4.1.2 2024-02-06 19:00:02,465 INFO 140263826343744 - splunk-system-user file does not exists.

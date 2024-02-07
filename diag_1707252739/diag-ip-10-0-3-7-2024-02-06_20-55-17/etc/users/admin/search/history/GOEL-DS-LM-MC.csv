@@ -1,0 +1,3 @@
+sid,search,"splunk_server","_time","is_realtime",provenance,"event_count","exec_time","result_count","scan_count",status,"total_run_time","__mv_sid","__mv_search","__mv_splunk_server","__mv__time","__mv_is_realtime","__mv_provenance","__mv_event_count","__mv_exec_time","__mv_result_count","__mv_scan_count","__mv_status","__mv_total_run_time"
+"rt_md_1707205137.37","| metadata type=sourcetypes | search totalCount > 0","GOEL-DS-LM-MC","1707205137.799667",1,"UI:Search",0,1707205137,0,0,failed,"1014.45",,,,,,,,,,,,
+"rt_md_1707210262.3","| metadata type=sourcetypes | search totalCount > 0","GOEL-DS-LM-MC","1707210262.909353",1,"UI:Search",0,1707210263,0,0,failed,"89.358",,,,,,,,,,,,

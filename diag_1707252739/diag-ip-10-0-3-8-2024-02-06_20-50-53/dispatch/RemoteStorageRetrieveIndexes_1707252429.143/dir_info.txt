@@ -1,0 +1,36 @@
+ls -alR "/opt/splunk/var/run/splunk/dispatch/RemoteStorageRetrieveIndexes_1707252429.143"
+/opt/splunk/var/run/splunk/dispatch/RemoteStorageRetrieveIndexes_1707252429.143:
+total 84
+drwx------ 4 archStudent archStudent  4096 Feb  6 20:47 .
+drwx--x--x 9 archStudent archStudent  4096 Feb  6 20:50 ..
+-rw------- 1 archStudent archStudent   214 Feb  6 20:47 args.txt
+-rw------- 1 archStudent archStudent     0 Feb  6 20:47 audited
+-rw------- 1 archStudent archStudent  6977 Feb  6 20:47 info.csv
+-rw------- 1 archStudent archStudent   117 Feb  6 20:47 metadata.csv
+-rw------- 1 archStudent archStudent  1255 Feb  6 20:47 peers.csv
+-rw------- 1 archStudent archStudent     2 Feb  6 20:47 pipeline_sets
+-rw------- 1 archStudent archStudent   428 Feb  6 20:47 remote_event_providers.csv
+drwx------ 2 archStudent archStudent  4096 Feb  6 20:47 remote_logs
+drwx------ 2 archStudent archStudent  4096 Feb  6 20:47 remote_search_telemetry
+-rw------- 1 archStudent archStudent 21370 Feb  6 20:47 search.log
+-rw------- 1 archStudent archStudent  3255 Feb  6 20:47 search_telemetry.json
+-rw------- 1 archStudent archStudent   570 Feb  6 20:47 search_telemetry.log
+-rw------- 1 archStudent archStudent  3077 Feb  6 20:47 status.csv
+-rw------- 1 archStudent archStudent     0 Feb  6 20:47 tmp_cleanup_done
+-rw------- 1 archStudent archStudent    93 Feb  6 20:47 watchdog.log
+
+/opt/splunk/var/run/splunk/dispatch/RemoteStorageRetrieveIndexes_1707252429.143/remote_logs:
+total 56
+drwx------ 2 archStudent archStudent  4096 Feb  6 20:47 .
+drwx------ 4 archStudent archStudent  4096 Feb  6 20:47 ..
+-rw------- 1 archStudent archStudent 14421 Feb  6 20:47 GOEL-Indexer1.search.log
+-rw------- 1 archStudent archStudent 14498 Feb  6 20:47 GOEL-Indexer2.search.log
+-rw------- 1 archStudent archStudent 14497 Feb  6 20:47 GOEL-Indexer3.search.log
+
+/opt/splunk/var/run/splunk/dispatch/RemoteStorageRetrieveIndexes_1707252429.143/remote_search_telemetry:
+total 20
+drwx------ 2 archStudent archStudent 4096 Feb  6 20:47 .
+drwx------ 4 archStudent archStudent 4096 Feb  6 20:47 ..
+-rw------- 1 archStudent archStudent 1615 Feb  6 20:47 GOEL-Indexer1.search_telemetry.json
+-rw------- 1 archStudent archStudent 1689 Feb  6 20:47 GOEL-Indexer2.search_telemetry.json
+-rw------- 1 archStudent archStudent 1615 Feb  6 20:47 GOEL-Indexer3.search_telemetry.json

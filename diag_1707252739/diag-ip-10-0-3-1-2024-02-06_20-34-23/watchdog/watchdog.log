@@ -1,0 +1,41 @@
+02-06-2024 03:57:07.256 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 03:57:07.256 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=32594. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 03:59:41.652 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 03:59:52.171 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 03:59:52.171 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=2772. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 05:31:14.685 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 05:31:24.607 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 05:31:24.607 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=8868. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 07:31:49.273 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 07:32:00.235 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 07:32:00.239 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=13211. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 07:34:00.202 +0000 INFO  Watchdog - No response received from IMonitoredThread=0x7f646c3fdaa0 within elapsed=8000 ms. Looks like thread_name="GenerationGrabberThread" thread_id=13413 is busy !? Starting to trace with timeout=8000 ms interval.
+02-06-2024 07:34:16.203 +0000 INFO  Watchdog - No response received from IMonitoredThread=0x7f646c5fe980 within elapsed=8000 ms. Looks like thread_name="DistributedPeerMonitorThread" thread_id=13412 is busy !? Starting to trace with timeout=8000 ms interval.
+02-06-2024 07:34:56.206 +0000 INFO  Watchdog - Stopping trace. Response for IMonitoredThread ptr=0x7f646c5fe980 - thread_name="DistributedPeerMonitorThread" thread_id=13412 - finally received after 48003 ms (estimation only).
+02-06-2024 07:34:56.206 +0000 INFO  Watchdog - Stopping trace. Response for IMonitoredThread ptr=0x7f646c3fdaa0 - thread_name="GenerationGrabberThread" thread_id=13413 - finally received after 64004 ms (estimation only).
+02-06-2024 09:34:23.987 +0000 INFO  Watchdog - No response received from IMonitoredThread=0x7f646c3fdaa0 within elapsed=8000 ms. Looks like thread_name="GenerationGrabberThread" thread_id=13413 is busy !? Starting to trace with timeout=8000 ms interval.
+02-06-2024 09:35:11.991 +0000 INFO  Watchdog - Stopping trace. Response for IMonitoredThread ptr=0x7f646c3fdaa0 - thread_name="GenerationGrabberThread" thread_id=13413 - finally received after 56004 ms (estimation only).
+02-06-2024 09:35:19.991 +0000 INFO  Watchdog - No response received from IMonitoredThread=0x7f646c5fe980 within elapsed=8000 ms. Looks like thread_name="DistributedPeerMonitorThread" thread_id=13412 is busy !? Starting to trace with timeout=8000 ms interval.
+02-06-2024 09:35:19.991 +0000 INFO  Watchdog - No response received from IMonitoredThread=0x7f646c3fdaa0 within elapsed=8000 ms. Looks like thread_name="GenerationGrabberThread" thread_id=13413 is busy !? Starting to trace with timeout=8000 ms interval.
+02-06-2024 09:35:27.914 +0000 INFO  Watchdog - Stopping trace. Response for IMonitoredThread ptr=0x7f646c3fdaa0 - thread_name="GenerationGrabberThread" thread_id=13413 - finally received after 15923 ms (estimation only).
+02-06-2024 09:35:27.915 +0000 INFO  Watchdog - Stopping trace. Response for IMonitoredThread ptr=0x7f646c5fe980 - thread_name="DistributedPeerMonitorThread" thread_id=13412 - finally received after 15923 ms (estimation only).
+02-06-2024 09:36:55.925 +0000 INFO  Watchdog - No response received from IMonitoredThread=0x7f646c3fdaa0 within elapsed=8000 ms. Looks like thread_name="GenerationGrabberThread" thread_id=13413 is busy !? Starting to trace with timeout=8000 ms interval.
+02-06-2024 09:37:51.934 +0000 INFO  Watchdog - Stopping trace. Response for IMonitoredThread ptr=0x7f646c3fdaa0 - thread_name="GenerationGrabberThread" thread_id=13413 - finally received after 64009 ms (estimation only).
+02-06-2024 12:58:20.580 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 12:58:34.339 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 12:58:34.343 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=9574. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 15:26:28.002 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 15:26:38.263 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 15:26:38.267 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=26659. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 17:34:09.758 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 17:34:21.103 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 17:34:21.107 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=28406. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 20:14:47.401 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 20:14:58.159 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 20:14:58.163 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=7093. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 20:16:57.180 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 20:17:07.493 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 20:17:07.495 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=24186. Threads monitoring is enabled with response timeout set to 8000 ms.
+02-06-2024 20:20:16.655 +0000 INFO  Watchdog - Stopping WatchdogThread.
+02-06-2024 20:20:26.324 +0000 INFO  WatchdogActions - WatchdogActionsManager reload started.
+02-06-2024 20:20:26.327 +0000 INFO  Watchdog - Starting WatchdogThread for process pid=29684. Threads monitoring is enabled with response timeout set to 8000 ms.

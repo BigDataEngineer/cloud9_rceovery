@@ -1,0 +1,325 @@
+02-06-2024 04:37:31.188 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 04:37:31.188 +0000 INFO  ServerConfig - No '/opt/splunk/etc/auth/server.pem' certificate found.  Splunkd communication will not work without this.  If this is a fresh installation, this should be OK.
+02-06-2024 04:37:31.188 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 04:37:31.188 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 04:37:32.005 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 04:37:32.006 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 04:37:32.006 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 04:37:32.007 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 04:37:32.017 +0000 INFO  loader - Validated 11 indexes in 4.686 milliseconds
+02-06-2024 04:37:32.077 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 04:37:32.077 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 04:37:32.077 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 04:37:32.447 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 04:37:32.447 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 04:37:32.447 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 04:37:32.449 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 04:45:46.703 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 04:45:46.704 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 04:45:46.704 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 04:45:47.296 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 04:45:47.296 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 04:45:47.296 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 04:45:47.298 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 04:45:47.308 +0000 INFO  loader - Validated 11 indexes in 4.519 milliseconds
+02-06-2024 04:45:47.368 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 04:45:47.368 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 04:45:47.368 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 04:45:47.741 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 04:45:47.741 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 04:45:47.741 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 04:45:47.742 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 04:53:37.898 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 04:53:37.898 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 04:53:37.898 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 04:53:38.485 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 04:53:38.485 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 04:53:38.485 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 04:53:38.486 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 04:53:38.497 +0000 INFO  loader - Validated 11 indexes in 4.548 milliseconds
+02-06-2024 04:53:38.563 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 04:53:38.563 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 04:53:38.563 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 04:53:38.937 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 04:53:38.937 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 04:53:38.937 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 04:53:38.938 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 05:25:13.895 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 05:25:13.895 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 05:25:13.895 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 05:25:14.486 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 05:25:14.486 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 05:25:14.486 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 05:25:14.487 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 05:25:14.498 +0000 INFO  loader - Validated 11 indexes in 4.424 milliseconds
+02-06-2024 05:25:14.558 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 05:25:14.558 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 05:25:14.558 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 05:25:14.931 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 05:25:14.931 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 05:25:14.931 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 05:25:14.932 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 05:55:19.130 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 05:55:19.131 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 05:55:19.131 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 05:55:19.722 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 05:55:19.722 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 05:55:19.722 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 05:55:19.723 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 05:55:19.734 +0000 INFO  loader - Validated 11 indexes in 4.529 milliseconds
+02-06-2024 05:55:19.794 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 05:55:19.795 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 05:55:19.795 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 05:55:20.171 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 05:55:20.171 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 05:55:20.171 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 05:55:20.172 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 05:58:19.385 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 05:58:19.386 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 05:58:19.386 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 05:58:19.975 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 05:58:19.975 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 05:58:19.975 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 05:58:19.976 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 05:58:19.987 +0000 INFO  loader - Validated 11 indexes in 4.565 milliseconds
+02-06-2024 05:58:20.048 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 05:58:20.048 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 05:58:20.048 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 05:58:20.428 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 05:58:20.428 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 05:58:20.428 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 05:58:20.429 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 06:02:25.540 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 06:02:25.540 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 06:02:25.540 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 06:02:26.133 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 06:02:26.133 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 06:02:26.133 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 06:02:26.134 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 06:02:26.145 +0000 INFO  loader - Validated 11 indexes in 4.550 milliseconds
+02-06-2024 06:02:26.204 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 06:02:26.204 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 06:02:26.204 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 06:02:26.578 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 06:02:26.578 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 06:02:26.578 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 06:02:26.580 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 06:02:34.526 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 06:02:34.526 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 06:02:34.526 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 06:02:35.132 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 06:02:35.132 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 06:02:35.132 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 06:02:35.133 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 06:02:35.144 +0000 INFO  loader - Validated 11 indexes in 4.572 milliseconds
+02-06-2024 06:02:35.208 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 06:02:35.208 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 06:02:35.208 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 06:02:35.583 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 06:02:35.584 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 06:02:35.584 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 06:02:35.585 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 06:31:13.161 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 06:31:13.161 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 06:31:13.161 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 06:31:13.771 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 06:31:13.771 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 06:31:13.772 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 06:31:13.773 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 06:31:13.783 +0000 INFO  loader - Validated 11 indexes in 4.548 milliseconds
+02-06-2024 06:31:13.844 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 06:31:13.844 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 06:31:13.844 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 06:31:14.225 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 06:31:14.225 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 06:31:14.227 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 06:31:14.228 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 10:39:01.730 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 10:39:01.731 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 10:39:01.731 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 10:39:02.325 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 10:39:02.325 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 10:39:02.325 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 10:39:02.326 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 10:39:02.337 +0000 INFO  loader - Validated 11 indexes in 4.676 milliseconds
+02-06-2024 10:39:02.397 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 10:39:02.397 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 10:39:02.397 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 10:39:02.771 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 10:39:02.772 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 10:39:02.772 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 10:39:02.773 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 10:39:50.410 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 10:39:50.410 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 10:39:50.410 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 10:39:51.001 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 10:39:51.002 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 10:39:51.002 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 10:39:51.003 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 10:39:51.013 +0000 INFO  loader - Validated 11 indexes in 4.605 milliseconds
+02-06-2024 10:39:51.076 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 10:39:51.077 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 10:39:51.077 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 10:39:51.457 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 10:39:51.457 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 10:39:51.457 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 10:39:51.458 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 10:52:16.836 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 10:52:16.837 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 10:52:16.837 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 10:52:17.425 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 10:52:17.425 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 10:52:17.425 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 10:52:17.426 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 10:52:17.437 +0000 INFO  loader - Validated 11 indexes in 4.570 milliseconds
+02-06-2024 10:52:17.496 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 10:52:17.497 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 10:52:17.497 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 10:52:17.871 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 10:52:17.871 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 10:52:17.871 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 10:52:17.872 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 11:00:52.449 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 11:00:52.450 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 11:00:52.450 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 11:00:53.049 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 11:00:53.049 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 11:00:53.049 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 11:00:53.050 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 11:00:53.059 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=bcgames; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 11:00:53.059 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=bcgames maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 11:00:53.059 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 11:00:53.059 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 11:00:53.059 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 11:00:53.059 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 11:00:53.062 +0000 INFO  loader - Validated 14 indexes in 5.637 milliseconds
+02-06-2024 11:00:53.125 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 11:00:53.125 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 11:00:53.125 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 11:00:53.502 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 11:00:53.502 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 11:00:53.502 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 11:00:53.503 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 12:55:26.650 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 12:55:26.651 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 12:55:26.651 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 12:55:27.253 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 12:55:27.254 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 12:55:27.254 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 12:55:27.255 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 12:55:27.268 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=bcgames; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 12:55:27.269 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=bcgames maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 12:55:27.269 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 12:55:27.269 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 12:55:27.269 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 12:55:27.269 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 12:55:27.273 +0000 INFO  loader - Validated 14 indexes in 8.126 milliseconds
+02-06-2024 12:55:27.336 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 12:55:27.336 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 12:55:27.336 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 12:55:27.713 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 12:55:27.713 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 12:55:27.713 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 12:55:27.714 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 13:01:55.240 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 13:01:55.240 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 13:01:55.240 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 13:01:55.840 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 13:01:55.841 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 13:01:55.841 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 13:01:55.842 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 13:01:55.850 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=bcgames; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 13:01:55.850 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=bcgames maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 13:01:55.850 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 13:01:55.850 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 13:01:55.851 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 13:01:55.851 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 13:01:55.853 +0000 INFO  loader - Validated 14 indexes in 5.631 milliseconds
+02-06-2024 13:01:55.916 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 13:01:55.917 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 13:01:55.917 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 13:01:56.293 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 13:01:56.293 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 13:01:56.293 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 13:01:56.294 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 15:25:56.331 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 15:25:56.332 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 15:25:56.332 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 15:25:56.932 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 15:25:56.933 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 15:25:56.933 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 15:25:56.934 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 15:25:56.942 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=bcgames; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 15:25:56.942 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=bcgames maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 15:25:56.942 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 15:25:56.943 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 15:25:56.943 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 15:25:56.943 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 15:25:56.946 +0000 INFO  loader - Validated 14 indexes in 5.657 milliseconds
+02-06-2024 15:25:57.010 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 15:25:57.010 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 15:25:57.010 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 15:25:57.394 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 15:25:57.394 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 15:25:57.394 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 15:25:57.395 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 19:50:01.117 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 19:50:01.117 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 19:50:01.117 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 19:50:01.723 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 19:50:01.723 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 19:50:01.723 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 19:50:01.724 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 19:50:01.733 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=bcgames; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 19:50:01.733 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=bcgames maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 19:50:01.733 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 19:50:01.733 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 19:50:01.733 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 19:50:01.733 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 19:50:01.736 +0000 INFO  loader - Validated 14 indexes in 5.659 milliseconds
+02-06-2024 19:50:01.799 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 19:50:01.799 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 19:50:01.799 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 19:50:02.179 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 19:50:02.179 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 19:50:02.179 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 19:50:02.180 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 20:43:19.099 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:43:19.099 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 20:43:19.099 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 20:43:19.701 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 20:43:19.701 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 20:43:19.701 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 20:43:19.702 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 20:43:19.711 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=bcgames maxDataSize=750 MB, homePath.maxDataSizeMB=1000 MB
+02-06-2024 20:43:19.711 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:43:19.711 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:43:19.711 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:43:19.711 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:43:19.714 +0000 INFO  loader - Validated 14 indexes in 5.670 milliseconds
+02-06-2024 20:43:19.777 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:43:19.777 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 20:43:19.777 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 20:43:20.160 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 20:43:20.161 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 20:43:20.161 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 20:43:20.162 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 20:49:35.883 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:49:35.883 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 20:49:35.883 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 20:49:36.478 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 20:49:36.479 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 20:49:36.479 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 20:49:36.480 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml
+02-06-2024 20:49:36.488 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:49:36.488 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:49:36.489 +0000 WARN  IndexConfig - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:49:36.489 +0000 WARN  IndexConfig - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:49:36.491 +0000 INFO  loader - Validated 14 indexes in 5.587 milliseconds
+02-06-2024 20:49:36.553 +0000 WARN  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:49:36.554 +0000 INFO  ServerConfig - certificateStatusValidationMethod is not set, defaulting to none.
+02-06-2024 20:49:36.554 +0000 INFO  ServerConfig - Splunk is starting with EC-SSC disabled
+02-06-2024 20:49:36.929 +0000 INFO  loader - Getting configuration data from: /opt/splunk/etc/myinstall/splunkd.xml
+02-06-2024 20:49:36.929 +0000 INFO  loader - SPLUNK_MODULE_PATH environment variable not found - defaulting to /opt/splunk/etc/modules
+02-06-2024 20:49:36.929 +0000 INFO  loader - loading modules from /opt/splunk/etc/modules
+02-06-2024 20:49:36.930 +0000 INFO  loader - Writing out composite configuration file: /opt/splunk/var/run/splunk/composite.xml

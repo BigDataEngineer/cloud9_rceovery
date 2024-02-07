@@ -1,0 +1,26 @@
+4.1.2 2024-02-06 07:00:00,851 INFO 139654324791104 - Starting to get apps
+4.1.2 2024-02-06 07:00:01,464 ERROR 139654324791104 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/eura_app_list?type=deployment
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/eura_remote_latest_report.py", line 104, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "/opt/splunk/lib/python3.7/site-packages/splunk/rest/__init__.py", line 661, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/eura_app_list?type=deployment
+4.1.2 2024-02-06 07:00:01,910 INFO 139654324791104 - merged_file_path = /opt/splunk/etc/apps/python_upgrade_readiness_app/local/emerald_merged/merged_report.json
+4.1.2 2024-02-06 07:00:01,910 INFO 139654324791104 - Writing local report as merged report could not be generated.
+4.1.2 2024-02-06 07:00:01,910 INFO 139654324791104 - splunk-system-user file does not exists.
+4.1.2 2024-02-06 19:00:02,046 INFO 140247232644928 - Starting to get apps
+4.1.2 2024-02-06 19:00:02,822 ERROR 140247232644928 - Could not make request to Splunk: [HTTP 404] https://127.0.0.1:8089/services/eura_app_list?type=deployment
+Traceback (most recent call last):
+  File "/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/eura_remote_latest_report.py", line 104, in get_all_apps
+    response, content = sr.simpleRequest(path=endpoint, sessionKey=self.session_key, method="GET")
+  File "/opt/splunk/lib/python3.7/site-packages/splunk/rest/__init__.py", line 661, in simpleRequest
+    raise splunk.ResourceNotFound(uri)
+splunk.ResourceNotFound: [HTTP 404] https://127.0.0.1:8089/services/eura_app_list?type=deployment
+4.1.2 2024-02-06 19:00:03,449 INFO 140247232644928 - merged_file_path = /opt/splunk/etc/apps/python_upgrade_readiness_app/local/emerald_merged/merged_report.json
+4.1.2 2024-02-06 19:00:03,449 INFO 140247232644928 - remote_file_path = /opt/splunk/etc/apps/python_upgrade_readiness_app/local/emerald_remote/GOEL-ClusterMaster.json
+4.1.2 2024-02-06 19:00:03,449 INFO 140247232644928 - Skipping to write report from indexer: GOEL-ClusterMaster as it is empty.Trying to fetch result from another indexer
+4.1.2 2024-02-06 19:00:03,449 INFO 140247232644928 - remote_file_path = /opt/splunk/etc/apps/python_upgrade_readiness_app/local/emerald_remote/GOEL-SearchHead.json
+4.1.2 2024-02-06 19:00:03,449 INFO 140247232644928 - Skipping to write report from indexer: GOEL-SearchHead as it is empty.Trying to fetch result from another indexer
+4.1.2 2024-02-06 19:00:03,449 INFO 140247232644928 - Writing local report as merged report could not be generated.
+4.1.2 2024-02-06 19:00:03,449 INFO 140247232644928 - splunk-system-user file does not exists.

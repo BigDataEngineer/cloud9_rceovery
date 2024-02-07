@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployResponse restartSplunkd="true" restartSplunkWeb="false" stateOnClient="enabled" issueReload="false" repositoryLocation="$SPLUNK_HOME/etc/apps" endpoint="$deploymentServerUri$/services/streams/deployment?name=$tenantName$:$serverClassName$:$appName$">
+  <serverClass name="UnivFwder2">
+    <app name="UF2" checksum="2140028072080377887" localArchive="/opt/splunkforwarder/var/run/UnivFwder2/UF2-1707209666.bundle" installed="true"/>
+  </serverClass>
+</deployResponse>

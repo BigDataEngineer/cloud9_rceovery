@@ -1,0 +1,242 @@
+02-06-2024 20:20:52.124 INFO  dispatchRunner [29684 MainThread] - Search process mode: preforked (reused process) (build b985591d12fd).
+02-06-2024 20:20:52.124 INFO  dispatchRunner [29684 MainThread] - registering build time modules, count=1
+02-06-2024 20:20:52.124 INFO  dispatchRunner [29684 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:20:52.124 INFO  BundlesSetup [29684 MainThread] - Setup stats for /opt/splunk/etc: wallclock_elapsed_msec=32, cpu_time_used=0.0122880, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:20:52.133 INFO  UserManagerPro [29684 MainThread] - Load authentication: forcing roles="admin, can_delete, power, user"
+02-06-2024 20:20:52.134 INFO  UserManager [1028 RunDispatch] - Setting user context: admin
+02-06-2024 20:20:52.134 INFO  UserManager [1028 RunDispatch] - Done setting user context: NULL -> admin
+02-06-2024 20:20:52.134 INFO  dispatchRunner [1028 RunDispatch] - search context: user="admin", app="search", bs-pathname="/opt/splunk/etc"
+02-06-2024 20:20:52.134 INFO  SearchParser [1028 RunDispatch] - PARSING: search index=infra source=*cisco_ironport_mail.log*  earliest=-24h| transaction MID DCID ICID|search REJECT
+02-06-2024 20:20:52.134 INFO  SortOperator [1028 RunDispatch] - Fallback to old Sort
+02-06-2024 20:20:52.134 INFO  SortOperator [1028 RunDispatch] - maxmem = 209715200
+02-06-2024 20:20:52.134 INFO  dispatchRunner [1028 RunDispatch] - Search running in non-clustered mode
+02-06-2024 20:20:52.134 INFO  dispatchRunner [1028 RunDispatch] - SearchHeadInitSearchMs=0
+02-06-2024 20:20:52.134 INFO  dispatchRunner [1028 RunDispatch] - Executing the Search orchestrator and iterator model (dfs=false).
+02-06-2024 20:20:52.134 INFO  SearchOrchestrator [1028 RunDispatch] - SearchOrchestrator getting constructed
+02-06-2024 20:20:52.134 INFO  SearchOrchestrator [1028 RunDispatch] -  Initialized the SRI
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Initializing feature flags from config. feature_seed=3407839069
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:20:52.135 INFO  SearchFeatureFlags [1028 RunDispatch] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:20:52.135 INFO  SearchOrchestrator [1028 RunDispatch] - Search feature_flags={"v":1,"enabledFeatures":["parallelreduce:enablePreview","stats:allow_stats_v2","search:read_final_results_from_timeliner"],"disabledFeatures":["search:search_retry","search:search_retry_realtime","parallelreduce:autoAppliedPercentage","subsearch:enableConcurrentPipelineProcessing","search_optimization::set_required_fields:stats","searchresults:srs2"]}
+02-06-2024 20:20:52.135 INFO  ISplunkDispatch [1028 RunDispatch] - Not running in splunkd. Bundle replication not triggered.
+02-06-2024 20:20:52.135 INFO  SearchOrchestrator [1045 searchOrchestrator] - Initialzing the run time settings for the orchestrator.
+02-06-2024 20:20:52.135 INFO  UserManager [1045 searchOrchestrator] - Setting user context: admin
+02-06-2024 20:20:52.136 INFO  UserManager [1045 searchOrchestrator] - Done setting user context: NULL -> admin
+02-06-2024 20:20:52.137 INFO  AdaptiveSearchEngineSelector [1045 searchOrchestrator] - Search execution_plan=classic
+02-06-2024 20:20:52.137 INFO  SearchOrchestrator [1045 searchOrchestrator] - Creating the search DAG.
+02-06-2024 20:20:52.137 INFO  SearchParser [1045 searchOrchestrator] - PARSING: search index=infra source=*cisco_ironport_mail.log*  earliest=-24h| transaction MID DCID ICID|search REJECT
+02-06-2024 20:20:52.137 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.137 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.137 INFO  DispatchStorageManagerInfo [1045 searchOrchestrator] - Successfully created new dispatch directory for search job. sid=413fa62190c0f9b7_tmp dispatch_dir=/opt/splunk/var/run/splunk/dispatch/413fa62190c0f9b7_tmp
+02-06-2024 20:20:52.154 INFO  SearchProcessor [1045 searchOrchestrator] - Building search filter
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:20:52.166 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  sourcetype expansions took 0 ms
+02-06-2024 20:20:52.167 INFO  UnifiedSearch [1045 searchOrchestrator] - Expanded index search = (index=infra source=*cisco_ironport_mail.log* earliest=-24h)
+02-06-2024 20:20:52.167 INFO  UnifiedSearch [1045 searchOrchestrator] - base lispy: [ AND index::infra source::*cisco_ironport_mail.log* [ OR 24h earliest::-24h ] ]
+02-06-2024 20:20:52.167 INFO  UnifiedSearch [1045 searchOrchestrator] - No indexes to search
+02-06-2024 20:20:52.168 INFO  UnifiedSearch [1045 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:52.168 INFO  NewTransam [1045 searchOrchestrator] - prestreaming search="pretransaction  MID DCID ICID"
+02-06-2024 20:20:52.168 INFO  SearchParser [1045 searchOrchestrator] - PARSING: pretransaction  MID DCID ICID
+02-06-2024 20:20:52.168 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.168 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.168 INFO  NewTransam [1045 searchOrchestrator] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.168 INFO  NewTransam [1045 searchOrchestrator] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.168 INFO  SearchParser [1045 searchOrchestrator] - PARSING: pretransaction  MID DCID ICID
+02-06-2024 20:20:52.168 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.168 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.168 INFO  NewTransam [1045 searchOrchestrator] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.169 INFO  UnifiedSearch [1045 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:52.169 INFO  DispatchThread [1045 searchOrchestrator] - BatchMode: allowBatchMode: 0, conf(1): 1, timeline/Status buckets(0):0, realtime(0):0, report pipe empty(0):1, reqTimeOrder(0):1, summarize(0):0, statefulStreaming(0):1
+02-06-2024 20:20:52.169 INFO  DispatchThread [1045 searchOrchestrator] - Setup timeliner partialCommits=1
+02-06-2024 20:20:52.169 INFO  DispatchThread [1045 searchOrchestrator] - required fields list to add to remote search = DCID,ICID,MID,_bkt,_cd,_raw,_si,_time,_txn_ends_with,_txn_filter_match,_txn_starts_with,host,index,linecount,source,sourcetype,splunk_server
+02-06-2024 20:20:52.169 INFO  SearchParser [1045 searchOrchestrator] - PARSING: fields keepcolorder=t "DCID" "ICID" "MID" "_bkt" "_cd" "_raw" "_si" "_time" "_txn_ends_with" "_txn_filter_match" "_txn_starts_with" "host" "index" "linecount" "source" "sourcetype" "splunk_server"
+02-06-2024 20:20:52.169 INFO  DispatchCommandProcessor [1045 searchOrchestrator] - summaryHash=eafb42123addf071 summaryId=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_eafb42123addf071 remoteSearch=litsearch (index=infra source=*cisco_ironport_mail.log* earliest=-24h) | fields  keepcolorder=t "DCID" "ICID" "MID" "_bkt" "_cd" "_raw" "_si" "_time" "_txn_ends_with" "_txn_filter_match" "_txn_starts_with" "host" "index" "linecount" "source" "sourcetype" "splunk_server" | pretransaction  MID DCID ICID
+02-06-2024 20:20:52.169 INFO  DispatchCommandProcessor [1045 searchOrchestrator] - summaryHash=NS8e3751a16ed27da5 summaryId=51367ECF-193E-4082-849C-4DF59054FDA5_search_admin_NS8e3751a16ed27da5 remoteSearch=litsearch (index=infra source=*cisco_ironport_mail.log* earliest=-24h) | fields keepcolorder=t "DCID" "ICID" "MID" "_bkt" "_cd" "_raw" "_si" "_time" "_txn_ends_with" "_txn_filter_match" "_txn_starts_with" "host" "index" "linecount" "source" "sourcetype" "splunk_server" | pretransaction MID DCID ICID
+02-06-2024 20:20:52.169 INFO  DispatchThread [1045 searchOrchestrator] - Getting summary ID for summaryHash=NS8e3751a16ed27da5
+02-06-2024 20:20:52.170 INFO  SearchParser [1045 searchOrchestrator] - PARSING: search index=infra source=*cisco_ironport_mail.log*  earliest=-24h| transaction MID DCID ICID|search REJECT
+02-06-2024 20:20:52.170 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.170 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.170 INFO  UnifiedSearch [1045 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:52.170 INFO  NewTransam [1045 searchOrchestrator] - prestreaming search="pretransaction  MID DCID ICID"
+02-06-2024 20:20:52.170 INFO  SearchParser [1045 searchOrchestrator] - PARSING: pretransaction  MID DCID ICID
+02-06-2024 20:20:52.170 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.170 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.170 INFO  NewTransam [1045 searchOrchestrator] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.170 INFO  NewTransam [1045 searchOrchestrator] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.170 INFO  UnifiedSearch [1045 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:52.171 INFO  AstOptimizer [1045 searchOrchestrator] - SrchOptMetrics optimize_toJson=0.001598525
+02-06-2024 20:20:52.172 INFO  AstVisitorFactory [1045 searchOrchestrator] - Not building visitor : replace_datamodel_stats_cmds_with_tstats
+02-06-2024 20:20:52.172 INFO  SearchParser [1045 searchOrchestrator] - PARSING: | search REJECT
+02-06-2024 20:20:52.172 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.172 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.172 INFO  SearchParser [1045 searchOrchestrator] - PARSING: | transaction MID DCID ICID
+02-06-2024 20:20:52.172 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.172 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.172 INFO  SearchParser [1045 searchOrchestrator] - PARSING: | search (index=infra source=*cisco_ironport_mail.log* earliest=-24h)
+02-06-2024 20:20:52.172 INFO  FederatedInfo [1045 searchOrchestrator] - No federated search providers defined.
+02-06-2024 20:20:52.172 INFO  ReplaceTableWithFieldsVisitor [1045 searchOrchestrator] - search_optimization::replace_table_with_fields disabled due to VERBOSE Mode search
+02-06-2024 20:20:52.172 INFO  AstVisitorFactory [1045 searchOrchestrator] - Not building visitor : replace_table_with_fields
+02-06-2024 20:20:52.172 INFO  ProjElim [1045 searchOrchestrator] - Black listed processors=[addinfo]
+02-06-2024 20:20:52.173 INFO  ReplaceWithTstatsVisitorBase [1045 searchOrchestrator] - Cannot build ReplaceWithTstatsVisitorBase as we need to generate a timeline (info._buckets = true)
+02-06-2024 20:20:52.173 INFO  AstVisitorFactory [1045 searchOrchestrator] - Not building visitor : replace_stats_cmds_with_tstats
+02-06-2024 20:20:52.173 INFO  ReplaceWithTstatsVisitorBase [1045 searchOrchestrator] - Cannot build ReplaceWithTstatsVisitorBase as we need to generate a timeline (info._buckets = true)
+02-06-2024 20:20:52.173 INFO  AstVisitorFactory [1045 searchOrchestrator] - Not building visitor : replace_chart_cmds_with_tstats
+02-06-2024 20:20:52.173 INFO  AstOptimizer [1045 searchOrchestrator] - SrchOptMetrics optimization=0.001012987
+02-06-2024 20:20:52.173 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.173 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.173 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - Optimized Search =| search (earliest=-24h index=infra source=*cisco_ironport_mail.log*) | transaction MID DCID ICID| search REJECT
+02-06-2024 20:20:52.173 INFO  ScopedTimer [1045 searchOrchestrator] - search.optimize 0.003652253
+02-06-2024 20:20:52.173 INFO  FederatedProviderVisitor [1045 searchOrchestrator] - Federated Whole Search Remote Execution Enabled: false
+02-06-2024 20:20:52.174 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - Number of involved federated deployments is 0.
+02-06-2024 20:20:52.174 INFO  PhaseNodeGenerationVisitor [1045 searchOrchestrator] - FallBackReason: Fallback to 2-phase mode because of empty split key of cmd: transaction
+02-06-2024 20:20:52.174 INFO  SearchParser [1045 searchOrchestrator] - PARSING: simpleresultcombiner max=0
+02-06-2024 20:20:52.174 INFO  SimpleResultsCombiner [1045 searchOrchestrator] - Base tmp dir removed.
+02-06-2024 20:20:52.175 INFO  PhaseToPipelineVisitor [1045 searchOrchestrator] - Phase Search = | search (earliest=-24h index=infra source=*cisco_ironport_mail.log*)
+02-06-2024 20:20:52.175 INFO  SearchParser [1045 searchOrchestrator] - PARSING: | search (earliest=-24h index=infra source=*cisco_ironport_mail.log*)
+02-06-2024 20:20:52.186 INFO  SearchProcessor [1045 searchOrchestrator] - Building search filter
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing lookup expansions
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Lookup expansion took 0 ms
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing calculated field expansions
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Calculated field expansion took 0 ms
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing field alias expansions
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  field alias expansions took 0 ms
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing kvfield expansions
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  kvfield expansions took 0 ms
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing indexed fields expansions
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  indexed fields expansions took 0 ms
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  Performing reverse sourcetype expansions
+02-06-2024 20:20:52.197 INFO  SearchEvaluatorBasedExpander [1045 searchOrchestrator] -  sourcetype expansions took 0 ms
+02-06-2024 20:20:52.197 INFO  UnifiedSearch [1045 searchOrchestrator] - Expanded index search = (index=infra source=*cisco_ironport_mail.log* _time>=1707164452.000)
+02-06-2024 20:20:52.197 INFO  UnifiedSearch [1045 searchOrchestrator] - base lispy: [ AND index::infra source::*cisco_ironport_mail.log* ]
+02-06-2024 20:20:52.197 INFO  UnifiedSearch [1045 searchOrchestrator] - No indexes to search
+02-06-2024 20:20:52.197 INFO  UnifiedSearch [1045 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:52.197 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.197 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.198 INFO  PhaseToPipelineVisitor [1045 searchOrchestrator] - Phase Search = | simpleresultcombiner max=0 | transaction MID DCID ICID| search REJECT
+02-06-2024 20:20:52.198 INFO  SearchParser [1045 searchOrchestrator] - PARSING: | simpleresultcombiner max=0 | transaction MID DCID ICID| search REJECT
+02-06-2024 20:20:52.198 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.198 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.198 INFO  NewTransam [1045 searchOrchestrator] - prestreaming search="pretransaction  MID DCID ICID"
+02-06-2024 20:20:52.198 INFO  SearchParser [1045 searchOrchestrator] - PARSING: pretransaction  MID DCID ICID
+02-06-2024 20:20:52.198 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.198 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.198 INFO  NewTransam [1045 searchOrchestrator] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.198 INFO  NewTransam [1045 searchOrchestrator] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.198 INFO  UnifiedSearch [1045 searchOrchestrator] - Processed search targeting arguments
+02-06-2024 20:20:52.198 INFO  SearchPipeline [1045 searchOrchestrator] - ReportSearch=0 AllowBatchMode=0
+02-06-2024 20:20:52.198 INFO  SearchParser [1045 searchOrchestrator] - PARSING: pretransaction  MID DCID ICID
+02-06-2024 20:20:52.198 INFO  SortOperator [1045 searchOrchestrator] - Fallback to old Sort
+02-06-2024 20:20:52.198 INFO  SortOperator [1045 searchOrchestrator] - maxmem = 209715200
+02-06-2024 20:20:52.198 INFO  NewTransam [1045 searchOrchestrator] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.198 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - Storing only 1000 events per timeline buckets due to limits.conf max_events_per_bucket setting.
+02-06-2024 20:20:52.198 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - No need for RTWindowProcessor
+02-06-2024 20:20:52.198 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - Adding timeliner to final phase
+02-06-2024 20:20:52.198 INFO  SearchParser [1045 searchOrchestrator] - PARSING: | timeliner remote=0 partial_commits=1 max_events_per_bucket=1000 fieldstats_update_maxperiod=60 bucket=300
+02-06-2024 20:20:52.199 INFO  TimelineCreator [1045 searchOrchestrator] - Creating timeline with remote=0 partialCommits=1 commitFreq=0 syncKSFreq=0 maxSyncKSPeriodTime=60000 bucket=300 latestTime=1707250852.197449 earliestTime=1707164452.000000
+02-06-2024 20:20:52.199 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - required fields list to add to different pipelines = DCID,ICID,MID,_bkt,_cd,_raw,_si,_time,_txn_ends_with,_txn_filter_match,_txn_starts_with,host,index,linecount,source,sourcetype,splunk_server
+02-06-2024 20:20:52.199 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - Remote Timeliner=
+02-06-2024 20:20:52.199 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - Fileds=fields keepcolorder=t "DCID" "ICID" "MID" "_bkt" "_cd" "_raw" "_si" "_time" "_txn_ends_with" "_txn_filter_match" "_txn_starts_with" "host" "index" "linecount" "source" "sourcetype" "splunk_server"
+02-06-2024 20:20:52.199 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - REMOTE TIMELINER ADDED
+02-06-2024 20:20:52.199 INFO  SearchParser [1045 searchOrchestrator] - PARSING: fields keepcolorder=t "DCID" "ICID" "MID" "_bkt" "_cd" "_raw" "_si" "_time" "_txn_ends_with" "_txn_filter_match" "_txn_starts_with" "host" "index" "linecount" "source" "sourcetype" "splunk_server"
+02-06-2024 20:20:52.199 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - Search Phases created.
+02-06-2024 20:20:52.200 INFO  SearchOrchestrator [1045 searchOrchestrator] - Preview is enabled for Search Head only. (preview_algorithm=SEARCH_HEAD)
+02-06-2024 20:20:52.200 INFO  UserManager [1045 searchOrchestrator] - Setting user context: admin
+02-06-2024 20:20:52.200 INFO  UserManager [1045 searchOrchestrator] - Done setting user context: admin -> admin
+02-06-2024 20:20:52.200 INFO  UserManager [1045 searchOrchestrator] - Unwound user context: admin -> admin
+02-06-2024 20:20:52.200 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Stream search: litsearch (index=infra source=*cisco_ironport_mail.log* _time>=1707164452.000) | fields  keepcolorder=t "DCID" "ICID" "MID" "_bkt" "_cd" "_raw" "_si" "_time" "_txn_ends_with" "_txn_filter_match" "_txn_starts_with" "host" "index" "linecount" "source" "sourcetype" "splunk_server" | pretransaction  MID DCID ICID
+02-06-2024 20:20:52.200 INFO  ExternalResultProvider [1045 searchOrchestrator] - No external result providers are configured
+02-06-2024 20:20:52.200 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - ERP_FACTORY initialized, but zero external result provider, hence disabling _isERPCollectionEnabled
+02-06-2024 20:20:52.200 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - results_queue_read_timeout_sec=900.000 send_timeout=30.000 connect_timeout=10.000 receive_timeout=600.000
+02-06-2024 20:20:52.200 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Default search group:*
+02-06-2024 20:20:52.200 INFO  SearchTargeter [1045 searchOrchestrator] - Index list is not available for GOEL-Indexer1 targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:20:52.200 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Connecting to peer GOEL-Indexer1 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:20:52.200 INFO  SearchTargeter [1045 searchOrchestrator] - Index list is not available for GOEL-Indexer2 targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:20:52.200 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Connecting to peer GOEL-Indexer2 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:20:52.200 INFO  SearchTargeter [1045 searchOrchestrator] - Index list is not available for GOEL-Indexer3 targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:20:52.200 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Connecting to peer GOEL-Indexer3 connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:20:52.200 INFO  SearchTargeter [1045 searchOrchestrator] - Index list is not available for GOEL-SearchHead targeting based on splunk_server and splunk_server_group only
+02-06-2024 20:20:52.200 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Connecting to peer GOEL-SearchHead connectAll 0 connectToSpecificPeer 1
+02-06-2024 20:20:52.202 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer1 in 0.002 seconds
+02-06-2024 20:20:52.203 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer2 in 0.002 seconds
+02-06-2024 20:20:52.205 INFO  DistributedSearchResultCollectionManager [1045 searchOrchestrator] - Successfully created search result collector for peer=GOEL-Indexer3 in 0.002 seconds
+02-06-2024 20:20:52.205 INFO  UserManager [1076 SearchResultExecutorThread] - Setting user context: admin
+02-06-2024 20:20:52.205 INFO  UserManager [1076 SearchResultExecutorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:20:52.205 INFO  UserManager [1077 localCollectorThread] - Setting user context: admin
+02-06-2024 20:20:52.205 INFO  UserManager [1077 localCollectorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:20:52.205 INFO  SearchPhaseGenerator [1045 searchOrchestrator] - Time spends on creating distributed search results infrastructure; dispatchcreatedSearchResultInfrastructure=0.005179223 seconds.
+02-06-2024 20:20:52.205 INFO  SearchParser [1077 localCollectorThread] - PARSING: litsearch (index=infra source=*cisco_ironport_mail.log* _time>=1707164452.000) | fields  keepcolorder=t "DCID" "ICID" "MID" "_bkt" "_cd" "_raw" "_si" "_time" "_txn_ends_with" "_txn_filter_match" "_txn_starts_with" "host" "index" "linecount" "source" "sourcetype" "splunk_server" | pretransaction  MID DCID ICID
+02-06-2024 20:20:52.205 INFO  SortOperator [1077 localCollectorThread] - Fallback to old Sort
+02-06-2024 20:20:52.205 INFO  SortOperator [1077 localCollectorThread] - maxmem = 209715200
+02-06-2024 20:20:52.205 INFO  SearchOrchestrator [1045 searchOrchestrator] - Starting the status control thread.
+02-06-2024 20:20:52.205 INFO  SearchOrchestrator [1045 searchOrchestrator] - Starting phase=1
+02-06-2024 20:20:52.205 INFO  UserManager [1073 StatusEnforcerThread] - Setting user context: admin
+02-06-2024 20:20:52.205 INFO  UserManager [1073 StatusEnforcerThread] - Done setting user context: NULL -> admin
+02-06-2024 20:20:52.205 INFO  SearchStatusEnforcer [1073 StatusEnforcerThread] - Enforcing disk quota = 10485760000
+02-06-2024 20:20:52.205 INFO  UserManager [1078 phase_1] - Setting user context: admin
+02-06-2024 20:20:52.205 INFO  UserManager [1078 phase_1] - Done setting user context: NULL -> admin
+02-06-2024 20:20:52.205 INFO  ReducePhaseExecutor [1078 phase_1] - Starting phase_1
+02-06-2024 20:20:52.205 INFO  PreviewExecutor [1073 StatusEnforcerThread] - Preview Enforcing initialization done
+02-06-2024 20:20:52.217 INFO  UnifiedSearch [1077 localCollectorThread] - No indexes to search
+02-06-2024 20:20:52.217 INFO  SearchParser [1077 localCollectorThread] - PARSING: typer | tags
+02-06-2024 20:20:52.218 INFO  FastTyper [1077 localCollectorThread] - found nodes count: comparisons=6, unique_comparisons=5, terms=4, unique_terms=4, phrases=12, unique_phrases=12, total leaves=22
+02-06-2024 20:20:52.219 INFO  UnifiedSearch [1077 localCollectorThread] - Initialization of search data structures took 2 ms
+02-06-2024 20:20:52.219 INFO  UnifiedSearch [1077 localCollectorThread] - Processed search targeting arguments
+02-06-2024 20:20:52.219 INFO  NewTransam [1077 localCollectorThread] - txnName=no_name, maxopentxn=5000, maxopenevents=100000
+02-06-2024 20:20:52.219 INFO  LocalCollector [1077 localCollectorThread] - Final required fields list = DCID,ICID,MID,_bkt,_cd,_raw,_si,_time,_txn_ends_with,_txn_filter_match,_txn_starts_with,host,index,linecount,source,sourcetype,splunk_server
+02-06-2024 20:20:52.219 INFO  UserManager [1077 localCollectorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.219 INFO  UserManager [1077 localCollectorThread] - Setting user context: admin
+02-06-2024 20:20:52.219 INFO  UserManager [1077 localCollectorThread] - Done setting user context: NULL -> admin
+02-06-2024 20:20:52.219 INFO  UserManager [1077 localCollectorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.220 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=2147483647.000000
+02-06-2024 20:20:52.249 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=2147483647.000000
+02-06-2024 20:20:52.262 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=2147483647.000000
+02-06-2024 20:20:52.404 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.408 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.410 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.411 INFO  UserManager [1076 SearchResultExecutorThread] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.414 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.416 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.421 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.422 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.422 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.423 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.423 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.424 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.424 INFO  TimelineCreator [1078 phase_1] - Commit timeline at cursor=1707250115.000000
+02-06-2024 20:20:52.424 INFO  ResultsCollationProcessor [1078 phase_1] - Writing remote_event_providers.csv to disk
+02-06-2024 20:20:52.425 INFO  SimpleResultsCombiner [1078 phase_1] - Starting drain of results cached inside results combiner, drained=1
+02-06-2024 20:20:52.425 INFO  NewTransam [1078 phase_1] - Finalizing. Committing all open txns withheld
+02-06-2024 20:20:52.435 INFO  NewTransam [1078 phase_1] - evicted=0, closed=128, event_count=3374, candidate_events=3136, comparison_count=3136
+02-06-2024 20:20:52.435 INFO  NewTransam [1078 phase_1] - Finalizing/previewing. Committing all open txns withheld
+02-06-2024 20:20:52.435 INFO  NewTransam [1078 phase_1] - evicted=0, closed=128, event_count=3374, candidate_events=3136, comparison_count=3136
+02-06-2024 20:20:52.459 INFO  DownloadRemoteDataTransaction [1078 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:20:52.465 INFO  ReducePhaseExecutor [1078 phase_1] - Downloading all remote search.log files took 0.007 seconds
+02-06-2024 20:20:52.465 INFO  DownloadRemoteDataTransaction [1078 phase_1] - Downloading logs from all remote event providers
+02-06-2024 20:20:52.470 INFO  ReducePhaseExecutor [1078 phase_1] - Downloading all remote search_telemetry.json files took 0.006 seconds
+02-06-2024 20:20:52.471 INFO  ReducePhaseExecutor [1078 phase_1] - Ending phase_1
+02-06-2024 20:20:52.471 INFO  UserManager [1078 phase_1] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.474 INFO  UserManager [1073 StatusEnforcerThread] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.475 INFO  DispatchManager [1045 searchOrchestrator] - DispatchManager::dispatchHasFinished(id='admin__admin__search__search3_1707250852.6', username='admin')
+02-06-2024 20:20:52.475 INFO  UserManager [1045 searchOrchestrator] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.476 INFO  SimpleResultsCombiner [1028 RunDispatch] - Base tmp dir removed.
+02-06-2024 20:20:52.476 INFO  SearchStatusEnforcer [1028 RunDispatch] - SearchStatusEnforcer is already terminated
+02-06-2024 20:20:52.477 INFO  UserManager [1028 RunDispatch] - Unwound user context: admin -> NULL
+02-06-2024 20:20:52.477 INFO  LookupDataProvider [1028 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:20:52.479 INFO  dispatchRunner [29684 MainThread] - RunDispatch is done: sid=admin__admin__search__search3_1707250852.6, exit=0

@@ -1,0 +1,760 @@
+02-06-2024 03:58:03.262 DEBUG ConfPathMapperManager - Running setup for /opt/splunkforwarder/etc using /opt/splunkforwarder/etc/system/default/conf.conf
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/local
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/local
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/default
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/default
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/search/default
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_httpinput/default
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:03.263 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:03.263 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/default
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.264 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/default
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.264 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin (searchscripts)
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.264 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/bin (searchscripts)
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:03.264 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/system/bin (searchscripts)
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.264 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.264 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.264 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=journald_input: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.264 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=search: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.264 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.264 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system: /opt/splunkforwarder/etc/system [user: nobody, application: system]
+02-06-2024 03:58:03.264 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=system: /opt/splunkforwarder/etc/system
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.264 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=learned: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.264 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.264 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.265 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/default.meta
+02-06-2024 03:58:03.265 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.265 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.265 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/search/metadata/default.meta
+02-06-2024 03:58:03.265 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.265 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.265 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/local.meta
+02-06-2024 03:58:03.265 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.265 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.265 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/default.meta
+02-06-2024 03:58:03.265 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.265 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.265 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/local.meta
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Initializing applications: /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Initialized 7 application(s): /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:03.266 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: Reporting possible global export from app learned
+02-06-2024 03:58:03.266 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/search/metadata/default.meta: Reporting possible global export from app search
+02-06-2024 03:58:03.266 DEBUG ApplicationManager - Found 2 application(s) that might have global exports
+02-06-2024 03:58:03.267 DEBUG ConfPathMapperManager - Running setup for /opt/splunkforwarder/etc using /opt/splunkforwarder/etc/system/default/conf.conf
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/local
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/local
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/default
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/default
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/search/default
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_httpinput/default
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:03.268 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/default
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.268 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.269 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/default
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.269 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin (searchscripts)
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.269 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/bin (searchscripts)
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:03.269 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/system/bin (searchscripts)
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.269 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.269 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.269 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=journald_input: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.269 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=search: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.269 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.269 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system: /opt/splunkforwarder/etc/system [user: nobody, application: system]
+02-06-2024 03:58:03.269 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=system: /opt/splunkforwarder/etc/system
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.269 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=learned: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.269 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.269 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.269 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/default.meta
+02-06-2024 03:58:03.270 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.270 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.270 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/search/metadata/default.meta
+02-06-2024 03:58:03.270 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.270 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.270 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/local.meta
+02-06-2024 03:58:03.270 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.270 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.270 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/default.meta
+02-06-2024 03:58:03.270 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.270 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.270 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/local.meta
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Initializing applications: /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Initialized 7 application(s): /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:03.271 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: Reporting possible global export from app learned
+02-06-2024 03:58:03.271 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/search/metadata/default.meta: Reporting possible global export from app search
+02-06-2024 03:58:03.271 DEBUG ApplicationManager - Found 2 application(s) that might have global exports
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:03.271 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:03.271 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:03.271 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:03.271 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:03.765 DEBUG ConfPathMapperManager - Running setup for /opt/splunkforwarder/etc using /opt/splunkforwarder/etc/system/default/conf.conf
+02-06-2024 03:58:03.766 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/local
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/local
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/default
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/default
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/search/default
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_httpinput/default
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/default
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.767 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.767 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/default
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.768 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin (searchscripts)
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.768 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/bin (searchscripts)
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:03.768 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/system/bin (searchscripts)
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.768 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.768 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.768 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=journald_input: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.768 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=search: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.768 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.768 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system: /opt/splunkforwarder/etc/system [user: nobody, application: system]
+02-06-2024 03:58:03.768 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=system: /opt/splunkforwarder/etc/system
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.768 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=learned: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.768 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.768 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.769 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/default.meta
+02-06-2024 03:58:03.769 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.769 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.769 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/search/metadata/default.meta
+02-06-2024 03:58:03.769 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.769 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.769 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/local.meta
+02-06-2024 03:58:03.769 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.769 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.769 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/default.meta
+02-06-2024 03:58:03.769 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.769 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.769 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/local.meta
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Initializing applications: /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Initialized 7 application(s): /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:03.770 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: Reporting possible global export from app learned
+02-06-2024 03:58:03.770 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/search/metadata/default.meta: Reporting possible global export from app search
+02-06-2024 03:58:03.770 DEBUG ApplicationManager - Found 2 application(s) that might have global exports
+02-06-2024 03:58:03.771 DEBUG ConfPathMapperManager - Running setup for /opt/splunkforwarder/etc using /opt/splunkforwarder/etc/system/default/conf.conf
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/local
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/local
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/default
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/default
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/search/default
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_httpinput/default
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:03.772 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/default
+02-06-2024 03:58:03.772 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.773 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/default
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.773 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin (searchscripts)
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.773 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/bin (searchscripts)
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:03.773 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/system/bin (searchscripts)
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.773 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:03.773 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:03.773 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=journald_input: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.773 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=search: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:03.773 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:03.773 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system: /opt/splunkforwarder/etc/system [user: nobody, application: system]
+02-06-2024 03:58:03.773 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=system: /opt/splunkforwarder/etc/system
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.773 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=learned: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:03.773 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta
+02-06-2024 03:58:03.773 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.774 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/default.meta
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:03.774 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/search/metadata/default.meta
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.774 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/local.meta
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:03.774 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/default.meta
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.774 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:03.774 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/local.meta
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Initializing applications: /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Initialized 7 application(s): /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:03.775 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: Reporting possible global export from app learned
+02-06-2024 03:58:03.775 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/search/metadata/default.meta: Reporting possible global export from app search
+02-06-2024 03:58:03.775 DEBUG ApplicationManager - Found 2 application(s) that might have global exports
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:03.775 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:03.775 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:03.776 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:03.776 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:03.776 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:03.776 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:03.776 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:03.776 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:03.776 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:04.181 DEBUG ConfPathMapperManager - Running setup for /opt/splunkforwarder/etc using /opt/splunkforwarder/etc/system/default/conf.conf
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:04.182 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/local
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.182 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/local
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.182 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.182 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/default
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.182 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/default
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.182 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/search/default
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.182 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_httpinput/default
+02-06-2024 03:58:04.182 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.183 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:04.183 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/default
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.183 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/default
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.183 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin (searchscripts)
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.183 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/bin (searchscripts)
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:04.183 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/system/bin (searchscripts)
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.183 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.183 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.183 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=journald_input: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.183 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=search: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.183 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.183 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system: /opt/splunkforwarder/etc/system [user: nobody, application: system]
+02-06-2024 03:58:04.183 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=system: /opt/splunkforwarder/etc/system
+02-06-2024 03:58:04.183 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.183 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=learned: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.184 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.184 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/default.meta
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.184 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/search/metadata/default.meta
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.184 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/local.meta
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.184 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/default.meta
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.184 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.184 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/local.meta
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Initializing applications: /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Initialized 7 application(s): /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:04.185 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: Reporting possible global export from app learned
+02-06-2024 03:58:04.185 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/search/metadata/default.meta: Reporting possible global export from app search
+02-06-2024 03:58:04.185 DEBUG ApplicationManager - Found 2 application(s) that might have global exports
+02-06-2024 03:58:04.186 DEBUG ConfPathMapperManager - Running setup for /opt/splunkforwarder/etc using /opt/splunkforwarder/etc/system/default/conf.conf
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:04.187 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/local
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.187 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/local
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.187 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.187 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/default
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.187 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/default
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.187 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/search/default
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.187 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_httpinput/default
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.187 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default
+02-06-2024 03:58:04.187 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:04.188 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/default
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.188 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/default
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.188 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin (searchscripts)
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.188 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/bin (searchscripts)
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:04.188 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/system/bin (searchscripts)
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.188 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.188 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.188 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=journald_input: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.188 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=search: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.188 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.188 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system: /opt/splunkforwarder/etc/system [user: nobody, application: system]
+02-06-2024 03:58:04.188 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=system: /opt/splunkforwarder/etc/system
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.188 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=learned: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.188 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.189 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.189 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/default.meta
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.189 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/search/metadata/default.meta
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.189 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/local.meta
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.189 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/default.meta
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.189 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.189 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/local.meta
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Initializing applications: /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Initialized 7 application(s): /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:04.190 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: Reporting possible global export from app learned
+02-06-2024 03:58:04.190 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/search/metadata/default.meta: Reporting possible global export from app search
+02-06-2024 03:58:04.190 DEBUG ApplicationManager - Found 2 application(s) that might have global exports
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:04.190 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:04.190 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:04.190 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:04.191 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:04.191 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:04.191 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:04.191 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:04.734 DEBUG ConfPathMapperManager - Running setup for /opt/splunkforwarder/etc using /opt/splunkforwarder/etc/system/default/conf.conf
+02-06-2024 03:58:04.735 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:04.735 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:04.735 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/local
+02-06-2024 03:58:04.735 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.735 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.735 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/local
+02-06-2024 03:58:04.735 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.735 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.735 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default
+02-06-2024 03:58:04.735 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.735 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/default
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/default
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/search/default
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_httpinput/default
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/default
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/default
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin (searchscripts)
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/bin (searchscripts)
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:04.736 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/system/bin (searchscripts)
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.736 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.736 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.736 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=journald_input: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.736 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=search: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.736 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:04.736 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.736 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system: /opt/splunkforwarder/etc/system [user: nobody, application: system]
+02-06-2024 03:58:04.737 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=system: /opt/splunkforwarder/etc/system
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.737 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=learned: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.737 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.737 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/default.meta
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.737 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/search/metadata/default.meta
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.737 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/local.meta
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.737 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.737 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/default.meta
+02-06-2024 03:58:04.738 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.738 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.738 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/local.meta
+02-06-2024 03:58:04.738 DEBUG ApplicationManager - Initializing applications: /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:04.738 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:04.738 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:04.738 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:04.738 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:04.738 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:04.738 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:04.738 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:04.739 DEBUG ApplicationManager - Initialized 7 application(s): /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:04.739 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: Reporting possible global export from app learned
+02-06-2024 03:58:04.739 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/search/metadata/default.meta: Reporting possible global export from app search
+02-06-2024 03:58:04.739 DEBUG ApplicationManager - Found 2 application(s) that might have global exports
+02-06-2024 03:58:04.739 DEBUG ConfPathMapperManager - Running setup for /opt/splunkforwarder/etc using /opt/splunkforwarder/etc/system/default/conf.conf
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/local: /opt/splunkforwarder/etc/system/local [user: nobody, application: system]
+02-06-2024 03:58:04.740 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/local
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/local: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.740 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/local
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.740 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/default
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/default: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.740 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/default
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.740 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/default: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.740 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/default
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/default: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.741 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/search/default
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput/default: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.741 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_httpinput/default
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.741 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/splunk_internal_metrics/default
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/default: /opt/splunkforwarder/etc/system/default [user: nobody, application: system]
+02-06-2024 03:58:04.741 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/system/default
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/default: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.741 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfPathMapper: /opt/splunkforwarder/etc/apps/learned/default
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.741 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/introspection_generator_addon/bin (searchscripts)
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input/bin: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.741 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/apps/journald_input/bin (searchscripts)
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/bin: /opt/splunkforwarder/etc/system/bin [user: nobody, application: system]
+02-06-2024 03:58:04.741 DEBUG ConfPathMapperManager - Added IConfPathMapper: LookupTableConfPathMapper: /opt/splunkforwarder/etc/system/bin (searchscripts)
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.741 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=SplunkUniversalForwarder: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon [user: nobody, application: introspection_generator_addon]
+02-06-2024 03:58:04.741 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=introspection_generator_addon: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/journald_input: /opt/splunkforwarder/etc/apps/journald_input [user: nobody, application: journald_input]
+02-06-2024 03:58:04.741 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=journald_input: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.741 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=search: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput [user: nobody, application: splunk_httpinput]
+02-06-2024 03:58:04.741 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_httpinput: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics [user: nobody, application: splunk_internal_metrics]
+02-06-2024 03:58:04.741 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=splunk_internal_metrics: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system: /opt/splunkforwarder/etc/system [user: nobody, application: system]
+02-06-2024 03:58:04.741 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=system: /opt/splunkforwarder/etc/system
+02-06-2024 03:58:04.741 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.741 DEBUG BundlesSetup - Registered iterator path with user=nobody, app=learned: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder [user: nobody, application: SplunkUniversalForwarder]
+02-06-2024 03:58:04.742 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder/metadata/default.meta
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.742 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/default.meta
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/search/metadata/default.meta: /opt/splunkforwarder/etc/apps/search [user: nobody, application: search]
+02-06-2024 03:58:04.742 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/search/metadata/default.meta
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/local.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.742 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/local.meta
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/system/metadata/default.meta: /opt/splunkforwarder/etc/system/metadata [user: nobody, application: system]
+02-06-2024 03:58:04.742 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/system/metadata/default.meta
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.742 DEBUG BundlesUtil - Root directory for /opt/splunkforwarder/etc/apps/learned/metadata/local.meta: /opt/splunkforwarder/etc/apps/learned [user: nobody, application: learned]
+02-06-2024 03:58:04.742 DEBUG ConfPathMapperManager - Added IConfPathMapper: ConfObjectManager: /opt/splunkforwarder/etc/apps/learned/metadata/local.meta
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Initializing applications: /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/journald_input
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_internal_metrics
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/SplunkUniversalForwarder
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/search
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/introspection_generator_addon
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/splunk_httpinput
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Found application directory: /opt/splunkforwarder/etc/apps/learned
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Initialized 7 application(s): /opt/splunkforwarder/etc/apps
+02-06-2024 03:58:04.743 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/learned/metadata/default.meta: Reporting possible global export from app learned
+02-06-2024 03:58:04.743 DEBUG ConfObjectManagerDB - /opt/splunkforwarder/etc/apps/search/metadata/default.meta: Reporting possible global export from app search
+02-06-2024 03:58:04.743 DEBUG ApplicationManager - Found 2 application(s) that might have global exports
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:04.744 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:04.744 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/default/indexes.conf
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local
+02-06-2024 03:58:04.744 DEBUG BundlesUtil - recursiveCheckIfBundlePopulated, checking /opt/splunkforwarder/etc/manager-apps/_cluster/local/README
+02-06-2024 03:58:04.744 INFO  BundlesUtil - Using manager-apps over master-apps, using: /opt/splunkforwarder/etc/manager-apps

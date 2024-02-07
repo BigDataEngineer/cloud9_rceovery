@@ -1,0 +1,128 @@
+02-06-2024 20:31:52.510 INFO  dispatchRunner [21298 MainThread] - Search process mode: preforked (first search in process) (build b985591d12fd).
+02-06-2024 20:31:52.510 INFO  dispatchRunner [21298 MainThread] - initing LicenseMgr in search process: nonPro=0
+02-06-2024 20:31:52.510 INFO  LMStackMgr [21298 MainThread] - Initializing CleMgr...
+02-06-2024 20:31:52.510 INFO  LicenseMgr [21298 MainThread] - Initing LicenseMgr
+02-06-2024 20:31:52.510 INFO  LMConfig [21298 MainThread] - serverName=GOEL-Indexer3 guid=A4B2739E-EC56-4B6D-9A88-3AA302EAA608
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - connection_timeout=30
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - send_timeout=30
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - receive_timeout=30
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - squash_threshold=2000
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - strict_pool_quota=1
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:31:52.512 INFO  LMConfig [21298 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:31:52.512 INFO  LicenseMgr [21298 MainThread] - Initing LicenseMgr runContext_splunkd=false
+02-06-2024 20:31:52.512 INFO  LMStackMgr [21298 MainThread] - closing stack mgr
+02-06-2024 20:31:52.512 INFO  LMSlaveInfo [21298 MainThread] - all slaves cleared
+02-06-2024 20:31:52.512 INFO  LMStackMgr [21298 MainThread] - partial init only since node has remote master=https://10.0.3.7:8089
+02-06-2024 20:31:52.512 INFO  LicenseMgr [21298 MainThread] - StackMgr init complete...
+02-06-2024 20:31:52.512 INFO  LMTracker [21298 MainThread] - Setting default product type='enterprise'
+02-06-2024 20:31:52.512 INFO  LMTracker [21298 MainThread] - this is not splunkd, will perform partial init
+02-06-2024 20:31:52.512 INFO  LicenseMgr [21298 MainThread] - Tracker init complete...
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'licenses'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'pools'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'stacks'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'groups'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'slaves'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'peers'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'localslave'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'localpeer'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'licensermessages'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'scriptedwarning'
+02-06-2024 20:31:52.519 INFO  AdminManagerDispatch [21298 MainThread] - added factory for admin handler: 'licenseusage'
+02-06-2024 20:31:52.519 INFO  LicenseMgr [21298 MainThread] - Initing LicenseMgr
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - serverName=GOEL-Indexer3 guid=A4B2739E-EC56-4B6D-9A88-3AA302EAA608
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - connection_timeout=30
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - send_timeout=30
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - receive_timeout=30
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - key=license_warnings_update_interval not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - squash_threshold=2000
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - strict_pool_quota=1
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - key=pool_suggestion not found in licenser stanza of server.conf, defaulting=''
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - key=test_aws_metering not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:31:52.519 INFO  LMConfig [21298 MainThread] - key=test_aws_product_code not found in licenser stanza of server.conf, defaulting=0
+02-06-2024 20:31:52.519 INFO  dispatchRunner [21298 MainThread] - Feature flag post-args={"v":1,"enabledFeatures":["stats:allow_stats_v2"],"disabledFeatures":["searchresults:srs2"]}
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Initializing feature flags from config. feature_seed=46947589
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=parallelreduce:enablePreview:true
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=search:search_retry:false
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=search:search_retry_realtime:false
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=parallelreduce:autoAppliedPercentage:false
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=subsearch:enableConcurrentPipelineProcessing:false
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=stats:allow_stats_v2:true
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=search_optimization::set_required_fields:stats:false
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=searchresults:srs2:false
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Setting feature_flag=search:read_final_results_from_timeliner:true
+02-06-2024 20:31:52.519 INFO  SearchFeatureFlags [21298 MainThread] - Overlaying SearchFeatureFlags from jsonNode={"v":1,"enabledFeatures":["stats:allow_stats_v2"],"disabledFeatures":["searchresults:srs2"]}
+02-06-2024 20:31:52.520 INFO  dispatchRunner [21298 MainThread] - registering build time modules, count=1
+02-06-2024 20:31:52.520 INFO  dispatchRunner [21298 MainThread] - registering search time components of build time module name=vix
+02-06-2024 20:31:52.520 INFO  dispatchRunner [21298 MainThread] - Getting search configuration data from: /opt/splunk/etc/modules/parsing/config.xml
+02-06-2024 20:31:52.526 WARN  SSLOptions [21298 MainThread] - server.conf/[kvstore]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+02-06-2024 20:31:52.527 INFO  BundlesSetup [21298 MainThread] - Setup stats for /opt/splunk/var/run/searchpeers/GOEL-SearchHead-1707251292: wallclock_elapsed_msec=14, cpu_time_used=0.0147687, shared_services_generation=2, shared_services_population=1
+02-06-2024 20:31:52.541 INFO  UserManagerPro [21298 MainThread] - Load authentication: forcing roles="admin, can_delete, power, user"
+02-06-2024 20:31:52.541 INFO  PipelineComponent [21298 MainThread] - Ingestion pipeline sets have been configured to use pipeline set policy=round_robin for multiple pipeline sets.
+02-06-2024 20:31:52.542 INFO  UserManager [12351 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:31:52.542 INFO  UserManager [12351 RunDispatch] - Done setting user context: NULL -> splunk-system-user
+02-06-2024 20:31:52.543 INFO  UserManager [12351 RunDispatch] - Unwound user context: splunk-system-user -> NULL
+02-06-2024 20:31:52.543 INFO  UserManager [12351 RunDispatch] - Setting user context: admin
+02-06-2024 20:31:52.543 INFO  UserManager [12351 RunDispatch] - Done setting user context: NULL -> admin
+02-06-2024 20:31:52.543 INFO  dispatchRunner [12351 RunDispatch] - search context: user="admin", app="search", bs-pathname="/opt/splunk/var/run/searchpeers/GOEL-SearchHead-1707251292"
+02-06-2024 20:31:52.549 WARN  IndexConfig [12351 RunDispatch] - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=bcgames; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:31:52.549 WARN  IndexConfig [12351 RunDispatch] - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=bcgames maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:31:52.549 WARN  IndexConfig [12351 RunDispatch] - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=infra; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:31:52.549 WARN  IndexConfig [12351 RunDispatch] - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=infra maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:31:52.550 WARN  IndexConfig [12351 RunDispatch] - Max bucket size is larger than destination path size limit. Please check your index configuration. idx=soc; bucket size in (from maxDataSize) 750 MB, homePath.maxDataSizeMB=100,  coldPath.maxDataSizeMB=100
+02-06-2024 20:31:52.550 WARN  IndexConfig [12351 RunDispatch] - Home path size limit cannot accomodate maximum number of hot buckets with specified bucket size because homePath.maxDataSizeMB is too small. Please check your index configuration: idx=soc maxDataSize=750 MB, homePath.maxDataSizeMB=100 MB
+02-06-2024 20:31:52.550 INFO  SearchParser [12351 RunDispatch] - PARSING: litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "*" "AttackVessel" "Infiltrators" "_bkt" "_cd" "_si" "host" "index" "linecount" "prestats_reserved_*" "psrsvd_*" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=2147483647.000000 lt=0.000000 max_count=1000 max_prefetch=100 | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:31:52.550 INFO  StatsContext [12351 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:31:52.550 INFO  StatsContext [12351 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:31:52.551 INFO  SearchParser [12351 RunDispatch] - PARSING: litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "*" "AttackVessel" "Infiltrators" "_bkt" "_cd" "_si" "host" "index" "linecount" "prestats_reserved_*" "psrsvd_*" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=2147483647.000000 lt=0.000000 max_count=1000 max_prefetch=100 | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:31:52.551 INFO  StatsContext [12351 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:31:52.551 INFO  StatsContext [12351 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:31:52.551 INFO  UserManager [12351 RunDispatch] - Setting user context: splunk-system-user
+02-06-2024 20:31:52.551 INFO  UserManager [12351 RunDispatch] - Done setting user context: admin -> splunk-system-user
+02-06-2024 20:31:52.551 INFO  UserManager [12351 RunDispatch] - Setting user context: admin
+02-06-2024 20:31:52.551 INFO  UserManager [12351 RunDispatch] - Done setting user context: splunk-system-user -> admin
+02-06-2024 20:31:52.552 INFO  UserManager [12351 RunDispatch] - Unwound user context: admin -> splunk-system-user
+02-06-2024 20:31:52.552 INFO  UserManager [12351 RunDispatch] - Unwound user context: splunk-system-user -> admin
+02-06-2024 20:31:52.552 INFO  DispatchCommandProcessor [12351 RunDispatch] - Search requires the following indexes="[bcgames]"
+02-06-2024 20:31:52.553 INFO  IndexReaderIf [12351 RunDispatch] - Loading Clustering bucket manifest file=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen106.csv.gz
+02-06-2024 20:31:52.553 INFO  DatabaseDirectoryManager [12351 RunDispatch] - initDDMsFromSearchBucketManifest path=/opt/splunk/var/run/splunk/cluster/search-buckets/search_sitedefault_gen106.csv.gz, indexWhiteList_size=1
+02-06-2024 20:31:52.553 INFO  CMBucketId [12351 RunDispatch] - CMIndexId: New indexName=_telemetry inserted, mapping to id=1
+02-06-2024 20:31:52.553 INFO  CMBucketId [12351 RunDispatch] - CMIndexId: New indexName=_audit inserted, mapping to id=2
+02-06-2024 20:31:52.553 INFO  CMBucketId [12351 RunDispatch] - CMIndexId: New indexName=_internal inserted, mapping to id=3
+02-06-2024 20:31:52.553 INFO  dispatchRunner [12351 RunDispatch] - SearchPeerInitSearchMs=10
+02-06-2024 20:31:52.553 INFO  dispatchRunner [12351 RunDispatch] - Serial search pipeline for streaming search being launched.
+02-06-2024 20:31:52.553 INFO  SearchParser [12351 RunDispatch] - PARSING: litsearch (index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml) | addinfo  type=count label=prereport_events track_fieldmeta_events=true | fields  keepcolorder=t "*" "AttackVessel" "Infiltrators" "_bkt" "_cd" "_si" "host" "index" "linecount" "prestats_reserved_*" "psrsvd_*" "source" "sourcetype" "splunk_server"  | remotetl  nb=300 et=2147483647.000000 lt=0.000000 max_count=1000 max_prefetch=100 | prestats  sum(Infiltrators) by AttackVessel
+02-06-2024 20:31:52.553 INFO  StatsContext [12351 RunDispatch] -  Setting chunk size min=65536 max=1048576 double_every=100
+02-06-2024 20:31:52.553 INFO  StatsContext [12351 RunDispatch] -  Setting max memory usage to 209715200
+02-06-2024 20:31:52.595 INFO  SearchParser [12351 RunDispatch] - PARSING: typer | tags
+02-06-2024 20:31:52.601 INFO  FastTyper [12351 RunDispatch] - found nodes count: comparisons=6, unique_comparisons=5, terms=4, unique_terms=4, phrases=12, unique_phrases=12, total leaves=22
+02-06-2024 20:31:52.602 INFO  UserManager [12351 RunDispatch] - Setting user context: admin
+02-06-2024 20:31:52.602 INFO  UserManager [12351 RunDispatch] - Done setting user context: admin -> admin
+02-06-2024 20:31:52.602 INFO  FastSearchFilter [12351 RunDispatch] - Finished initializing IndexScopedFilter - trivial=0, nTerms=0, oTerms=0, host=0, source=1, sourcetype=1, linecount=0 exactCustomCmp=0
+02-06-2024 20:31:52.602 INFO  UserManager [12351 RunDispatch] - Unwound user context: admin -> admin
+02-06-2024 20:31:52.602 INFO  IndexScopedSearch [12351 RunDispatch] -  IndexScopedSearch is called for index = bcgames, et = 0.000000000, lt = 2147483647.000000000, index_et = -9223372036854775808.000000000, index_lt = 9223372036854775807.999999000, noRead = FALSE
+02-06-2024 20:31:52.603 INFO  IndexScopedSearch [12351 RunDispatch] - ct=2147483647.000000 et=0.000000 lt=2147483647.000000 dbsize=0
+02-06-2024 20:31:52.603 INFO  UnifiedSearch [12351 RunDispatch] - Initialization of search data structures took 8 ms
+02-06-2024 20:31:52.603 INFO  UnifiedSearch [12351 RunDispatch] - Processed search targeting arguments
+02-06-2024 20:31:52.603 INFO  StatsProcessorV2 [12351 RunDispatch] - StatsV2 (stats) args: sum(Infiltrators), by, AttackVessel
+02-06-2024 20:31:52.603 INFO  StatsProcessorV2 [12351 RunDispatch] - StatsProcessorV2::processArguments: Unaligned accesses are free
+02-06-2024 20:31:52.603 INFO  StatsAggregations [12351 RunDispatch] - Instantiating Stats function sum for key=Infiltrators, alias=sum(Infiltrators)
+02-06-2024 20:31:52.603 INFO  StatsContext [12351 RunDispatch] - shouldFallbackToOldStats: _use_v2_level=USE_V2_ALL, fallback=false
+02-06-2024 20:31:52.609 INFO  SearchPipelineExecutor [12351 RunDispatch] - Number of StreamSearch pipelines launched=1
+02-06-2024 20:31:52.609 INFO  SearchPipelineExecutor [12351 RunDispatch] - Starting to transmit serialized search results.
+02-06-2024 20:31:52.609 INFO  SearchPipelineExecutor [12358 StreamSearch] - StreamSearch pipeline=0 is started in its own thread
+02-06-2024 20:31:52.609 INFO  UserManager [12358 StreamSearch] - Setting user context: admin
+02-06-2024 20:31:52.609 INFO  UserManager [12358 StreamSearch] - Done setting user context: NULL -> admin
+02-06-2024 20:31:52.609 INFO  SearchPipelineExecutor [12358 StreamSearch] - Finished streaming: results.count=0
+02-06-2024 20:31:52.609 INFO  UserManager [12358 StreamSearch] - Unwound user context: admin -> NULL
+02-06-2024 20:31:52.609 INFO  SearchPipelineExecutor [12358 StreamSearch] - StreamSearch pipleine=0 is finished.
+02-06-2024 20:31:52.610 INFO  SearchPipelineExecutor [12360 NormSerializeExecutorThread] - NormSerializeExecutorThread pipeline=0 is started in its own thread.
+02-06-2024 20:31:52.610 INFO  SearchPipelineExecutor [12360 NormSerializeExecutorThread] - NormSerializeExecutorThread pipeline=0 is finished.
+02-06-2024 20:31:52.610 INFO  SearchPipelineExecutor [12351 RunDispatch] - Done transmitting serialized search results, total bytes transmitted 7957.
+02-06-2024 20:31:52.610 INFO  dispatchRunner [12351 RunDispatch] - Done with streaming search.
+02-06-2024 20:31:52.611 INFO  SearchPipelineExecutor [12351 RunDispatch] - Streamed Search Index Orchestrator has been shutdown.
+02-06-2024 20:31:52.611 INFO  UserManager [12351 RunDispatch] - Unwound user context: admin -> NULL
+02-06-2024 20:31:52.611 INFO  LookupDataProvider [12351 RunDispatch] - Clearing out lookup shared provider map
+02-06-2024 20:31:52.612 INFO  dispatchRunner [21298 MainThread] - RunDispatch is done: sid=remote_GOEL-SearchHead_1707251512.29, exit=0

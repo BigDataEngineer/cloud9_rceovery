@@ -1,0 +1,72 @@
+4.1.2 2024-02-06 07:00:01,718 INFO 140274384222016 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 07:00:01,719 INFO 140274384222016 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 07:00:01,745 INFO 140499385018176 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 07:00:01,745 INFO 140499385018176 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 07:00:01,961 INFO 140274384222016 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 07:00:01,996 INFO 140499385018176 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:29:31,034 INFO 140663694677824 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:29:31,034 INFO 140663694677824 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:29:31,169 INFO 140663694677824 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:29:31,949 INFO 140106758440768 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:29:31,949 INFO 140106758440768 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:29:32,029 INFO 140106758440768 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:32:53,394 INFO 140214443243328 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:32:53,395 INFO 140214443243328 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:32:53,808 INFO 140214443243328 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:35:40,287 INFO 139878520854336 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:35:40,288 INFO 139878520854336 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:35:40,449 INFO 139878520854336 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 08:53:52,804 INFO 140325044037440 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 08:53:52,805 INFO 140325044037440 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 08:53:53,294 INFO 140325044037440 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:12:19,609 INFO 140374638618432 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:12:19,609 INFO 140374638618432 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:12:19,769 INFO 140374638618432 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:25:03,108 INFO 139846912997184 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:25:03,109 INFO 139846912997184 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:25:03,268 INFO 139846912997184 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:27:24,756 INFO 140157032625984 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:27:24,757 INFO 140157032625984 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:27:24,888 INFO 140157032625984 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:35:10,661 INFO 140363951195968 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:35:10,661 INFO 140363951195968 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:35:10,805 INFO 140363951195968 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 12:45:26,482 INFO 139708546672448 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 12:45:26,483 INFO 139708546672448 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 12:45:26,630 INFO 139708546672448 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:00:02,413 INFO 139747197847360 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:00:02,413 INFO 139747197847360 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:00:02,541 INFO 139747197847360 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:16:01,275 INFO 139783260096320 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:16:01,276 INFO 139783260096320 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:16:01,414 INFO 139783260096320 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:18:11,068 INFO 140388893914944 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:18:11,068 INFO 140388893914944 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:18:11,218 INFO 140388893914944 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:27:56,900 INFO 139789649184576 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:27:56,901 INFO 139789649184576 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:27:57,044 INFO 139789649184576 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:43:05,845 INFO 140217514469184 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:43:05,845 INFO 140217514469184 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:43:06,014 INFO 140217514469184 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 16:56:05,460 INFO 140677566150464 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 16:56:05,461 INFO 140677566150464 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 16:56:05,764 INFO 140677566150464 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 19:00:01,533 INFO 140369971799872 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 19:00:01,534 INFO 140369971799872 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 19:00:01,646 INFO 139894159013696 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 19:00:01,647 INFO 139894159013696 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 19:00:01,777 INFO 140369971799872 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 19:00:01,888 INFO 139894159013696 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 20:17:11,113 INFO 139799760021312 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 20:17:11,114 INFO 139799760021312 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 20:17:11,185 INFO 139799760021312 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 20:31:28,275 INFO 139813445175104 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 20:31:28,275 INFO 139813445175104 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 20:31:28,413 INFO 139813445175104 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 20:33:03,664 INFO 140118933530432 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 20:33:03,665 INFO 140118933530432 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 20:33:03,846 INFO 140118933530432 - Calling path: | rest services/server/info | sort splunk_server using oneshot 
+4.1.2 2024-02-06 20:40:27,203 INFO 139700049078080 - Creating a new connection object for oneshot.
+4.1.2 2024-02-06 20:40:27,203 INFO 139700049078080 - Calling path: | rest splunk_server=local services/server/info using oneshot 
+4.1.2 2024-02-06 20:40:27,465 INFO 139700049078080 - Calling path: | rest services/server/info | sort splunk_server using oneshot 

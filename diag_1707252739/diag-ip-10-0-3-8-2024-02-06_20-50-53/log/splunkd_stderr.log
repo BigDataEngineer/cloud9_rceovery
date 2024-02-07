@@ -1,0 +1,13 @@
+2024-02-06 05:55:30.858 +0000 splunkd started (build b985591d12fd) pid=6354
+2024-02-06 06:03:09.056 +0000 Interrupt signal received sent by PID 10623, command="/opt/splunk/bin/splunk restart" (UID 501, same as my group)
+2024-02-06 06:03:18.578 +0000 splunkd started (build b985591d12fd) pid=10764
+2024-02-06 07:33:39.849 +0000 Interrupt signal received sent by PID 23183, command="./splunk restart" (UID 501, same as my group)
+2024-02-06 07:33:49.370 +0000 splunkd started (build b985591d12fd) pid=23319
+2024-02-06 09:33:57.462 +0000 Interrupt signal received sent by PID 19356, command="/opt/splunk/bin/splunk restart" (UID 501, same as my group)
+2024-02-06 09:34:07.095 +0000 splunkd started (build b985591d12fd) pid=19497
+2024-02-06 09:36:36.232 +0000 Interrupt signal received sent by PID 21031, command="/opt/splunk/bin/splunk restart" (UID 501, same as my group)
+2024-02-06 09:36:43.759 +0000 splunkd started (build b985591d12fd) pid=21153
+2024-02-06 09:43:02.099 +0000 Interrupt signal received sent by PID 24354, command="/opt/splunk/bin/splunk restart" (UID 501, same as my group)
+2024-02-06 09:43:07.630 +0000 splunkd started (build b985591d12fd) pid=24467
+2024-02-06 10:30:46.675 +0000 Interrupt signal received sent by PID 13748, command="./splunk restart" (UID 501, same as my group)
+2024-02-06 10:30:57.206 +0000 splunkd started (build b985591d12fd) pid=13911

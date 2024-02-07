@@ -1,0 +1,5 @@
+peerURI,serverName,host,machine,"search_group","__mv_peerURI","__mv_serverName","__mv_host","__mv_machine","__mv_search_group"
+localhost,"GOEL-SearchHead","ip-10-0-3-1","ip-10-0-3-1","dmc_group_indexer",,,,,
+localhost,"GOEL-SearchHead","ip-10-0-3-1","ip-10-0-3-1","dmc_group_kv_store",,,,,
+localhost,"GOEL-SearchHead","ip-10-0-3-1","ip-10-0-3-1","dmc_group_license_master",,,,,
+localhost,"GOEL-SearchHead","ip-10-0-3-1","ip-10-0-3-1","dmc_group_search_head",,,,,

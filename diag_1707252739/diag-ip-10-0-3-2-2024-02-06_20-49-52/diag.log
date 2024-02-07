@@ -1,0 +1,86 @@
+06/Feb/2024:20:49:52: INFO The full set of options was: {'nologin': None, 'auth_on_stdin': None, 'exclude_list': ['*/etc/auth/*', '*/etc/*/lookups/*.tsidx', '*/etc/system/replication/ops.json'], 'collect': None, 'enable': None, 'disable': None, 'uri': None, 'include_lookups': None, 'all_dumps': None, 'index_files': 'manifests', 'index_listing': 'light', 'etc_filesize_limit': 10485760, 'log_age': 60, 'log_filesize_limit': 1073741824, 'filtersearches': True, 'stdout': None, 'diagname': None, 'statusfile': None, 'debug': None, 'upload': None, 'upload_file': None, 'case_number': None, 'upload_user': None, 'upload_description': None, 'firstchunk': None, 'chunksize': None, 'request_timeout': None, 'components': {'index_files', 'dispatch', 'kvstore', 'index_listing', 'searchpeers', 'file_validate', 'suppression_listing', 'profiler', 'conf_replication_summary', 'log', 'etc', 'consensus'}, 'simple_searchfilters': {'pii': '\\b[-_\\d]{2,}\\d{3,}[-_]\\d{3,}[-_\\d]{2,}\\b', 'socsec': '\\b\\d{3}[-. ]\\d{2}[-. ]\\d{4}\\b'}, 'luhn_searchfilters': {'bignum': '\\b(?:\\d{13,})\\b', 'paycard': '\\b(?:\\d{4}[- ]){3}\\d{3,4}\\b'}, 'upload_uri': 'https://api.splunk.com', 'default_lookup_includes': {'/opt/splunk/etc/apps/splunk_monitoring_console': ['assets.csv', 'dmc_forwarder_assets.csv']}}
+06/Feb/2024:20:49:52: INFO The set of requested components was: ['conf_replication_summary', 'consensus', 'dispatch', 'etc', 'file_validate', 'index_files', 'index_listing', 'kvstore', 'log', 'profiler', 'searchpeers', 'suppression_listing']
+06/Feb/2024:20:49:52: INFO Collecting components: conf_replication_summary, consensus, dispatch, etc, file_validate, index_files, index_listing, kvstore, log, profiler, searchpeers, suppression_listing
+06/Feb/2024:20:49:52: INFO Skipping components: rest
+06/Feb/2024:20:49:52: INFO Selected diag name of: diag-ip-10-0-3-2-2024-02-06_20-49-52
+06/Feb/2024:20:49:52: INFO Starting splunk diag...
+06/Feb/2024:20:49:52: INFO Logged search filtering is enabled.
+06/Feb/2024:20:49:52: INFO Skipping REST endpoint gathering...
+06/Feb/2024:20:49:52: INFO Determining diag-launching user...
+06/Feb/2024:20:49:52: INFO Getting version info...
+06/Feb/2024:20:49:52: INFO Getting system version info...
+06/Feb/2024:20:49:52: INFO Getting file integrity info...
+06/Feb/2024:20:49:57: INFO Getting network interface config info...
+06/Feb/2024:20:49:57: INFO Getting splunk processes info...
+06/Feb/2024:20:49:57: INFO Getting netstat output...
+06/Feb/2024:20:49:57: INFO Getting info about memory, ulimits, cpu (on windows this takes a while)...
+06/Feb/2024:20:49:57: INFO Getting etc/auth filenames...
+06/Feb/2024:20:49:57: INFO Getting Sinkhole filenames...
+06/Feb/2024:20:49:57: INFO Getting profiler files listings...
+06/Feb/2024:20:49:57: INFO Getting search peer bundles listings...
+06/Feb/2024:20:49:57: INFO Getting conf replication summary listings...
+06/Feb/2024:20:49:57: INFO Getting suppression files listings...
+06/Feb/2024:20:49:57: INFO Getting KV Store listings...
+06/Feb/2024:20:49:57: INFO Getting index listings...
+06/Feb/2024:20:49:58: INFO Copying Splunk configuration files...
+06/Feb/2024:20:49:58: INFO filtered out file '/opt/splunk/etc/apps/splunk_monitoring_console/appserver/static/build/pages/enterprise/common.js'  limit: 10485760  size: 10925612
+06/Feb/2024:20:49:58: INFO filtered out file '/opt/splunk/etc/apps/splunk_monitoring_console/appserver/static/build/pages/lite/common.js'  limit: 10485760  size: 10925612
+06/Feb/2024:20:50:03: INFO filtered out file '/opt/splunk/etc/apps/splunk_archiver/java-bin/jars/thirdparty/hive_3_1/hive-exec-3.1.3.jar'  limit: 10485760  size: 41873153
+06/Feb/2024:20:50:03: INFO filtered out file '/opt/splunk/etc/apps/splunk_archiver/java-bin/jars/thirdparty/aws/aws-java-sdk-1.10.8.jar'  limit: 10485760  size: 21006573
+06/Feb/2024:20:50:04: INFO filtered out file '/opt/splunk/etc/apps/splunk_assist/bin/linux_x86_64/assistsup'  limit: 10485760  size: 27557361
+06/Feb/2024:20:50:04: INFO filtered out file '/opt/splunk/etc/apps/splunk_assist/bin/windows_x86_64/assistsup.exe'  limit: 10485760  size: 27788464
+06/Feb/2024:20:50:05: INFO filtered out file '/opt/splunk/etc/apps/splunk-dashboard-studio/appserver/static/build/vendors.js'  limit: 10485760  size: 15664258
+06/Feb/2024:20:50:10: INFO The following certificates were excluded from the diag output automatically.
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/server.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/cacert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/appsCA.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/ca.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/cloudCA.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/distServerKeys/trusted.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/distServerKeys/private.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/distServerKeys/GOEL-SearchHead/trusted.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/distServerKeys/GOEL-ClusterMaster/trusted.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/audit/public.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/audit/private.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/splunkweb/privkey.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/auth/splunkweb/cert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/dh512.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/keycert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/sha256.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/badcert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/https_svn_python_org_root.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/ssl_cert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/ssl_key.passwd.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/nullcert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/nokia.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/keycert.passwd.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/nullbytecert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/ssl_key.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/badkey.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py2/pura_libs_utils/future/backports/test/keycert2.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/dh512.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/keycert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/sha256.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/badcert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/https_svn_python_org_root.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/ssl_cert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/ssl_key.passwd.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/nullcert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/nokia.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/keycert.passwd.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/nullbytecert.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/ssl_key.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/badkey.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/python_upgrade_readiness_app/bin/libs_py3/pura_libs_utils/future/backports/test/keycert2.pem
+06/Feb/2024:20:50:10: INFO 	/opt/splunk/etc/apps/splunk_secure_gateway/lib/certifi/cacert.pem
+06/Feb/2024:20:50:10: INFO If you have any certs that were not auto-detected, please add them to an EXCLUDE rule in the [diag] stanza of server.conf.
+06/Feb/2024:20:50:10: INFO Copying Splunk log files...
+06/Feb/2024:20:50:11: INFO While filtering log/audit.log, no rules matched.
+06/Feb/2024:20:50:11: INFO While filtering log/remote_searches.log, no rules matched.
+06/Feb/2024:20:50:15: INFO Copying bucket info files...
+06/Feb/2024:20:50:15: INFO Copying Splunk profiler files...
+06/Feb/2024:20:50:15: INFO Copying Splunk dispatch files...
+06/Feb/2024:20:50:16: INFO Copying Splunk consensus files...
+06/Feb/2024:20:50:16: INFO Adding manifest files...
+06/Feb/2024:20:50:16: INFO Adding cachemanager_upload.json...
+diag.log complete

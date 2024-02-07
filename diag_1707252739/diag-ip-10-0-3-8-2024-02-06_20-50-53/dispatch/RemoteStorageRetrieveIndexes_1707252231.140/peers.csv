@@ -1,0 +1,4 @@
+name,uri,guid,status,version,license,product,build,"rtsearch_enabled","generation_id",site,"master_uri",groups,"searchable_indexes",type,"valid_conn","cluster_id"
+"GOEL-Indexer1","https://10.0.3.2:8089","A59E264B-EF37-4C05-A664-4B364D39C148",0,"9.0.7",e2055a7ff538f4f8597307d01b96e276,pro,b985591d12fd,1,116,default,"https://127.0.0.1:8089","","_audit,_configtracker,_internal,_introspection,_metrics,_metrics_rollup,_telemetry,_thefishbucket,bcgames,history,infra,main,soc,summary",index,,
+"GOEL-Indexer3","https://10.0.3.4:8089","A4B2739E-EC56-4B6D-9A88-3AA302EAA608",0,"9.0.7",e65888422c7789e5a53f9ec6d7fedc30,pro,b985591d12fd,1,116,default,"https://127.0.0.1:8089","","_audit,_configtracker,_internal,_introspection,_metrics,_metrics_rollup,_telemetry,_thefishbucket,bcgames,history,infra,main,soc,summary",index,,
+"GOEL-ClusterMaster","?","15FACF80-D444-49B1-94FA-E022DDE18934",0,"","","","",1,0,default,"?","","",index,,

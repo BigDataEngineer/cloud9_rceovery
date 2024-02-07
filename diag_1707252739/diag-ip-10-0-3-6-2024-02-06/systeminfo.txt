@@ -1,0 +1,245 @@
+Diag launched by: archStudent.
+
+
+********** Splunk Version **********
+
+Warning: Attempting to revert the SPLUNK_HOME ownership
+Warning: Executing "chown -R archStudent:archStudent /opt/splunkforwarder"
+Splunk Universal Forwarder 9.0.7 (build b985591d12fd)
+
+
+********** Uname **********
+
+('Linux', 'ip-10-0-3-6', '4.14.238-125.422.amzn1.x86_64', '#1 SMP Tue Jul 20 20:51:46 UTC 2021', 'x86_64')
+
+
+********** splunkd binary format **********
+
+/opt/splunkforwarder/bin/splunkd: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.4.0, stripped
+
+
+********** Linux distribution info **********
+
+
+
+********** Network Config  **********
+
+eth0      Link encap:Ethernet  HWaddr 06:7F:80:B8:64:97  
+          inet addr:10.0.3.6  Bcast:10.0.255.255  Mask:255.255.0.0
+          inet6 addr: fe80::47f:80ff:feb8:6497/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:578341 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:531380 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:311841466 (297.3 MiB)  TX bytes:171581548 (163.6 MiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:140 (140.0 b)  TX bytes:140 (140.0 b)
+
+
+
+********** Network Status **********
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address               Foreign Address             State       PID/Program name   
+tcp        0      0 0.0.0.0:111                 0.0.0.0:*                   LISTEN      -                   
+tcp        0      0 0.0.0.0:22                  0.0.0.0:*                   LISTEN      -                   
+tcp        0      0 127.0.0.1:8089              0.0.0.0:*                   LISTEN      26606/splunkd       
+tcp        0      0 127.0.0.1:25                0.0.0.0:*                   LISTEN      -                   
+tcp        0      0 0.0.0.0:37293               0.0.0.0:*                   LISTEN      -                   
+tcp        0      0 10.0.3.6:59864              10.0.100.1:8514             ESTABLISHED -                   
+tcp        0      0 10.0.3.6:41476              10.0.3.7:8089               ESTABLISHED 26606/splunkd       
+tcp        0      0 10.0.3.6:41900              10.0.3.2:9997               TIME_WAIT   -                   
+tcp        0      0 10.0.3.6:41938              10.0.3.2:9997               ESTABLISHED 26606/splunkd       
+tcp        0      0 10.0.3.6:34351              54.67.26.184:443            ESTABLISHED -                   
+tcp        0    348 10.0.3.6:22                 34.205.77.73:49892          ESTABLISHED -                   
+tcp        0      0 10.0.3.6:22                 218.92.0.102:17092          SYN_RECV    -                   
+tcp        0      0 10.0.3.6:22                 218.92.0.102:10137          SYN_RECV    -                   
+tcp        0      0 10.0.3.6:22                 218.92.0.102:38759          SYN_RECV    -                   
+tcp        0      0 10.0.3.6:47892              10.0.3.4:9997               TIME_WAIT   -                   
+tcp        0      0 :::111                      :::*                        LISTEN      -                   
+tcp        0      0 :::22                       :::*                        LISTEN      -                   
+tcp        0      0 :::55261                    :::*                        LISTEN      -                   
+udp        0      0 0.0.0.0:55158               0.0.0.0:*                               -                   
+udp        0      0 0.0.0.0:68                  0.0.0.0:*                               -                   
+udp        0      0 0.0.0.0:111                 0.0.0.0:*                               -                   
+udp        0      0 10.0.3.6:123                0.0.0.0:*                               -                   
+udp        0      0 127.0.0.1:123               0.0.0.0:*                               -                   
+udp        0      0 0.0.0.0:123                 0.0.0.0:*                               -                   
+udp        0      0 0.0.0.0:699                 0.0.0.0:*                               -                   
+udp        0      0 127.0.0.1:721               0.0.0.0:*                               -                   
+udp        0      0 :::47211                    :::*                                    -                   
+udp        0      0 :::111                      :::*                                    -                   
+udp        0      0 fe80::47f:80ff:feb8:6497:546 :::*                                    -                   
+udp        0      0 :::699                      :::*                                    -                   
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node PID/Program name    Path
+unix  2      [ ACC ]     STREAM     LISTENING     10615  -                   /var/run/irqbalance1764.sock
+unix  2      [ ACC ]     STREAM     LISTENING     11488  -                   /var/run/rpcbind.sock
+unix  2      [ ACC ]     STREAM     LISTENING     15136  -                   /var/lib/amazon/ssm/ipc/health
+unix  2      [ ACC ]     STREAM     LISTENING     15137  -                   /var/lib/amazon/ssm/ipc/termination
+unix  2      [ ACC ]     STREAM     LISTENING     10762  -                   /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     1424   -                   @/com/ubuntu/upstart
+unix  2      [ ACC ]     SEQPACKET  LISTENING     9563   -                   @/org/kernel/udev/udevd
+unix  2      [ ACC ]     STREAM     LISTENING     10838  -                   /var/run/acpid.socket
+unix  9      [ ]         DGRAM                    1050817 -                   /dev/log
+unix  2      [ ACC ]     STREAM     LISTENING     1940   -                   /var/run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     STREAM     LISTENING     29415  -                   /tmp/nmh_msg_bus.sock
+unix  2      [ ACC ]     STREAM     LISTENING     9834   -                   /var/run/lvm/lvmetad.socket
+unix  3      [ ]         STREAM     CONNECTED     22081  -                   
+unix  2      [ ]         DGRAM                    22102  -                   
+unix  2      [ ]         DGRAM                    1075804 -                   
+unix  2      [ ]         DGRAM                    1053953 -                   
+unix  2      [ ]         DGRAM                    22103  -                   
+unix  3      [ ]         DGRAM                    1674   -                   
+unix  3      [ ]         STREAM     CONNECTED     4056077 26606/splunkd       
+unix  3      [ ]         DGRAM                    1675   -                   
+unix  3      [ ]         STREAM     CONNECTED     22080  -                   
+unix  2      [ ]         DGRAM                    2877630 -                   
+unix  3      [ ]         STREAM     CONNECTED     4056078 26606/splunkd       
+unix  3      [ ]         STREAM     CONNECTED     10542  -                   
+unix  3      [ ]         STREAM     CONNECTED     10541  -                   
+unix  3      [ ]         STREAM     CONNECTED     11537  -                   /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    1075370 -                   
+unix  3      [ ]         STREAM     CONNECTED     10765  -                   
+unix  2      [ ]         DGRAM                    10835  -                   
+unix  2      [ ]         DGRAM                    1051393 -                   
+unix  2      [ ]         DGRAM                    10660  -                   
+unix  3      [ ]         STREAM     CONNECTED     3721348 -                   
+unix  3      [ ]         STREAM     CONNECTED     3721347 -                   
+unix  2      [ ]         DGRAM                    3721343 -                   
+unix  3      [ ]         STREAM     CONNECTED     4055999 26606/splunkd       
+unix  3      [ ]         DGRAM                    4056004 26606/splunkd       
+unix  2      [ ]         DGRAM                    22589  -                   
+unix  2      [ ]         DGRAM                    1322184 -                   
+unix  3      [ ]         STREAM     CONNECTED     4056002 26606/splunkd       
+unix  3      [ ]         STREAM     CONNECTED     11533  -                   
+unix  3      [ ]         STREAM     CONNECTED     4056003 26607/[splunkd pid= 
+unix  3      [ ]         STREAM     CONNECTED     11534  -                   
+unix  3      [ ]         STREAM     CONNECTED     4055998 26606/splunkd       
+unix  3      [ ]         DGRAM                    4056005 26607/[splunkd pid= 
+
+
+********** System Ulimit **********
+
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 14855
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 14855
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+
+********** System Memory **********
+
+             total       used       free     shared    buffers     cached
+Mem:       3824380    1384564    2439816         68     149764     948840
+-/+ buffers/cache:     285960    3538420
+Swap:            0          0          0
+
+
+********** DF output **********
+
+Filesystem     1K-blocks    Used Available Use% Mounted on
+devtmpfs         1901484      68   1901416   1% /dev
+tmpfs            1912188       0   1912188   0% /dev/shm
+/dev/nvme0n1p1  20509288 2276636  18132404  12% /
+
+
+********** mount output **********
+
+proc on /proc type proc (rw,relatime)
+sysfs on /sys type sysfs (rw,relatime)
+devtmpfs on /dev type devtmpfs (rw,relatime,size=1901484k,nr_inodes=475371,mode=755)
+devpts on /dev/pts type devpts (rw,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /dev/shm type tmpfs (rw,relatime)
+/dev/nvme0n1p1 on / type ext4 (rw,noatime,data=ordered)
+devpts on /dev/pts type devpts (rw,relatime,gid=5,mode=620,ptmxmode=000)
+none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)
+
+
+********** mdstat output **********
+
+Personalities : 
+unused devices: <none>
+
+
+********** cpu info **********
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz
+stepping	: 7
+microcode	: 0x5003605
+cpu MHz		: 3599.991
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5999.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 85
+model name	: Intel(R) Xeon(R) Platinum 8275CL CPU @ 3.00GHz
+stepping	: 7
+microcode	: 0x5003605
+cpu MHz		: 3599.952
+cache size	: 36608 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves ida arat pku ospke
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5999.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+
+
+********** find **********
+
+
+
+---- END OF SYSTEM INFO ----

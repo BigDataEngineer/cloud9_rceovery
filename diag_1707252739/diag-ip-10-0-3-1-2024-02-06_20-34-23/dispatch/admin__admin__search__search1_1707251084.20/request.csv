@@ -1,0 +1,2 @@
+"auto_cancel","status_buckets","earliest_time",label,preview,search,"sample_ratio",provenance,"check_risky_command","webframework.cache.hash","__mv_auto_cancel","__mv_status_buckets","__mv_earliest_time","__mv_label","__mv_preview","__mv_search","__mv_sample_ratio","__mv_provenance","__mv_check_risky_command","__mv_webframework.cache.hash"
+90,0,0,search1,true,"search index=bcgames source=*dreamcrusher.xml* sourcetype=dreamcrusher_xml|stats sum(Infiltrators) AS sum_Infiltrators by AttackVessel",1,"UI:Dashboard:game_activity_dashboard",true,"java5:f391cc6",,,,,,,,,,

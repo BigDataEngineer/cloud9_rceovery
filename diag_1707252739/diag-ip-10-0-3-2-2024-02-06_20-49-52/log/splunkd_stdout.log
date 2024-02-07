@@ -1,0 +1,225 @@
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket history main summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket history main summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket bcgames history infra main soc summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket bcgames history infra main soc summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket bcgames history infra main soc summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket bcgames history infra main soc summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket bcgames history infra main soc summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket bcgames history infra main soc summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+splunkd is not running. [FAILED]
+
+Splunk> Take the sh out of IT.
+
+Checking prerequisites...
+	Checking mgmt port [8089]: open
+	Checking kvstore port [8191]: open
+	Checking configuration... Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _configtracker _internal _introspection _metrics _metrics_rollup _telemetry _thefishbucket bcgames history infra main soc summary
+	Done
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-9.0.7-b985591d12fd-linux-2.6-x86_64-manifest'
+	All installed files intact.
+	Done
+	Checking replication_port port [9887]:  [  OK  ]
+open
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
