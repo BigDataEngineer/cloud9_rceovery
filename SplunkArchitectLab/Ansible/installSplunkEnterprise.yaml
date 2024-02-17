@@ -28,6 +28,12 @@
       line: '%wheel ALL=(ALL) NOPASSWD: ALL'
       validate: visudo -cf %s
 
+  - name: Add sudoers users to wheel group
+    user:
+      name: "{{ item }}"
+      groups: wheel
+      append: yes
+    with_items: "{{ sudoers }}"
 
   - name: Copy Splunk Enterprise 9.0.7
     become: true
