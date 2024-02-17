@@ -61,6 +61,8 @@
       else
         echo "untarring splunk file"
         cd /opt/ && tar -xzf splunk-9.0.7-b985591d12fd-Linux-x86_64.tgz;
+        cd /opt/spunk; ./splunk start --accept-license --answer-yes;
+        sudo /opt/splunk/bin/splunk enable boot-start;
       fi    
       
   
