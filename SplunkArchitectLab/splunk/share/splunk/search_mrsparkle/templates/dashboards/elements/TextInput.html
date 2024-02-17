@@ -1,0 +1,9 @@
+<%page args="element" />\
+<div class="input input-text" id="${element.id}">
+            % if element.label is None or element.label.strip() == '':
+            <label>&nbsp;</label>
+            % else:
+            <label>${element.label|h}</label>
+            % endif
+        </div>
+<script src="${make_url('/static/build/telemetry/index.js')}" template="TextInput"></script>

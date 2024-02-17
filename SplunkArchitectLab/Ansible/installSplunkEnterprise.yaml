@@ -1,0 +1,35 @@
+---
+- name: Install Splunk Enterprise
+  hosts: searchhead
+  remote_user: ec2-user
+ 
+  tasks:
+  - name: Copy Splunk Enterprise 9.0.7
+    become: true
+    become_method: su
+    become_exe: sudo su -
+    become_user: root  
+    copy:
+      src: /home/ec2-user/cloud9_rceovery/SplunkArchitectLab/Ansible/splunk-9.0.7-b985591d12fd-Linux-x86_64.tgz
+      dest: /opt/splunk-9.0.7-b985591d12fd-Linux-x86_64.tgz
+
+  - name: change /opt ownership to ec2-user:ec2-user
+    become: true
+    become_method: su
+    become_exe: sudo su -
+    become_user: root  
+    shell: |
+      chown -R ec2-user:ec2-user /opt; 
+
+  - name: untar Splunk tar file
+    become: true
+    shell: |
+      if [ -d "/opt/splunk" ] 
+      then
+        echo "/opt/splunk does exist."
+      else
+        echo "untarring splunk file"
+        cd /opt/ && tar -xzf splunk-9.0.7-b985591d12fd-Linux-x86_64.tgz;
+      fi    
+      
+  

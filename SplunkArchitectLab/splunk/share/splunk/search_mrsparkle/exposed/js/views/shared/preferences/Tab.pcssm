@@ -1,0 +1,14 @@
+.tab {
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.label {
+    @mixin reset;
+    margin: 0px;
+}
+
+:export {
+    buttonActive: $pillBackgroundColorHover;
+}

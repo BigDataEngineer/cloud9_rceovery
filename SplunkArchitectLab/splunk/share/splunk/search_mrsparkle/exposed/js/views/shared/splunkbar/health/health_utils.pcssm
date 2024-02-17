@@ -1,0 +1,23 @@
+.error {
+    color: $errorColor;
+    padding-right: 8px;
+}
+
+.warning {
+    color: $warningColor;
+    padding-right: 8px;
+}
+
+.info {
+    color: $successColor;
+    padding-right: 8px;
+}
+
+.defaultColor, .disabledColor {
+    color: $gray60;
+    padding-right: 8px;
+}
+
+div[data-role="health"] {
+    border-right: 1px solid $borderColor;
+}
