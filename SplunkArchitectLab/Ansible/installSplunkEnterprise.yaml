@@ -54,6 +54,7 @@
 
   - name: untar Splunk tar file
     become: true
+    become_user: ec2-user
     shell: |
       if [ -d "/opt/splunk" ] 
       then
