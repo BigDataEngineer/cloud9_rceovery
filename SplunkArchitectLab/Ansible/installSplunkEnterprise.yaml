@@ -2,15 +2,40 @@
 - name: Install Splunk Enterprise
   hosts: searchhead
   remote_user: ec2-user
- 
+  vars:
+    sudoers:
+      - ec2-user
+
   tasks:
+  - name: Make sure we have a 'wheel' group
+    become: true
+    become_method: su
+    become_exe: sudo su -
+    become_user: root     
+    group:
+      name: wheel
+      state: present
+
+  - name: Allow 'wheel' group to have passwordless sudo
+    become: true
+    become_method: su
+    become_exe: sudo su -
+    become_user: root    
+    lineinfile:
+      dest: /etc/sudoers
+      state: present
+      regexp: '^%wheel'
+      line: '%wheel ALL=(ALL) NOPASSWD: ALL'
+      validate: visudo -cf %s
+
+
   - name: Copy Splunk Enterprise 9.0.7
     become: true
     become_method: su
     become_exe: sudo su -
     become_user: root  
     copy:
-      src: /home/ec2-user/cloud9_rceovery/SplunkArchitectLab/Ansible/splunk-9.0.7-b985591d12fd-Linux-x86_64.tgz
+      src: /home/ec2-user/splunk-9.0.7-b985591d12fd-Linux-x86_64.tgz
       dest: /opt/splunk-9.0.7-b985591d12fd-Linux-x86_64.tgz
 
   - name: change /opt ownership to ec2-user:ec2-user
