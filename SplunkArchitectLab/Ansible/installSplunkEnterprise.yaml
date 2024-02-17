@@ -61,8 +61,31 @@
       else
         echo "untarring splunk file"
         cd /opt/ && tar -xzf splunk-9.0.7-b985591d12fd-Linux-x86_64.tgz;
-        cd /opt/spunk; ./splunk start --accept-license --answer-yes;
+        cd /opt/spunk; 
+        ./splunk start --accept-license --answer-yes --no-prompt --seed-passwd changeme
         sudo /opt/splunk/bin/splunk enable boot-start;
+        
       fi    
+
+  - name: Check and start Splunk Service
+    become: true
+    shell: |
+      if [[ $(whoami) == "ec2-user" ]]
       
+      then
+        splunkd_is_running=$(/opt/splunk/bin/splunk status|grep 'splunkd is running'|wc -l)
+
+        if [[ splunkd_is_running -eq 1 ]]
+        
+        then
+          echo "do nothing"
+        
+        else
+          /opt/splunk/bin/splunk start;
+        
+        fi  
+        
+      fi  
+      
+  
   

@@ -1,0 +1,11 @@
+https://docs.splunk.com/Documentation/Splunk/9.2.0/Indexer/Enablethemanagernode
+
+Security Key. This is the key that authenticates communication between the manager node and the peers and search heads. The key must be the same across all cluster nodes. The value that you set here must be the same that you subsequently set on the peers and search heads as well.
+
+N5Vc79MrJ0w59EWDp0vwor0Hh0h7nmb2t2vR6Zym3bQ=
+
+Cluster Label
+
+Cluster Label. You can label the cluster here. The label is useful for identifying the cluster in the monitoring console. See Set cluster labels in Monitoring Splunk Enterprise
+
+MyIndexerCluster
