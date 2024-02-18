@@ -97,7 +97,7 @@
       fi          
       
       
- - name: Check and start Splunk Service
+  - name: Check and start Splunk Service
     become: true
     register: out
     become_user: ec2-user
