@@ -17757,3 +17757,30 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 SplunkArchitectLab/Ansible/system_local/searchhead/outputs.conf
 branch 'master' set up to track 'origin/master'.
 0
+[master 249db5e0] 1708237801
+ Committer: goelt2000@gmail.com <ec2-user@ip-172-31-0-215.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 14 files changed, 152 insertions(+), 2 deletions(-)
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/cm/inputs.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/cm/outputs.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/cm/server.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/inputs.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/outputs.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/server.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/indexer/inputs.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/indexer/outputs.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/indexer/server.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/searchhead/inputs.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/searchhead/server.conf
+branch 'master' set up to track 'origin/master'.
+0
