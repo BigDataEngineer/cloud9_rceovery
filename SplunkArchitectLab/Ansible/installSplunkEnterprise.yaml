@@ -128,6 +128,7 @@
 # https://docs.splunk.com/Documentation/Splunk/9.2.0/Admin/ConfigureSplunktostartatboottime
     become: true
     become_user: ec2-user
+    register: out
     shell: |
       grep_USER_initd=$(sudo grep USER /etc/init.d/splunk | wc -l)
       if [[ grep_USER_initd -eq 5 ]] 
@@ -140,7 +141,7 @@
         sudo chmod 0700 /opt/tmp/initd.splunk
         sudo cp -p /opt/tmp/initd.splunk /etc/init.d/splunk
       fi       
-  
+  - debug: var=out.stdout_lines    
 ########################### 
 ###############
 - name: hostgroup ds-lm-mc etc/system/local initial files
