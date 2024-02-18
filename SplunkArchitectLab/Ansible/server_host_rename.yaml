@@ -1,4 +1,4 @@
-- name: hostgroup searchhead tasks
+- name: hostgroup searchhead play
   hosts: searchhead
   tasks:
   - name: set serverName in server.conf and host in inputs.conf
@@ -25,4 +25,65 @@
       serverName = GOEL-searchhead
       EOF
       fi
-  - debug: var=out.stdout_lines        
+  - debug: var=out.stdout_lines
+  
+  - name: setup ouputs.conf to forward logs to indexing tier
+    become: true
+    become_user: ec2-user
+    register: out
+    shell: |
+      if [ -f "/opt/splunk/etc/system/local/outputs.conf" ] 
+      then
+        echo "/opt/splunk/etc/system/local/outputs.conf does exist."
+      else    
+      cat <<EOF >>/opt/splunk/etc/system/local/inputs.conf
+      [default]
+      host = GOEL-searchhead
+      EOF
+      fi  
+
+      if [ -f "/opt/splunk/etc/system/local/server.conf" ] 
+      then
+        echo "/opt/splunk/etc/system/local/server.conf does exist."
+      else    
+      cat <<EOF >>/opt/splunk/etc/system/local/server.conf
+      [general]
+      serverName = GOEL-searchhead
+      EOF
+      fi
+  - debug: var=out.stdout_lines
+  
+  #############################################
+  
+
+
+- name: setup ouputs.conf to forward logs to indexing tier
+  hosts: searchhead
+  tasks:
+  - name: set serverName in server.conf and host in inputs.conf
+    become: true
+    become_user: ec2-user
+    register: out
+    shell: |
+      if [ -f "/opt/splunk/etc/system/local/inputs.conf" ] 
+      then
+        echo "/opt/splunk/etc/system/local/inputs.conf does exist."
+      else    
+      cat <<EOF >>/opt/splunk/etc/system/local/inputs.conf
+      [default]
+      host = GOEL-searchhead
+      EOF
+      fi  
+
+      if [ -f "/opt/splunk/etc/system/local/server.conf" ] 
+      then
+        echo "/opt/splunk/etc/system/local/server.conf does exist."
+      else    
+      cat <<EOF >>/opt/splunk/etc/system/local/server.conf
+      [general]
+      serverName = GOEL-searchhead
+      EOF
+      fi
+  - debug: var=out.stdout_lines
+
+  
