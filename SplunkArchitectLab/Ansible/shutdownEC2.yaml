@@ -1,0 +1,19 @@
+---
+- name: Install Splunk Enterprise
+  hosts: ALL
+  remote_user: ec2-user
+  vars:
+    sudoers:
+      - ec2-user
+
+  tasks:
+  - name: Stop Splunk and Shutdown the system to save $$$
+    become: true
+    register: out
+    become_user: ec2-user
+    shell: |
+      echo "Shutting down $(hostname)"
+      /opt/splunk/bin/splunk stop && sudo shutdown; 
+  - debug: var=out.stdout_lines  
+  
+  

@@ -80,6 +80,7 @@
 
 
   - name: enable boot start as ec2-user
+    # https://docs.splunk.com/Documentation/Splunk/9.2.0/Admin/ConfigureSplunktostartatboottime
     become: true
     become_user: ec2-user
     shell: |
