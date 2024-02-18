@@ -10,6 +10,7 @@
 RETVAL=0
 USER=ec2-user
 
+chown -R ec2-user:ec2-user /opt;
 . /etc/init.d/functions
 
 splunk_start() {

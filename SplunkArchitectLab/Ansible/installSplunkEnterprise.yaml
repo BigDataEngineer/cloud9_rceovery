@@ -75,12 +75,30 @@
     become_user: ec2-user  
     copy:
       src: /home/ec2-user/cloud9_rceovery/SplunkArchitectLab/Ansible/etc/init.d/splunk
-      dest: /tmp/splunk
+      dest: /opt/initd.splunk
       mode: 700
+
+
+  - name: enable boot start as ec2-user
+    become: true
+    become_user: ec2-user
+    shell: |
+      grep_USER_initd=$(sudo grep USER /etc/init.d/splunk | wc -l)
+      if [[ grep_USER_initd -eq 5 ]] 
+      then
+        echo "Already configured to boot start as ec2-user"
+      else
+        sudo /opt/splunk/bin/splunk enable boot-start -user ec2-user;
+        sudo chown -R ec2-user:ec2-user /opt;
+        sudo chown root:root /opt/initd.splunk
+        sudo chmod 0700 /opt/initd.splunk
+        sudo cp -p /opt/initd.splunk /etc/init.d/splunk
+      fi          
       
 
   - name: Check and start Splunk Service
     become: true
+    register: out
     shell: |
       if [[ $(whoami) == "ec2-user" ]]
       
@@ -99,6 +117,6 @@
         fi  
         
       fi  
-      
+  - debug: var=out.stdout_lines  
   
   
