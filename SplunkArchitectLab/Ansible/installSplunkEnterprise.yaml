@@ -99,6 +99,7 @@
     become_user: ec2-user
     register: out
     shell: |
+      cd /opt/tmp; chmod 0600 *;
       if [ -f "/opt/splunk/etc/system/local/inputs.conf" ] 
       then
         echo "/opt/splunk/etc/system/local/inputs.conf does exist."
@@ -122,7 +123,9 @@
         /opt/splunk/bin/splunk start --accept-license --answer-yes --no-prompt --seed-passwd "j3wTkjMb+Aj/geAF";
       fi
 
-  - debug: var=out.stdout_lines  
+    
+  - debug: var=out.stdout
+  - debug: var=out.stderr
 
   - name: enable boot start as ec2-user
 # https://docs.splunk.com/Documentation/Splunk/9.2.0/Admin/ConfigureSplunktostartatboottime
@@ -141,7 +144,9 @@
         sudo chmod 0700 /opt/tmp/initd.splunk
         sudo cp -p /opt/tmp/initd.splunk /etc/init.d/splunk
       fi       
-  - debug: var=out.stdout_lines    
+   
+  - debug: var=out.stdout
+  - debug: var=out.stderr  
 ########################### 
 ###############
 - name: hostgroup ds-lm-mc etc/system/local initial files
@@ -164,6 +169,7 @@
     become_user: ec2-user
     register: out
     shell: |
+      cd /opt/tmp; chmod 0600 *;
       if [ -f "/opt/splunk/etc/system/local/inputs.conf" ] 
       then
         echo "/opt/splunk/etc/system/local/inputs.conf does exist."
@@ -188,7 +194,8 @@
       fi
 
       
-  - debug: var=out.stdout_lines   
+  - debug: var=out.stdout
+  - debug: var=out.stderr
 
   - name: enable boot start as ec2-user
     # https://docs.splunk.com/Documentation/Splunk/9.2.0/Admin/ConfigureSplunktostartatboottime
@@ -229,6 +236,7 @@
     become_user: ec2-user
     register: out
     shell: |
+      cd /opt/tmp; chmod 0600 *;
       if [ -f "/opt/splunk/etc/system/local/inputs.conf" ] 
       then
         echo "/opt/splunk/etc/system/local/inputs.conf does exist."
@@ -251,7 +259,9 @@
         sudo chown -R ec2-user:ec2-user /opt;
         /opt/splunk/bin/splunk start --accept-license --answer-yes --no-prompt --seed-passwd "j3wTkjMb+Aj/geAF";
       fi        
-  - debug: var=out.stdout_lines   
+  
+  - debug: var=out.stdout
+  - debug: var=out.stderr  
 
   - name: enable boot start as ec2-user
     # https://docs.splunk.com/Documentation/Splunk/9.2.0/Admin/ConfigureSplunktostartatboottime
@@ -292,6 +302,7 @@
     become_user: ec2-user
     register: out
     shell: |
+      cd /opt/tmp; chmod 0600 *;
       if [ -f "/opt/splunk/etc/system/local/inputs.conf" ] 
       then
         echo "/opt/splunk/etc/system/local/inputs.conf does exist."
@@ -307,7 +318,9 @@
         sudo chown -R ec2-user:ec2-user /opt;
         /opt/splunk/bin/splunk start --accept-license --answer-yes --no-prompt --seed-passwd "j3wTkjMb+Aj/geAF";
       fi        
-  - debug: var=out.stdout_lines   
+   
+  - debug: var=out.stdout
+  - debug: var=out.stderr  
 
   - name: enable boot start as ec2-user
     # https://docs.splunk.com/Documentation/Splunk/9.2.0/Admin/ConfigureSplunktostartatboottime
@@ -361,6 +374,8 @@
         fi  
         
       fi  
-  - debug: var=out.stdout_lines  
+   
+  - debug: var=out.stdout
+  - debug: var=out.stderr  
   
   
