@@ -1,6 +1,6 @@
 ---
 - name: Install Splunk Enterprise
-  hosts: searchhead
+  hosts: ALL
   remote_user: ec2-user
   vars:
     sudoers:
@@ -99,7 +99,9 @@
   - name: Check and start Splunk Service
     become: true
     register: out
+    become_user: ec2-user
     shell: |
+      echo $(whoami)
       if [[ $(whoami) == "ec2-user" ]]
       
       then
