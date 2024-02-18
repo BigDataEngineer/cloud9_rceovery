@@ -124,8 +124,8 @@
       fi
 
     
-  - debug: var=out.stdout
-  - debug: var=out.stderr
+  - debug: var=out.stdout_lines
+  - debug: var=out.stderr_lines
 
   - name: enable boot start as ec2-user
 # https://docs.splunk.com/Documentation/Splunk/9.2.0/Admin/ConfigureSplunktostartatboottime

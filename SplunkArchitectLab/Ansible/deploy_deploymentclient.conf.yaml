@@ -1,9 +1,9 @@
 ---
-- name: deploy deploymentclient.conf
+- name: deploy deploymentclient.conf on hostgroup searchhead 
   hosts: searchhead
   remote_user: ec2-user
-  tasks:
-  - name: set serverName in server.conf and host in inputs.conf
+  tasks: 
+  - name: deploy and restart splunk
     become: true
     become_user: ec2-user
     register: out
@@ -19,8 +19,34 @@
       targetUri = https://172.31.9.94:8089 
       EOF
       chmod 0600 /opt/splunk/etc/system/local/deploymentclient.conf
+      /opt/splunk/bin/splunk restart
       fi
       
-  - debug: var=out.stdout
-  - debug: var=out.stderr  
+  - debug: var=out.stdout_lines
+  - debug: var=out.stderr_lines  
     
+- name: deploy deploymentclient.conf on hostgroup cm 
+  hosts: cm
+  remote_user: ec2-user
+  tasks: 
+  - name: deploy and restart splunk
+    become: true
+    become_user: ec2-user
+    register: out
+    shell: |
+      if [ -f "/opt/splunk/etc/system/local/deploymentclient.conf" ] 
+      then
+        echo "/opt/splunk/etc/system/local/deploymentclient.conf already exists."
+      else    
+      cat <<EOF >>/opt/splunk/etc/system/local/deploymentclient.conf
+      [deployment-client]
+      clientName = GOEL-clustermanager
+      [target-broker:deploymentServer]
+      targetUri = https://172.31.9.94:8089 
+      EOF
+      chmod 0600 /opt/splunk/etc/system/local/deploymentclient.conf
+      /opt/splunk/bin/splunk restart
+      fi
+      
+  - debug: var=out.stdout_lines
+  - debug: var=out.stderr_lines   
