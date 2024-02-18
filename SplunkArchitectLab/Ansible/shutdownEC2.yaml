@@ -14,6 +14,8 @@
     shell: |
       echo "Shutting down $(hostname)"
       /opt/splunk/bin/splunk stop && sudo shutdown; 
-  - debug: var=out.stdout_lines  
+
+  - debug: var=out.stdout
+  - debug: var=out.stderr    
   
   
