@@ -21,7 +21,15 @@
     copy:
       src: /home/ec2-user/cloud9_rceovery/SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps
       dest: /opt/splunk/etc/
-    
+
+  - name: Copy serverclass.conf
+    become: true
+    become_method: su
+    become_user: ec2-user
+    copy:
+      src: /home/ec2-user/cloud9_rceovery/SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/serverclass.conf
+      dest: /opt/splunk/etc/system/local/serverclass.conf
+      
   - name: reload deploymentserver
     become: true
     become_user: ec2-user
