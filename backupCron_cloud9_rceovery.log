@@ -18254,3 +18254,97 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 16 insertions(+)
 branch 'master' set up to track 'origin/master'.
 0
+[master 68aef362] 1708312502
+ Committer: goelt2000@gmail.com <ec2-user@ip-172-31-0-215.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 79 files changed, 11436 insertions(+)
+ rename SplunkArchitectLab/Ansible/{ => notused_playbook}/server_host_rename.yaml (100%)
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/LICENSES/Apache-2.0.txt
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/LICENSES/LicenseRef-Splunk-8-2021.txt
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/README.txt
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/README/restmap.conf.spec
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/THIRDPARTY
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/VERSION
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/app.manifest
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/appserver/static/appIcon.png
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/appserver/static/components/js_sdk_extensions/common.js
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/appserver/static/components/js_sdk_extensions/monitor_inputs.js
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/appserver/static/components/js_sdk_extensions/scripted_inputs.js
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/appserver/static/setup.css
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/appserver/static/setup.js
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/appserver/static/setup_cloud.js
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/bandwidth.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/common.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/cpu.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/cpu_metric.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/df.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/df_metric.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/hardware.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/interfaces.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/interfaces_metric.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/iostat.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/iostat_metric.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/lastlog.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/lsof.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/netstat.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/nfsiostat.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/openPorts.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/openPortsEnhanced.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/package.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/passwd.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/protocol.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/ps.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/ps_metric.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/rlog.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/selinuxChecker.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/service.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/setup.sh
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/setupservice.py
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/sshdChecker.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/time.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/top.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/update.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/uptime.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/usersWithLoginPrivs.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/version.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/vmstat.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/vmstat_metric.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/vsftpdChecker.sh
+ create mode 100755 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/bin/who.sh
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/app.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/data/ui/nav/default.xml
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/data/ui/views/ta_nix_configuration.env_cloud.xml
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/data/ui/views/ta_nix_configuration.xml
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/eventtypes.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/inputs.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/macros.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/props.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/restmap.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/tags.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/transforms.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/default/web.conf
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/lookups/nix_da_update_status.csv
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/lookups/nix_da_version_ranges.csv
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/lookups/nix_linux_audit_action_object_category.csv
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/lookups/nix_linux_service_startmodes.csv
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/lookups/nix_vendor_actions.csv
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/metadata/default.meta
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/splunkbase.manifest
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/static/appIcon.png
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/static/appIconAlt.png
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/static/appIconAlt_2x.png
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/static/appIconLg.png
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/static/appIconLg_2x.png
+ create mode 100644 SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps/Splunk_TA_nix/static/appIcon_2x.png
+branch 'master' set up to track 'origin/master'.
+0
