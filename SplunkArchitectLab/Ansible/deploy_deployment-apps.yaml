@@ -2,14 +2,31 @@
 - name: deploy deployment-apps on hostgroup ds-lm-mc 
   hosts: ds-lm-mc
   remote_user: ec2-user
+  
   tasks: 
+  
+  - name: clean up deployment-apps
+    become: true
+    become_user: ec2-user
+    register: out
+    shell: |
+      rm -rf /opt/splunk/etc/deployment-apps
+  - debug: var=out.stdout_lines
+  - debug: var=out.stderr_lines  
+  
   - name: Copy deployment-apps
     become: true
     become_method: su
     become_user: ec2-user
-    register: out
     copy:
       src: /home/ec2-user/cloud9_rceovery/SplunkArchitectLab/Ansible/system_local/ds-lm-mc/deploymentserver/deployment-apps
       dest: /opt/splunk/etc/
+    
+  - name: reload deploymentserver
+    become: true
+    become_user: ec2-user
+    register: out
+    shell: |
+      /opt/splunk/bin/splunk reload deploy-server
   - debug: var=out.stdout_lines
   - debug: var=out.stderr_lines    
