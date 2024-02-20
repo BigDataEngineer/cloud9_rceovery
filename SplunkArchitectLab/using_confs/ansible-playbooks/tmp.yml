@@ -1,0 +1,14 @@
+- name: hostgroup searchhead etc/system/local initial files
+  hosts: searchhead
+  remote_user: ec2-user
+  tasks:
+  - name: check and copy files if needed and start up splunk first time
+#    become: true
+#    become_user: ec2-user
+    register: out
+    shell: |
+      ls /opt;
+
+    
+  - debug: var=out.stdout_lines
+  - debug: var=out.stderr_lines
