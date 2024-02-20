@@ -1,0 +1,36 @@
+---
+- name: Install Splunk Enterprise
+  hosts: ALL
+  remote_user: ec2-user
+  vars:
+    sudoers:
+      - ec2-user
+
+  tasks:
+  - name: Make sure we have a 'wheel' group
+    become: true
+    become_method: su
+    become_exe: sudo su -
+    become_user: root     
+    group:
+      name: wheel
+      state: present
+
+  - name: Allow 'wheel' group to have passwordless sudo
+    become: true
+    become_method: su
+    become_exe: sudo su -
+    become_user: root    
+    lineinfile:
+      dest: /etc/sudoers
+      state: present
+      regexp: '^%wheel'
+      line: '%wheel ALL=(ALL) NOPASSWD: ALL'
+      validate: visudo -cf %s
+
+  - name: Add sudoers users to wheel group
+    user:
+      name: "{{ item }}"
+      groups: wheel
+      append: yes
+    with_items: "{{ sudoers }}"
