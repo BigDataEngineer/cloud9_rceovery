@@ -18842,3 +18842,20 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 16 insertions(+)
 branch 'master' set up to track 'origin/master'.
 0
+[master 96918605] 1708403401
+ Committer: goelt2000@gmail.com <ec2-user@ip-172-31-0-215.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 24 insertions(+), 16 deletions(-)
+ delete mode 100644 SplunkArchitectLab/Ansible/system_local/indexers/outputs.conf
+branch 'master' set up to track 'origin/master'.
+0
