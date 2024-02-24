@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: splunkforwarder
+  labels:
+    app: splunkforwarder
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: splunkforwarder
+  template:
+    metadata:
+      labels:
+        app: splunkforwarder
+    spec:
+      initContainers:
+       - name: volume-permissions
+         image: busybox
+         imagePullPolicy: IfNotPresent
+         command: ['sh', '-c', 'cp /configs/* /opt/splunkforwarder/etc/system/local/']
+         volumeMounts:
+         - mountPath: /configs
+           name: splunk-config
+         - name: confs
+           mountPath: /opt/splunkforwarder/etc/system/local
+      containers:
+       - name: app
+         image: centos
+         command: ["/bin/sh"]
+         args: ["-c", "while true; do echo $(date -u) >> /var/log/test.log; sleep 5; done"]
+         volumeMounts:
+         - name: test-app-logs
+           mountPath: /var/log      
+       - name: splunk-uf
+         image: splunk/universalforwarder:latest
+         imagePullPolicy: IfNotPresent
+         env:
+         - name: SPLUNK_START_ARGS
+           value: --accept-license
+         - name: SPLUNK_PASSWORD
+           value: changeme
+         - name: SPLUNK_USER
+           value: splunk
+         - name: SPLUNK_CMD
+           value: add monitor /var/log/
+         volumeMounts:
+         - name: test-app-logs
+           mountPath: /var/log
+         - name: confs
+           mountPath: /opt/splunkforwarder/etc/system/local
+      volumes:
+       - name: test-app-logs
+         emptyDir: {}
+       - name: confs
+         emptyDir: {}
+       - name: splunk-config
+         configMap:
+           name: splunk-config
+           defaultMode: 0777

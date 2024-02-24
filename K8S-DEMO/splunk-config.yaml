@@ -1,0 +1,25 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: splunk-config
+data:
+  outputs.conf: |-
+    [indexAndForward]
+    index = false
+
+    [tcpout]
+    defaultGroup = splunk-uat
+    forwardedindex.filter.disable = true
+    indexAndForward = false
+
+    [tcpout:splunk-uat]
+    server = 172.29.127.2:9997
+    useACK = true
+    autoLB = true
+
+  inputs.conf: |-
+    [monitor:///var/log/*.log]
+    # Where data is read from
+    disabled = false
+    sourcetype = log
+    index = microservices_uat  # This index should already be created on the splunk environment
