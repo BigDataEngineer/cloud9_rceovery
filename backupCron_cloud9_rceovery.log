@@ -19103,3 +19103,38 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 16 insertions(+)
 branch 'master' set up to track 'origin/master'.
 0
+[master e96fc638] 1708753504
+ Committer: goelt2000@gmail.com <ec2-user@ip-172-31-0-215.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 20 files changed, 360 insertions(+)
+ create mode 100644 K8S-DEMO/ed.yaml
+ create mode 100644 K8S-DEMO/mongo-config.yaml
+ create mode 100644 K8S-DEMO/mongo-secret.yaml
+ create mode 100644 K8S-DEMO/mongo.yaml
+ create mode 100644 K8S-DEMO/pv.yaml
+ create mode 100644 K8S-DEMO/splunk-config.yaml
+ create mode 100644 K8S-DEMO/splunk-forwarder.yaml
+ create mode 100644 K8S-DEMO/test-pod.yaml
+ create mode 100644 K8S-DEMO/webapp.yaml
+ create mode 100644 ShellScripts/uname.sh
+ create mode 100644 minikube-linux-amd64
+ create mode 100755 py4e/fhandle.py
+ create mode 100644 py4e/file.txt
+ create mode 100644 py4e/findvalue.py
+ create mode 100644 py4e/function_chop.py
+ create mode 100644 py4e/parse_file.py
+ create mode 100755 py4e/reversetraversalstring.py
+ create mode 100644 py4e/socketprogram.py
+ create mode 100755 py4e/traversalstring.py
+branch 'master' set up to track 'origin/master'.
+0
