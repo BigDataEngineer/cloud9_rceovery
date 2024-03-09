@@ -8,6 +8,6 @@ def myfunc(name):
     
 if __name__ == '__main__':
     print('main started')
-    t = threading.Thread(target=myfunc)
-    myfunc('realpy')
+    t = threading.Thread(target=myfunc, args=['realpython'], daemon=True)
+    t.start()
     print('main ended')
