@@ -3,6 +3,8 @@
 #2 client initiates a connection
 
 import socket
+import time
+
 HOST = "127.0.01"
 PORT = 65432
 #mysocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
@@ -13,6 +15,7 @@ PORT = 65432
 #data = mysocket.recv(1024)
 with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
     s.connect((HOST,PORT))
+    time.sleep(10)
     
 # 3 Data is exchanged
 #    input_data=input("Enter data to be sent to server: ")
