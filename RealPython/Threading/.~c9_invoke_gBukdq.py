@@ -15,9 +15,8 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) AS s:
     
 # 3 - Data is exchanged
 with conn:
-    print(f"connected by {addr}")
+    print(f"connected by {addr}"")
     while True:
         data=conn.recv(1024)
-        if not data:
+        if not data
             break
-        conn.sendall(data)
