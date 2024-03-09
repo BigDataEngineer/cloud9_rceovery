@@ -15,8 +15,9 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
     s.connect((HOST,PORT))
     
 # 3 Data is exchanged
-    data1="test"
-    s.sendall(b"data1")
+#    input_data=input("Enter data to be sent to server: ")
+#    s.sendall(input_data.encode())
+    s.sendall(b"Hello, World")
     data = s.recv(1024)
     
 print(f"Received {data}")

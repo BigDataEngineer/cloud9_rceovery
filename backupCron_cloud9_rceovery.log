@@ -20773,3 +20773,25 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 RealPython/Threading/echo-client.py
 branch 'master' set up to track 'origin/master'.
 0
+[master 8c30323f] 1709968501
+ Committer: goelt2000@gmail.com <ec2-user@ip-172-31-0-215.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 21 insertions(+), 2 deletions(-)
+ mode change 100644 => 100755 RealPython/Threading/03-thread.py
+ mode change 100644 => 100755 RealPython/Threading/04-daemon.py
+ mode change 100644 => 100755 RealPython/Threading/04-thread.py
+ mode change 100644 => 100755 RealPython/Threading/echo-client.py
+ mode change 100644 => 100755 RealPython/Threading/echo-server.py
+ mode change 100644 => 100755 RealPython/Threading/thread.py
+branch 'master' set up to track 'origin/master'.
+0
