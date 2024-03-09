@@ -15,7 +15,8 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
     s.connect((HOST,PORT))
     
 # 3 Data is exchanged
-    s.sendall(b"Hello, World")
+    data1="test"
+    s.sendall(b"data1")
     data = s.recv(1024)
     
 print(f"Received {data}")
