@@ -20703,3 +20703,20 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 RealPython/Threading/thread.py
 branch 'master' set up to track 'origin/master'.
 0
+[master 7a92221a] 1709964904
+ Committer: goelt2000@gmail.com <ec2-user@ip-172-31-0-215.ec2.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 35 insertions(+), 2 deletions(-)
+ rename RealPython/Threading/{.~c9_invoke_lesMum.py => 04-daemon.py} (63%)
+branch 'master' set up to track 'origin/master'.
+0
