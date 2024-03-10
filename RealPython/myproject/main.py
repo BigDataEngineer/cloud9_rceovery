@@ -1,6 +1,6 @@
-import adder as a
+from adder import add as func_add, double as func_double
 
-value = a.add(2, 2)
+value = func_add(2, 2)
 print(value)
-double_value = a.double(value)
+double_value = func_double(value)
 print(double_value)
