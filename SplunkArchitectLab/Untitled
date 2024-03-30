@@ -1,0 +1,157 @@
+<form version="1.1" theme="dark">
+  <label>percentile_reduction</label>
+  <fieldset submitButton="true">
+    <input type="time" token="field1">
+      <label></label>
+      <default>
+        <earliest>-24h@h</earliest>
+        <latest>now</latest>
+      </default>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <table>
+        <title>eventCount</title>
+        <search>
+          <query>index=_internal 
+| eval bytesz=len(_raw) 
+| eventstats perc90(bytesz) AS perc90_bytesz 
+| eval perc90_bytesz=round(perc90_bytesz,2)
+| eval category_perc90=case(bytesz&lt;=perc90_bytesz,"under_perc90",1=1,"above_perc90") 
+| stats  count by category_perc90
+| addcoltotals labelfield="category_perc90"
+| rename count AS eventCount
+| fieldformat eventCount=tostring(eventCount,"commas")</query>
+          <earliest>$field1.earliest$</earliest>
+          <latest>$field1.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+    <panel>
+      <table>
+        <search>
+          <query>index=_internal 
+| eval bytesz=len(_raw) 
+| stats perc90(bytesz) AS perc90_bytesz, avg(bytesz) AS avg_bytesz
+| eval perc90_bytesz=round(perc90_bytesz,2)
+| fieldformat perc90_bytesz=tostring(perc90_bytesz,"commas")
+| eval avg_bytesz=round(avg_bytesz,2)
+| fieldformat avg_bytesz=tostring(avg_bytesz,"commas")
+| transpose
+| rename column AS " ", "row 1" AS "bytes"</query>
+          <earliest>$field1.earliest$</earliest>
+          <latest>$field1.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>perc90 bytesz</title>
+        <search>
+          <query>index=_internal 
+| eval bytesz=len(_raw) 
+| eventstats perc90(bytesz) AS perc90_bytesz 
+| eval perc90_bytesz=round(perc90_bytesz,2)
+| eval category_perc90=case(bytesz&lt;=perc90_bytesz,"under_perc90",1=1,"above_perc90") 
+| stats sum(bytesz) AS bytesz by category_perc90
+| transpose header_field=category_perc90
+| eval reduction=round((above_perc90/(above_perc90+under_perc90))*100,2)
+| fieldformat above_perc90=tostring(above_perc90,"commas")
+| fieldformat under_perc90=tostring(under_perc90,"commas")
+| fieldformat reduction=reduction."%"</query>
+          <earliest>$field1.earliest$</earliest>
+          <latest>$field1.latest$</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">20</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+  
+   <row>
+    <panel>
+      <table>
+        <title>eventCount</title>
+        <search>
+          <query>index=_internal 
+| eval bytesz=len(_raw) 
+| eventstats perc80(bytesz) AS perc80_bytesz 
+| eval perc80_bytesz=round(perc80_bytesz,2)
+| eval category_perc80=case(bytesz&lt;=perc80_bytesz,"under_perc80",1=1,"above_perc80") 
+| stats  count by category_perc80
+| addcoltotals labelfield="category_perc80"
+| rename count AS eventCount
+| fieldformat eventCount=tostring(eventCount,"commas")</query>
+          <earliest>$field1.earliest$</earliest>
+          <latest>$field1.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+    <panel>
+      <table>
+        <search>
+          <query>index=_internal 
+| eval bytesz=len(_raw) 
+| stats perc80(bytesz) AS perc80_bytesz, avg(bytesz) AS avg_bytesz
+| eval perc80_bytesz=round(perc80_bytesz,2)
+| fieldformat perc80_bytesz=tostring(perc80_bytesz,"commas")
+| eval avg_bytesz=round(avg_bytesz,2)
+| fieldformat avg_bytesz=tostring(avg_bytesz,"commas")
+| transpose
+| rename column AS " ", "row 1" AS "bytes"</query>
+          <earliest>$field1.earliest$</earliest>
+          <latest>$field1.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <title>perc80 bytesz</title>
+        <search>
+          <query>index=_internal 
+| eval bytesz=len(_raw) 
+| eventstats perc80(bytesz) AS perc80_bytesz 
+| eval perc80_bytesz=round(perc80_bytesz,2)
+| eval category_perc80=case(bytesz&lt;=perc80_bytesz,"under_perc80",1=1,"above_perc80") 
+| stats sum(bytesz) AS bytesz by category_perc80
+| transpose header_field=category_perc80
+| eval reduction=round((above_perc80/(above_perc80+under_perc80))*100,2)
+| fieldformat above_perc80=tostring(above_perc80,"commas")
+| fieldformat under_perc80=tostring(under_perc80,"commas")
+| fieldformat reduction=reduction."%"</query>
+          <earliest>$field1.earliest$</earliest>
+          <latest>$field1.latest$</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">20</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</form>
