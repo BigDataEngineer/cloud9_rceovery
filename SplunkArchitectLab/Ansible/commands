@@ -9,6 +9,7 @@ splunk list cluster-config
 splunk help cluster
 splunk help list cluster-config
 splunk help 
+./splunk show cluster-bundle-status
 
 
 https://community.splunk.com/t5/Getting-Data-In/How-to-configure-maxVolumeDataSizeMB-when-homePath-and-coldPath/m-p/271193
