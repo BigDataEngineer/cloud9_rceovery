@@ -13,3 +13,26 @@ splunk help
 
 
 https://community.splunk.com/t5/Getting-Data-In/How-to-configure-maxVolumeDataSizeMB-when-homePath-and-coldPath/m-p/271193
+
+
+SHC
+
+https://docs.splunk.com/Documentation/Splunk/9.2.1/DistSearch/PropagateSHCconfigurationchanges
+
+splunk apply shcluster-bundle
+
+https://docs.splunk.com/Documentation/Splunk/9.2.1/DistSearch/RestartSHC
+
+https://docs.splunk.com/Documentation/Splunk/9.2.1/DistSearch/ViewSHCstatus
+
+splunk show shcluster-status
+splunk rolling-restart shcluster-members
+
+
+IDXC
+
+./splunk btool server list clustering
+<master_uri>
+
+
+[|rest /services/search/distributed/peers/
