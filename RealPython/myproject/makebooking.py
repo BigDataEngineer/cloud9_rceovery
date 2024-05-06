@@ -118,7 +118,7 @@ def get_available_locations():
   })
   URL = BASE_URL + 'AvailableLocation'
   response = requests.request('POST', URL, headers=HEADERS, data=PAYLOAD)
-  print(response.json())
+  print(type(response.json()))
 
 
 def hold_slot_request(slot_id):
