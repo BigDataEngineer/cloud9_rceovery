@@ -112,13 +112,13 @@ def make_booking_request(last_slot_of_earliest_day, response_id, da_soonest):
 def get_available_locations():
   PAYLOAD = json.dumps({
       "CityName": "",
-      "PreferredDay": 0,
+      "PreferredDay": 1,
       "TypeId": 71,
       "ZipCode": "78723"
   })
   URL = BASE_URL + 'AvailableLocation'
   response = requests.request('POST', URL, headers=HEADERS, data=PAYLOAD)
-  return response.json()
+  print(response.json())
 
 
 def hold_slot_request(slot_id):
@@ -138,6 +138,7 @@ def hold_slot_request(slot_id):
 
 def __main__():
     results = get_available_locations()
+    print(results)
   
 
 __main__()
