@@ -5,5 +5,5 @@ def create_table(array):
     max_value = max(array)
     
     # crate list of size (max-min+1)
-    table = [0] * (max-min+1)
+    table = [0] * (max_value-min_value+1)
     return table
