@@ -1,11 +1,18 @@
-total = 0
-count = 0
-while (True):
-    inp = input('Enter a number: ')
-    if inp == 'done': break
-    value = float(inp)
-    total = total + value
-    count = count + 1
+#!/usr/bin/python3
 
-average = total / count
-print('Average:', average)
+value=0
+count=0
+
+while True:
+    inp=input('Enter any number:Enter done when finished:')
+
+    if inp=='done':
+        break
+    inp=float(inp)
+    value=value+inp
+    count=count+1
+#    print(count)
+
+print('Sum of all numbers',value)
+print('count of all numbers',count)
+print('Average:',value/count)
