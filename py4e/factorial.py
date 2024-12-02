@@ -1,11 +1,29 @@
 class Factorial:
     def __init__(self, value):
+        self.value = value
+
+    def factorial(self):
+        if self.value == 0:
+            return 1
+        else:
+            return self.value * self.factorial(self.value - 1)
+"""
+class Factorial:
+    def __init__(self, value):
         self.value=value
         
     def factorial(self):
-        self.n = self.value
-        if self.n==1:
+        if self.value==0:
             return 1
         else:
-            self.f_value=self.n*self.factorial()
+            return self.value*self.factorial(self.value-1)
+
+"""
+"""
+def factorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*factorial(n-1)
+"""
 
