@@ -20,7 +20,7 @@ def printInorder(node):
     printInorder(node.left)
 
     # Now deal with the node
-    print(node.data, end=' ')
+    print(node.value, end=' ')
 
     # Then recur on right subtree
     printInorder(node.right)
