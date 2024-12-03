@@ -6,7 +6,8 @@ class Factorial:
         if self.value == 0:
             return 1
         else:
-            return self.value * self.factorial(self.value - 1)
+            x=self.value-1
+            return self.value * self.factorial()
 """
 class Factorial:
     def __init__(self, value):

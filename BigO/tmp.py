@@ -43,3 +43,12 @@ for x in [0,2,3,5]:
 4
 5
 """
+
+def tmp_1():
+    n=3
+    print(n)
+    
+    
+def tmp_2():
+    n=3
+    return n   
