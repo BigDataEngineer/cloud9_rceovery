@@ -15,13 +15,14 @@ inp=None
 stack = []
 while inp!='Done':
     inp=input('Input element to push/Done to finish:')
-
-    try:
-        inp=int(inp)
-    except:
-        print('Please enter only a int.')
-        sys.exit(1)
+    if inp!='Done':
+        try:
+            inp=int(inp)
+        except:
+            print('Please enter only a int.')
+            sys.exit(1)
+        stack.append(inp)
+        print(stack)
+    else:
+        continue
         
-    stack.append(inp)
-    print(stack)
-    
