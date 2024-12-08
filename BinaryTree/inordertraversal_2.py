@@ -1,8 +1,9 @@
+#!/usr/bin/python3       
 class Node:
-    def __init__(self,value=0,left=None,right=None):
-        self.value = value
-        self.left = left
-        self.right = right
+    def __init__(self, value=0,left=None, right=None):
+        self.value=value
+        self.left=left
+        self.right=right        
         
 def inorderTraversal(node):
     if node is None:
