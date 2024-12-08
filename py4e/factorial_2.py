@@ -8,5 +8,5 @@ def factorial(n,level=1):
         return result
     else:
         result=n*factorial(n-1, level+1)
-        print('returning', result )
+        print('returning', result,'From function call #',level, 'to function call #', level-1 )
         return result
