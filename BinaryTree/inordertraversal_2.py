@@ -7,11 +7,12 @@ class Node:
         
 def inorderTraversal(node):
     if node is None:
-        return
+        return None
     else:
         inorderTraversal(node.left)
         print(node.value, end=' ')
         inorderTraversal(node.right)
+        return None
         
 if __name__ == '__main__':
     root = Node(1)
