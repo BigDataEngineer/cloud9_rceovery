@@ -6,13 +6,18 @@ class Node:
         self.right = right
         
 def inorderTraversal(node, level=1):
-    print('Function call #', level)
+    try:
+        print('Function call #', level, 'node.value:',node.value)
+    except:
+        print('Node is None')
     if node is None:
         return
     else:
+        print('calling inorderTraversal node.left, Function call #:', level+1)
         inorderTraversal(node.left, level+1)
-        print('print node value',node.value, end=' ')
+        print('print node value',node.value)
         print('Function call #', level)
+        print('calling inorderTraversal node.right, Function call #:', level+1)
         inorderTraversal(node.right, level+1)
         
 if __name__ == '__main__':
