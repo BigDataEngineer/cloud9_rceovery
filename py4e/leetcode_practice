@@ -9,7 +9,7 @@ class Node:
 n1=Node()
 print(n1.value)
 
-
+##########################################################
 flip a dict
 
 dict1={'a':1,'b':2,'c':3,'d':3}
@@ -19,7 +19,7 @@ for k, v in dict1.items():
 print(flip_dict1)
 
 
-
+##########################################################
 dict1={'a':1,'c':3,'d':3,'b':2}
 flip_dict1={}
 for k, v in dict1.items():
@@ -30,7 +30,7 @@ for k, v in dict1.items():
 print(flip_dict1)
 max_k_flip_dict1=max(flip_dict1)
 print(flip_dict1[max_k_flip_dict1])
-
+##########################################################
 print histogram of a file, and find the words occuring most number of time.
 
 dict1={}
@@ -49,4 +49,35 @@ for k, v in dict1.items():
 print(flip_dict1)
 max_k_flip_dict1=max(flip_dict1)
 print(flip_dict1[max_k_flip_dict1])
+
+##########################################################
+import io
+
+multi_line_string = '''This is a multi-line string.
+It can span multiple lines. multiple
+And it can contain 'single' and "double" quotes
+without needing to escape multiple them.'''
+
+
+f_handle=io.StringIO(multi_line_string)
+dict1={}
+flip_dict1={}
+#f_handle=open('file.txt')
+for i in f_handle:
+    words=i.split()
+    for word in words:
+        dict1[word]=dict1.get(word,0)+1
+#dict1 created
+for k, v in dict1.items():
+    if v not in flip_dict1:
+        flip_dict1[v]=[k]
+    else:
+        flip_dict1[v].append(k)
+print(flip_dict1)
+max_k_flip_dict1=max(flip_dict1)
+print(flip_dict1[max_k_flip_dict1])
+
+#####################################################
+
+
 
