@@ -1,0 +1,9 @@
+HOST-EIP	HOST-IIP	HOST-TYPE	OS-NAME	OS-PASSW
+52.74.75.227	10.0.3.1	Search Head	archStudent	ExpertInsight
+13.212.35.200	10.0.3.2	Indexer 1	archStudent	ExpertInsight
+52.77.246.167	10.0.3.3	Indexer 2	archStudent	ExpertInsight
+13.212.109.221	10.0.3.4	Indexer 3	archStudent	ExpertInsight
+54.179.118.159	10.0.3.5	Forwarder 1	archStudent	ExpertInsight
+175.41.155.36	10.0.3.6	Forwarder 2	archStudent	ExpertInsight
+47.128.218.191	10.0.3.7	DS-LM-MC	archStudent	ExpertInsight
+18.143.178.69	10.0.3.8	Master Node	archStudent	ExpertInsight
